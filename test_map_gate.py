@@ -18,6 +18,8 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, "/home/ceo/repo/ee-v2")
+sys.path.insert(0, "/home/ceo/repo/cave-teams")
+sys.path.insert(0, "/home/ceo/repo/map-v2")
 
 from map_v2 import (MapV2Lattice, PrologTargetCompiler,
                     load_domain_manifest)
@@ -111,18 +113,19 @@ def test_psc_boundary_rejects_malformed(tmp):
     prepare(lat)
     bad = good_ontology()
     bad["concepts"].append(dict(bad["concepts"][0]))          # duplicate id
-    rejected = False
+    rejected = None
     try:
         lat.fill_construction("kitchen_design", bad)
     except AssertionError:
         raise
-    except Exception:
-        rejected = True     # NOTE: map-v2 wart — the pydantic error trips
-                            # its own JSON serialization (TypeError), but the
-                            # construction IS refused at the boundary
+    except Exception as exc:
+        rejected = str(exc)
     assert rejected, "PSC must reject duplicate concept ids"
-    print("  malformed emission dies at the PSC boundary before Prolog "
-          "(map-v2 error-serialization wart noted) ✓")
+    # map-v2@ceo serialization fix: the residue SURVIVES — the seat gets the
+    # real violation, not a masking TypeError
+    assert "concept ids must be unique" in rejected, rejected
+    print("  malformed emission dies at the PSC boundary before Prolog, "
+          "and the rejection message carries the REAL residue ✓")
 
 
 def test_seat_cannot_witness_itself(tmp):

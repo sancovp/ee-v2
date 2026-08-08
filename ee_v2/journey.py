@@ -165,7 +165,78 @@ class Journey:
         e = self.emission(2, 3)
         return e["content"] if e else None
 
+    # ── the proof layer (map_gate) — certificates, soup, the fixpoint meter ──
+    def certificate_path(self, layer: int, pass_num: int) -> Path:
+        return self.root / f"L{layer}" / f"P{pass_num}" / "certificate.json"
+
+    def write_certificate(self, layer: int, pass_num: int,
+                          envelope: dict) -> Path:
+        p = self.certificate_path(layer, pass_num)
+        p.write_text(json.dumps(envelope, indent=2), encoding="utf-8")
+        return p
+
+    def certificate(self, layer: int, pass_num: int) -> Optional[dict]:
+        p = self.certificate_path(layer, pass_num)
+        if p.exists():
+            try:
+                return json.loads(p.read_text(encoding="utf-8"))
+            except ValueError:
+                return None
+        return None
+
+    def soup_path(self, layer: int, pass_num: int) -> Path:
+        return self.root / f"L{layer}" / f"P{pass_num}" / "soup.json"
+
+    def write_soup(self, layer: int, pass_num: int, record: dict) -> Path:
+        """Persistent SOUP: the halt breadcrumb. NOT a node file — position()
+        is unchanged, so the run halts fail-closed and resumes exactly here."""
+        p = self.soup_path(layer, pass_num)
+        p.write_text(json.dumps(record, indent=2), encoding="utf-8")
+        return p
+
+    def clear_soup(self, layer: int, pass_num: int) -> None:
+        p = self.soup_path(layer, pass_num)
+        if p.exists():
+            p.unlink()
+
+    def fixpoint_meter(self) -> List[dict]:
+        """THE FIXPOINT METER (Isaac's measurement, mechanized): per certified
+        pass, how much NEWLY-certified structure it added. He measured EE by
+        running the master prompt over its own output until the structure
+        stopped changing — zero-delta = stabilized. Read for free from the
+        stored certificates; a readout, never a gate."""
+        seen: set = set()
+        rows: List[dict] = []
+        for l in LAYERS:
+            for p in PASSES:
+                cert = self.certificate(l, p)
+                if cert is None:
+                    continue
+                items = certified_structure(cert)
+                new = items - seen
+                seen |= items
+                rows.append({"node": f"L{l}P{p}", "new": len(new),
+                             "total_certified": len(seen)})
+        return rows
+
+
+def certified_structure(envelope: dict) -> set:
+    """The set of structural atoms a certificate proves — the currency the
+    fixpoint meter counts. Read from the certified construction payload
+    (map-v2 envelope: proof_context.construction.payload)."""
+    payload = (envelope.get("proof_context", {})
+               .get("construction", {}).get("payload", {}))
+    items: set = set()
+    for c in payload.get("concepts", []):
+        items.add(f"concept:{c['id']}")
+    for r in payload.get("relations", []):
+        items.add(f"relation:{r['id']}:{r['source']}:{r['target']}")
+    for s in payload.get("steps", []):
+        items.add(f"step:{s['id']}")
+        items.update(f"use:{s['id']}:{u}" for u in s.get("uses", []))
+    return items
+
 
 __all__ = ["Journey", "PAYLOADS", "LAYER_FRAMES", "PHASE_NAMES", "PASS_NAMES",
            "LAYERS", "PASSES", "PHASES", "EMISSION_KIND", "notation",
-           "node_filename"]
+           "node_filename", "certified_structure"]

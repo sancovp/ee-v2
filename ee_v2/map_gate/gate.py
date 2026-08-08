@@ -49,12 +49,30 @@ N_PHASES = 7
 
 class MapGate:
     """Stateless per check: each emission gets a fresh lattice; the durable
-    truth is the certificate the JOURNEY stores."""
+    truth is the certificate the JOURNEY stores. (§R Option A — ruled.)"""
 
     gated_passes = frozenset(_TARGETS)
+    max_attempts = 3            # bounded retries; then fail-closed halt
 
     def subject_for(self, journey, layer: int, pass_num: int) -> str:
         return f"j_l{layer}_p{pass_num}"
+
+    def payload_from_emission(self, pass_num: int, emission: dict) -> dict:
+        """Seat JSON → typed construction payload. The ENGINE stamps the
+        pydantic discriminator kinds so the seat has less shape to get wrong;
+        everything semantic stays the seat's claim."""
+        if pass_num == 1:
+            return {"kind": "ee_ontology",
+                    "concepts": [{**c, "kind": "concept"}
+                                 for c in emission.get("concepts", [])],
+                    "relations": [{**r, "kind": "relation"}
+                                  for r in emission.get("relations", [])]}
+        name = emission.get("name", "skill")
+        if not name[:1].isalpha():
+            name = f"s_{name}"
+        return {"kind": "ee_skill", "name": name,
+                "steps": [{**s, "kind": "step"}
+                          for s in emission.get("steps", [])]}
 
     def _witness_payload(self, journey, layer: int, pass_num: int,
                          subject: str) -> Optional[dict]:
@@ -99,7 +117,14 @@ class MapGate:
             kd, inv = spec["kappa"]
             lat.declare_kappa(subject, kd, inv)
             lat.compute(subject)
-            lat.fill_construction(subject, construction_payload)
+            try:
+                lat.fill_construction(subject, construction_payload)
+            except Exception as exc:
+                # PSC boundary rejection = SOUP with the pydantic residue as
+                # the frontier (map-v2 ceo branch carries the serialization
+                # fix, so the message is the real violation, not a TypeError)
+                return {"ont": False, "certificate": None,
+                        "frontier": [f"psc_rejected: {exc}"]}
             lat.attach_observation(subject, witness)
             packet = lat.compile(subject)
             ont = packet.get("griess_phase") == "ont"

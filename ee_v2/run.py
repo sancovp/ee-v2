@@ -16,13 +16,13 @@ from .topology import ee_chain
 
 
 async def ee_run_async(domain: str, runtime_factory: Callable, root,
-                       runs: int = 1) -> List[Journey]:
+                       runs: int = 1, gate=None) -> List[Journey]:
     root = Path(root)
     journeys: List[Journey] = []
     current_domain = domain
     for r in range(1, runs + 1):
         j = Journey(root / f"run{r}", current_domain)
-        await ee_chain(j, runtime_factory).execute({})
+        await ee_chain(j, runtime_factory, gate=gate).execute({})
         journeys.append(j)
         closure = j.final_artifact()
         if closure is None:
@@ -32,8 +32,9 @@ async def ee_run_async(domain: str, runtime_factory: Callable, root,
 
 
 def ee_run(domain: str, runtime_factory: Callable, root,
-           runs: int = 1) -> List[Journey]:
-    return asyncio.run(ee_run_async(domain, runtime_factory, root, runs))
+           runs: int = 1, gate=None) -> List[Journey]:
+    return asyncio.run(ee_run_async(domain, runtime_factory, root, runs,
+                                    gate=gate))
 
 
 __all__ = ["ee_run", "ee_run_async"]

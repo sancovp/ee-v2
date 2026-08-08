@@ -21,6 +21,8 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, "/home/ceo/repo/emergence-engine")   # parity source
+sys.path.insert(0, "/home/ceo/repo/cave-teams")         # the live library,
+                                                        # not a stale install
 
 from ee_v2.journey import Journey, PAYLOADS
 from ee_v2.run import ee_run
