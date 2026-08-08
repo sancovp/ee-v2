@@ -1,0 +1,7 @@
+{
+  "schema": "map.domain.v1",
+  "id": "ee_skill",
+  "entrypoint": "domain.pl",
+  "targets": ["ee_skill"],
+  "sources": []
+}

@@ -111,3 +111,83 @@ class EEPassObservationAdapter:
         if not isinstance(observation, PassWitness):
             raise TypeError("EEPassObservationAdapter requires PassWitness")
         return [f"source_pass_complete({observation.subject})."]
+
+
+# ── P2: the SKILL construction — cross-pass fortification ────────────────────
+# A skill's steps must GROUND in P1's CERTIFIED concepts. The engine (holding
+# P1's certificate) is the observation authority for what "certified" means.
+
+class SkillStep(RenderablePiece):
+    kind: Literal["step"]
+    id: Atom
+    action: str = Field(min_length=8)
+    uses: list[Atom] = Field(min_length=1)
+
+    def render(self) -> str:
+        return f"{self.id}: {self.action} [uses: {', '.join(self.uses)}]"
+
+
+class SkillConstruction(RenderablePiece):
+    kind: Literal["ee_skill"]
+    subject: Atom
+    name: Atom
+    steps: list[SkillStep] = Field(min_length=1)
+
+    @field_validator("steps")
+    @classmethod
+    def unique_steps(cls, v):
+        ids = [s.id for s in v]
+        if len(ids) != len(set(ids)):
+            raise ValueError("step ids must be unique")
+        return v
+
+    def render(self) -> str:
+        return (f"skill:{self.name}\n"
+                + "\n".join(s.render() for s in self.steps))
+
+
+class EESkillAdapter:
+    target = "ee_skill"
+    schema_id = "ee.map.skill.v1"
+    lowering_id = "ee.map.skill.lowering.v1"
+    model_type = SkillConstruction
+    candidate_predicates = frozenset({"candidate_step", "candidate_use"})
+
+    def lower(self, construction: RenderablePiece) -> list[str]:
+        if not isinstance(construction, SkillConstruction):
+            raise TypeError("EESkillAdapter requires SkillConstruction")
+        facts = []
+        for s in construction.steps:
+            facts.append(f"candidate_step({construction.subject},{s.id}).")
+            facts += [f"candidate_use({construction.subject},{s.id},{c})."
+                      for c in s.uses]
+        return facts
+
+
+class SkillGroundWitness(RenderablePiece):
+    """The ENGINE's authority: the concepts P1 CERTIFIED (read from the
+    stored ONT certificate — the trust root), plus the pass witness."""
+    kind: Literal["skill_ground_witness"]
+    subject: Atom
+    certified_concepts: list[Atom] = Field(min_length=1)
+
+    def render(self) -> str:
+        return f"ground:{self.subject}:{','.join(self.certified_concepts)}"
+
+
+class EESkillObservationAdapter:
+    target = "ee_skill"
+    schema_id = "ee.map.skill_ground.v1"
+    lowering_id = "ee.map.skill_ground.lowering.v1"
+    model_type = SkillGroundWitness
+    observation_predicates = frozenset({"source_concept",
+                                        "source_pass_complete"})
+
+    def lower(self, observation: RenderablePiece) -> list[str]:
+        if not isinstance(observation, SkillGroundWitness):
+            raise TypeError("EESkillObservationAdapter requires "
+                            "SkillGroundWitness")
+        facts = [f"source_concept({observation.subject},{c})."
+                 for c in observation.certified_concepts]
+        facts.append(f"source_pass_complete({observation.subject}).")
+        return facts
