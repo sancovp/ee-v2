@@ -1,0 +1,48 @@
+{
+  "_provenance": {
+    "source": "sancovp/emergence-engine emergence_engine/core.py PhasePrompts",
+    "commit": "1f74eba928d6ceed29bd211f56fa8f5fe073a5b7",
+    "note": "extracted programmatically with domain placeholder '{domain}' \u2014 VERBATIM, never retyped"
+  },
+  "pass1": {
+    "0": "\ud83c\udfaf **Abstract Goal - Pass 1**: What IS the essential nature of {domain}?\n\nFocus on understanding the fundamental ontology. What makes something part of this domain? What are the essential properties and relationships?",
+    "1": "\ud83c\udfd7\ufe0f **Systems Design - Pass 1**: What are the universal characteristics of {domain}?\n\nExplore: Purpose, stakeholders, constraints, concepts, ontology. What exists in this domain universally?",
+    "2": "\ud83c\udfdb\ufe0f **Systems Architecture - Pass 1**: What are the essential functions and structures in {domain}?\n\nIdentify natural groupings, relationships, and patterns that exist conceptually in this domain.",
+    "3": "\ud83d\udcdd **DSL - Pass 1**: What concepts and vocabulary exist naturally in {domain}?\n\nDefine the core concepts, relationships, and operations that are inherent to this domain.",
+    "4": "\ud83c\udf10 **Topology - Pass 1**: What entities and relationships form the natural structure of {domain}?\n\nMap the network of concepts and how they connect in this domain.",
+    "5": "\u2699\ufe0f **Engineered System - Pass 1**: What would constitute a complete instance of {domain}?\n\nDescribe what a fully realized example would look like conceptually.",
+    "6": "\ud83d\udd04 **Feedback Loop - Pass 1**: How does {domain} naturally evolve and improve?\n\nUnderstand the inherent learning and adaptation patterns in this domain."
+  },
+  "pass2": {
+    "0": "\ud83c\udfaf **Abstract Goal - Pass 2**: Create a system that can generate {domain} instances.\n\nDefine the goal of building a generator/framework that can create instances of what you understood in Pass 1.",
+    "1": "\ud83c\udfd7\ufe0f **Systems Design - Pass 2**: What does our {domain} generation system need?\n\nDesign requirements for a system that can create instances. Consider stakeholders, constraints, success metrics.",
+    "2": "\ud83c\udfdb\ufe0f **Systems Architecture - Pass 2**: How do components work together to generate {domain}?\n\nDesign the architecture: modules, interfaces, data flow, control flow for your generation system.",
+    "3": "\ud83d\udcdd **DSL - Pass 2**: What vocabulary does our {domain} system use internally?\n\nDefine the system's internal language, APIs, data structures, and operations.",
+    "4": "\ud83c\udf10 **Topology - Pass 2**: How are system components connected?\n\nMap the network of services, APIs, data flows in your generation system.",
+    "5": "\u2699\ufe0f **Engineered System - Pass 2**: Build and deploy the {domain} generation system.\n\nImplement, test, and deploy your system that can create instances.",
+    "6": "\ud83d\udd04 **Feedback Loop - Pass 2**: How does the {domain} system learn and improve?\n\nImplement monitoring, learning, and evolution for your generation system."
+  },
+  "pass3": {
+    "0": "\ud83c\udfaf **Abstract Goal - Pass 3**: Generate this specific {domain} instance.\n\nDefine the specific instance you want to create using your system.",
+    "1": "\ud83c\udfd7\ufe0f **Systems Design - Pass 3**: What does this specific {domain} instance need?\n\nSpecify requirements, constraints, and success criteria for this particular instance.",
+    "2": "\ud83c\udfdb\ufe0f **Systems Architecture - Pass 3**: How is this specific {domain} instance configured?\n\nConfigure your system architecture for this specific use case.",
+    "3": "\ud83d\udcdd **DSL - Pass 3**: How do we express this specific {domain} instance?\n\nDefine the specific configuration, parameters, and expressions for this instance.",
+    "4": "\ud83c\udf10 **Topology - Pass 3**: What are the specific connections for this {domain} instance?\n\nMap the specific data flows, connections, and network for this instance.",
+    "5": "\u2699\ufe0f **Engineered System - Pass 3**: Create and deploy this specific {domain} instance.\n\nActually generate, configure, and deploy your specific instance.",
+    "6": "\ud83d\udd04 **Feedback Loop - Pass 3**: How does this specific {domain} instance perform?\n\nMonitor, evaluate, and improve this specific instance based on its performance."
+  },
+  "phase_names": {
+    "0": "AbstractGoal",
+    "1": "SystemsDesign",
+    "2": "SystemsArchitecture",
+    "3": "DSL",
+    "4": "Topology",
+    "5": "EngineeredSystem",
+    "6": "FeedbackLoop"
+  },
+  "pass_names": {
+    "1": "Conceptualize (What IS)",
+    "2": "Generally Reify (How MAKE)",
+    "3": "Specifically Reify (Make THIS)"
+  }
+}

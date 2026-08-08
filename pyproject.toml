@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ee-v2"
+version = "0.1.0"
+description = "The emergence engine as an executable cave-teams topology: the 9-pass methodology compiled into a chain — the dir is the state, disclosure is mechanical, the recursion is real, runs compose."
+requires-python = ">=3.10"
+dependencies = ["cave-teams"]
+license = { text = "MIT" }
+authors = [{ name = "sancovp" }]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["ee_v2*"]
+
+[tool.setuptools.package-data]
+ee_v2 = ["frozen_payloads.json", "frozen_diagrams/*"]
