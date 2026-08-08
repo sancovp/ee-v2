@@ -52,10 +52,31 @@ class InstrumentedGate(MapGate):
         return v
 
 
+class RetryingSeat:
+    """Transport-retry wrapper (the dark-factory lesson): the METHODOLOGY
+    never retries — only the wire does. A fresh runtime per transport
+    attempt, exponential backoff, bounded."""
+
+    def __init__(self, make, tries=4, base_delay=15):
+        self.make, self.tries, self.base_delay = make, tries, base_delay
+
+    async def run(self, prompt):
+        last = None
+        for i in range(self.tries):
+            try:
+                return await self.make().run(prompt)
+            except Exception as e:                      # transient wire faults
+                last = e
+                print(f"[transport] attempt {i + 1}/{self.tries} failed: "
+                      f"{e}", flush=True)
+                await asyncio.sleep(self.base_delay * (2 ** i))
+        raise last
+
+
 def factory():
     from cave_teams.examples import MiniMaxRuntime
-    return MiniMaxRuntime(name="ee_seat", tools=[], system_prompt="",
-                          max_tokens=8000)
+    return RetryingSeat(lambda: MiniMaxRuntime(
+        name="ee_seat", tools=[], system_prompt="", max_tokens=8000))
 
 
 async def main():
