@@ -82,7 +82,8 @@ def factory():
 async def main():
     ROOT.mkdir(parents=True, exist_ok=True)
     gate = InstrumentedGate()
-    model = factory().model
+    from cave_teams.examples import MiniMaxRuntime as _MMR
+    model = _MMR(name="probe", tools=[], system_prompt="").model
     print(f"§7 START — domain={DOMAIN!r} runs={RUNS} model={model}",
           flush=True)
     attempts_by_node = {}
