@@ -63,6 +63,82 @@ def _parse_emission(text: str) -> dict:
     return o
 
 
+def node_context(journey: Journey, layer: int, pass_num: int, phase) -> str:
+    """THE READING HORIZON (the traversability law, Isaac 2026-08-08):
+    to write a node you read everything that came before — SCOPED PER ORDER:
+
+      * the CURRENT LAYER: full fidelity — every phase file + emission from
+        this layer's prior passes, plus this pass's files so far;
+      * PRIOR LAYERS: emissions only — the standing rules (always), the
+        previous layer's P2 closure as the DOMAIN, and an index of minted
+        skills/artifacts. Never their raw phase files.
+
+    This is what makes the recursion scale-free: the read window is bounded
+    by ONE layer no matter how high the tower goes, because each order's
+    interface to its past is constant-size (the distillates)."""
+    j, l, p = journey, layer, pass_num
+    frame = LAYER_FRAMES[l]
+    blocks = {
+        "POSITION": (f"{notation(l, p, phase)} — {frame['name']} · "
+                     f"{PASS_NAMES[str(p)]} · "
+                     + (PHASE_NAMES[str(phase)] if phase is not None
+                        else "EMISSION")),
+        "LAYER FRAME": frame[p],
+        "DOMAIN": j.layer_domain(l),
+    }
+    rules = j.rules_so_far()
+    if rules:
+        blocks["THE STANDING RULES (from completed passes — obey)"] =             "\n".join(f"[{k}] {v}" for k, v in rules.items())
+    # prior layers: compressed — an index of their minted emissions only
+    prior_layer_emissions = []
+    for pl in range(l):
+        for pp in (1, 2, 3):
+            e = j.emission(pl, pp)
+            if e:
+                prior_layer_emissions.append(
+                    f"L{pl}P{pp} {e['kind']}: {e['name']}")
+    if prior_layer_emissions:
+        blocks["PRIOR LAYERS (emissions index — the compressed past)"] =             "\n".join(prior_layer_emissions)
+    # the CURRENT layer: full fidelity from prior passes
+    layer_so_far = []
+    for pp in range(1, p):
+        for fname, content in j.pass_artifacts(l, pp).items():
+            layer_so_far.append(f"--- L{l}P{pp}/{fname} ---\n{content}")
+        e = j.emission(l, pp)
+        if e:
+            layer_so_far.append(
+                f"--- L{l}P{pp}/emission ({e['kind']}: {e['name']}) ---\n"
+                f"{e['content']}")
+    if layer_so_far:
+        blocks["THIS LAYER SO FAR (full fidelity)"] = "\n".join(layer_so_far)
+    if phase is not None:
+        blocks["FROZEN GUIDANCE (ee, verbatim)"] =             PAYLOADS[f"pass{p}"][str(phase)].replace(
+                "{domain}", j.layer_domain(l)[:200])
+        prior = j.pass_artifacts(l, p)
+        if prior:
+            blocks["THIS PASS SO FAR"] = "\n".join(
+                f"--- {n} ---\n{c}" for n, c in prior.items())
+        blocks["TASK"] = ("Produce the artifact for this phase as a complete "
+                          "markdown document. Output ONLY the document.")
+    else:
+        blocks["THIS PASS'S ARTIFACTS"] = "\n".join(
+            f"--- {n} ---\n{c}" for n, c in j.pass_artifacts(l, p).items())
+        blocks["TASK"] = EMISSION_PROMPTS[EMISSION_KIND[p]]
+    return compose_context(blocks)
+
+
+def next_instruction(journey: Journey):
+    """TRAVERSAL MODE — the dir alone determines the next instruction. Any
+    agent (or human, or MCP shim) can ask a journey what's next and receive
+    the exact context the chain would build; writing the file IS the state
+    transition. Returns (notation, context) or None when the run is closed."""
+    pos = journey.position()
+    if pos is None:
+        return None
+    l, p, w = pos
+    return notation(l, p, w), node_context(journey, l, p, w)
+
+
 class NodeLink(Link):
     """One node of the walk. The engine owns structure and context; the seat
     only thinks."""
@@ -75,37 +151,8 @@ class NodeLink(Link):
         self.name = notation(layer, pass_num, phase)
 
     def _context(self) -> str:
-        j, l, p = self.journey, self.layer, self.pass_num
-        frame = LAYER_FRAMES[l]
-        blocks = {
-            "POSITION": (f"{self.name} — {frame['name']} · "
-                         f"{PASS_NAMES[str(p)]} · "
-                         + (PHASE_NAMES[str(self.phase)]
-                            if self.phase is not None else "EMISSION")),
-            "LAYER FRAME": frame[p],
-            "DOMAIN": j.layer_domain(l),
-        }
-        rules = j.rules_so_far()
-        if rules:
-            blocks["THE STANDING RULES (from completed passes — obey)"] = \
-                "\n".join(f"[{k}] {v}" for k, v in rules.items())
-        if self.phase is not None:
-            blocks["FROZEN GUIDANCE (ee, verbatim)"] = \
-                PAYLOADS[f"pass{p}"][str(self.phase)].replace(
-                    "{domain}", j.layer_domain(l)[:200])
-            prior = j.pass_artifacts(l, p)
-            if prior:
-                blocks["THIS PASS SO FAR"] = "\n".join(
-                    f"--- {n} ---\n{c[:600]}" for n, c in prior.items())
-            blocks["TASK"] = ("Produce the artifact for this phase as a "
-                              "complete markdown document. Output ONLY the "
-                              "document.")
-        else:
-            blocks["THIS PASS'S ARTIFACTS"] = "\n".join(
-                f"--- {n} ---\n{c[:800]}"
-                for n, c in j.pass_artifacts(l, p).items())
-            blocks["TASK"] = EMISSION_PROMPTS[EMISSION_KIND[p]]
-        return compose_context(blocks)
+        return node_context(self.journey, self.layer, self.pass_num,
+                            self.phase)
 
     async def execute(self, context=None, **_):
         c = dict(context or {})
@@ -136,4 +183,5 @@ def ee_chain(journey: Journey, runtime_factory: Callable):
     return pipeline(*links, name=f"ee:{journey.root.name}")
 
 
-__all__ = ["ee_chain", "NodeLink", "EMISSION_PROMPTS"]
+__all__ = ["ee_chain", "NodeLink", "node_context", "next_instruction",
+           "EMISSION_PROMPTS"]

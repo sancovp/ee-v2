@@ -24,6 +24,7 @@ sys.path.insert(0, "/home/ceo/repo/emergence-engine")   # parity source
 
 from ee_v2.journey import Journey, PAYLOADS
 from ee_v2.run import ee_run
+from ee_v2.topology import next_instruction
 
 
 class ScriptedSeat:
@@ -79,24 +80,43 @@ def test_full_run_and_disclosure(root):
     assert "STANDING RULES" in ledger["prompts"][8]
     assert "RULE-9 distilled".lower() not in ledger["prompts"][8].lower()
     assert "rule_8" in ledger["prompts"][8]            # the minted rule's name
+    # THE READING HORIZON (per order):
+    # within the layer — FULL fidelity: L0P2's first node reads L0P1's raw
+    # phase files…
+    assert "content for seat 1" in ledger["prompts"][8]
+    assert "THIS LAYER SO FAR (full fidelity)" in ledger["prompts"][8]
     # the recursion is REAL: an L1 node's DOMAIN carries L0's P2 emission
     l1_first = ledger["prompts"][24]                   # after L0's 24 nodes
     assert "generator built at L0P2" in l1_first
     assert "SKILL-16 distilled" in l1_first            # L0P2's emission content
+    # …but ACROSS layers — compression: L1 never sees L0's raw phase files,
+    # only the emissions index + rules + the closure-as-domain
+    assert "content for seat 1" not in l1_first
+    assert "PRIOR LAYERS (emissions index" in l1_first
     print("  full run: 72 nodes · fresh seats · disclosure schedule · "
-          "REAL layer recursion ✓")
+          "REAL layer recursion · PER-ORDER horizon (full within, "
+          "compressed across) ✓")
     return j
 
 
-def test_dir_is_the_memo(root):
+def test_dir_is_the_memo_and_traversal(root):
     j = Journey(Path(root) / "run1", "ignored — resumes")
+    assert next_instruction(j) is None                 # complete run → closed
     target = j.node_path(1, 2, 3)
     target.unlink()                                    # wound one node
+    # TRAVERSAL MODE: the dir alone determines the next instruction
+    nxt = next_instruction(j)
+    assert nxt is not None
+    notation_str, ctx = nxt
+    assert notation_str == "L1P2W[1](3)"
     ledger = {"seats": 0, "prompts": []}
     ee_run("ignored — resumes", make_factory(ledger), root, runs=1)
     assert ledger["seats"] == 1                        # exactly the wound heals
+    # traversal ≡ chain: the chain fed the seat EXACTLY the traversal context
+    assert ledger["prompts"][0] == ctx
     assert j._done((1, 2, 3))
-    print("  the dir is the memo: 1 deleted node → exactly 1 seat ran ✓")
+    print("  the dir is the memo + TRAVERSAL≡CHAIN: next_instruction() is "
+          "byte-identical to what the chain feeds ✓")
 
 
 def test_the_tower(root):
@@ -113,7 +133,7 @@ def main():
     test_frozen_parity()
     with tempfile.TemporaryDirectory() as d:
         test_full_run_and_disclosure(d)
-        test_dir_is_the_memo(d)
+        test_dir_is_the_memo_and_traversal(d)
     with tempfile.TemporaryDirectory() as d:
         test_the_tower(d)
     print("EE-V2 PASS — the diagram is a chain, the dir is the state, "

@@ -21,6 +21,23 @@ building left unmanaged. ee-v2 keeps everything ee-v1 froze (extracted
 | passes end in nothing | passes end in **emissions**: P1 → a RULE, P2 → a SKILL (`SKILL.md`), P3 → an ARTIFACT |
 | one run, then done | **runs compose**: run *n+1*'s domain is run *n*'s L2P3 closure — `ee_run(domain, runs=3)` is the tower |
 
+## The traversability law
+
+Three invariants, all asserted in the proof:
+
+1. **The dir alone determines the next instruction.** `next_instruction(journey)`
+   returns the exact context the chain would build — byte-identical (tested) —
+   so an agent, a human, or an MCP shim can traverse the journey manually and
+   the programmed chain can run it dark: **same state, same instruction,
+   two modes.**
+2. **State moves only when the file comes to exist.** No counters anywhere.
+3. **The reading horizon is PER ORDER**: to write a node you read the current
+   layer at FULL fidelity (every prior pass's raw files) but prior layers
+   ONLY through their emissions (rules + the closure-as-domain + an index).
+   That's what makes the recursion scale-free — the read window is bounded by
+   one layer no matter how high the tower goes, because each order's
+   interface to its past is constant-size.
+
 ## Use
 
 ```python
