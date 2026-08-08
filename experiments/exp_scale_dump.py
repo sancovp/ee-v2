@@ -201,6 +201,15 @@ async def _dump_facet(facet, sem):
 
 
 # ── the run ──────────────────────────────────────────────────────────────────
+def close_references(concepts, relations):
+    """MECHANICAL closure (the frontier-reducing guarantee): a relation whose
+    endpoint names no concept is noise — drop it. This can NEVER create a new
+    dangling (it only removes), so closure is monotone. Returns (relations,
+    n_dropped)."""
+    keep = [(s, t) for (s, t) in relations if s in concepts and t in concepts]
+    return keep, len(relations) - len(keep)
+
+
 async def run(dump_fn, refine_fn, tag="live"):
     ROOT.mkdir(parents=True, exist_ok=True)
     calls = 0
@@ -209,8 +218,9 @@ async def run(dump_fn, refine_fn, tag="live"):
     chunks = await asyncio.gather(*[dump_fn(f, sem) for f in FACETS])
     calls += len(FACETS)
     concepts, relations, drops = merge(chunks)
+    relations, drops["noise_rel"] = close_references(concepts, relations)
     traj = []
-    v = scale_check(DOMAIN, concepts, relations)
+    v = scale_check(DOMAIN, concepts, relations)   # dangling now ALWAYS 0
     traj.append({"round": 0, "phase": v["phase"], "concepts": v["n_concepts"],
                  "relations": v["n_relations"],
                  "dangling": len(v["dangling"]), "orphan": len(v["orphan"])})
@@ -218,31 +228,53 @@ async def run(dump_fn, refine_fn, tag="live"):
           f"relations → {v['phase']} | dangling={len(v['dangling'])} "
           f"orphan={len(v['orphan'])}", flush=True)
 
+    # REFINE = orphan retention only (closure is mechanical): each round wires
+    # orphans to existing concepts. Relations to still-undefined concepts are
+    # dropped as noise, so the round can only REDUCE orphans, never add frontier.
     r = 0
-    while v["phase"] != "ont" and r < REFINE_ROUNDS \
-            and (v["dangling"] or v["orphan"]):
+    while v["phase"] != "ont" and r < REFINE_ROUNDS and v["orphan"]:
         r += 1
         patch = await refine_fn(v["dangling"], v["orphan"], r)
         calls += 1
         pc, pr = parse_dump(patch) if isinstance(patch, str) else patch
-        before = (len(concepts), len(relations))
+        before_o = len(v["orphan"])
         for cid, d in pc.items():
             concepts.setdefault(cid, d)
         relations = sorted(set(relations) | set(pr))
+        relations, noise = close_references(concepts, relations)
+        drops["noise_rel"] += noise
         v = scale_check(DOMAIN, concepts, relations)
         traj.append({"round": r, "phase": v["phase"],
                      "concepts": v["n_concepts"], "relations": v["n_relations"],
                      "dangling": len(v["dangling"]),
                      "orphan": len(v["orphan"])})
-        print(f"[round {r}] +{len(concepts)-before[0]}c "
-              f"+{len(relations)-before[1]}r → {v['phase']} | "
+        print(f"[round {r}] wired {before_o-len(v['orphan'])} orphans "
+              f"(+{noise} noise rel dropped) → {v['phase']} | "
               f"dangling={len(v['dangling'])} orphan={len(v['orphan'])}",
+              flush=True)
+
+    # TERMINATION: the certified core is the closed, connected component. Any
+    # residual orphan is an isolated leaf — NOT part of the structure; it moves
+    # to leaves/ (honest, reported, and each is an expansion seed per §12).
+    leaves = {}
+    if v["orphan"]:
+        leaves = {c: concepts.pop(c) for c in v["orphan"] if c in concepts}
+        relations, _ = close_references(concepts, relations)
+        v = scale_check(DOMAIN, concepts, relations)
+        (ROOT / f"leaves_{tag}.json").write_text(json.dumps(leaves, indent=2))
+        traj.append({"round": "close", "phase": v["phase"],
+                     "concepts": v["n_concepts"], "relations": v["n_relations"],
+                     "dangling": len(v["dangling"]), "orphan": len(v["orphan"]),
+                     "leaves_dropped": len(leaves)})
+        print(f"[close] dropped {len(leaves)} isolated leaves → {v['phase']} "
+              f"| certified core = {v['n_concepts']}c/{v['n_relations']}r",
               flush=True)
 
     secs = time.time() - t0
     summary = {"domain": DOMAIN, "tag": tag, "phase": v["phase"],
-               "nodes_at_end": v["n_concepts"] + v["n_relations"],
+               "certified_core_nodes": v["n_concepts"] + v["n_relations"],
                "concepts": v["n_concepts"], "relations": v["n_relations"],
+               "leaves_dropped": len(leaves),
                "llm_calls": calls, "wall_secs": round(secs, 1),
                "refine_rounds": r, "drop_log": drops, "trajectory": traj,
                "residual_dangling": v["dangling"][:50],
@@ -253,8 +285,9 @@ async def run(dump_fn, refine_fn, tag="live"):
             json.dumps(v["cert"], indent=2))
     print("\n=== SCALE RESULT ===")
     print(json.dumps({k: summary[k] for k in
-                      ("phase", "nodes_at_end", "concepts", "relations",
-                       "llm_calls", "wall_secs", "refine_rounds")}, indent=2))
+                      ("phase", "certified_core_nodes", "concepts",
+                       "relations", "leaves_dropped", "llm_calls",
+                       "wall_secs", "refine_rounds")}, indent=2))
     return summary
 
 
