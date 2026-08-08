@@ -61,5 +61,19 @@ resumes from the first missing node (the dir is the memo).
 own source, the 72-node walk, fresh-seat isolation, the disclosure schedule,
 real layer recursion, resume-from-wound, and the two-run tower.
 
+## The neurosymbolic gate (MAP v2) — experimental, mechanics proven
+
+`ee_v2/map_gate/` runs a P1 emission through
+[map-v2](https://github.com/sancovp/map-v2)'s typed construction boundary
+instead of accepting prose: LLM JSON → pydantic (local shape) → deterministic
+lowering → `candidate_*` Prolog facts → closed-world proof → **ONT
+certificate** (coherence PROVEN: closed + connected ontology) or **SOUP with
+a residue that NAMES each violation** (`dangling(r2, mise_en_place)`,
+`orphan(adjacency)`) — the retry signal, produced by the prover. The journey
+engine holds observation authority (`source_pass_complete`): a seat cannot
+witness itself. `python test_map_gate.py` proves all four properties against
+real SWI-Prolog. Not yet wired into the chain's node gauge — that's the
+fail-or-insane experiment: measure live ONT rates with residue-fed retries.
+
 Built on [cave-teams](https://github.com/sancovp/cave-teams)
 (`pipeline`, `context_engineering.compose_context`). MIT.
