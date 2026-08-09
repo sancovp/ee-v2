@@ -1,0 +1,38 @@
+{
+  "query": "how do I keep inventory accurate while staying ready for the health inspection?",
+  "regions": [
+    "health_department_inspection",
+    "labor_cost_percentage"
+  ],
+  "fired": [
+    "health_department_inspection",
+    "labor_cost_percentage"
+  ],
+  "attempts": {
+    "health_department_inspection": [
+      "ONT"
+    ],
+    "labor_cost_percentage": [
+      "soup:2",
+      "soup:1",
+      "ONT"
+    ]
+  },
+  "certified": {
+    "health_department_inspection": {
+      "concepts": 6,
+      "relations": 6
+    },
+    "labor_cost_percentage": {
+      "concepts": 5,
+      "relations": 5
+    }
+  },
+  "combined": true,
+  "final_answer": "## Keeping Inventory Accurate for Health Inspections\n\n**Integrate inventory management with inspection readiness** by implementing these key practices:\n\n1. **Maintain detailed records** documenting all stock levels, dates received, and rotation schedules. This demonstrates compliance during inspections and provides evidence of proper inventory control.\n\n2. **Conduct regular self-inspections** using health department criteria to identify issues before official inspections. Check your stock for expired items, proper labeling, and correct storage temperatures.\n\n3. **Train all staff** on food safety protocols and inventory procedures. Everyone should understand FIFO (first-in-first-out) rotation and know how to document inventory changes.\n\n4. **Keep an inspection binder** with current inspection reports, temperature logs, and supplier invoices readily accessible. Organized records prove you're maintaining standards.\n\n5. **Perform weekly inventory audits** to catch discrepancies early and ensure your physical stock matches documented counts.\n\nBy treating inventory management as part of your daily inspection readiness routine, you maintain accuracy while staying prepared for unannounced health department visits.",
+  "neuron_answers": {
+    "health_department_inspection": "## ANSWER\n\nMaintain detailed, chronologically organized records of all inventory movements with dates, quantities, and sources. Conduct weekly internal audits to verify physical stock matches documented counts. Store temperature logs, supplier certifications, and pest control records in a designated inspection-ready folder. Proactively identify and address potential violation categories\u2014particularly cross-contamination risks and temperature control issues\u2014before inspections occur. Regular self-inspections using the same criteria health authorities apply will keep your facility consistently compliant and ready for surprise inspections.\n\n---\n\n## TYPED CONSTRUCTION",
+    "labor_cost_percentage": "While inventory accuracy and health inspection readiness aren't my primary territory, I can connect them to labor cost percentage. Optimal staffing levels affect how well your team maintains inventory logs and keeps the establishment inspection-ready. Proper employee training\u2014which factors into your labor costs\u2014ensures staff understand temperature logs, dating procedures, and food rotation. Understaffing (which impacts labor cost percentage) often leads to skipped tasks and inspection failures. The key is balancing your labor_cost_percentage with enough trained staff to maintain compliance while controlling costs. Cross-train employees so inventory management and inspection prep are shared responsibilities."
+  },
+  "secs": 90.0
+}

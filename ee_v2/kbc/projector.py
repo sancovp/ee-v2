@@ -148,3 +148,28 @@ def project_library(kb: KB, out_root, per_lib: int = 6):
     out = materialize(tree, out_root, coords=True)
     emit(out)                              # cohere breadcrumbs + index
     return out, n_skills
+
+
+# ── the SECOND render target: brain tissue (brain-agent from_dir format) ─────
+def project_brain_tissue(kb, atoms, out_dir, cone_chunks: int = 8):
+    """Project regions as BRAIN TISSUE: flat dirs of .md chunk files — exactly
+    brain-agent's `from_dir` format (subdirs auto-adopt as sub-brains; no
+    .claude nesting, no leading-dot names). One dir per atom = one gyrus:
+    the atom's own chunk + its cone's top concepts as sibling chunks.
+    Returns {atom: dir}."""
+    from pathlib import Path
+    out_dir = Path(out_dir)
+    made = {}
+    for atom in atoms:
+        d = out_dir / atom
+        d.mkdir(parents=True, exist_ok=True)
+        cn, cone, _ = call_number(kb, atom)
+        (d / f"{atom}.md").write_text(
+            f"# {atom}\n\nCALL NUMBER: `{cn}`\n\n"
+            f"{kb.concepts.get(atom, '«undefined»')}\n", encoding="utf-8")
+        for cid, defn, lib, depth in cone[:cone_chunks]:
+            (d / f"{cid}.md").write_text(
+                f"# {cid}\n\n[{lib or '?'} · d{depth}] "
+                f"{defn or '«undefined»'}\n", encoding="utf-8")
+        made[atom] = str(d)
+    return made
