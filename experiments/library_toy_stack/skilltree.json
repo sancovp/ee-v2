@@ -89,56 +89,11 @@
             "children": []
           },
           {
-            "name": "understand-cycle",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-cycle",
-            "description": "one walk of a kernel's nodes by fresh seats, ending in a harvest",
-            "coord": "0.2.2",
-            "frameworks": [],
-            "children": []
-          },
-          {
-            "name": "understand-harvest",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-harvest",
-            "description": "the cycle-end dump of emerged concepts and relations into the persistent KB",
-            "coord": "0.2.3",
-            "frameworks": [],
-            "children": []
-          },
-          {
             "name": "understand-fixpoint_meter",
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-fixpoint_meter",
             "description": "zero newly-accreted structure across a cycle = stabilized; the kernel's own closure clause, measured",
-            "coord": "0.2.4",
-            "frameworks": [],
-            "children": []
-          },
-          {
-            "name": "understand-worklist",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-worklist",
-            "description": "the prover-minted backlog: define (referenced-but-undefined), connect (orphans), reconcile (near-duplicates)",
-            "coord": "0.2.5",
-            "frameworks": [],
-            "children": []
-          },
-          {
-            "name": "understand-library_projection",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-library_projection",
-            "description": "project the certified KB as understand-X skilltree skills; call number = home class colon facets = the depende",
-            "coord": "0.2.6",
-            "frameworks": [],
-            "children": []
-          },
-          {
-            "name": "understand-understand_skill",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-understand_skill",
-            "description": "a loadable unit of competence: X plus its relative root, consistency-typed",
-            "coord": "0.2.7",
+            "coord": "0.2.2",
             "frameworks": [],
             "children": []
           },
@@ -147,7 +102,134 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-kernel",
             "description": "a parsed recursive chain: named nodes with substeps plus a closure clause",
+            "coord": "0.2.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-cycle",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-cycle",
+            "description": "one walk of a kernel's nodes by fresh seats, ending in a harvest",
+            "coord": "0.2.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-harvest",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-harvest",
+            "description": "the cycle-end dump of emerged concepts and relations into the persistent KB",
+            "coord": "0.2.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-relative_root",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-relative_root",
+            "description": "the least-fixed-point closure of everything X bundles from, walked to prims or to consumers, tagged by origin ",
+            "coord": "0.2.6",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-worklist",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-worklist",
+            "description": "the prover-minted backlog: define (referenced-but-undefined), connect (orphans), reconcile (near-duplicates)",
+            "coord": "0.2.7",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-library_projection",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-library_projection",
+            "description": "project the certified KB as understand-X skilltree skills; call number = home class colon facets = the depende",
             "coord": "0.2.8",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-gauge_dinf_conjecture_unverified",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-gauge_dinf_conjecture_unverified",
+        "description": "the gauge_dinf_conjecture_unverified subdomain of the_toy_stack (9 concepts)",
+        "coord": "0.3",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-gauge_theory_of_dinf",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-gauge_theory_of_dinf",
+            "description": "the conjecture: the metalanguage of how gradations and views transform IS a gauge theory over the reflexive do",
+            "coord": "0.3.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-order_gradation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-order_gradation",
+            "description": "the ^4: grade-shifts of the position triple; the grading becomes dynamics the moment a grade-raising operator ",
+            "coord": "0.3.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-gauge_view",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-gauge_view",
+            "description": "a view or telling or kernel: a local frame in which the seat works; no privileged gauge; results select",
+            "coord": "0.3.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-grade_raiser",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-grade_raiser",
+            "description": "the operator that makes gradation dynamical: emission at pass end, lfpoop next_level with goldenization, the t",
+            "coord": "0.3.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-position_triple",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-position_triple",
+            "description": "the 3 in the 81 law: the three positions of D=[D->D] \u2014 object, map-space, evaluation; EE's layer frames are li",
+            "coord": "0.3.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-certificate_invariant",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-certificate_invariant",
+            "description": "the gauge-invariant observables: what every view must agree on = the certificates, the facticity layer",
+            "coord": "0.3.6",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-connection_transport",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-connection_transport",
+            "description": "how certified ground moves across regions and grades: the relative root and lineage carrying source facts over",
+            "coord": "0.3.7",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-curvature_residue",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-curvature_residue",
+            "description": "CONJECTURE: the residue is curvature \u2014 where transport around a loop fails to close; SOUP = curved, ONT = flat",
+            "coord": "0.3.8",
             "frameworks": [],
             "children": []
           }
@@ -158,7 +240,7 @@
         "kind": "skill",
         "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-law",
         "description": "the law subdomain of the_toy_stack (8 concepts)",
-        "coord": "0.3",
+        "coord": "0.4",
         "frameworks": [],
         "children": [
           {
@@ -166,7 +248,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-the_81_law",
             "description": "to generally explain a thing to the point you can program it, apply it to itself 3^4 times \u2014 one triple (conce",
-            "coord": "0.3.1",
+            "coord": "0.4.1",
             "frameworks": [],
             "children": []
           },
@@ -175,7 +257,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-way_of_life_framework",
             "description": "the usage discipline for agents distilled from the worked example: KBs first, compile on demand, worklists dra",
-            "coord": "0.3.2",
+            "coord": "0.4.2",
             "frameworks": [],
             "children": []
           },
@@ -184,16 +266,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-automatability_test",
             "description": "a process is automatable under a view iff the view's self-application trace reaches fixpoint \u2014 metacompile the",
-            "coord": "0.3.3",
-            "frameworks": [],
-            "children": []
-          },
-          {
-            "name": "understand-order_3_introspection",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-order_3_introspection",
-            "description": "the automator's requirement: observe the output, observe the observer (the authority split), observe the obser",
-            "coord": "0.3.4",
+            "coord": "0.4.3",
             "frameworks": [],
             "children": []
           },
@@ -202,7 +275,16 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-futamura_tower",
             "description": "the projection ladder: specializing an interpreter to a program yields a compiler; specializing the specialize",
-            "coord": "0.3.5",
+            "coord": "0.4.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-order_3_introspection",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-order_3_introspection",
+            "description": "the automator's requirement: observe the output, observe the observer (the authority split), observe the obser",
+            "coord": "0.4.5",
             "frameworks": [],
             "children": []
           },
@@ -211,7 +293,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-recompilation_law",
             "description": "bind a KB region to code only when its output is needed without lookup \u2014 reproduce with specialization",
-            "coord": "0.3.6",
+            "coord": "0.4.6",
             "frameworks": [],
             "children": []
           },
@@ -220,7 +302,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-dogfooding_loop",
             "description": "run the system on its own design KB: proving the plan fortifies the plan and mints its backlog",
-            "coord": "0.3.7",
+            "coord": "0.4.7",
             "frameworks": [],
             "children": []
           },
@@ -229,7 +311,44 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-collapse_principle",
             "description": "every planned integration is first a certified KB region, not code \u2014 the long-wise reification is skipped unti",
-            "coord": "0.3.8",
+            "coord": "0.4.8",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-lfpoop_lib",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-lfpoop_lib",
+        "description": "the lfpoop_lib subdomain of the_toy_stack (3 concepts)",
+        "coord": "0.5",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-lfpoop_ladder",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-lfpoop_ladder",
+            "description": "the 10-rung realization ladder of ONE identity: function, program, graph_entity, skill, manual, agent, applica",
+            "coord": "0.5.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-architecture_chain",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-architecture_chain",
+            "description": "the 8-link chain: code_thing, graph_mirror_entity, runtime_object, actor, network, compiler, meta_compiler, re",
+            "coord": "0.5.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-goldenization",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-goldenization",
+            "description": "hot artifacts cool through execution, testing, witnessing \u2014 the cooling dynamics of the ladder",
+            "coord": "0.5.3",
             "frameworks": [],
             "children": []
           }
@@ -240,7 +359,7 @@
         "kind": "skill",
         "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-map_layer",
         "description": "the map_layer subdomain of the_toy_stack (5 concepts)",
-        "coord": "0.4",
+        "coord": "0.6",
         "frameworks": [],
         "children": [
           {
@@ -248,7 +367,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-map_prover",
             "description": "SWI-Prolog closed-world checker behind a typed construction boundary; the consistency typer for everything the",
-            "coord": "0.4.1",
+            "coord": "0.6.1",
             "frameworks": [],
             "children": []
           },
@@ -257,7 +376,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-certificate",
             "description": "a replayable proof envelope over a construction: subject, payload, kappa, sha \u2014 monotone, never uncertifies",
-            "coord": "0.4.2",
+            "coord": "0.6.2",
             "frameworks": [],
             "children": []
           },
@@ -266,7 +385,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-soup_frontier",
             "description": "the named violations when a construction fails: dangling, orphan, ungrounded \u2014 the retry signal and the work q",
-            "coord": "0.4.3",
+            "coord": "0.6.3",
             "frameworks": [],
             "children": []
           },
@@ -275,7 +394,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-authority_split",
             "description": "seats author candidate facts only; the engine holds source facts; a seat can never witness itself",
-            "coord": "0.4.4",
+            "coord": "0.6.4",
             "frameworks": [],
             "children": []
           },
@@ -284,7 +403,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-consistency_typing",
             "description": "the KB cannot become internally inconsistent: every emission passes the typer or its violations are named",
-            "coord": "0.4.5",
+            "coord": "0.6.5",
             "frameworks": [],
             "children": []
           }
@@ -295,7 +414,7 @@
         "kind": "skill",
         "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-publishing_lib_unverified",
         "description": "the publishing_lib_unverified subdomain of the_toy_stack (1 concepts)",
-        "coord": "0.5",
+        "coord": "0.7",
         "frameworks": [],
         "children": [
           {
@@ -303,7 +422,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-scalable_publishing",
             "description": "the sra-git publishing system: renders and distributes artifacts at scale from canonical sources",
-            "coord": "0.5.1",
+            "coord": "0.7.1",
             "frameworks": [],
             "children": []
           }
@@ -314,7 +433,7 @@
         "kind": "skill",
         "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree_lib",
         "description": "the skilltree_lib subdomain of the_toy_stack (4 concepts)",
-        "coord": "0.6",
+        "coord": "0.8",
         "frameworks": [],
         "children": [
           {
@@ -322,7 +441,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree",
             "description": "coordinate-addressed tree of skill dirs wired by Read-tool breadcrumbs, with validation and an FTS5 index",
-            "coord": "0.6.1",
+            "coord": "0.8.1",
             "frameworks": [],
             "children": []
           },
@@ -331,7 +450,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltome",
             "description": "skilltree.tome: fold a skilltree into a single tome document \u2014 the bound volume of a library",
-            "coord": "0.6.2",
+            "coord": "0.8.2",
             "frameworks": [],
             "children": []
           },
@@ -340,7 +459,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree_coordinate",
             "description": "the hierarchical address of a node: root 0, child i = parent.i \u2014 the home class of the call number",
-            "coord": "0.6.3",
+            "coord": "0.8.3",
             "frameworks": [],
             "children": []
           },
@@ -349,7 +468,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree_rag",
             "description": "build_index: one FTS5/BM25 table over every SKILL.md \u2014 retrieval returns ranked hits with shelf addresses",
-            "coord": "0.6.4",
+            "coord": "0.8.4",
             "frameworks": [],
             "children": []
           }
@@ -360,7 +479,7 @@
         "kind": "skill",
         "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-treeshell_lib_unverified",
         "description": "the treeshell_lib_unverified subdomain of the_toy_stack (3 concepts)",
-        "coord": "0.7",
+        "coord": "0.9",
         "frameworks": [],
         "children": [
           {
@@ -368,7 +487,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-treeshell",
             "description": "the tree REPL shell family (sancovp/heaven-tree-repl): navigable node-tree interfaces over agents and tools",
-            "coord": "0.7.1",
+            "coord": "0.9.1",
             "frameworks": [],
             "children": []
           },
@@ -377,7 +496,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-api2treeshell_projector",
             "description": "treeshell's projector that lifts an API or CLI into a treeshell node family",
-            "coord": "0.7.2",
+            "coord": "0.9.2",
             "frameworks": [],
             "children": []
           },
@@ -386,7 +505,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-monoidal_substrate_projection",
             "description": "treeshell's monoidal category system: project one shell across substrates compositionally",
-            "coord": "0.7.3",
+            "coord": "0.9.3",
             "frameworks": [],
             "children": []
           }

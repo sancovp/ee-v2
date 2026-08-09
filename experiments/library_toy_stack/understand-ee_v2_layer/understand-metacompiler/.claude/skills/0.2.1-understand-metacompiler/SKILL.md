@@ -33,6 +33,6 @@ Invoke this skill to understand `metacompiler` down to its primitives. The RELAT
 `automatability_test`, `ee_journey`, `spare_agent`, `toy_app`
 
 ---
-*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (51 concepts / 73 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_
