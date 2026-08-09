@@ -74,6 +74,9 @@ DUMP = {
   "dogfooding_loop": "run the system on its own design KB: proving the plan fortifies the plan and mints its backlog",
   "way_of_life_framework": "the usage discipline for agents distilled from the worked example: KBs first, compile on demand, worklists drained on heartbeats",
   "collapse_principle": "every planned integration is first a certified KB region, not code — the long-wise reification is skipped until the law fires",
+  "the_81_law": "to generally explain a thing to the point you can program it, apply it to itself 3^4 times — one triple (concept, general constructor, specific instance) at four scales; explanation is complete when it has become a generator",
+  "automatability_test": "a process is automatable under a view iff the view's self-application trace reaches fixpoint — metacompile the view, run it, read the meter; non-convergence means re-gauge the view, not give up",
+  "order_3_introspection": "the automator's requirement: observe the output, observe the observer (the authority split), observe the observing protocol (the meter and rulebook) — an order-3+ cybernetic system applied to itself",
  }),
 }
 
@@ -112,7 +115,15 @@ RELS = [
  ("dogfooding_loop", "collapse_principle"),
  ("way_of_life_framework", "dogfooding_loop"),
  ("way_of_life_framework", "chain_protocol"),
+ ("way_of_life_framework", "the_81_law"),
  ("toy_app", "way_of_life_framework"),
+ ("the_81_law", "futamura_tower"), ("the_81_law", "ee_journey"),
+ ("the_81_law", "automatability_test"),
+ ("the_81_law", "order_3_introspection"),
+ ("automatability_test", "fixpoint_meter"),
+ ("automatability_test", "metacompiler"),
+ ("order_3_introspection", "authority_split"),
+ ("order_3_introspection", "fixpoint_meter"),
  # deliberately-referenced future pieces (children of the plan):
  ("toy_app", "meta_metacompiler"),          # the compiler ABOUT combining libs
  ("scalable_publishing", "grand_argument_kernel"),

@@ -1,6 +1,6 @@
 ---
-name: 0.2.5-understand-library_projection
-description: [0.2.5] project the certified KB as understand-X skilltree skills; call number = home class colon facets = the depende
+name: 0.2.6-understand-library_projection
+description: [0.2.6] project the certified KB as understand-X skilltree skills; call number = home class colon facets = the depende
 ---
 
 # understand-library_projection
@@ -28,6 +28,6 @@ Invoke this skill to understand `library_projection` down to its primitives. The
 `toy_app`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

@@ -1,6 +1,6 @@
 ---
-name: 0.3.3-understand-dogfooding_loop
-description: [0.3.3] run the system on its own design KB: proving the plan fortifies the plan and mints its backlog
+name: 0.3.7-understand-dogfooding_loop
+description: [0.3.7] run the system on its own design KB: proving the plan fortifies the plan and mints its backlog
 ---
 
 # understand-dogfooding_loop
@@ -21,6 +21,6 @@ Invoke this skill to understand `dogfooding_loop` down to its primitives. The RE
 `way_of_life_framework`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

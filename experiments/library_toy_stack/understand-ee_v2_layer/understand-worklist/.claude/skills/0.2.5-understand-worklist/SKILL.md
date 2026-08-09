@@ -1,6 +1,6 @@
 ---
-name: 0.2.4-understand-worklist
-description: [0.2.4] the prover-minted backlog: define (referenced-but-undefined), connect (orphans), reconcile (near-duplicates)
+name: 0.2.5-understand-worklist
+description: [0.2.5] the prover-minted backlog: define (referenced-but-undefined), connect (orphans), reconcile (near-duplicates)
 ---
 
 # understand-worklist
@@ -19,6 +19,6 @@ Invoke this skill to understand `worklist` down to its primitives. The RELATIVE 
 `harvest`, `toy_app`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

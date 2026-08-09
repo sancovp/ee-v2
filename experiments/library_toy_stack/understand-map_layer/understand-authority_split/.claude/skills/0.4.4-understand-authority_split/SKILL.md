@@ -1,6 +1,6 @@
 ---
-name: 0.4.5-understand-authority_split
-description: [0.4.5] seats author candidate facts only; the engine holds source facts; a seat can never witness itself
+name: 0.4.4-understand-authority_split
+description: [0.4.4] seats author candidate facts only; the engine holds source facts; a seat can never witness itself
 ---
 
 # understand-authority_split
@@ -13,9 +13,9 @@ Invoke this skill to understand `authority_split` down to its primitives. The RE
 ## THE RELATIVE ROOT (the import cone, by lib)
 
 ## CONSUMERS (what needs this)
-`map_prover`
+`map_prover`, `order_3_introspection`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

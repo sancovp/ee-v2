@@ -1,6 +1,6 @@
 ---
-name: 0.3.4-understand-collapse_principle
-description: [0.3.4] every planned integration is first a certified KB region, not code — the long-wise reification is skipped unti
+name: 0.3.8-understand-collapse_principle
+description: [0.3.8] every planned integration is first a certified KB region, not code — the long-wise reification is skipped unti
 ---
 
 # understand-collapse_principle
@@ -20,6 +20,6 @@ Invoke this skill to understand `collapse_principle` down to its primitives. The
 `dogfooding_loop`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

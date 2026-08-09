@@ -1,5 +1,6 @@
 {"c": "api2treeshell_projector", "d": "treeshell's projector that lifts an API or CLI into a treeshell node family", "lib": "treeshell_lib_unverified"}
 {"c": "authority_split", "d": "seats author candidate facts only; the engine holds source facts; a seat can never witness itself", "lib": "map_layer"}
+{"c": "automatability_test", "d": "a process is automatable under a view iff the view's self-application trace reaches fixpoint \u2014 metacompile the view, run it, read the meter; non-convergence means re-gauge the view, not give up", "lib": "law"}
 {"c": "certificate", "d": "a replayable proof envelope over a construction: subject, payload, kappa, sha \u2014 monotone, never uncertifies", "lib": "map_layer"}
 {"c": "chain_notation", "d": "the [Name]: N.Node: Na.step format \u2014 a prompt whose structure IS the program", "lib": "ee_v2_layer"}
 {"c": "chain_protocol", "d": "the human-interaction contract: state a desire, release, receive emergence, select branches, revise, re-enter", "lib": "app_layer_unverified"}
@@ -18,6 +19,7 @@
 {"c": "metacompiler", "d": "parses any chain-notation prompt into a kernel and runs it as a gated cycling KB compiler", "lib": "ee_v2_layer"}
 {"c": "monoidal_substrate_projection", "d": "treeshell's monoidal category system: project one shell across substrates compositionally", "lib": "treeshell_lib_unverified"}
 {"c": "orchestrator_chain", "d": "the runner of runs itself operates by the same chain: release = async dispatch, emergence = returned artifacts", "lib": "app_layer_unverified"}
+{"c": "order_3_introspection", "d": "the automator's requirement: observe the output, observe the observer (the authority split), observe the observing protocol (the meter and rulebook) \u2014 an order-3+ cybernetic system applied to itself", "lib": "law"}
 {"c": "reality_join", "d": "the loop closes through the human's real desire in and real artifacts out \u2014 simulation and observable reality as one feedback chain", "lib": "app_layer_unverified"}
 {"c": "recompilation_law", "d": "bind a KB region to code only when its output is needed without lookup \u2014 reproduce with specialization", "lib": "law"}
 {"c": "relative_root", "d": "the least-fixed-point closure of everything X bundles from, walked to prims or to consumers, tagged by origin lib", "lib": "ee_v2_layer"}
@@ -29,6 +31,7 @@
 {"c": "soup_frontier", "d": "the named violations when a construction fails: dangling, orphan, ungrounded \u2014 the retry signal and the work queue", "lib": "map_layer"}
 {"c": "spare_agent", "d": "the agent whose operating loop is the sigil chain: intent, compress, release, emergence, selection, closure", "lib": "app_layer_unverified"}
 {"c": "spare_agent_cli", "d": "the spare agent packed as a CLI so it can be projected into interface families", "lib": "app_layer_unverified"}
+{"c": "the_81_law", "d": "to generally explain a thing to the point you can program it, apply it to itself 3^4 times \u2014 one triple (concept, general constructor, specific instance) at four scales; explanation is complete when it has become a generator", "lib": "law"}
 {"c": "toy_app", "d": "the single public app that knows the whole stack and speaks the chain protocol \u2014 the neurosymbolic demonstration artifact", "lib": "app_layer_unverified"}
 {"c": "treeshell", "d": "the tree REPL shell family (sancovp/heaven-tree-repl): navigable node-tree interfaces over agents and tools", "lib": "treeshell_lib_unverified"}
 {"c": "understand_skill", "d": "a loadable unit of competence: X plus its relative root, consistency-typed", "lib": "ee_v2_layer"}

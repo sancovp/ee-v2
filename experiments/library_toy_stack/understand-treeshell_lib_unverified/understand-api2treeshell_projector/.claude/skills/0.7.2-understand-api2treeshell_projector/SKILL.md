@@ -39,6 +39,6 @@ Invoke this skill to understand `api2treeshell_projector` down to its primitives
 - **treeshell** (d1): the tree REPL shell family (sancovp/heaven-tree-repl): navigable node-tree interfaces over agents and tools
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

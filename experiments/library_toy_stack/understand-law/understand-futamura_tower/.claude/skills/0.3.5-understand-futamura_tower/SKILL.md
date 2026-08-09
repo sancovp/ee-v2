@@ -13,9 +13,9 @@ Invoke this skill to understand `futamura_tower` down to its primitives. The REL
 ## THE RELATIVE ROOT (the import cone, by lib)
 
 ## CONSUMERS (what needs this)
-`recompilation_law`
+`recompilation_law`, `the_81_law`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

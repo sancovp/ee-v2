@@ -1,6 +1,6 @@
 ---
-name: 0.2.6-understand-understand_skill
-description: [0.2.6] a loadable unit of competence: X plus its relative root, consistency-typed
+name: 0.2.7-understand-understand_skill
+description: [0.2.7] a loadable unit of competence: X plus its relative root, consistency-typed
 ---
 
 # understand-understand_skill
@@ -22,6 +22,6 @@ Invoke this skill to understand `understand_skill` down to its primitives. The R
 `library_projection`
 
 ---
-*Projected from the `the_toy_stack` KB (36 concepts / 44 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
+*Projected from the `the_toy_stack` KB (39 concepts / 53 relations) — consistency-typed by MAP; the facet list after the colon IS the cross-lib dependency web.*
 
 _(leaf — this is an actual skill.)_

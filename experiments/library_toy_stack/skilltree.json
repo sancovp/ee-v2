@@ -107,11 +107,20 @@
             "children": []
           },
           {
+            "name": "understand-fixpoint_meter",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-fixpoint_meter",
+            "description": "zero newly-accreted structure across a cycle = stabilized; the kernel's own closure clause, measured",
+            "coord": "0.2.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
             "name": "understand-worklist",
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-worklist",
             "description": "the prover-minted backlog: define (referenced-but-undefined), connect (orphans), reconcile (near-duplicates)",
-            "coord": "0.2.4",
+            "coord": "0.2.5",
             "frameworks": [],
             "children": []
           },
@@ -120,7 +129,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-library_projection",
             "description": "project the certified KB as understand-X skilltree skills; call number = home class colon facets = the depende",
-            "coord": "0.2.5",
+            "coord": "0.2.6",
             "frameworks": [],
             "children": []
           },
@@ -129,7 +138,7 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-understand_skill",
             "description": "a loadable unit of competence: X plus its relative root, consistency-typed",
-            "coord": "0.2.6",
+            "coord": "0.2.7",
             "frameworks": [],
             "children": []
           },
@@ -138,15 +147,6 @@
             "kind": "skill",
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-kernel",
             "description": "a parsed recursive chain: named nodes with substeps plus a closure clause",
-            "coord": "0.2.7",
-            "frameworks": [],
-            "children": []
-          },
-          {
-            "name": "understand-curried_compiler",
-            "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-curried_compiler",
-            "description": "compile(kb, X, op): CEL context from the relative root of X, one seat, accrete, re-check \u2014 every agent is this",
             "coord": "0.2.8",
             "frameworks": [],
             "children": []
@@ -157,42 +157,42 @@
         "name": "understand-law",
         "kind": "skill",
         "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-law",
-        "description": "the law subdomain of the_toy_stack (5 concepts)",
+        "description": "the law subdomain of the_toy_stack (8 concepts)",
         "coord": "0.3",
         "frameworks": [],
         "children": [
           {
-            "name": "understand-way_of_life_framework",
+            "name": "understand-the_81_law",
             "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-way_of_life_framework",
-            "description": "the usage discipline for agents distilled from the worked example: KBs first, compile on demand, worklists dra",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-the_81_law",
+            "description": "to generally explain a thing to the point you can program it, apply it to itself 3^4 times \u2014 one triple (conce",
             "coord": "0.3.1",
             "frameworks": [],
             "children": []
           },
           {
-            "name": "understand-recompilation_law",
+            "name": "understand-way_of_life_framework",
             "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-recompilation_law",
-            "description": "bind a KB region to code only when its output is needed without lookup \u2014 reproduce with specialization",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-way_of_life_framework",
+            "description": "the usage discipline for agents distilled from the worked example: KBs first, compile on demand, worklists dra",
             "coord": "0.3.2",
             "frameworks": [],
             "children": []
           },
           {
-            "name": "understand-dogfooding_loop",
+            "name": "understand-automatability_test",
             "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-dogfooding_loop",
-            "description": "run the system on its own design KB: proving the plan fortifies the plan and mints its backlog",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-automatability_test",
+            "description": "a process is automatable under a view iff the view's self-application trace reaches fixpoint \u2014 metacompile the",
             "coord": "0.3.3",
             "frameworks": [],
             "children": []
           },
           {
-            "name": "understand-collapse_principle",
+            "name": "understand-order_3_introspection",
             "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-collapse_principle",
-            "description": "every planned integration is first a certified KB region, not code \u2014 the long-wise reification is skipped unti",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-order_3_introspection",
+            "description": "the automator's requirement: observe the output, observe the observer (the authority split), observe the obser",
             "coord": "0.3.4",
             "frameworks": [],
             "children": []
@@ -203,6 +203,33 @@
             "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-futamura_tower",
             "description": "the projection ladder: specializing an interpreter to a program yields a compiler; specializing the specialize",
             "coord": "0.3.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-recompilation_law",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-recompilation_law",
+            "description": "bind a KB region to code only when its output is needed without lookup \u2014 reproduce with specialization",
+            "coord": "0.3.6",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-dogfooding_loop",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-dogfooding_loop",
+            "description": "run the system on its own design KB: proving the plan fortifies the plan and mints its backlog",
+            "coord": "0.3.7",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-collapse_principle",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-collapse_principle",
+            "description": "every planned integration is first a certified KB region, not code \u2014 the long-wise reification is skipped unti",
+            "coord": "0.3.8",
             "frameworks": [],
             "children": []
           }
@@ -244,19 +271,19 @@
             "children": []
           },
           {
-            "name": "understand-consistency_typing",
+            "name": "understand-authority_split",
             "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-consistency_typing",
-            "description": "the KB cannot become internally inconsistent: every emission passes the typer or its violations are named",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-authority_split",
+            "description": "seats author candidate facts only; the engine holds source facts; a seat can never witness itself",
             "coord": "0.4.4",
             "frameworks": [],
             "children": []
           },
           {
-            "name": "understand-authority_split",
+            "name": "understand-consistency_typing",
             "kind": "skill",
-            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-authority_split",
-            "description": "seats author candidate facts only; the engine holds source facts; a seat can never witness itself",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-consistency_typing",
+            "description": "the KB cannot become internally inconsistent: every emission passes the typer or its violations are named",
             "coord": "0.4.5",
             "frameworks": [],
             "children": []
