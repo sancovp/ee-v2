@@ -1,0 +1,12 @@
+{
+  "phase": "soup",
+  "define": [
+    "grand_argument_kernel",
+    "meta_metacompiler",
+    "substrate_family"
+  ],
+  "connect": [],
+  "reconcile": [],
+  "n_concepts": 36,
+  "n_relations": 44
+}

@@ -1,0 +1,370 @@
+{
+  "skilltree": {
+    "name": "understand-the_toy_stack",
+    "kind": "skill",
+    "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-the_toy_stack",
+    "description": "the the_toy_stack library \u2014 every skill a certified region of the KB; call number = home : facets",
+    "coord": "0",
+    "frameworks": [],
+    "children": [
+      {
+        "name": "understand-app_layer_unverified",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-app_layer_unverified",
+        "description": "the app_layer_unverified subdomain of the_toy_stack (6 concepts)",
+        "coord": "0.1",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-toy_app",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-toy_app",
+            "description": "the single public app that knows the whole stack and speaks the chain protocol \u2014 the neurosymbolic demonstrati",
+            "coord": "0.1.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-spare_agent",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-spare_agent",
+            "description": "the agent whose operating loop is the sigil chain: intent, compress, release, emergence, selection, closure",
+            "coord": "0.1.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-spare_agent_cli",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-spare_agent_cli",
+            "description": "the spare agent packed as a CLI so it can be projected into interface families",
+            "coord": "0.1.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-chain_protocol",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-chain_protocol",
+            "description": "the human-interaction contract: state a desire, release, receive emergence, select branches, revise, re-enter",
+            "coord": "0.1.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-orchestrator_chain",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-orchestrator_chain",
+            "description": "the runner of runs itself operates by the same chain: release = async dispatch, emergence = returned artifacts",
+            "coord": "0.1.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-reality_join",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-reality_join",
+            "description": "the loop closes through the human's real desire in and real artifacts out \u2014 simulation and observable reality ",
+            "coord": "0.1.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-ee_v2_layer",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-ee_v2_layer",
+        "description": "the ee_v2_layer subdomain of the_toy_stack (12 concepts)",
+        "coord": "0.2",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-metacompiler",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-metacompiler",
+            "description": "parses any chain-notation prompt into a kernel and runs it as a gated cycling KB compiler",
+            "coord": "0.2.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-cycle",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-cycle",
+            "description": "one walk of a kernel's nodes by fresh seats, ending in a harvest",
+            "coord": "0.2.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-harvest",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-harvest",
+            "description": "the cycle-end dump of emerged concepts and relations into the persistent KB",
+            "coord": "0.2.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-worklist",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-worklist",
+            "description": "the prover-minted backlog: define (referenced-but-undefined), connect (orphans), reconcile (near-duplicates)",
+            "coord": "0.2.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-library_projection",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-library_projection",
+            "description": "project the certified KB as understand-X skilltree skills; call number = home class colon facets = the depende",
+            "coord": "0.2.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-understand_skill",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-understand_skill",
+            "description": "a loadable unit of competence: X plus its relative root, consistency-typed",
+            "coord": "0.2.6",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-kernel",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-kernel",
+            "description": "a parsed recursive chain: named nodes with substeps plus a closure clause",
+            "coord": "0.2.7",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-curried_compiler",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-curried_compiler",
+            "description": "compile(kb, X, op): CEL context from the relative root of X, one seat, accrete, re-check \u2014 every agent is this",
+            "coord": "0.2.8",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-law",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-law",
+        "description": "the law subdomain of the_toy_stack (5 concepts)",
+        "coord": "0.3",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-way_of_life_framework",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-way_of_life_framework",
+            "description": "the usage discipline for agents distilled from the worked example: KBs first, compile on demand, worklists dra",
+            "coord": "0.3.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-recompilation_law",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-recompilation_law",
+            "description": "bind a KB region to code only when its output is needed without lookup \u2014 reproduce with specialization",
+            "coord": "0.3.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-dogfooding_loop",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-dogfooding_loop",
+            "description": "run the system on its own design KB: proving the plan fortifies the plan and mints its backlog",
+            "coord": "0.3.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-collapse_principle",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-collapse_principle",
+            "description": "every planned integration is first a certified KB region, not code \u2014 the long-wise reification is skipped unti",
+            "coord": "0.3.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-futamura_tower",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-futamura_tower",
+            "description": "the projection ladder: specializing an interpreter to a program yields a compiler; specializing the specialize",
+            "coord": "0.3.5",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-map_layer",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-map_layer",
+        "description": "the map_layer subdomain of the_toy_stack (5 concepts)",
+        "coord": "0.4",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-map_prover",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-map_prover",
+            "description": "SWI-Prolog closed-world checker behind a typed construction boundary; the consistency typer for everything the",
+            "coord": "0.4.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-certificate",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-certificate",
+            "description": "a replayable proof envelope over a construction: subject, payload, kappa, sha \u2014 monotone, never uncertifies",
+            "coord": "0.4.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-soup_frontier",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-soup_frontier",
+            "description": "the named violations when a construction fails: dangling, orphan, ungrounded \u2014 the retry signal and the work q",
+            "coord": "0.4.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-consistency_typing",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-consistency_typing",
+            "description": "the KB cannot become internally inconsistent: every emission passes the typer or its violations are named",
+            "coord": "0.4.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-authority_split",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-authority_split",
+            "description": "seats author candidate facts only; the engine holds source facts; a seat can never witness itself",
+            "coord": "0.4.5",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-publishing_lib_unverified",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-publishing_lib_unverified",
+        "description": "the publishing_lib_unverified subdomain of the_toy_stack (1 concepts)",
+        "coord": "0.5",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-scalable_publishing",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-scalable_publishing",
+            "description": "the sra-git publishing system: renders and distributes artifacts at scale from canonical sources",
+            "coord": "0.5.1",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-skilltree_lib",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree_lib",
+        "description": "the skilltree_lib subdomain of the_toy_stack (4 concepts)",
+        "coord": "0.6",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-skilltree",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree",
+            "description": "coordinate-addressed tree of skill dirs wired by Read-tool breadcrumbs, with validation and an FTS5 index",
+            "coord": "0.6.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-skilltome",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltome",
+            "description": "skilltree.tome: fold a skilltree into a single tome document \u2014 the bound volume of a library",
+            "coord": "0.6.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-skilltree_coordinate",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree_coordinate",
+            "description": "the hierarchical address of a node: root 0, child i = parent.i \u2014 the home class of the call number",
+            "coord": "0.6.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-skilltree_rag",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-skilltree_rag",
+            "description": "build_index: one FTS5/BM25 table over every SKILL.md \u2014 retrieval returns ranked hits with shelf addresses",
+            "coord": "0.6.4",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-treeshell_lib_unverified",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-treeshell_lib_unverified",
+        "description": "the treeshell_lib_unverified subdomain of the_toy_stack (3 concepts)",
+        "coord": "0.7",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-treeshell",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-treeshell",
+            "description": "the tree REPL shell family (sancovp/heaven-tree-repl): navigable node-tree interfaces over agents and tools",
+            "coord": "0.7.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-api2treeshell_projector",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-api2treeshell_projector",
+            "description": "treeshell's projector that lifts an API or CLI into a treeshell node family",
+            "coord": "0.7.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-monoidal_substrate_projection",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_toy_stack/understand-monoidal_substrate_projection",
+            "description": "treeshell's monoidal category system: project one shell across substrates compositionally",
+            "coord": "0.7.3",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
