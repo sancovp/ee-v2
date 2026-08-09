@@ -1,0 +1,1598 @@
+{
+  "created_at": "2026-08-09T11:29:54.919161+00:00",
+  "domain_id": "ee_ontology",
+  "nodes": {
+    "brain_ask": {
+      "certificate": null,
+      "children": [
+        "brain_ask.n_health_department_inspec",
+        "brain_ask.n_inventory_management_sys",
+        "final"
+      ],
+      "construction": null,
+      "created_at": "2026-08-09T11:29:54.919175+00:00",
+      "facts": [],
+      "griess": {
+        "history": [
+          "registered at derive"
+        ],
+        "kappa": null,
+        "phase": "derive",
+        "ses_depth": 0
+      },
+      "last_packet": null,
+      "name": "brain_ask",
+      "observation": null,
+      "parent": null,
+      "proof_context": null,
+      "revisions": [],
+      "sources": [],
+      "status": "expanded"
+    },
+    "brain_ask.n_health_department_inspec": {
+      "certificate": {
+        "compiled_at": "2026-08-09T11:30:41.038745+00:00",
+        "construction_facts_sha256": "44aa7f2745ff3a21c9199a3961e9dee4e0473c56cc753d1422c61c48ba6c74cd",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "6ed11067af3778ea1c9568304ef164e625b88b1a3b8b9794e662f16eb9e0339d",
+        "construction_render_sha256": "afa05397359ea04a35bdbdaba3cfae8c2a4c455f0eb0102b2d5387c97945eff7",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "1f3aa89fcdc7de947fbafa0175a3e144f26673c6580a4814a72686ca27809f37"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "44aa7f2745ff3a21c9199a3961e9dee4e0473c56cc753d1422c61c48ba6c74cd",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "maintenance of required documentation demonstrating compliance",
+              "id": "record_keeping",
+              "kind": "concept"
+            },
+            {
+              "definition": "official documented record of findings from health department inspection",
+              "id": "inspection_report",
+              "kind": "concept"
+            },
+            {
+              "definition": "classification system for types and severity levels of health code violations",
+              "id": "violation_categories",
+              "kind": "concept"
+            },
+            {
+              "definition": "follow up inspection after initial inspection revealed violations",
+              "id": "reinspection",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "inspection_report",
+              "target": "record_keeping"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "reinspection",
+              "target": "violation_categories"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "record_keeping",
+              "target": "inspection_report"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "6ed11067af3778ea1c9568304ef164e625b88b1a3b8b9794e662f16eb9e0339d",
+        "render_sha256": "afa05397359ea04a35bdbdaba3cfae8c2a4c455f0eb0102b2d5387c97945eff7",
+        "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninspection_report: official documented record of findings from health department inspection\nviolation_categories: classification system for types and severity levels of health code violations\nreinspection: follow up inspection after initial inspection revealed violations\nr0: inspection_report -> record_keeping\nr1: reinspection -> violation_categories\nr2: record_keeping -> inspection_report",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T11:29:54.919681+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,record_keeping).",
+        "candidate_concept(brain_ask,inspection_report).",
+        "candidate_concept(brain_ask,violation_categories).",
+        "candidate_concept(brain_ask,reinspection).",
+        "candidate_relation(brain_ask,r0,inspection_report,record_keeping).",
+        "candidate_relation(brain_ask,r1,reinspection,violation_categories).",
+        "candidate_relation(brain_ask,r2,record_keeping,inspection_report).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at derive",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)",
+          "ont invalidated -> derive (proof context changed)",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction revised)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 0
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "44aa7f2745ff3a21c9199a3961e9dee4e0473c56cc753d1422c61c48ba6c74cd",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "6ed11067af3778ea1c9568304ef164e625b88b1a3b8b9794e662f16eb9e0339d",
+        "construction_render_sha256": "afa05397359ea04a35bdbdaba3cfae8c2a4c455f0eb0102b2d5387c97945eff7",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "1f3aa89fcdc7de947fbafa0175a3e144f26673c6580a4814a72686ca27809f37"
+      },
+      "name": "brain_ask.n_health_department_inspec",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "44aa7f2745ff3a21c9199a3961e9dee4e0473c56cc753d1422c61c48ba6c74cd",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "maintenance of required documentation demonstrating compliance",
+                "id": "record_keeping",
+                "kind": "concept"
+              },
+              {
+                "definition": "official documented record of findings from health department inspection",
+                "id": "inspection_report",
+                "kind": "concept"
+              },
+              {
+                "definition": "classification system for types and severity levels of health code violations",
+                "id": "violation_categories",
+                "kind": "concept"
+              },
+              {
+                "definition": "follow up inspection after initial inspection revealed violations",
+                "id": "reinspection",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "inspection_report",
+                "target": "record_keeping"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "reinspection",
+                "target": "violation_categories"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "record_keeping",
+                "target": "inspection_report"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "6ed11067af3778ea1c9568304ef164e625b88b1a3b8b9794e662f16eb9e0339d",
+          "render_sha256": "afa05397359ea04a35bdbdaba3cfae8c2a4c455f0eb0102b2d5387c97945eff7",
+          "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninspection_report: official documented record of findings from health department inspection\nviolation_categories: classification system for types and severity levels of health code violations\nreinspection: follow up inspection after initial inspection revealed violations\nr0: inspection_report -> record_keeping\nr1: reinspection -> violation_categories\nr2: record_keeping -> inspection_report",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [
+        {
+          "construction": {
+            "candidate_predicates": [
+              "candidate_concept",
+              "candidate_relation"
+            ],
+            "facts_sha256": "44aa7f2745ff3a21c9199a3961e9dee4e0473c56cc753d1422c61c48ba6c74cd",
+            "lowering_id": "ee.map.ontology.lowering.v1",
+            "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+            "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+            "payload": {
+              "concepts": [
+                {
+                  "definition": "maintenance of required documentation demonstrating compliance",
+                  "id": "record_keeping",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "official documented record of findings from health department inspection",
+                  "id": "inspection_report",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "classification system for types and severity levels of health code violations",
+                  "id": "violation_categories",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "follow up inspection after initial inspection revealed violations",
+                  "id": "reinspection",
+                  "kind": "concept"
+                }
+              ],
+              "kind": "ee_ontology",
+              "relations": [
+                {
+                  "id": "r0",
+                  "kind": "relation",
+                  "source": "inspection_report",
+                  "target": "record_keeping"
+                },
+                {
+                  "id": "r1",
+                  "kind": "relation",
+                  "source": "reinspection",
+                  "target": "violation_categories"
+                },
+                {
+                  "id": "r2",
+                  "kind": "relation",
+                  "source": "record_keeping",
+                  "target": "inspection_report"
+                }
+              ],
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "6ed11067af3778ea1c9568304ef164e625b88b1a3b8b9794e662f16eb9e0339d",
+            "render_sha256": "afa05397359ea04a35bdbdaba3cfae8c2a4c455f0eb0102b2d5387c97945eff7",
+            "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninspection_report: official documented record of findings from health department inspection\nviolation_categories: classification system for types and severity levels of health code violations\nreinspection: follow up inspection after initial inspection revealed violations\nr0: inspection_report -> record_keeping\nr1: reinspection -> violation_categories\nr2: record_keeping -> inspection_report",
+            "schema": "map.typed_construction.v1",
+            "schema_id": "ee.map.ontology.v1",
+            "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+            "target": "ee_ontology"
+          },
+          "facts": [
+            "candidate_concept(brain_ask,record_keeping).",
+            "candidate_concept(brain_ask,inspection_report).",
+            "candidate_concept(brain_ask,violation_categories).",
+            "candidate_concept(brain_ask,reinspection).",
+            "candidate_relation(brain_ask,r0,inspection_report,record_keeping).",
+            "candidate_relation(brain_ask,r1,reinspection,violation_categories).",
+            "candidate_relation(brain_ask,r2,record_keeping,inspection_report).",
+            "source_pass_complete(brain_ask)."
+          ],
+          "observation": {
+            "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+            "lowering_id": "ee.map.pass_witness.lowering.v1",
+            "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+            "model_type": "ee_v2.map_gate.adapter.PassWitness",
+            "observation_predicates": [
+              "source_pass_complete"
+            ],
+            "payload": {
+              "kind": "pass_witness",
+              "layer": 0,
+              "pass_num": 1,
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+            "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+            "rendered": "witness:brain_ask:L0P1",
+            "schema": "map.typed_observation.v1",
+            "schema_id": "ee.map.pass_witness.v1",
+            "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+            "target": "ee_ontology"
+          },
+          "revised_at": "2026-08-09T11:30:40.507074+00:00"
+        }
+      ],
+      "sources": [],
+      "status": "filled"
+    },
+    "brain_ask.n_inventory_management_sys": {
+      "certificate": {
+        "compiled_at": "2026-08-09T11:30:39.882357+00:00",
+        "construction_facts_sha256": "7b778f36dbc0733b3bc787ad57e98defa8e16d1decd530f1a6c7478daed1302e",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "24d6eb2ceb3c2cdfc99d3410b3e25aa6357bb3da552c7f31f510a3e79ebcc9d6",
+        "construction_render_sha256": "d15373a09b834367d29ef8c4a0bf9031e7c99088dc95a55c148b0aac39ebd1dc",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "1f3aa89fcdc7de947fbafa0175a3e144f26673c6580a4814a72686ca27809f37"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "7b778f36dbc0733b3bc787ad57e98defa8e16d1decd530f1a6c7478daed1302e",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "Daily opening tasks verifying stock levels, expiration dates, storage conditions, and alert systems",
+              "id": "opening_inventory_checklist",
+              "kind": "concept"
+            },
+            {
+              "definition": "Confirming current inventory matches expected daily quantities",
+              "id": "stock_level_verification",
+              "kind": "concept"
+            },
+            {
+              "definition": "Checking stock is at proper predetermined minimum quantities",
+              "id": "par_level_confirmation",
+              "kind": "concept"
+            },
+            {
+              "definition": "Checking products for approaching spoilage threshold dates",
+              "id": "expiration_date_review",
+              "kind": "concept"
+            },
+            {
+              "definition": "Verifying storage conditions including temperature and organization",
+              "id": "storage_area_inspection",
+              "kind": "concept"
+            },
+            {
+              "definition": "Confirming reorder notification systems are active and functional",
+              "id": "alert_system_status_check",
+              "kind": "concept"
+            },
+            {
+              "definition": "Verifying individual ingredient components are adequately stocked",
+              "id": "ingredient_level_confirmation",
+              "kind": "concept"
+            },
+            {
+              "definition": "Reviewing current food cost percentage metrics for the day",
+              "id": "food_cost_awareness_review",
+              "kind": "concept"
+            },
+            {
+              "definition": "Handheld barcode scanner for rapid physical inventory counts",
+              "id": "inventory_count_scanner",
+              "kind": "concept"
+            },
+            {
+              "definition": "Automated warning when product shelf life approaches spoilage threshold",
+              "id": "expiration_date_alert",
+              "kind": "concept"
+            },
+            {
+              "definition": "System managing ingredient locations and quantities in storage areas",
+              "id": "food_storage_tracking",
+              "kind": "concept"
+            },
+            {
+              "definition": "Automated notifications when stock reaches predetermined reorder levels",
+              "id": "inventory_alert_system",
+              "kind": "concept"
+            },
+            {
+              "definition": "Stock tracking broken down to individual ingredient components",
+              "id": "ingredient_level_inventory",
+              "kind": "concept"
+            },
+            {
+              "definition": "Cost of ingredients divided by food sales revenue",
+              "id": "food_cost_percentage",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "stock_level_verification"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "expiration_date_review"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "storage_area_inspection"
+            },
+            {
+              "id": "r3",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "alert_system_status_check"
+            },
+            {
+              "id": "r4",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "ingredient_level_confirmation"
+            },
+            {
+              "id": "r5",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "food_cost_awareness_review"
+            },
+            {
+              "id": "r6",
+              "kind": "relation",
+              "source": "stock_level_verification",
+              "target": "par_level_confirmation"
+            },
+            {
+              "id": "r7",
+              "kind": "relation",
+              "source": "stock_level_verification",
+              "target": "inventory_count_scanner"
+            },
+            {
+              "id": "r8",
+              "kind": "relation",
+              "source": "expiration_date_review",
+              "target": "expiration_date_alert"
+            },
+            {
+              "id": "r9",
+              "kind": "relation",
+              "source": "storage_area_inspection",
+              "target": "food_storage_tracking"
+            },
+            {
+              "id": "r10",
+              "kind": "relation",
+              "source": "alert_system_status_check",
+              "target": "inventory_alert_system"
+            },
+            {
+              "id": "r11",
+              "kind": "relation",
+              "source": "ingredient_level_confirmation",
+              "target": "ingredient_level_inventory"
+            },
+            {
+              "id": "r12",
+              "kind": "relation",
+              "source": "food_cost_awareness_review",
+              "target": "food_cost_percentage"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "24d6eb2ceb3c2cdfc99d3410b3e25aa6357bb3da552c7f31f510a3e79ebcc9d6",
+        "render_sha256": "d15373a09b834367d29ef8c4a0bf9031e7c99088dc95a55c148b0aac39ebd1dc",
+        "rendered": "ontology:brain_ask\nopening_inventory_checklist: Daily opening tasks verifying stock levels, expiration dates, storage conditions, and alert systems\nstock_level_verification: Confirming current inventory matches expected daily quantities\npar_level_confirmation: Checking stock is at proper predetermined minimum quantities\nexpiration_date_review: Checking products for approaching spoilage threshold dates\nstorage_area_inspection: Verifying storage conditions including temperature and organization\nalert_system_status_check: Confirming reorder notification systems are active and functional\ningredient_level_confirmation: Verifying individual ingredient components are adequately stocked\nfood_cost_awareness_review: Reviewing current food cost percentage metrics for the day\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage threshold\nfood_storage_tracking: System managing ingredient locations and quantities in storage areas\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder levels\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\nfood_cost_percentage: Cost of ingredients divided by food sales revenue\nr0: opening_inventory_checklist -> stock_level_verification\nr1: opening_inventory_checklist -> expiration_date_review\nr2: opening_inventory_checklist -> storage_area_inspection\nr3: opening_inventory_checklist -> alert_system_status_check\nr4: opening_inventory_checklist -> ingredient_level_confirmation\nr5: opening_inventory_checklist -> food_cost_awareness_review\nr6: stock_level_verification -> par_level_confirmation\nr7: stock_level_verification -> inventory_count_scanner\nr8: expiration_date_review -> expiration_date_alert\nr9: storage_area_inspection -> food_storage_tracking\nr10: alert_system_status_check -> inventory_alert_system\nr11: ingredient_level_confirmation -> ingredient_level_inventory\nr12: food_cost_awareness_review -> food_cost_percentage",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T11:29:54.919686+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,opening_inventory_checklist).",
+        "candidate_concept(brain_ask,stock_level_verification).",
+        "candidate_concept(brain_ask,par_level_confirmation).",
+        "candidate_concept(brain_ask,expiration_date_review).",
+        "candidate_concept(brain_ask,storage_area_inspection).",
+        "candidate_concept(brain_ask,alert_system_status_check).",
+        "candidate_concept(brain_ask,ingredient_level_confirmation).",
+        "candidate_concept(brain_ask,food_cost_awareness_review).",
+        "candidate_concept(brain_ask,inventory_count_scanner).",
+        "candidate_concept(brain_ask,expiration_date_alert).",
+        "candidate_concept(brain_ask,food_storage_tracking).",
+        "candidate_concept(brain_ask,inventory_alert_system).",
+        "candidate_concept(brain_ask,ingredient_level_inventory).",
+        "candidate_concept(brain_ask,food_cost_percentage).",
+        "candidate_relation(brain_ask,r0,opening_inventory_checklist,stock_level_verification).",
+        "candidate_relation(brain_ask,r1,opening_inventory_checklist,expiration_date_review).",
+        "candidate_relation(brain_ask,r2,opening_inventory_checklist,storage_area_inspection).",
+        "candidate_relation(brain_ask,r3,opening_inventory_checklist,alert_system_status_check).",
+        "candidate_relation(brain_ask,r4,opening_inventory_checklist,ingredient_level_confirmation).",
+        "candidate_relation(brain_ask,r5,opening_inventory_checklist,food_cost_awareness_review).",
+        "candidate_relation(brain_ask,r6,stock_level_verification,par_level_confirmation).",
+        "candidate_relation(brain_ask,r7,stock_level_verification,inventory_count_scanner).",
+        "candidate_relation(brain_ask,r8,expiration_date_review,expiration_date_alert).",
+        "candidate_relation(brain_ask,r9,storage_area_inspection,food_storage_tracking).",
+        "candidate_relation(brain_ask,r10,alert_system_status_check,inventory_alert_system).",
+        "candidate_relation(brain_ask,r11,ingredient_level_confirmation,ingredient_level_inventory).",
+        "candidate_relation(brain_ask,r12,food_cost_awareness_review,food_cost_percentage).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at derive",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> soup (MAP target status partial)",
+          "soup -> derive (retry from MAP residue)",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction revised)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 0
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "7b778f36dbc0733b3bc787ad57e98defa8e16d1decd530f1a6c7478daed1302e",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "24d6eb2ceb3c2cdfc99d3410b3e25aa6357bb3da552c7f31f510a3e79ebcc9d6",
+        "construction_render_sha256": "d15373a09b834367d29ef8c4a0bf9031e7c99088dc95a55c148b0aac39ebd1dc",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "1f3aa89fcdc7de947fbafa0175a3e144f26673c6580a4814a72686ca27809f37"
+      },
+      "name": "brain_ask.n_inventory_management_sys",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "7b778f36dbc0733b3bc787ad57e98defa8e16d1decd530f1a6c7478daed1302e",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "Daily opening tasks verifying stock levels, expiration dates, storage conditions, and alert systems",
+                "id": "opening_inventory_checklist",
+                "kind": "concept"
+              },
+              {
+                "definition": "Confirming current inventory matches expected daily quantities",
+                "id": "stock_level_verification",
+                "kind": "concept"
+              },
+              {
+                "definition": "Checking stock is at proper predetermined minimum quantities",
+                "id": "par_level_confirmation",
+                "kind": "concept"
+              },
+              {
+                "definition": "Checking products for approaching spoilage threshold dates",
+                "id": "expiration_date_review",
+                "kind": "concept"
+              },
+              {
+                "definition": "Verifying storage conditions including temperature and organization",
+                "id": "storage_area_inspection",
+                "kind": "concept"
+              },
+              {
+                "definition": "Confirming reorder notification systems are active and functional",
+                "id": "alert_system_status_check",
+                "kind": "concept"
+              },
+              {
+                "definition": "Verifying individual ingredient components are adequately stocked",
+                "id": "ingredient_level_confirmation",
+                "kind": "concept"
+              },
+              {
+                "definition": "Reviewing current food cost percentage metrics for the day",
+                "id": "food_cost_awareness_review",
+                "kind": "concept"
+              },
+              {
+                "definition": "Handheld barcode scanner for rapid physical inventory counts",
+                "id": "inventory_count_scanner",
+                "kind": "concept"
+              },
+              {
+                "definition": "Automated warning when product shelf life approaches spoilage threshold",
+                "id": "expiration_date_alert",
+                "kind": "concept"
+              },
+              {
+                "definition": "System managing ingredient locations and quantities in storage areas",
+                "id": "food_storage_tracking",
+                "kind": "concept"
+              },
+              {
+                "definition": "Automated notifications when stock reaches predetermined reorder levels",
+                "id": "inventory_alert_system",
+                "kind": "concept"
+              },
+              {
+                "definition": "Stock tracking broken down to individual ingredient components",
+                "id": "ingredient_level_inventory",
+                "kind": "concept"
+              },
+              {
+                "definition": "Cost of ingredients divided by food sales revenue",
+                "id": "food_cost_percentage",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "stock_level_verification"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "expiration_date_review"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "storage_area_inspection"
+              },
+              {
+                "id": "r3",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "alert_system_status_check"
+              },
+              {
+                "id": "r4",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "ingredient_level_confirmation"
+              },
+              {
+                "id": "r5",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "food_cost_awareness_review"
+              },
+              {
+                "id": "r6",
+                "kind": "relation",
+                "source": "stock_level_verification",
+                "target": "par_level_confirmation"
+              },
+              {
+                "id": "r7",
+                "kind": "relation",
+                "source": "stock_level_verification",
+                "target": "inventory_count_scanner"
+              },
+              {
+                "id": "r8",
+                "kind": "relation",
+                "source": "expiration_date_review",
+                "target": "expiration_date_alert"
+              },
+              {
+                "id": "r9",
+                "kind": "relation",
+                "source": "storage_area_inspection",
+                "target": "food_storage_tracking"
+              },
+              {
+                "id": "r10",
+                "kind": "relation",
+                "source": "alert_system_status_check",
+                "target": "inventory_alert_system"
+              },
+              {
+                "id": "r11",
+                "kind": "relation",
+                "source": "ingredient_level_confirmation",
+                "target": "ingredient_level_inventory"
+              },
+              {
+                "id": "r12",
+                "kind": "relation",
+                "source": "food_cost_awareness_review",
+                "target": "food_cost_percentage"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "24d6eb2ceb3c2cdfc99d3410b3e25aa6357bb3da552c7f31f510a3e79ebcc9d6",
+          "render_sha256": "d15373a09b834367d29ef8c4a0bf9031e7c99088dc95a55c148b0aac39ebd1dc",
+          "rendered": "ontology:brain_ask\nopening_inventory_checklist: Daily opening tasks verifying stock levels, expiration dates, storage conditions, and alert systems\nstock_level_verification: Confirming current inventory matches expected daily quantities\npar_level_confirmation: Checking stock is at proper predetermined minimum quantities\nexpiration_date_review: Checking products for approaching spoilage threshold dates\nstorage_area_inspection: Verifying storage conditions including temperature and organization\nalert_system_status_check: Confirming reorder notification systems are active and functional\ningredient_level_confirmation: Verifying individual ingredient components are adequately stocked\nfood_cost_awareness_review: Reviewing current food cost percentage metrics for the day\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage threshold\nfood_storage_tracking: System managing ingredient locations and quantities in storage areas\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder levels\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\nfood_cost_percentage: Cost of ingredients divided by food sales revenue\nr0: opening_inventory_checklist -> stock_level_verification\nr1: opening_inventory_checklist -> expiration_date_review\nr2: opening_inventory_checklist -> storage_area_inspection\nr3: opening_inventory_checklist -> alert_system_status_check\nr4: opening_inventory_checklist -> ingredient_level_confirmation\nr5: opening_inventory_checklist -> food_cost_awareness_review\nr6: stock_level_verification -> par_level_confirmation\nr7: stock_level_verification -> inventory_count_scanner\nr8: expiration_date_review -> expiration_date_alert\nr9: storage_area_inspection -> food_storage_tracking\nr10: alert_system_status_check -> inventory_alert_system\nr11: ingredient_level_confirmation -> ingredient_level_inventory\nr12: food_cost_awareness_review -> food_cost_percentage",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [
+        {
+          "construction": {
+            "candidate_predicates": [
+              "candidate_concept",
+              "candidate_relation"
+            ],
+            "facts_sha256": "cd161a606742238f0be299e1e4c83e49f61eb256bb2fb8996b27206a04ca6cda",
+            "lowering_id": "ee.map.ontology.lowering.v1",
+            "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+            "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+            "payload": {
+              "concepts": [
+                {
+                  "definition": "Daily opening tasks verifying stock levels, expiration dates, storage conditions, and alert systems",
+                  "id": "opening_inventory_checklist",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Confirming current inventory matches expected daily quantities",
+                  "id": "stock_level_verification",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Checking stock is at proper predetermined minimum quantities",
+                  "id": "par_level_confirmation",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Checking products for approaching spoilage threshold dates",
+                  "id": "expiration_date_review",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Verifying storage conditions including temperature and organization",
+                  "id": "storage_area_inspection",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Confirming reorder notification systems are active and functional",
+                  "id": "alert_system_status_check",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Verifying individual ingredient components are adequately stocked",
+                  "id": "ingredient_level_confirmation",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Reviewing current food cost percentage metrics for the day",
+                  "id": "food_cost_awareness_review",
+                  "kind": "concept"
+                }
+              ],
+              "kind": "ee_ontology",
+              "relations": [
+                {
+                  "id": "r0",
+                  "kind": "relation",
+                  "source": "opening_inventory_checklist",
+                  "target": "stock_level_verification"
+                },
+                {
+                  "id": "r1",
+                  "kind": "relation",
+                  "source": "opening_inventory_checklist",
+                  "target": "expiration_date_review"
+                },
+                {
+                  "id": "r2",
+                  "kind": "relation",
+                  "source": "opening_inventory_checklist",
+                  "target": "storage_area_inspection"
+                },
+                {
+                  "id": "r3",
+                  "kind": "relation",
+                  "source": "opening_inventory_checklist",
+                  "target": "alert_system_status_check"
+                },
+                {
+                  "id": "r4",
+                  "kind": "relation",
+                  "source": "opening_inventory_checklist",
+                  "target": "ingredient_level_confirmation"
+                },
+                {
+                  "id": "r5",
+                  "kind": "relation",
+                  "source": "opening_inventory_checklist",
+                  "target": "food_cost_awareness_review"
+                },
+                {
+                  "id": "r6",
+                  "kind": "relation",
+                  "source": "stock_level_verification",
+                  "target": "par_level_confirmation"
+                },
+                {
+                  "id": "r7",
+                  "kind": "relation",
+                  "source": "stock_level_verification",
+                  "target": "inventory_count_scanner"
+                },
+                {
+                  "id": "r8",
+                  "kind": "relation",
+                  "source": "expiration_date_review",
+                  "target": "expiration_date_alert"
+                },
+                {
+                  "id": "r9",
+                  "kind": "relation",
+                  "source": "storage_area_inspection",
+                  "target": "food_storage_tracking"
+                },
+                {
+                  "id": "r10",
+                  "kind": "relation",
+                  "source": "alert_system_status_check",
+                  "target": "inventory_alert_system"
+                },
+                {
+                  "id": "r11",
+                  "kind": "relation",
+                  "source": "ingredient_level_confirmation",
+                  "target": "ingredient_level_inventory"
+                },
+                {
+                  "id": "r12",
+                  "kind": "relation",
+                  "source": "food_cost_awareness_review",
+                  "target": "food_cost_percentage"
+                }
+              ],
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "466240610138e728fc12bce5da13881f183d2709653c01cf39d71dc2826e0695",
+            "render_sha256": "8226ebdcef78b69a8dbc505c7899290bce49b65c7ac955738fe5864a2436b0a7",
+            "rendered": "ontology:brain_ask\nopening_inventory_checklist: Daily opening tasks verifying stock levels, expiration dates, storage conditions, and alert systems\nstock_level_verification: Confirming current inventory matches expected daily quantities\npar_level_confirmation: Checking stock is at proper predetermined minimum quantities\nexpiration_date_review: Checking products for approaching spoilage threshold dates\nstorage_area_inspection: Verifying storage conditions including temperature and organization\nalert_system_status_check: Confirming reorder notification systems are active and functional\ningredient_level_confirmation: Verifying individual ingredient components are adequately stocked\nfood_cost_awareness_review: Reviewing current food cost percentage metrics for the day\nr0: opening_inventory_checklist -> stock_level_verification\nr1: opening_inventory_checklist -> expiration_date_review\nr2: opening_inventory_checklist -> storage_area_inspection\nr3: opening_inventory_checklist -> alert_system_status_check\nr4: opening_inventory_checklist -> ingredient_level_confirmation\nr5: opening_inventory_checklist -> food_cost_awareness_review\nr6: stock_level_verification -> par_level_confirmation\nr7: stock_level_verification -> inventory_count_scanner\nr8: expiration_date_review -> expiration_date_alert\nr9: storage_area_inspection -> food_storage_tracking\nr10: alert_system_status_check -> inventory_alert_system\nr11: ingredient_level_confirmation -> ingredient_level_inventory\nr12: food_cost_awareness_review -> food_cost_percentage",
+            "schema": "map.typed_construction.v1",
+            "schema_id": "ee.map.ontology.v1",
+            "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+            "target": "ee_ontology"
+          },
+          "facts": [
+            "candidate_concept(brain_ask,opening_inventory_checklist).",
+            "candidate_concept(brain_ask,stock_level_verification).",
+            "candidate_concept(brain_ask,par_level_confirmation).",
+            "candidate_concept(brain_ask,expiration_date_review).",
+            "candidate_concept(brain_ask,storage_area_inspection).",
+            "candidate_concept(brain_ask,alert_system_status_check).",
+            "candidate_concept(brain_ask,ingredient_level_confirmation).",
+            "candidate_concept(brain_ask,food_cost_awareness_review).",
+            "candidate_relation(brain_ask,r0,opening_inventory_checklist,stock_level_verification).",
+            "candidate_relation(brain_ask,r1,opening_inventory_checklist,expiration_date_review).",
+            "candidate_relation(brain_ask,r2,opening_inventory_checklist,storage_area_inspection).",
+            "candidate_relation(brain_ask,r3,opening_inventory_checklist,alert_system_status_check).",
+            "candidate_relation(brain_ask,r4,opening_inventory_checklist,ingredient_level_confirmation).",
+            "candidate_relation(brain_ask,r5,opening_inventory_checklist,food_cost_awareness_review).",
+            "candidate_relation(brain_ask,r6,stock_level_verification,par_level_confirmation).",
+            "candidate_relation(brain_ask,r7,stock_level_verification,inventory_count_scanner).",
+            "candidate_relation(brain_ask,r8,expiration_date_review,expiration_date_alert).",
+            "candidate_relation(brain_ask,r9,storage_area_inspection,food_storage_tracking).",
+            "candidate_relation(brain_ask,r10,alert_system_status_check,inventory_alert_system).",
+            "candidate_relation(brain_ask,r11,ingredient_level_confirmation,ingredient_level_inventory).",
+            "candidate_relation(brain_ask,r12,food_cost_awareness_review,food_cost_percentage).",
+            "source_pass_complete(brain_ask)."
+          ],
+          "observation": {
+            "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+            "lowering_id": "ee.map.pass_witness.lowering.v1",
+            "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+            "model_type": "ee_v2.map_gate.adapter.PassWitness",
+            "observation_predicates": [
+              "source_pass_complete"
+            ],
+            "payload": {
+              "kind": "pass_witness",
+              "layer": 0,
+              "pass_num": 1,
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+            "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+            "rendered": "witness:brain_ask:L0P1",
+            "schema": "map.typed_observation.v1",
+            "schema_id": "ee.map.pass_witness.v1",
+            "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+            "target": "ee_ontology"
+          },
+          "revised_at": "2026-08-09T11:30:39.121067+00:00"
+        }
+      ],
+      "sources": [],
+      "status": "filled"
+    },
+    "final": {
+      "certificate": {
+        "compiled_at": "2026-08-09T11:31:00.580056+00:00",
+        "construction_facts_sha256": "c3b6dcfa5fdf71def99b1c907b1ee957254b04924c0b83a35bfbf87a2396a5e2",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "508416486e8afdb572c99dd13f635d55aa4415eea34aabb219cc136a3a7d542d",
+        "construction_render_sha256": "f205d4a2c6217d26946b887110ab0a9015d8b77f6a93ad915c7f5eb6cb2e8276",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "489f4755c27826e7a3b3c7604b38310aaedb693ce50f379c0708b64a8bfa6705",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "d627fb3b9e71cefeb9a1972b6d3cba848ed889915455585d006edff9c9a27432"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "c3b6dcfa5fdf71def99b1c907b1ee957254b04924c0b83a35bfbf87a2396a5e2",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "comprehensive verification process covering stock levels, expiration dates, and storage conditions before operations begin",
+              "id": "opening_inventory_checklist",
+              "kind": "concept"
+            },
+            {
+              "definition": "confirmation that current inventory quantities match expected levels using scanning technology",
+              "id": "stock_level_verification",
+              "kind": "concept"
+            },
+            {
+              "definition": "validation that minimum stock thresholds are appropriately set and maintained",
+              "id": "par_level_confirmation",
+              "kind": "concept"
+            },
+            {
+              "definition": "systematic check of all perishable items to identify and remove expired or soon-to-expire products",
+              "id": "expiration_date_review",
+              "kind": "concept"
+            },
+            {
+              "definition": "physical examination of all food storage locations for compliance, organization, and safety standards",
+              "id": "storage_area_inspection",
+              "kind": "concept"
+            },
+            {
+              "definition": "automated notification system for low stock levels and approaching expiration dates",
+              "id": "inventory_alert_system",
+              "kind": "concept"
+            },
+            {
+              "definition": "monitoring and logging of all food items from receipt through usage",
+              "id": "food_storage_tracking",
+              "kind": "concept"
+            },
+            {
+              "definition": "systematic documentation of all inventory transactions, inspections, and compliance activities",
+              "id": "record_keeping",
+              "kind": "concept"
+            },
+            {
+              "definition": "formal documentation of health inspection findings and compliance status",
+              "id": "inspection_report",
+              "kind": "concept"
+            },
+            {
+              "definition": "standardized classification system for health code infractions requiring remediation",
+              "id": "violation_categories",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "stock_level_verification"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "expiration_date_review"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "storage_area_inspection"
+            },
+            {
+              "id": "r3",
+              "kind": "relation",
+              "source": "opening_inventory_checklist",
+              "target": "record_keeping"
+            },
+            {
+              "id": "r4",
+              "kind": "relation",
+              "source": "stock_level_verification",
+              "target": "par_level_confirmation"
+            },
+            {
+              "id": "r5",
+              "kind": "relation",
+              "source": "expiration_date_review",
+              "target": "inventory_alert_system"
+            },
+            {
+              "id": "r6",
+              "kind": "relation",
+              "source": "storage_area_inspection",
+              "target": "inspection_report"
+            },
+            {
+              "id": "r7",
+              "kind": "relation",
+              "source": "storage_area_inspection",
+              "target": "record_keeping"
+            },
+            {
+              "id": "r8",
+              "kind": "relation",
+              "source": "food_storage_tracking",
+              "target": "record_keeping"
+            },
+            {
+              "id": "r9",
+              "kind": "relation",
+              "source": "record_keeping",
+              "target": "inspection_report"
+            },
+            {
+              "id": "r10",
+              "kind": "relation",
+              "source": "violation_categories",
+              "target": "inspection_report"
+            },
+            {
+              "id": "r11",
+              "kind": "relation",
+              "source": "inspection_report",
+              "target": "record_keeping"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "508416486e8afdb572c99dd13f635d55aa4415eea34aabb219cc136a3a7d542d",
+        "render_sha256": "f205d4a2c6217d26946b887110ab0a9015d8b77f6a93ad915c7f5eb6cb2e8276",
+        "rendered": "ontology:brain_ask\nopening_inventory_checklist: comprehensive verification process covering stock levels, expiration dates, and storage conditions before operations begin\nstock_level_verification: confirmation that current inventory quantities match expected levels using scanning technology\npar_level_confirmation: validation that minimum stock thresholds are appropriately set and maintained\nexpiration_date_review: systematic check of all perishable items to identify and remove expired or soon-to-expire products\nstorage_area_inspection: physical examination of all food storage locations for compliance, organization, and safety standards\ninventory_alert_system: automated notification system for low stock levels and approaching expiration dates\nfood_storage_tracking: monitoring and logging of all food items from receipt through usage\nrecord_keeping: systematic documentation of all inventory transactions, inspections, and compliance activities\ninspection_report: formal documentation of health inspection findings and compliance status\nviolation_categories: standardized classification system for health code infractions requiring remediation\nr0: opening_inventory_checklist -> stock_level_verification\nr1: opening_inventory_checklist -> expiration_date_review\nr2: opening_inventory_checklist -> storage_area_inspection\nr3: opening_inventory_checklist -> record_keeping\nr4: stock_level_verification -> par_level_confirmation\nr5: expiration_date_review -> inventory_alert_system\nr6: storage_area_inspection -> inspection_report\nr7: storage_area_inspection -> record_keeping\nr8: food_storage_tracking -> record_keeping\nr9: record_keeping -> inspection_report\nr10: violation_categories -> inspection_report\nr11: inspection_report -> record_keeping",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T11:30:41.041555+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,opening_inventory_checklist).",
+        "candidate_concept(brain_ask,stock_level_verification).",
+        "candidate_concept(brain_ask,par_level_confirmation).",
+        "candidate_concept(brain_ask,expiration_date_review).",
+        "candidate_concept(brain_ask,storage_area_inspection).",
+        "candidate_concept(brain_ask,inventory_alert_system).",
+        "candidate_concept(brain_ask,food_storage_tracking).",
+        "candidate_concept(brain_ask,record_keeping).",
+        "candidate_concept(brain_ask,inspection_report).",
+        "candidate_concept(brain_ask,violation_categories).",
+        "candidate_relation(brain_ask,r0,opening_inventory_checklist,stock_level_verification).",
+        "candidate_relation(brain_ask,r1,opening_inventory_checklist,expiration_date_review).",
+        "candidate_relation(brain_ask,r2,opening_inventory_checklist,storage_area_inspection).",
+        "candidate_relation(brain_ask,r3,opening_inventory_checklist,record_keeping).",
+        "candidate_relation(brain_ask,r4,stock_level_verification,par_level_confirmation).",
+        "candidate_relation(brain_ask,r5,expiration_date_review,inventory_alert_system).",
+        "candidate_relation(brain_ask,r6,storage_area_inspection,inspection_report).",
+        "candidate_relation(brain_ask,r7,storage_area_inspection,record_keeping).",
+        "candidate_relation(brain_ask,r8,food_storage_tracking,record_keeping).",
+        "candidate_relation(brain_ask,r9,record_keeping,inspection_report).",
+        "candidate_relation(brain_ask,r10,violation_categories,inspection_report).",
+        "candidate_relation(brain_ask,r11,inspection_report,record_keeping).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at pattern",
+          "pattern combined from brain_ask.n_health_department_inspec, brain_ask.n_inventory_management_sys",
+          "pattern -> implement (pattern made meta-compilable)",
+          "implement -> derive (SES+1 construction candidate)",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected ACROSS territories"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 1
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "c3b6dcfa5fdf71def99b1c907b1ee957254b04924c0b83a35bfbf87a2396a5e2",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "508416486e8afdb572c99dd13f635d55aa4415eea34aabb219cc136a3a7d542d",
+        "construction_render_sha256": "f205d4a2c6217d26946b887110ab0a9015d8b77f6a93ad915c7f5eb6cb2e8276",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "489f4755c27826e7a3b3c7604b38310aaedb693ce50f379c0708b64a8bfa6705",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "d627fb3b9e71cefeb9a1972b6d3cba848ed889915455585d006edff9c9a27432"
+      },
+      "name": "final",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "c3b6dcfa5fdf71def99b1c907b1ee957254b04924c0b83a35bfbf87a2396a5e2",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "comprehensive verification process covering stock levels, expiration dates, and storage conditions before operations begin",
+                "id": "opening_inventory_checklist",
+                "kind": "concept"
+              },
+              {
+                "definition": "confirmation that current inventory quantities match expected levels using scanning technology",
+                "id": "stock_level_verification",
+                "kind": "concept"
+              },
+              {
+                "definition": "validation that minimum stock thresholds are appropriately set and maintained",
+                "id": "par_level_confirmation",
+                "kind": "concept"
+              },
+              {
+                "definition": "systematic check of all perishable items to identify and remove expired or soon-to-expire products",
+                "id": "expiration_date_review",
+                "kind": "concept"
+              },
+              {
+                "definition": "physical examination of all food storage locations for compliance, organization, and safety standards",
+                "id": "storage_area_inspection",
+                "kind": "concept"
+              },
+              {
+                "definition": "automated notification system for low stock levels and approaching expiration dates",
+                "id": "inventory_alert_system",
+                "kind": "concept"
+              },
+              {
+                "definition": "monitoring and logging of all food items from receipt through usage",
+                "id": "food_storage_tracking",
+                "kind": "concept"
+              },
+              {
+                "definition": "systematic documentation of all inventory transactions, inspections, and compliance activities",
+                "id": "record_keeping",
+                "kind": "concept"
+              },
+              {
+                "definition": "formal documentation of health inspection findings and compliance status",
+                "id": "inspection_report",
+                "kind": "concept"
+              },
+              {
+                "definition": "standardized classification system for health code infractions requiring remediation",
+                "id": "violation_categories",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "stock_level_verification"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "expiration_date_review"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "storage_area_inspection"
+              },
+              {
+                "id": "r3",
+                "kind": "relation",
+                "source": "opening_inventory_checklist",
+                "target": "record_keeping"
+              },
+              {
+                "id": "r4",
+                "kind": "relation",
+                "source": "stock_level_verification",
+                "target": "par_level_confirmation"
+              },
+              {
+                "id": "r5",
+                "kind": "relation",
+                "source": "expiration_date_review",
+                "target": "inventory_alert_system"
+              },
+              {
+                "id": "r6",
+                "kind": "relation",
+                "source": "storage_area_inspection",
+                "target": "inspection_report"
+              },
+              {
+                "id": "r7",
+                "kind": "relation",
+                "source": "storage_area_inspection",
+                "target": "record_keeping"
+              },
+              {
+                "id": "r8",
+                "kind": "relation",
+                "source": "food_storage_tracking",
+                "target": "record_keeping"
+              },
+              {
+                "id": "r9",
+                "kind": "relation",
+                "source": "record_keeping",
+                "target": "inspection_report"
+              },
+              {
+                "id": "r10",
+                "kind": "relation",
+                "source": "violation_categories",
+                "target": "inspection_report"
+              },
+              {
+                "id": "r11",
+                "kind": "relation",
+                "source": "inspection_report",
+                "target": "record_keeping"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "508416486e8afdb572c99dd13f635d55aa4415eea34aabb219cc136a3a7d542d",
+          "render_sha256": "f205d4a2c6217d26946b887110ab0a9015d8b77f6a93ad915c7f5eb6cb2e8276",
+          "rendered": "ontology:brain_ask\nopening_inventory_checklist: comprehensive verification process covering stock levels, expiration dates, and storage conditions before operations begin\nstock_level_verification: confirmation that current inventory quantities match expected levels using scanning technology\npar_level_confirmation: validation that minimum stock thresholds are appropriately set and maintained\nexpiration_date_review: systematic check of all perishable items to identify and remove expired or soon-to-expire products\nstorage_area_inspection: physical examination of all food storage locations for compliance, organization, and safety standards\ninventory_alert_system: automated notification system for low stock levels and approaching expiration dates\nfood_storage_tracking: monitoring and logging of all food items from receipt through usage\nrecord_keeping: systematic documentation of all inventory transactions, inspections, and compliance activities\ninspection_report: formal documentation of health inspection findings and compliance status\nviolation_categories: standardized classification system for health code infractions requiring remediation\nr0: opening_inventory_checklist -> stock_level_verification\nr1: opening_inventory_checklist -> expiration_date_review\nr2: opening_inventory_checklist -> storage_area_inspection\nr3: opening_inventory_checklist -> record_keeping\nr4: stock_level_verification -> par_level_confirmation\nr5: expiration_date_review -> inventory_alert_system\nr6: storage_area_inspection -> inspection_report\nr7: storage_area_inspection -> record_keeping\nr8: food_storage_tracking -> record_keeping\nr9: record_keeping -> inspection_report\nr10: violation_categories -> inspection_report\nr11: inspection_report -> record_keeping",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [],
+      "sources": [
+        "brain_ask.n_health_department_inspec",
+        "brain_ask.n_inventory_management_sys"
+      ],
+      "status": "filled"
+    }
+  },
+  "root": "brain_ask",
+  "selected": "final",
+  "subject": "brain_ask",
+  "target": "ee_ontology",
+  "updated_at": "2026-08-09T11:31:00.580068+00:00",
+  "version": 4
+}

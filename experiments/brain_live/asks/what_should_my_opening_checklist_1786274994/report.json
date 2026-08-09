@@ -1,0 +1,25 @@
+{
+  "query": "what should my opening checklist cover for inventory and inspection readiness?",
+  "fired": [
+    "health_department_inspection",
+    "inventory_management_system"
+  ],
+  "certified": {
+    "health_department_inspection": {
+      "concepts": 4,
+      "relations": 3
+    },
+    "inventory_management_system": {
+      "concepts": 14,
+      "relations": 13
+    }
+  },
+  "synthesis_proven": true,
+  "ses_depth": 1,
+  "final_answer": "**\n\nYour opening checklist for inventory and inspection readiness should cover:\n\n1. **Inventory Organization & Verification**\n   - Verify FIFO rotation and check all expiration dates\n   - Confirm stock levels against daily par levels using inventory count scanner\n   - Review ingredient levels and food cost awareness\n   - Confirm par level settings\n\n2. **Storage & Facility Inspection**\n   - Inspect all storage areas for compliance\n   - Verify food storage tracking systems\n   - Check alert system status and inventory alert systems\n\n3. **Documentation & Record Keeping**\n   - Maintain proper record-keeping systems\n   - Prepare inspection reports\n   - Review violation categories for readiness\n   - Plan for potential reinspection\n\nIntegrate your inventory management system with health department requirements by ensuring all stock verification feeds into proper documentation that supports inspection readiness.\n\n---\n\n**CROSS-TERRITORY CONSTRUCTION:**",
+  "neuron_answers": {
+    "health_department_inspection": "health_department_inspection\n\n**Opening Checklist for Inventory & Inspection Readiness**\n\n1. **Inventory Organization**\n   - Verify FIFO rotation; check all expiration dates\n   - Confirm cold storage temps (\u226440\u00b0F) and hot holding (\u2265135\u00b0F)\n   - Document current supply levels\n\n2. **Documentation Readiness**\n   - Pull previous inspection reports and any reinspection notices\n   - Verify temperature logs, cleaning schedules, pest control records\n   - Ensure staff food handler certifications are current\n\n3. **Facility Prep**\n   - Pre-inspection walkthrough identifying violation_categories\n   - Check equipment maintenance records\n   - Confirm proper labeling and storage separation\n\n4. **Common Red Flags**\n   - Expired products, missing temperature logs, incomplete record_keeping\n\n---\n\n## CONSTRUCTION\n\n```jsonl",
+    "inventory_management_system": "My opening inventory checklist should cover: stock level verification against daily par levels using inventory count scanner; expiration date review for any products approaching spoilage threshold; storage area inspection ensuring proper temperature and organization; alert system status check confirming reorder notifications are active; ingredient-level quantities confirming each component is available; and quick food cost awareness review. Use barcode scanner for rapid verification. This ensures inspection readiness and prevents mid-service stockouts."
+  },
+  "secs": 65.8
+}

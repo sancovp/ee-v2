@@ -65,33 +65,6 @@ def parse_jsonl(text):
             s, t = sid(o["r"][0]), sid(o["r"][1])
             if s and t:
                 relations.append((s, t))
-    if not concepts and not relations:
-        # tolerant fallback: seats sometimes pretty-print — scan for FLAT
-        # brace-balanced objects anywhere in the text (our objects are flat)
-        for m in re.finditer(r"\{[^{}]*\}", text or "", re.S):
-            try:
-                o = json.loads(re.sub(r"\s+", " ", m.group(0)))
-            except ValueError:
-                continue
-            if "c" in o and "d" in o:
-                cid = sid(o["c"])
-                if cid and len(str(o["d"]).strip()) >= 8:
-                    concepts.setdefault(cid, str(o["d"]).strip()[:400])
-            elif "r" in o and isinstance(o.get("r"), list) and len(o["r"]) == 2:
-                a, b = sid(o["r"][0]), sid(o["r"][1])
-                if a and b:
-                    relations.append((a, b))
-            elif "source" in o and "target" in o:      # common seat variant
-                a, b = sid(str(o["source"])), sid(str(o["target"]))
-                if a and b:
-                    relations.append((a, b))
-            else:                                       # concept synonyms
-                cid = sid(str(o.get("concept") or o.get("id")
-                              or o.get("name") or ""))
-                d = str(o.get("definition") or o.get("d")
-                        or o.get("description") or "").strip()
-                if cid and len(d) >= 8:
-                    concepts.setdefault(cid, d[:400])
     return concepts, relations
 
 
