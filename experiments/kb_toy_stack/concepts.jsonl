@@ -1,11 +1,14 @@
+{"c": "agent_gauge", "d": "the triple embodied as SEPARATE SEATS in space: generator, challenger judge, observer \u2014 COG, DUO, WakingDreamer's three seats", "lib": "agent_triple"}
 {"c": "api2treeshell_projector", "d": "treeshell's projector that lifts an API or CLI into a treeshell node family", "lib": "treeshell_lib_unverified"}
 {"c": "architecture_chain", "d": "the 8-link chain: code_thing, graph_mirror_entity, runtime_object, actor, network, compiler, meta_compiler, repository_ecology", "lib": "lfpoop_lib"}
 {"c": "authority_split", "d": "seats author candidate facts only; the engine holds source facts; a seat can never witness itself", "lib": "map_layer"}
 {"c": "automatability_test", "d": "a process is automatable under a view iff the view's self-application trace reaches fixpoint \u2014 metacompile the view, run it, read the meter; non-convergence means re-gauge the view, not give up", "lib": "law"}
+{"c": "bilimit_cell", "d": "generator = e (build), judge = p (review), metaobserver = limit-taker: the e-p-limit structure of the D-infinity construction itself", "lib": "agent_triple"}
 {"c": "certificate", "d": "a replayable proof envelope over a construction: subject, payload, kappa, sha \u2014 monotone, never uncertifies", "lib": "map_layer"}
 {"c": "certificate_invariant", "d": "the gauge-invariant observables: what every view must agree on = the certificates, the facticity layer", "lib": "gauge_dinf_conjecture_unverified"}
 {"c": "chain_notation", "d": "the [Name]: N.Node: Na.step format \u2014 a prompt whose structure IS the program", "lib": "ee_v2_layer"}
 {"c": "chain_protocol", "d": "the human-interaction contract: state a desire, release, receive emergence, select branches, revise, re-enter", "lib": "app_layer_unverified"}
+{"c": "cog_duo_triple", "d": "MetaObserver over [generator <-> judge]: the agent-side transposition of the position triple; in cave-teams as the eval_chain and loop_refine evaluator loops", "lib": "agent_triple"}
 {"c": "collapse_principle", "d": "every planned integration is first a certified KB region, not code \u2014 the long-wise reification is skipped until the law fires", "lib": "law"}
 {"c": "connection_transport", "d": "how certified ground moves across regions and grades: the relative root and lineage carrying source facts over a boundary", "lib": "gauge_dinf_conjecture_unverified"}
 {"c": "consistency_typing", "d": "the KB cannot become internally inconsistent: every emission passes the typer or its violations are named", "lib": "map_layer"}
@@ -14,7 +17,9 @@
 {"c": "cycle", "d": "one walk of a kernel's nodes by fresh seats, ending in a harvest", "lib": "ee_v2_layer"}
 {"c": "dogfooding_loop", "d": "run the system on its own design KB: proving the plan fortifies the plan and mints its backlog", "lib": "law"}
 {"c": "ee_journey", "d": "the 72-node emergence-engine walk: dir-is-the-state, per-order horizon, gated emissions", "lib": "ee_v2_layer"}
+{"c": "emergent_repair", "d": "correction by re-representation at the next grade instead of rejection: SOUP tolerated locally, flattened by later metalang phases \u2014 the worklist philosophy at micro scale", "lib": "agent_triple"}
 {"c": "fixpoint_meter", "d": "zero newly-accreted structure across a cycle = stabilized; the kernel's own closure clause, measured", "lib": "ee_v2_layer"}
+{"c": "forced_redescription", "d": "the prompt system as observer: each phase makes the seat describe what it did, then describe that \u2014 judgment distributed into structure instead of a second agent", "lib": "agent_triple"}
 {"c": "futamura_tower", "d": "the projection ladder: specializing an interpreter to a program yields a compiler; specializing the specializer compounds", "lib": "law"}
 {"c": "gauge_theory_of_dinf", "d": "the conjecture: the metalanguage of how gradations and views transform IS a gauge theory over the reflexive domain \u2014 grade structure as dynamics, views as local frames", "lib": "gauge_dinf_conjecture_unverified"}
 {"c": "gauge_view", "d": "a view or telling or kernel: a local frame in which the seat works; no privileged gauge; results select", "lib": "gauge_dinf_conjecture_unverified"}
@@ -31,6 +36,7 @@
 {"c": "order_3_introspection", "d": "the automator's requirement: observe the output, observe the observer (the authority split), observe the observing protocol (the meter and rulebook) \u2014 an order-3+ cybernetic system applied to itself", "lib": "law"}
 {"c": "order_gradation", "d": "the ^4: grade-shifts of the position triple; the grading becomes dynamics the moment a grade-raising operator exists (emission, next_level, retype_up)", "lib": "gauge_dinf_conjecture_unverified"}
 {"c": "position_triple", "d": "the 3 in the 81 law: the three positions of D=[D->D] \u2014 object, map-space, evaluation; EE's layer frames are literally these (what-is / how-build / build-this)", "lib": "gauge_dinf_conjecture_unverified"}
+{"c": "prompt_gauge", "d": "the triple embodied as STRUCTURAL POSITIONS IN TIME walked by one seat: phases force re-description (observation), layers are the metalang (meta-observation), MAP holds the judge seat", "lib": "agent_triple"}
 {"c": "reality_join", "d": "the loop closes through the human's real desire in and real artifacts out \u2014 simulation and observable reality as one feedback chain", "lib": "app_layer_unverified"}
 {"c": "recompilation_law", "d": "bind a KB region to code only when its output is needed without lookup \u2014 reproduce with specialization", "lib": "law"}
 {"c": "relative_root", "d": "the least-fixed-point closure of everything X bundles from, walked to prims or to consumers, tagged by origin lib", "lib": "ee_v2_layer"}

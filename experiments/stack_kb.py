@@ -79,6 +79,14 @@ DUMP = {
   "curvature_residue": "CONJECTURE: the residue is curvature — where transport around a loop fails to close; SOUP = curved, ONT = flat, done = curvature zero; residue-as-holonomy is underived",
   "grade_raiser": "the operator that makes gradation dynamical: emission at pass end, lfpoop next_level with goldenization, the tower step",
  }),
+ "agent_triple": (True, {
+  "cog_duo_triple": "MetaObserver over [generator <-> judge]: the agent-side transposition of the position triple; in cave-teams as the eval_chain and loop_refine evaluator loops",
+  "agent_gauge": "the triple embodied as SEPARATE SEATS in space: generator, challenger judge, observer — COG, DUO, WakingDreamer's three seats",
+  "prompt_gauge": "the triple embodied as STRUCTURAL POSITIONS IN TIME walked by one seat: phases force re-description (observation), layers are the metalang (meta-observation), MAP holds the judge seat",
+  "forced_redescription": "the prompt system as observer: each phase makes the seat describe what it did, then describe that — judgment distributed into structure instead of a second agent",
+  "emergent_repair": "correction by re-representation at the next grade instead of rejection: SOUP tolerated locally, flattened by later metalang phases — the worklist philosophy at micro scale",
+  "bilimit_cell": "generator = e (build), judge = p (review), metaobserver = limit-taker: the e-p-limit structure of the D-infinity construction itself",
+ }),
  "lfpoop_lib": (True, {
   "lfpoop_ladder": "the 10-rung realization ladder of ONE identity: function, program, graph_entity, skill, manual, agent, application, distribution, golden_artifact, compiler_improvement; next_level admits exactly the next rung",
   "architecture_chain": "the 8-link chain: code_thing, graph_mirror_entity, runtime_object, actor, network, compiler, meta_compiler, repository_ecology",
@@ -159,6 +167,14 @@ RELS = [
  ("connection_transport", "relative_root"),
  ("curvature_residue", "soup_frontier"),
  ("gauge_theory_of_dinf", "futamura_tower"),
+ # the agent-side transposition: COG/DUO and EE as two gauges of the triple
+ ("cog_duo_triple", "position_triple"),
+ ("cog_duo_triple", "agent_gauge"), ("cog_duo_triple", "bilimit_cell"),
+ ("agent_gauge", "gauge_view"), ("prompt_gauge", "gauge_view"),
+ ("prompt_gauge", "ee_journey"), ("prompt_gauge", "forced_redescription"),
+ ("prompt_gauge", "map_prover"),
+ ("bilimit_cell", "position_triple"),
+ ("emergent_repair", "worklist"), ("emergent_repair", "prompt_gauge"),
  # deliberately-referenced future pieces (children of the plan):
  ("toy_app", "meta_metacompiler"),          # the compiler ABOUT combining libs
  ("scalable_publishing", "grand_argument_kernel"),
