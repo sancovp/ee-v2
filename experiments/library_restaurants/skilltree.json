@@ -1,0 +1,780 @@
+{
+  "skilltree": {
+    "name": "understand-restaurants",
+    "kind": "skill",
+    "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-restaurants",
+    "description": "the restaurants library \u2014 every skill a certified region of the KB; call number = home : facets",
+    "coord": "0",
+    "frameworks": [],
+    "children": [
+      {
+        "name": "understand-customer_experience",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-customer_experience",
+        "description": "the customer_experience subdomain of restaurants (105 concepts)",
+        "coord": "0.1",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-family_friendly_environment",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-family_friendly_environment",
+            "description": "Appropriate for children and families",
+            "coord": "0.1.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-romantic_atmosphere",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-romantic_atmosphere",
+            "description": "Ambiance suitable for date night",
+            "coord": "0.1.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-waitlist_management",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-waitlist_management",
+            "description": "System handles parties fairly when busy",
+            "coord": "0.1.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-warm_greeting_at_entrance",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-warm_greeting_at_entrance",
+            "description": "Friendly host acknowledgment upon arrival",
+            "coord": "0.1.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-food_quality_consistency",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-food_quality_consistency",
+            "description": "Same dishes taste same across different visits",
+            "coord": "0.1.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-thoughtful_table_assignment",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-thoughtful_table_assignment",
+            "description": "Staff places guests at appropriate table based on party size and preferences",
+            "coord": "0.1.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-defined",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-defined",
+        "description": "the defined subdomain of restaurants (250 concepts)",
+        "coord": "0.2",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-southern_cuisine",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-southern_cuisine",
+            "description": "Cooking style from the American South with comfort foods",
+            "coord": "0.2.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-chicken",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-chicken",
+            "description": "Poultry meat prepared by roasting grilling or frying.",
+            "coord": "0.2.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-cajun_cuisine",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-cajun_cuisine",
+            "description": "Spicy Louisiana cooking style using roux and bold seasonings.",
+            "coord": "0.2.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-irish_cuisine",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-irish_cuisine",
+            "description": "Traditional food and cooking styles originating from Ireland",
+            "coord": "0.2.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-bread",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-bread",
+            "description": "A baked food made from flour and water in many varieties.",
+            "coord": "0.2.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-shrimp",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-shrimp",
+            "description": "Small shellfish served grilled, fried, or in cocktails",
+            "coord": "0.2.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-facilities_and_equipment",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-facilities_and_equipment",
+        "description": "the facilities_and_equipment subdomain of restaurants (647 concepts)",
+        "coord": "0.3",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-pos_terminal",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-pos_terminal",
+            "description": "point of sale touch screen computer for orders and payments",
+            "coord": "0.3.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-kitchen_display_system",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-kitchen_display_system",
+            "description": "digital screen displaying orders for kitchen staff",
+            "coord": "0.3.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-host_stand",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-host_stand",
+            "description": "designated station for greeting and seating guests",
+            "coord": "0.3.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-booth",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-booth",
+            "description": "upholstered bench style seating against a wall",
+            "coord": "0.3.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-digital_menu_board",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-digital_menu_board",
+            "description": "electronic screen displaying menu items and prices",
+            "coord": "0.3.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-podium",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-podium",
+            "description": "standing desk for host and cashier",
+            "coord": "0.3.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-finance_and_costing",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-finance_and_costing",
+        "description": "the finance_and_costing subdomain of restaurants (145 concepts)",
+        "coord": "0.4",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-food_cost_percentage",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-food_cost_percentage",
+            "description": "Cost of ingredients divided by food sales revenue",
+            "coord": "0.4.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-plate_cost",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-plate_cost",
+            "description": "Total cost of ingredients in finished dish",
+            "coord": "0.4.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-inventory_cost",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-inventory_cost",
+            "description": "Total value of held food and beverage stock",
+            "coord": "0.4.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-labor_cost_percentage",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-labor_cost_percentage",
+            "description": "Total labor expenses as percentage of revenue",
+            "coord": "0.4.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-operating_expenses",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-operating_expenses",
+            "description": "Day to day costs of running restaurant",
+            "coord": "0.4.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-daily_revenue",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-daily_revenue",
+            "description": "Total sales income for one business day",
+            "coord": "0.4.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-food_safety_and_compliance",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-food_safety_and_compliance",
+        "description": "the food_safety_and_compliance subdomain of restaurants (132 concepts)",
+        "coord": "0.5",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-cross_contamination_prevention",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-cross_contamination_prevention",
+            "description": "practices preventing transfer of harmful microorganisms from one surface or food to another",
+            "coord": "0.5.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-record_keeping",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-record_keeping",
+            "description": "maintenance of required documentation demonstrating compliance with regulations",
+            "coord": "0.5.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-temperature_control",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-temperature_control",
+            "description": "maintaining food at safe temperatures to inhibit pathogenic bacteria growth",
+            "coord": "0.5.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-sanitation_procedure",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-sanitation_procedure",
+            "description": "systematic cleaning and sanitizing protocols for kitchen surfaces and equipment",
+            "coord": "0.5.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-cleaning_schedule",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-cleaning_schedule",
+            "description": "documented timeline specifying when and how each area or equipment item must be cleaned",
+            "coord": "0.5.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-facility_design",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-facility_design",
+            "description": "physical layout and construction features enabling effective cleaning and sanitation",
+            "coord": "0.5.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-front_of_house_service",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-front_of_house_service",
+        "description": "the front_of_house_service subdomain of restaurants (146 concepts)",
+        "coord": "0.6",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-menu_presentation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-menu_presentation",
+            "description": "Handing menus to customers with appropriate timing and style",
+            "coord": "0.6.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-host_seating",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-host_seating",
+            "description": "Process of guiding customers to their assigned table",
+            "coord": "0.6.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-to_go_packaging",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-to_go_packaging",
+            "description": "Packaging leftover food for takeout",
+            "coord": "0.6.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-main_course_delivery",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-main_course_delivery",
+            "description": "Presenting main dishes with proper timing and temperature",
+            "coord": "0.6.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-wine_recommendation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-wine_recommendation",
+            "description": "Suggesting wine pairings based on menu selections",
+            "coord": "0.6.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-bread_service",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-bread_service",
+            "description": "Offering fresh bread with butter upon seating",
+            "coord": "0.6.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-marketing_and_brand",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-marketing_and_brand",
+        "description": "the marketing_and_brand subdomain of restaurants (502 concepts)",
+        "coord": "0.7",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-menu_design",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-menu_design",
+            "description": "Visual layout and organization of menu items for appeal and navigation",
+            "coord": "0.7.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-limited_time_offer",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-limited_time_offer",
+            "description": "Temporary menu item or promotion available for restricted period",
+            "coord": "0.7.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-brand_positioning_strategy",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-brand_positioning_strategy",
+            "description": "Strategic approach to differentiate restaurant from competitors in consumer mind",
+            "coord": "0.7.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-target_demographic_definition",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-target_demographic_definition",
+            "description": "Identification of ideal customer segments based on age income lifestyle geography",
+            "coord": "0.7.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-competitive_differentiation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-competitive_differentiation",
+            "description": "Unique attributes that set restaurant apart from similar dining options",
+            "coord": "0.7.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-value_proposition",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-value_proposition",
+            "description": "Core benefit promise that makes restaurant the preferred choice over alternatives",
+            "coord": "0.7.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-menu_and_cuisine",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-menu_and_cuisine",
+        "description": "the menu_and_cuisine subdomain of restaurants (358 concepts)",
+        "coord": "0.8",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-american_cuisine",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-american_cuisine",
+            "description": "Food native to the United States including burgers, BBQ, and fusion dishes",
+            "coord": "0.8.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-side_dish",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-side_dish",
+            "description": "Secondary dish served alongside the main course",
+            "coord": "0.8.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-appetizer",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-appetizer",
+            "description": "Small dish served before the main course to stimulate appetite",
+            "coord": "0.8.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-burger",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-burger",
+            "description": "Ground beef patty in a bun with various toppings",
+            "coord": "0.8.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-dessert",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-dessert",
+            "description": "Sweet course served after the main meal",
+            "coord": "0.8.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-brunch_menu",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-brunch_menu",
+            "description": "Menu for late morning meal combining breakfast and lunch",
+            "coord": "0.8.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-reservations_and_seating",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-reservations_and_seating",
+        "description": "the reservations_and_seating subdomain of restaurants (93 concepts)",
+        "coord": "0.9",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-reservation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-reservation",
+            "description": "advance booking to secure a table at a specific date and time",
+            "coord": "0.9.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-reservation_system",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-reservation_system",
+            "description": "software or platform managing booking operations",
+            "coord": "0.9.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-table_allocation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-table_allocation",
+            "description": "process of assigning tables to arriving guests",
+            "coord": "0.9.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-maitre_d",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-maitre_d",
+            "description": "senior hospitality professional managing front of house",
+            "coord": "0.9.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-waitlist",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-waitlist",
+            "description": "list of guests awaiting an available table",
+            "coord": "0.9.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-seating_chart",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-seating_chart",
+            "description": "visual diagram showing table positions and numbers",
+            "coord": "0.9.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-staffing_and_roles",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-staffing_and_roles",
+        "description": "the staffing_and_roles subdomain of restaurants (96 concepts)",
+        "coord": "0.10",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-general_manager",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-general_manager",
+            "description": "top manager with full responsibility for restaurant operations and profit",
+            "coord": "0.10.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-server",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-server",
+            "description": "waiter who takes orders, delivers food, and provides table service",
+            "coord": "0.10.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-line_cook",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-line_cook",
+            "description": "cook working a specific station on the kitchen line during service",
+            "coord": "0.10.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-head_chef",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-head_chef",
+            "description": "chef who runs daily kitchen operations and manages brigade",
+            "coord": "0.10.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-prep_cook",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-prep_cook",
+            "description": "cook who prepares ingredients and performs prep work before service",
+            "coord": "0.10.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-kitchen_manager",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-kitchen_manager",
+            "description": "manager who oversees kitchen operations, inventory, and staff scheduling",
+            "coord": "0.10.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-supply_chain_and_inventory",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-supply_chain_and_inventory",
+        "description": "the supply_chain_and_inventory subdomain of restaurants (175 concepts)",
+        "coord": "0.11",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-inventory_management_software",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-inventory_management_software",
+            "description": "digital systems for tracking stock levels and movements",
+            "coord": "0.11.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-imported_ingredient_logistics",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-imported_ingredient_logistics",
+            "description": "managing customs, duties, and extended lead times for foreign goods",
+            "coord": "0.11.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-receiving_inspection_protocol",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-receiving_inspection_protocol",
+            "description": "checking delivered goods against order for quality and accuracy",
+            "coord": "0.11.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-menu_forecast_based_ordering",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-menu_forecast_based_ordering",
+            "description": "ordering driven by predicted menu item sales volumes",
+            "coord": "0.11.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-local_farm_direct_sourcing",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-local_farm_direct_sourcing",
+            "description": "buying directly from nearby farms to reduce food miles",
+            "coord": "0.11.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-supplier_contract_negotiation",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-supplier_contract_negotiation",
+            "description": "formal agreements with vendors on pricing, terms, and exclusivity",
+            "coord": "0.11.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-technology_and_pos",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-technology_and_pos",
+        "description": "the technology_and_pos subdomain of restaurants (200 concepts)",
+        "coord": "0.12",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-customer_relationship_management_crm",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-customer_relationship_management_crm",
+            "description": "Database tracking guest preferences purchase history and contact information",
+            "coord": "0.12.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-inventory_management_system",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-inventory_management_system",
+            "description": "Digital tool tracking stock levels ingredient usage and reorder alerts",
+            "coord": "0.12.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-menu_management_system",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-menu_management_system",
+            "description": "Software for creating editing pricing and organizing menu items and categories",
+            "coord": "0.12.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-online_ordering_platform",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-online_ordering_platform",
+            "description": "Website or app enabling customers to place orders for pickup or delivery",
+            "coord": "0.12.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-analytics_reporting_dashboard",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-analytics_reporting_dashboard",
+            "description": "Visual interface displaying key performance metrics and business intelligence",
+            "coord": "0.12.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-unified_inventory",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_restaurants/understand-unified_inventory",
+            "description": "Single inventory database updated by all sales channels to prevent overselling",
+            "coord": "0.12.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
