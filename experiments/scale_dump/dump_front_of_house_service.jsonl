@@ -1,0 +1,267 @@
+{"c": "host_greeting", "d": "Initial welcome from front_of_house_staff when customer arrives"}
+{"c": "host_seating", "d": "Process of guiding customers to their assigned table"}
+{"c": "wait_time_estimation", "d": "Communication of expected wait duration during busy periods"}
+{"c": "waitlist_management", "d": "System for tracking and calling waiting customers by name"}
+{"c": "reservation_checkin", "d": "Verification and processing of booked reservations"}
+{"c": "menu_presentation", "d": "Handing menus to customers with appropriate timing and style"}
+{"c": "daily_special_announcement", "d": "Verbal description of chef's daily special offerings"}
+{"c": "wine_list_presentation", "d": "Offering and explaining wine selection options"}
+{"c": "water_service", "d": "Initial water pour with proper glass placement and lemon optional"}
+{"c": "water_refill", "d": "Replenishing water glass throughout dining experience"}
+{"c": "ice_level_maintenance", "d": "Ensuring adequate ice in beverages during service"}
+{"c": "beverage_order_taking", "d": "Recording customer drink orders accurately"}
+{"c": "cocktail_order_taking", "d": "Capturing mixed drink specifications from customer"}
+{"c": "craft_beer_recommendation", "d": "Suggesting appropriate beer styles to complement food"}
+{"c": "wine_recommendation", "d": "Suggesting wine pairings based on menu selections"}
+{"c": "wine_pouring", "d": "Proper technique for decanting and pouring wine service"}
+{"c": "wine_decanting", "d": "Allowing wine to breathe by transferring to decanter"}
+{"c": "wine_temperature_check", "d": "Verifying wine is served at appropriate temperature"}
+{"c": "cocktail_napkin_placement", "d": "Setting cocktail napkin under drinks"}
+{"c": "straw_offer", "d": "Offering straws for applicable beverages"}
+{"c": "garnish_addition", "d": "Adding appropriate garnishes to cocktails and drinks"}
+{"c": "drink_presentation", "d": "Delivering beverages with proper glassware and tray handling"}
+{"c": "drink_refill_prompt", "d": "Proactively checking if refills are needed"}
+{"c": "soda_fountain_service", "d": "Operating soda machines and filling drink orders"}
+{"c": "espresso_machine_operation", "d": "Pulling espresso shots for coffee drinks"}
+{"c": "blender_operation", "d": "Blending frozen cocktails and smoothies"}
+{"c": "beer_tap_service", "d": "Pouring draft beer with proper head retention"}
+{"c": "glassware_selection", "d": "Choosing appropriate glass shapes for different drinks"}
+{"c": "appetizer_recommendation", "d": "Suggesting starters that complement menu items"}
+{"c": "appetizer_order_taking", "d": "Recording appetizer course selections"}
+{"c": "appetizer_delivery", "d": "Bringing starters to table with proper timing and plating"}
+{"c": "bread_service", "d": "Offering fresh bread with butter upon seating"}
+{"c": "bread_basket_refill", "d": "Replenishing bread basket during meal"}
+{"c": "butter_service", "d": "Providing softened butter with bread course"}
+{"c": "olive_oil_dipping", "d": "Offering olive oil for artisan bread service"}
+{"c": "course_pacing", "d": "Controlling timing between menu courses"}
+{"c": "intermezzo_clearing", "d": "Clearing palate between savory and sweet courses"}
+{"c": "palate_cleanser_service", "d": "Providing sorbet or citrus between courses"}
+{"c": "main_course_recommendation", "d": "Suggesting entrees based on preferences and context"}
+{"c": "main_course_order_taking", "d": "Recording entrée selections with modifications"}
+{"c": "main_course_delivery", "d": "Presenting main dishes with proper timing and temperature"}
+{"c": "plating_verification", "d": "Checking plate presentation before guest delivery"}
+{"c": "sauce_application", "d": "Drizzling or applying sauces to plated dishes"}
+{"c": "sauce_top_up", "d": "Offering additional sauce for shared plates"}
+{"c": "side_dish_selection", "d": "Confirming side dish choices with entrees"}
+{"c": "cooking_preference_confirmation", "d": "Verifying temperature preferences for proteins"}
+{"c": "allergy_confirmation", "d": "Reconfirming food allergies with kitchen before service"}
+{"c": "dietary_restriction_check", "d": "Confirming accommodations for special diets"}
+{"c": "vegetarian_accommodation", "d": "Ensuring proper preparation for vegetarian items"}
+{"c": "vegan_accommodation", "d": "Verifying no animal products in dishes"}
+{"c": "gluten_free_accommodation", "d": "Preventing cross_contamination for celiac guests"}
+{"c": "ingredient_substitution", "d": "Modifying dishes to accommodate preferences"}
+{"c": "silverware_replacement", "d": "Swapping utensils between courses appropriately"}
+{"c": "plate_warming", "d": "Heating plates before serving hot entrees"}
+{"c": "plate_clearing_pace", "d": "Removing finished plates with guest permission"}
+{"c": "dish_clearing_technique", "d": "Using appropriate trays and bussing methods"}
+{"c": "crumb_sweeping", "d": "Using small brush to clear crumbs between courses"}
+{"c": "table_wiping", "d": "Cleaning table surface after plate removal"}
+{"c": "table_setting_arrangement", "d": "Organizing silverware and glassware properly"}
+{"c": "napkin_placement", "d": "Unfolding and placing napkins on laps"}
+{"c": "napkin_refold", "d": "Replacing napkins when guest leaves temporarily"}
+{"c": "tablecloth_straightening", "d": "Ensuring tablecloth is smooth and centered"}
+{"c": "centerpiece_maintenance", "d": "Keeping flowers and decorations tidy"}
+{"c": "dessert_menu_presentation", "d": "Offering dessert menu after entrees cleared"}
+{"c": "dessert_recommendation", "d": "Suggesting sweets to complement meal profile"}
+{"c": "dessert_wine_suggestion", "d": "Recommending port or dessert wine pairings"}
+{"c": "dessert_order_taking", "d": "Recording dessert and sweet course selections"}
+{"c": "dessert_delivery", "d": "Bringing sweets with appropriate timing and garnish"}
+{"c": "cheese_course_service", "d": "Offering and presenting artisanal cheese selections"}
+{"c": "coffee_service", "d": "Pouring and delivering hot coffee to guests"}
+{"c": "tea_service", "d": "Preparing and delivering hot tea with fixings"}
+{"c": "after_dinner_liqueur_offer", "d": "Suggesting digestif liqueurs post meal"}
+{"c": "check_presentation", "d": "Delivering bill in appropriate holder at request"}
+{"c": "check_itemization", "d": "Organizing receipt with clear line items"}
+{"c": "split_check_processing", "d": "Separating charges for multiple parties"}
+{"c": "payment_method_handling", "d": "Processing credit card debit card or cash transactions"}
+{"c": "card_processing", "d": "Running credit card payments through terminal"}
+{"c": "contactless_payment", "d": "Processing tap payments via phone or card"}
+{"c": "cash_handling", "d": "Counting and processing cash payments"}
+{"c": "tip_calculation", "d": "Assisting guests with gratuity calculations"}
+{"c": "gratuity_automatic", "d": "Applying mandatory service charge for large parties"}
+{"c": "signature_required", "d": "Obtaining customer signature on receipt"}
+{"c": "receipt_options", "d": "Offering paper email or text receipt delivery"}
+{"c": "loyalty_points_redemption", "d": "Applying earned rewards to purchase"}
+{"c": "promotional_discount_application", "d": "Applying coupons or special offers to bill"}
+{"c": "gift_card_redemption", "d": "Applying gift card balance to payment"}
+{"c": "gift_card_purchase", "d": "Selling restaurant gift cards to customers"}
+{"c": "to_go_packaging", "d": "Packaging leftover food for takeout"}
+{"c": "leftovers_packaging", "d": "Boxing uneaten portions for doggy bags"}
+{"c": "eco_friendly_packaging", "d": "Using compostable or recyclable takeout containers"}
+{"c": "spill_proof_packaging", "d": "Ensuring containers won't leak during transport"}
+{"c": "utensil_inclusion", "d": "Adding disposable utensils to takeout orders"}
+{"c": "napkin_inclusion", "d": "Packing napkins with takeout orders"}
+{"c": "sauce_packet_inclusion", "d": "Adding extra sauce packets to takeout"}
+{"c": "heating_instructions", "d": "Providing reheating directions for leftovers"}
+{"c": "doggy_bag_offer", "d": "Asking if guests want leftovers packaged"}
+{"c": "curbside_pickup_service", "d": "Delivering takeout orders to customer vehicles"}
+{"c": "complaint_handling", "d": "Addressing and resolving service issues professionally"}
+{"c": "service_recovery", "d": "Compensating for service failures to restore satisfaction"}
+{"c": "manager_visit", "d": "Having manager personally address guest concerns"}
+{"c": "special_occasion_acknowledgment", "d": "Recognizing birthdays anniversaries or celebrations"}
+{"c": "chef_visits_table", "d": "Chef coming out to greet guests and discuss food"}
+{"c": "sommelier_visits_table", "d": "Wine expert consulting on selections and pours"}
+{"c": "table_proximity_check", "d": "Ensuring tables are appropriately spaced apart"}
+{"c": "noise_level_management", "d": "Adjusting volume or separating loud parties"}
+{"c": "lighting_adjustment", "d": "Adjusting ambient lighting for comfort"}
+{"c": "temperature_control", "d": "Adjusting heating or cooling near specific tables"}
+{"c": "candle_lighting", "d": "Lighting table candles for ambiance"}
+{"c": "outdoor_umbrella_adjustment", "d": "Adjusting patio umbrellas for shade or sun"}
+{"c": "high_chair_setup", "d": "Installing high chairs for young children"}
+{"c": "booster_seat_setup", "d": "Adding booster seats for toddlers"}
+{"c": "wheelchair_accessibility", "d": "Ensuring proper space and access for wheelchairs"}
+{"c": "stroller_accommodation", "d": "Finding appropriate space for guest strollers"}
+{"c": "pet_accommodation", "d": "Providing water bowl or treats for dog guests"}
+{"c": "service_animal_recognition", "d": "Properly accommodating service animals"}
+{"c": "kid_friendly_service", "d": "Providing coloring menus crayons and child utensils"}
+{"c": "child_menu_presentation", "d": "Offering separate menu for young diners"}
+{"c": "phone_charging_station", "d": "Providing charging cables or stations for devices"}
+{"c": "wifi_password_provision", "d": "Supplying wireless internet access credentials"}
+{"c": "restroom_directions", "d": "Guiding guests to bathroom facilities"}
+{"c": "goodbye_wishes", "d": "Saying farewell and thanking guests on departure"}
+{"c": "return_invitation", "d": "Encouraging guests to return for future visits"}
+{"c": "loyalty_enrollment", "d": "Signing up guests for restaurant reward programs"}
+{"c": "survey_invitation", "d": "Inviting guests to complete feedback surveys"}
+{"c": "online_review_prompt", "d": "Asking satisfied guests to leave reviews online"}
+{"c": "future_reservation_booking", "d": "Scheduling next visit before guests leave"}
+{"c": "event_inquiry_response", "d": "Answering questions about private dining and catering"}
+{"c": "catering_quote_request", "d": "Taking information for catering price estimates"}
+{"c": "seating_preference_request", "d": "Asking about preferred seating location"}
+{"c": "window_seat_request", "d": "Honoring requests for seating near windows"}
+{"c": "booth_preference_request", "d": "Accommodating requests for booth seating"}
+{"c": "quiet_section_request", "d": "Seating guests away from high traffic areas"}
+{"c": "large_party_accommodation", "d": "Combining tables and coordinating service for big groups"}
+{"c": "waitlist_notification", "d": "Texting or calling guests when table is ready"}
+{"c": "table_ready_announcement", "d": "Calling out guest names when table is prepared"}
+{"c": "reservation_confirmation", "d": "Confirming booking details with guests"}
+{"c": "reservation_cancellation_handling", "d": "Processing cancellation requests gracefully"}
+{"c": "reservation_modification", "d": "Changing existing reservation details"}
+{"c": "walk_in_greeting", "d": "Welcoming guests without reservations"}
+{"c": "table_turnover_efficiency", "d": "Clearing and resetting tables between seatings"}
+{"c": "server_station_management", "d": "Organizing server work areas for efficiency"}
+{"c": "expo_station_coordination", "d": "Plating and quality checking before service"}
+{"c": "food_runner_service", "d": "Delivering food from kitchen to dining room"}
+{"c": "server_rotation", "d": "Managing guest assignments among servers"}
+{"c": "tip_out_calculation", "d": "Distributing pooled tips to support staff"}
+{"c": "order_accuracy_check", "d": "Verifying order tickets match guest requests"}
+{"c": "quality_verification", "d": "Ensuring food temperature and presentation standards"}
+{"c": "satisfaction_guarantee", "d": "Promising to make things right if not satisfied"}
+{"c": "hand_sanitizer_offer", "d": "Providing sanitizer before meals upon request"}
+{"c": "wet_wipe_offer", "d": "Offering cleaning wipes for hands after messy items"}
+{"r": ["host_greeting", "waitlist_management"]}
+{"r": ["host_greeting", "reservation_checkin"]}
+{"r": ["host_seating", "seating_preference_request"]}
+{"r": ["host_seating", "wheelchair_accessibility"]}
+{"r": ["host_seating", "high_chair_setup"]}
+{"r": ["host_seating", "table_turnover_efficiency"]}
+{"r": ["waitlist_management", "wait_time_estimation"]}
+{"r": ["waitlist_management", "waitlist_notification"]}
+{"r": ["waitlist_management", "table_ready_announcement"]}
+{"r": ["menu_presentation", "daily_special_announcement"]}
+{"r": ["menu_presentation", "wine_list_presentation"]}
+{"r": ["menu_presentation", "dessert_menu_presentation"]}
+{"r": ["menu_presentation", "child_menu_presentation"]}
+{"r": ["menu_presentation", "allergy_confirmation"]}
+{"r": ["menu_presentation", "dietary_restriction_check"]}
+{"r": ["menu_presentation", "vegetarian_accommodation"]}
+{"r": ["menu_presentation", "vegan_accommodation"]}
+{"r": ["menu_presentation", "gluten_free_accommodation"]}
+{"r": ["water_service", "water_refill"]}
+{"r": ["water_service", "ice_level_maintenance"]}
+{"r": ["beverage_order_taking", "drink_presentation"]}
+{"r": ["beverage_order_taking", "glassware_selection"]}
+{"r": ["cocktail_order_taking", "garnish_addition"]}
+{"r": ["cocktail_order_taking", "cocktail_napkin_placement"]}
+{"r": ["cocktail_order_taking", "straw_offer"]}
+{"r": ["wine_recommendation", "wine_pouring"]}
+{"r": ["wine_recommendation", "wine_decanting"]}
+{"r": ["wine_recommendation", "wine_temperature_check"]}
+{"r": ["wine_recommendation", "sommelier_visits_table"]}
+{"r": ["wine_pouring", "wine_list_presentation"]}
+{"r": ["drink_refill_prompt", "water_refill"]}
+{"r": ["drink_refill_prompt", "beverage_order_taking"]}
+{"r": ["espresso_machine_operation", "coffee_service"]}
+{"r": ["beer_tap_service", "drink_presentation"]}
+{"r": ["appetizer_recommendation", "appetizer_order_taking"]}
+{"r": ["appetizer_recommendation", "appetizer_delivery"]}
+{"r": ["bread_service", "bread_basket_refill"]}
+{"r": ["bread_service", "butter_service"]}
+{"r": ["bread_service", "olive_oil_dipping"]}
+{"r": ["course_pacing", "intermezzo_clearing"]}
+{"r": ["course_pacing", "palate_cleanser_service"]}
+{"r": ["course_pacing", "plate_clearing_pace"]}
+{"r": ["main_course_recommendation", "side_dish_selection"]}
+{"r": ["main_course_recommendation", "cooking_preference_confirmation"]}
+{"r": ["main_course_recommendation", "allergy_confirmation"]}
+{"r": ["main_course_order_taking", "ingredient_substitution"]}
+{"r": ["main_course_order_taking", "dietary_restriction_check"]}
+{"r": ["main_course_delivery", "plating_verification"]}
+{"r": ["main_course_delivery", "plate_warming"]}
+{"r": ["main_course_delivery", "sauce_application"]}
+{"r": ["main_course_delivery", "silverware_replacement"]}
+{"r": ["main_course_delivery", "food_runner_service"]}
+{"r": ["plating_verification", "quality_verification"]}
+{"r": ["plating_verification", "expo_station_coordination"]}
+{"r": ["sauce_top_up", "sauce_application"]}
+{"r": ["side_dish_selection", "sauce_top_up"]}
+{"r": ["allergy_confirmation", "order_accuracy_check"]}
+{"r": ["gluten_free_accommodation", "cross_contamination_prevention"]}
+{"r": ["silverware_replacement", "plate_clearing_pace"]}
+{"r": ["dish_clearing_technique", "crumb_sweeping"]}
+{"r": ["dish_clearing_technique", "table_wiping"]}
+{"r": ["dessert_recommendation", "dessert_wine_suggestion"]}
+{"r": ["dessert_recommendation", "dessert_order_taking"]}
+{"r": ["dessert_recommendation", "coffee_service"]}
+{"r": ["dessert_order_taking", "dessert_delivery"]}
+{"r": ["dessert_delivery", "cheese_course_service"]}
+{"r": ["coffee_service", "after_dinner_liqueur_offer"]}
+{"r": ["check_presentation", "check_itemization"]}
+{"r": ["check_presentation", "split_check_processing"]}
+{"r": ["check_presentation", "payment_method_handling"]}
+{"r": ["split_check_processing", "tip_calculation"]}
+{"r": ["payment_method_handling", "card_processing"]}
+{"r": ["payment_method_handling", "cash_handling"]}
+{"r": ["payment_method_handling", "contactless_payment"]}
+{"r": ["card_processing", "signature_required"]}
+{"r": ["tip_calculation", "gratuity_automatic"]}
+{"r": ["receipt_options", "loyalty_points_redemption"]}
+{"r": ["loyalty_points_redemption", "loyalty_enrollment"]}
+{"r": ["promotional_discount_application", "coupon_redemption"]}
+{"r": ["to_go_packaging", "leftovers_packaging"]}
+{"r": ["to_go_packaging", "eco_friendly_packaging"]}
+{"r": ["to_go_packaging", "spill_proof_packaging"]}
+{"r": ["to_go_packaging", "utensil_inclusion"]}
+{"r": ["to_go_packaging", "napkin_inclusion"]}
+{"r": ["to_go_packaging", "sauce_packet_inclusion"]}
+{"r": ["to_go_packaging", "heating_instructions"]}
+{"r": ["leftovers_packaging", "doggy_bag_offer"]}
+{"r": ["leftovers_packaging", "curbside_pickup_service"]}
+{"r": ["complaint_handling", "service_recovery"]}
+{"r": ["complaint_handling", "manager_visit"]}
+{"r": ["service_recovery", "satisfaction_guarantee"]}
+{"r": ["special_occasion_acknowledgment", "cake_candle_service"]}
+{"r": ["special_occasion_acknowledgment", "complimentary_appetizer"]}
+{"r": ["chef_visits_table", "food_quality_discussion"]}
+{"r": ["sommelier_visits_table", "wine_pairing_expertise"]}
+{"r": ["lighting_adjustment", "candle_lighting"]}
+{"r": ["outdoor_umbrella_adjustment", "shade_control"]}
+{"r": ["high_chair_setup", "kid_friendly_service"]}
+{"r": ["booster_seat_setup", "kid_friendly_service"]}
+{"r": ["pet_accommodation", "outdoor_seating"]}
+{"r": ["wifi_password_provision", "loyalty_enrollment"]}
+{"r": ["goodbye_wishes", "return_invitation"]}
+{"r": ["return_invitation", "future_reservation_booking"]}
+{"r": ["return_invitation", "loyalty_enrollment"]}
+{"r": ["survey_invitation", "online_review_prompt"]}
+{"r": ["event_inquiry_response", "catering_quote_request"]}
+{"r": ["window_seat_request", "host_seating"]}
+{"r": ["booth_preference_request", "host_seating"]}
+{"r": ["quiet_section_request", "host_seating"]}
+{"r": ["large_party_accommodation", "gratuity_automatic"]}
+{"r": ["large_party_accommodation", "split_check_processing"]}
+{"r": ["server_station_management", "server_rotation"]}
+{"r": ["expo_station_coordination", "order_accuracy_check"]}
+{"r": ["expo_station_coordination", "quality_verification"]}
+{"r": ["food_runner_service", "main_course_delivery"]}
+{"r": ["tip_out_calculation", "server_station_management"]}
+{"r": ["order_accuracy_check", "quality_verification"]}

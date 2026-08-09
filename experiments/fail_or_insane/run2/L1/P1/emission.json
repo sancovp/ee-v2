@@ -1,0 +1,5 @@
+{
+  "kind": "rule",
+  "name": "system_builder_living_architecture_rule",
+  "content": "A system_builder achieves generative_closure: produces complete workflows from configuration alone, without external intervention during generation. It persists as a living_pattern ONLY through continuous feedback_loop participation\u2014execution feeds capture feeds extraction feeds human_validator (Maria) feeds modification of knowledge_base feeds improved generation. Hard_constraints (HC_001-004) are non-overridable invariants; violation produces INVALID_OUTPUT, not error. Human_validator validates all knowledge_base modifications; human judgment supersedes system authority. The system maintains identity through invariance in purpose, three_layer_architecture, constraint_integrity, feedback_participation, and human_authority. Without feedback_loop participation, the system stagnates\u2014it produces but does not improve."
+}

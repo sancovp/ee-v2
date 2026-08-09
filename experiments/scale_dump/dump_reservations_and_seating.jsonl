@@ -1,0 +1,368 @@
+{"c": "reservation", "d": "advance booking to secure a table at a specific date and time"}
+{"c": "walk_in", "d": "guest arriving without a prior booking"}
+{"c": "waitlist", "d": "list of guests awaiting an available table"}
+{"c": "table_allocation", "d": "process of assigning tables to arriving guests"}
+{"c": "seating_chart", "d": "visual diagram showing table positions and numbers"}
+{"c": "reservation_system", "d": "software or platform managing booking operations"}
+{"c": "booking_confirmation", "d": "communication confirming a reservation was made"}
+{"c": "cancellation_policy", "d": "rules governing how reservations can be canceled"}
+{"c": "no_show", "d": "guest with reservation who fails to arrive"}
+{"c": "overbooking", "d": "accepting more reservations than available seating capacity"}
+{"c": "table_turnover", "d": "rate at which tables become available for new guests"}
+{"c": "seating_capacity", "d": "total number of seats available in the restaurant"}
+{"c": "party_size", "d": "number of guests in a dining group"}
+{"c": "time_slot", "d": "specific reserved time block for dining"}
+{"c": "peak_hours", "d": "busiest dining periods with highest demand"}
+{"c": "off_peak", "d": "quieter periods with lower reservation demand"}
+{"c": "deposit_required", "d": "monetary payment needed to secure booking"}
+{"c": "credit_card_hold", "d": "placing a hold on card to guarantee reservation"}
+{"c": "priority_seating", "d": "preferential table assignment for VIP or special guests"}
+{"c": "host_stand", "d": "designated station where hosts greet and seat guests"}
+{"c": "podium", "d": "reception desk where reservations are managed"}
+{"c": "buzzer_system", "d": "paging device alerting waiting guests their table is ready"}
+{"c": "pager", "d": "handheld device given to guests on waitlist"}
+{"c": "phone_reservation", "d": "booking made via telephone call"}
+{"c": "online_booking", "d": "reservation made through restaurant website or app"}
+{"c": "third_party_reservation", "d": "booking through external platforms like OpenTable or Resy"}
+{"c": "standing_room", "d": "area where guests can be seated without fixed chairs"}
+{"c": "bar_seating", "d": "stool seating at the bar counter area"}
+{"c": "counter_seating", "d": "seats at a service or display counter"}
+{"c": "booth", "d": "enclosed table seating with high back cushions"}
+{"c": "banquette", "d": "long cushioned bench seating along a wall"}
+{"c": "communal_table", "d": "large shared table seating multiple unconnected parties"}
+{"c": "window_table", "d": "table positioned near exterior windows"}
+{"c": "outdoor_seating", "d": "patio or terrace dining area outside the building"}
+{"c": "rooftop_seating", "d": "dining area located on the roof of the establishment"}
+{"c": "private_room", "d": "enclosed exclusive space for private dining groups"}
+{"c": "vip_room", "d": "premium private room for important or celebrity guests"}
+{"c": "table_formation", "d": "configuration of multiple tables pushed together for large groups"}
+{"c": "two_top", "d": "table designed for two diners"}
+{"c": "four_top", "d": "table designed for four diners"}
+{"c": "six_top", "d": "table designed for six diners"}
+{"c": "round_table", "d": "circular dining table"}
+{"c": "square_table", "d": "table with four equal sides"}
+{"c": "rectangular_table", "d": "elongated table with longer length than width"}
+{"c": "high_top", "d": "tall bar-height table for standing or stool seating"}
+{"c": "low_top", "d": "standard dining-height table"}
+{"c": "tablecloth", "d": "fabric covering placed over dining table"}
+{"c": "place_setting", "d": "complete set of餐具 for one guest"}
+{"c": "high_chair", "d": "raised chair for infant seating at table"}
+{"c": "highchair", "d": "seating apparatus for toddlers and young children"}
+{"c": "booster_seat", "d": "elevated seat for babies and toddlers using chair"}
+{"c": "wheelchair_accessible", "d": "table and seating area accommodating wheelchair users"}
+{"c": "ada_compliance", "d": "meeting Americans with Disabilities Act requirements"}
+{"c": "table_number", "d": "unique identifier for each dining table"}
+{"c": "section", "d": "designated area of tables assigned to one server"}
+{"c": "station", "d": "specific group of tables under one server's responsibility"}
+{"c": "rotation_system", "d": "method for evenly distributing sections among servers"}
+{"c": "floor_plan", "d": "architectural layout showing all seating areas"}
+{"c": "capacity_chart", "d": "document showing maximum covers by table type and time"}
+{"c": "split_shift", "d": "adjusting seating intervals to maximize covers"}
+{"c": "reservation_limit", "d": "maximum number of bookings allowed per time slot"}
+{"c": "wait_time_estimate", "d": "predicted delay before a table becomes available"}
+{"c": "quoted_wait", "d": "time given to walk-in guests before expected seating"}
+{"c": "called_ahead_list", "d": "waitlist maintained via telephone for early arrival"}
+{"c": "text_alert", "d": "SMS notification when table is ready"}
+{"c": "auto_cancellation", "d": "automatic removal of unfilled reservations by system"}
+{"c": "ghost_table", "d": "virtual table entry in system for operational management"}
+{"c": "blocked_table", "d": "table marked unavailable for guest seating"}
+{"c": "reserved_table", "d": "table held exclusively for confirmed reservation"}
+{"c": "dirty_table", "d": "table still occupied or needing post-service cleaning"}
+{"c": "clean_table", "d": "table cleared and ready for next guests"}
+{"c": "table_status", "d": "current condition or availability state of a table"}
+{"c": "turnover_time", "d": "duration needed to reset table between seatings"}
+{"c": "seating_manager", "d": "staff member coordinating guest flow and table assignment"}
+{"c": "maitre_d", "d": "senior hospitality professional managing front of house"}
+{"c": "host", "d": "staff member who greets and seats incoming guests"}
+{"c": "greeter", "d": "employee welcoming guests at entrance"}
+{"c": "front_door_staff", "d": "team personnel stationed at restaurant entrance"}
+{"c": "reservation_book", "d": "physical ledger or digital log of all bookings"}
+{"c": "dining_room", "d": "main interior area where guests are seated"}
+{"c": "waiting_area", "d": "lobby or lounge space for standing waiting guests"}
+{"c": "coat_check", "d": "area for storing guest coats and personal belongings"}
+{"c": "special_occasion", "d": "celebration event like birthday or anniversary noted on reservation"}
+{"c": "allergy_notation", "d": "dietary restriction recorded with guest reservation"}
+{"c": "dietary_accommodation", "d": "special seating or menu adjustment for dietary needs"}
+{"c": "table_tent", "d": "small card holder on table for reservation cards or notices"}
+{"c": "reserved_sign", "d": "marker indicating table is held for upcoming reservation"}
+{"c": "seating_sequence", "d": "order in which available tables are offered to guests"}
+{"c": "cover_count", "d": "number of guests to be seated"}
+{"c": "corking_fee", "d": "charge for guests bringing outside wine"}
+{"c": "cake_storage", "d": "refrigerated space for guest-provided celebration cakes"}
+{"c": "high_value_guest", "d": "frequent diner or important patron with priority seating"}
+{"c": "comp_reservation", "d": "complimentary booking for celebrity or press"}
+{"c": "late_arrival_policy", "d": "rule about seating guests arriving after reservation time"}
+{"c": "walk_in_pref", "d": "preference given to spontaneous guests over reservations"}
+{"c": "double_seating", "d": "scheduling two groups at same table time slot"}
+{"c": "table_hopping", "d": "moving guests between tables during their visit"}
+{"c": "candy_treat", "d": "small confection given to children upon seating"}
+{"c": "dog_treat", "d": "small snack provided for guest dogs at outdoor seating"}
+{"c": "reservation_source", "d": "origin channel of booking phone web or third_party"}
+{"c": "booking_lead_time", "d": "advance notice period when reservation was made"}
+{"c": "same_day_booking", "d": "reservation made for current day only"}
+{"c": "advance_reservation", "d": "booking made days or weeks in future"}
+{"r": ["reservation", "booking_confirmation"]}
+{"r": ["reservation", "cancellation_policy"]}
+{"r": ["reservation", "no_show"]}
+{"r": ["reservation", "deposit_required"]}
+{"r": ["reservation", "credit_card_hold"]}
+{"r": ["reservation", "party_size"]}
+{"r": ["reservation", "time_slot"]}
+{"r": ["reservation", "table_allocation"]}
+{"r": ["reservation", "special_occasion"]}
+{"r": ["reservation", "allergy_notation"]}
+{"r": ["reservation", "dietary_accommodation"]}
+{"r": ["reservation", "reservation_system"]}
+{"r": ["reservation", "phone_reservation"]}
+{"r": ["reservation", "online_booking"]}
+{"r": ["reservation", "third_party_reservation"]}
+{"r": ["reservation", "maitre_d"]}
+{"r": ["reservation", "reserved_table"]}
+{"r": ["reservation", "table_number"]}
+{"r": ["reservation", "reserved_sign"]}
+{"r": ["reservation", "reservation_book"]}
+{"r": ["reservation", "reservation_source"]}
+{"r": ["reservation", "booking_lead_time"]}
+{"r": ["reservation", "comp_reservation"]}
+{"r": ["walk_in", "host_stand"]}
+{"r": ["walk_in", "quoted_wait"]}
+{"r": ["walk_in", "waitlist"]}
+{"r": ["walk_in", "seating_chart"]}
+{"r": ["walk_in", "pager"]}
+{"r": ["walk_in", "buzzer_system"]}
+{"r": ["walk_in", "text_alert"]}
+{"r": ["walk_in", "party_size"]}
+{"r": ["walk_in", "table_allocation"]}
+{"r": ["walk_in", "waiting_area"]}
+{"r": ["walk_in", "walk_in_pref"]}
+{"r": ["waitlist", "pager"]}
+{"r": ["waitlist", "buzzer_system"]}
+{"r": ["waitlist", "text_alert"]}
+{"r": ["waitlist", "wait_time_estimate"]}
+{"r": ["waitlist", "called_ahead_list"]}
+{"r": ["waitlist", "party_size"]}
+{"r": ["waitlist", "host"]}
+{"r": ["waitlist", "seating_manager"]}
+{"r": ["waitlist", "waiting_area"]}
+{"r": ["table_allocation", "seating_chart"]}
+{"r": ["table_allocation", "floor_plan"]}
+{"r": ["table_allocation", "seating_capacity"]}
+{"r": ["table_allocation", "party_size"]}
+{"r": ["table_allocation", "table_number"]}
+{"r": ["table_allocation", "section"]}
+{"r": ["table_allocation", "station"]}
+{"r": ["table_allocation", "priority_seating"]}
+{"r": ["table_allocation", "high_value_guest"]}
+{"r": ["table_allocation", "seating_sequence"]}
+{"r": ["table_allocation", "double_seating"]}
+{"r": ["table_allocation", "table_hopping"]}
+{"r": ["table_allocation", "seating_manager"]}
+{"r": ["table_allocation", "maitre_d"]}
+{"r": ["seating_chart", "floor_plan"]}
+{"r": ["seating_chart", "table_number"]}
+{"r": ["seating_chart", "table_formation"]}
+{"r": ["seating_chart", "section"]}
+{"r": ["seating_chart", "blocked_table"]}
+{"r": ["seating_chart", "reserved_table"]}
+{"r": ["seating_chart", "capacity_chart"]}
+{"r": ["booking_confirmation", "reservation_system"]}
+{"r": ["booking_confirmation", "phone_reservation"]}
+{"r": ["booking_confirmation", "online_booking"]}
+{"r": ["booking_confirmation", "third_party_reservation"]}
+{"r": ["no_show", "credit_card_hold"]}
+{"r": ["no_show", "late_arrival_policy"]}
+{"r": ["overbooking", "waitlist"]}
+{"r": ["overbooking", "seating_capacity"]}
+{"r": ["overbooking", "reservation_limit"]}
+{"r": ["overbooking", "table_turnover"]}
+{"r": ["overbooking", "peak_hours"]}
+{"r": ["table_turnover", "clean_table"]}
+{"r": ["table_turnover", "dirty_table"]}
+{"r": ["table_turnover", "turnover_time"]}
+{"r": ["table_turnover", "table_status"]}
+{"r": ["table_turnover", "seating_capacity"]}
+{"r": ["table_turnover", "split_shift"]}
+{"r": ["table_turnover", "off_peak"]}
+{"r": ["seating_capacity", "peak_hours"]}
+{"r": ["seating_capacity", "off_peak"]}
+{"r": ["seating_capacity", "capacity_chart"]}
+{"r": ["seating_capacity", "floor_plan"]}
+{"r": ["seating_capacity", "cover_count"]}
+{"r": ["seating_capacity", "reservation_limit"]}
+{"r": ["peak_hours", "reservation_limit"]}
+{"r": ["peak_hours", "split_shift"]}
+{"r": ["peak_hours", "wait_time_estimate"]}
+{"r": ["peak_hours", "quoted_wait"]}
+{"r": ["peak_hours", "table_turnover"]}
+{"r": ["peak_hours", "overbooking"]}
+{"r": ["peak_hours", "priority_seating"]}
+{"r": ["off_peak", "deposit_required"]}
+{"r": ["off_peak", "reservation_limit"]}
+{"r": ["deposit_required", "credit_card_hold"]}
+{"r": ["credit_card_hold", "cancellation_policy"]}
+{"r": ["priority_seating", "high_value_guest"]}
+{"r": ["priority_seating", "vip_room"]}
+{"r": ["priority_seating", "special_occasion"]}
+{"r": ["priority_seating", "comp_reservation"]}
+{"r": ["host_stand", "podium"]}
+{"r": ["host_stand", "host"]}
+{"r": ["host_stand", "greeter"]}
+{"r": ["host_stand", "front_door_staff"]}
+{"r": ["host_stand", "waiting_area"]}
+{"r": ["host_stand", "coat_check"]}
+{"r": ["podium", "reservation_book"]}
+{"r": ["podium", "reservation_system"]}
+{"r": ["podium", "maitre_d"]}
+{"r": ["podium", "host"]}
+{"r": ["online_booking", "reservation_system"]}
+{"r": ["online_booking", "third_party_reservation"]}
+{"r": ["online_booking", "booking_confirmation"]}
+{"r": ["online_booking", "same_day_booking"]}
+{"r": ["online_booking", "advance_reservation"]}
+{"r": ["third_party_reservation", "reservation_system"]}
+{"r": ["third_party_reservation", "booking_confirmation"]}
+{"r": ["third_party_reservation", "auto_cancellation"]}
+{"r": ["third_party_reservation", "comp_reservation"]}
+{"r": ["bar_seating", "two_top"]}
+{"r": ["bar_seating", "counter_seating"]}
+{"r": ["bar_seating", "high_top"]}
+{"r": ["bar_seating", "standing_room"]}
+{"r": ["counter_seating", "high_top"]}
+{"r": ["booth", "four_top"]}
+{"r": ["booth", "six_top"]}
+{"r": ["booth", "rectangular_table"]}
+{"r": ["booth", "window_table"]}
+{"r": ["banquette", "two_top"]}
+{"r": ["banquette", "four_top"]}
+{"r": ["communal_table", "eight_plus_top"]}
+{"r": ["communal_table", "round_table"]}
+{"r": ["communal_table", "rectangular_table"]}
+{"r": ["communal_table", "banquette"]}
+{"r": ["window_table", "four_top"]}
+{"r": ["window_table", "two_top"]}
+{"r": ["outdoor_seating", "high_top"]}
+{"r": ["outdoor_seating", "four_top"]}
+{"r": ["outdoor_seating", "booth"]}
+{"r": ["outdoor_seating", "banquette"]}
+{"r": ["outdoor_seating", "standing_room"]}
+{"r": ["outdoor_seating", "table_formation"]}
+{"r": ["rooftop_seating", "seating_capacity"]}
+{"r": ["rooftop_seating", "weather_dependency"]}
+{"r": ["private_room", "table_formation"]}
+{"r": ["private_room", "party_size"]}
+{"r": ["private_room", "seating_capacity"]}
+{"r": ["private_room", "corking_fee"]}
+{"r": ["private_room", "cake_storage"]}
+{"r": ["private_room", "blocked_table"]}
+{"r": ["vip_room", "private_room"]}
+{"r": ["vip_room", "priority_seating"]}
+{"r": ["vip_room", "high_value_guest"]}
+{"r": ["vip_room", "comp_reservation"]}
+{"r": ["vip_room", "dietary_accommodation"]}
+{"r": ["table_formation", "two_top"]}
+{"r": ["table_formation", "four_top"]}
+{"r": ["table_formation", "six_top"]}
+{"r": ["table_formation", "round_table"]}
+{"r": ["table_formation", "rectangular_table"]}
+{"r": ["two_top", "round_table"]}
+{"r": ["two_top", "square_table"]}
+{"r": ["four_top", "square_table"]}
+{"r": ["four_top", "round_table"]}
+{"r": ["four_top", "rectangular_table"]}
+{"r": ["six_top", "rectangular_table"]}
+{"r": ["six_top", "round_table"]}
+{"r": ["round_table", "tablecloth"]}
+{"r": ["rectangular_table", "tablecloth"]}
+{"r": ["square_table", "tablecloth"]}
+{"r": ["high_top", "bar_stool"]}
+{"r": ["high_top", "standing_room"]}
+{"r": ["high_top", "highchair"]}
+{"r": ["highchair", "booster_seat"]}
+{"r": ["wheelchair_accessible", "ada_compliance"]}
+{"r": ["wheelchair_accessible", "table_allocation"]}
+{"r": ["wheelchair_accessible", "floor_plan"]}
+{"r": ["section", "station"]}
+{"r": ["section", "floor_plan"]}
+{"r": ["section", "rotation_system"]}
+{"r": ["section", "cover_count"]}
+{"r": ["station", "cover_count"]}
+{"r": ["rotation_system", "server_staff"]}
+{"r": ["capacity_chart", "cover_count"]}
+{"r": ["capacity_chart", "table_formation"]}
+{"r": ["reservation_limit", "time_slot"]}
+{"r": ["reservation_limit", "cover_count"]}
+{"r": ["reservation_limit", "peak_hours"]}
+{"r": ["wait_time_estimate", "party_size"]}
+{"r": ["wait_time_estimate", "table_turnover"]}
+{"r": ["quoted_wait", "host"]}
+{"r": ["quoted_wait", "pager"]}
+{"r": ["quoted_wait", "text_alert"]}
+{"r": ["called_ahead_list", "waitlist"]}
+{"r": ["called_ahead_list", "text_alert"]}
+{"r": ["auto_cancellation", "reservation_system"]}
+{"r": ["ghost_table", "reservation_system"]}
+{"r": ["ghost_table", "table_turnover"]}
+{"r": ["blocked_table", "floor_plan"]}
+{"r": ["blocked_table", "seating_chart"]}
+{"r": ["blocked_table", "table_status"]}
+{"r": ["reserved_table", "seating_chart"]}
+{"r": ["reserved_table", "table_status"]}
+{"r": ["reserved_table", "table_number"]}
+{"r": ["reserved_table", "reserved_sign"]}
+{"r": ["dirty_table", "clean_table"]}
+{"r": ["dirty_table", "table_status"]}
+{"r": ["dirty_table", "turnover_time"]}
+{"r": ["clean_table", "table_status"]}
+{"r": ["turnover_time", "table_turnover"]}
+{"r": ["turnover_time", "split_shift"]}
+{"r": ["seating_manager", "host"]}
+{"r": ["seating_manager", "maitre_d"]}
+{"r": ["seating_manager", "table_allocation"]}
+{"r": ["seating_manager", "waitlist"]}
+{"r": ["maitre_d", "host"]}
+{"r": ["maitre_d", "front_door_staff"]}
+{"r": ["maitre_d", "reservation_book"]}
+{"r": ["maitre_d", "priority_seating"]}
+{"r": ["maitre_d", "vip_room"]}
+{"r": ["host", "greeter"]}
+{"r": ["host", "front_door_staff"]}
+{"r": ["host", "seating_chart"]}
+{"r": ["greeter", "front_door_staff"]}
+{"r": ["front_door_staff", "waiting_area"]}
+{"r": ["dining_room", "floor_plan"]}
+{"r": ["dining_room", "seating_capacity"]}
+{"r": ["dining_room", "section"]}
+{"r": ["waiting_area", "standing_room"]}
+{"r": ["waiting_area", "pager"]}
+{"r": ["waiting_area", "buzzer_system"]}
+{"r": ["waiting_area", "host_stand"]}
+{"r": ["special_occasion", "anniversary_seating"]}
+{"r": ["special_occasion", "cake_storage"]}
+{"r": ["special_occasion", "candy_treat"]}
+{"r": ["special_occasion", "corkage_fee"]}
+{"r": ["dietary_accommodation", "allergy_notation"]}
+{"r": ["dietary_accommodation", "table_allocation"]}
+{"r": ["allergy_notation", "place_setting"]}
+{"r": ["table_tent", "reserved_sign"]}
+{"r": ["table_tent", "table_number"]}
+{"r": ["cover_count", "party_size"]}
+{"r": ["cover_count", "seating_capacity"]}
+{"r": ["corking_fee", "private_room"]}
+{"r": ["corking_fee", "outdoor_seating"]}
+{"r": ["comp_reservation", "reservation_system"]}
+{"r": ["comp_reservation", "priority_seating"]}
+{"r": ["comp_reservation", "high_value_guest"]}
+{"r": ["comp_reservation", "maitre_d"]}
+{"r": ["late_arrival_policy", "reservation"]}
+{"r": ["late_arrival_policy", "no_show"]}
+{"r": ["table_hopping", "table_allocation"]}
+{"r": ["table_hopping", "clean_table"]}
+{"r": ["table_hopping", "booth"]}
+{"r": ["candy_treat", "highchair"]}
+{"r": ["candy_treat", "high_chair"]}
+{"r": ["dog_treat", "outdoor_seating"]}
+{"r": ["same_day_booking", "online_booking"]}
+{"r": ["same_day_booking", "phone_reservation"]}
+{"r": ["advance_reservation", "deposit_required"]}
+{"r": ["advance_reservation", "credit_card_hold"]}
+{"r": ["advance_reservation", "online_booking"]}

@@ -1,0 +1,37 @@
+{
+  "domain": "restaurants",
+  "tag": "selftest",
+  "phase": "ont",
+  "certified_core_nodes": 10,
+  "concepts": 6,
+  "relations": 4,
+  "leaves_dropped": 0,
+  "llm_calls": 3,
+  "wall_secs": 1.9,
+  "refine_rounds": 1,
+  "drop_log": {
+    "short_or_bad": 0,
+    "dup_rel": 0,
+    "noise_rel": 1
+  },
+  "trajectory": [
+    {
+      "round": 0,
+      "phase": "soup",
+      "concepts": 6,
+      "relations": 2,
+      "dangling": 0,
+      "orphan": 2
+    },
+    {
+      "round": 1,
+      "phase": "ont",
+      "concepts": 6,
+      "relations": 4,
+      "dangling": 0,
+      "orphan": 0
+    }
+  ],
+  "residual_dangling": [],
+  "residual_orphan": []
+}

@@ -1,0 +1,218 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l0_p1",
+  "target": "ee_ontology",
+  "certificate": {
+    "compiled_at": "2026-08-08T11:50:25.267504+00:00",
+    "construction_facts_sha256": "a8f4f4e95e7408394e5f46e488356e0f5b3e4e1563ebbb07fb387f61ee109a17",
+    "construction_lowering_id": "ee.map.ontology.lowering.v1",
+    "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+    "construction_payload_sha256": "90829fdfaabccf2a0b4777423994079c79b9f372c4a2d15149fce225a9ea4d5e",
+    "construction_render_sha256": "2258cea85274d8aa30ad0fb5e2c6ee3b24066b9269ea9bc5d41df45bd0578d69",
+    "construction_schema_id": "ee.map.ontology.v1",
+    "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+    "domain_id": "ee_ontology",
+    "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "17353fe6d4a6f314719080f69e1c15de7a488c0533117055f9826b344482107b",
+    "observation_facts_sha256": "8afc919a372acc41e3c87d7297533aa82ecb8a8f1a1e94fe957c0c64772ab183",
+    "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+    "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+    "observation_payload_sha256": "a1d484f87e8ae6ee9cdc670cb00abdb04abba0bfe1fca056a491509dd0fbe306",
+    "observation_render_sha256": "43f211c4519019372062b89645fc9b8f616e1466aff66d48b8199a489b6ff569",
+    "observation_schema_id": "ee.map.pass_witness.v1",
+    "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+    "status": "compiled",
+    "subject": "j_l0_p1",
+    "target": "ee_ontology",
+    "workspace_sha256": "766c47af7b96f776002537c5a2d979f21d804412d7865c3029d89d14c46e0e39"
+  },
+  "kappa": {
+    "domain": "ee_conceptualization",
+    "invariants": {
+      "ontology_coherence": "every relation touches declared concepts; every concept participates"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_concept",
+        "candidate_relation"
+      ],
+      "facts_sha256": "a8f4f4e95e7408394e5f46e488356e0f5b3e4e1563ebbb07fb387f61ee109a17",
+      "lowering_id": "ee.map.ontology.lowering.v1",
+      "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+      "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+      "payload": {
+        "concepts": [
+          {
+            "definition": "Workflow design as ongoing activity, not one-time specification",
+            "id": "continuous_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "The workflow as living equilibrium, not a static blueprint",
+            "id": "living_pattern",
+            "kind": "concept"
+          },
+          {
+            "definition": "Explicit documented workflow procedures and role definitions",
+            "id": "static_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "Real-time adapted workflow as actually executed",
+            "id": "dynamic_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "Meta-level design of feedback mechanisms and learning processes",
+            "id": "learning_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "The three interconnected levels of static, dynamic, and learning design",
+            "id": "three_levels",
+            "kind": "concept"
+          },
+          {
+            "definition": "Recurring cycle of observation, adjustment, and learning",
+            "id": "feedback_loop",
+            "kind": "concept"
+          },
+          {
+            "definition": "Methods through which knowledge accumulates including pattern recognition, error-driven learning, experimentation, analogical transfer, documentation",
+            "id": "learning_mechanism",
+            "kind": "concept"
+          },
+          {
+            "definition": "Recurring modes of system adjustment including micro-adjustment, workaround, procedural revision, structural redesign, collapse and rebuild",
+            "id": "adaptation_pattern",
+            "kind": "concept"
+          },
+          {
+            "definition": "Duration over which learning and improvement unfold ranging from within-service to years",
+            "id": "time_scale",
+            "kind": "concept"
+          },
+          {
+            "definition": "Progression through stages of improvisation, standardization, optimization, adaptation, renewal",
+            "id": "improvement_trajectory",
+            "kind": "concept"
+          },
+          {
+            "definition": "Self-reinforcing cycle that accelerates improvement including competence flywheel, documentation cycle, reputation effect",
+            "id": "positive_dynamic",
+            "kind": "concept"
+          }
+        ],
+        "kind": "ee_ontology",
+        "relations": [
+          {
+            "id": "r1",
+            "kind": "relation",
+            "source": "continuous_design",
+            "target": "three_levels"
+          },
+          {
+            "id": "r2",
+            "kind": "relation",
+            "source": "three_levels",
+            "target": "living_pattern"
+          },
+          {
+            "id": "r3",
+            "kind": "relation",
+            "source": "static_design",
+            "target": "dynamic_design"
+          },
+          {
+            "id": "r4",
+            "kind": "relation",
+            "source": "dynamic_design",
+            "target": "learning_design"
+          },
+          {
+            "id": "r5",
+            "kind": "relation",
+            "source": "learning_design",
+            "target": "static_design"
+          },
+          {
+            "id": "r6",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "learning_mechanism"
+          },
+          {
+            "id": "r7",
+            "kind": "relation",
+            "source": "learning_mechanism",
+            "target": "adaptation_pattern"
+          },
+          {
+            "id": "r8",
+            "kind": "relation",
+            "source": "adaptation_pattern",
+            "target": "time_scale"
+          },
+          {
+            "id": "r9",
+            "kind": "relation",
+            "source": "time_scale",
+            "target": "improvement_trajectory"
+          },
+          {
+            "id": "r10",
+            "kind": "relation",
+            "source": "improvement_trajectory",
+            "target": "positive_dynamic"
+          },
+          {
+            "id": "r11",
+            "kind": "relation",
+            "source": "positive_dynamic",
+            "target": "continuous_design"
+          }
+        ],
+        "subject": "j_l0_p1"
+      },
+      "payload_sha256": "90829fdfaabccf2a0b4777423994079c79b9f372c4a2d15149fce225a9ea4d5e",
+      "render_sha256": "2258cea85274d8aa30ad0fb5e2c6ee3b24066b9269ea9bc5d41df45bd0578d69",
+      "rendered": "ontology:j_l0_p1\ncontinuous_design: Workflow design as ongoing activity, not one-time specification\nliving_pattern: The workflow as living equilibrium, not a static blueprint\nstatic_design: Explicit documented workflow procedures and role definitions\ndynamic_design: Real-time adapted workflow as actually executed\nlearning_design: Meta-level design of feedback mechanisms and learning processes\nthree_levels: The three interconnected levels of static, dynamic, and learning design\nfeedback_loop: Recurring cycle of observation, adjustment, and learning\nlearning_mechanism: Methods through which knowledge accumulates including pattern recognition, error-driven learning, experimentation, analogical transfer, documentation\nadaptation_pattern: Recurring modes of system adjustment including micro-adjustment, workaround, procedural revision, structural redesign, collapse and rebuild\ntime_scale: Duration over which learning and improvement unfold ranging from within-service to years\nimprovement_trajectory: Progression through stages of improvisation, standardization, optimization, adaptation, renewal\npositive_dynamic: Self-reinforcing cycle that accelerates improvement including competence flywheel, documentation cycle, reputation effect\nr1: continuous_design -> three_levels\nr2: three_levels -> living_pattern\nr3: static_design -> dynamic_design\nr4: dynamic_design -> learning_design\nr5: learning_design -> static_design\nr6: feedback_loop -> learning_mechanism\nr7: learning_mechanism -> adaptation_pattern\nr8: adaptation_pattern -> time_scale\nr9: time_scale -> improvement_trajectory\nr10: improvement_trajectory -> positive_dynamic\nr11: positive_dynamic -> continuous_design",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.ontology.v1",
+      "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+      "target": "ee_ontology"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "8afc919a372acc41e3c87d7297533aa82ecb8a8f1a1e94fe957c0c64772ab183",
+      "lowering_id": "ee.map.pass_witness.lowering.v1",
+      "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+      "model_type": "ee_v2.map_gate.adapter.PassWitness",
+      "observation_predicates": [
+        "source_pass_complete"
+      ],
+      "payload": {
+        "kind": "pass_witness",
+        "layer": 0,
+        "pass_num": 1,
+        "subject": "j_l0_p1"
+      },
+      "payload_sha256": "a1d484f87e8ae6ee9cdc670cb00abdb04abba0bfe1fca056a491509dd0fbe306",
+      "render_sha256": "43f211c4519019372062b89645fc9b8f616e1466aff66d48b8199a489b6ff569",
+      "rendered": "witness:j_l0_p1:L0P1",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.pass_witness.v1",
+      "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+      "target": "ee_ontology"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l0_p1,ee_ontology).",
+      "ee_ontology_proof(j_l0_p1,ontology_coherence)."
+    ]
+  },
+  "envelope_sha256": "a972e7c4f9e1c822d893c9b171c19cd4c2cc4157a9a4a468ff638fd320ef594b"
+}

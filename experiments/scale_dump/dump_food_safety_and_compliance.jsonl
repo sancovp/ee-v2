@@ -1,0 +1,394 @@
+{"c": "food_safety_management_system", "d": "comprehensive framework integrating procedures processes and documentation to ensure safe food handling"}
+{"c": "health_permit", "d": "official authorization from local health authority required to operate food establishment"}
+{"c": "food_handler_certification", "d": "proof that employee has completed approved food safety training course"}
+{"c": "manager_food_safety_certification", "d": "certification demonstrating manager competency in food safety principles and regulations"}
+{"c": "haccp_plan", "d": "systematic preventive approach identifying biological chemical and physical hazards in production processes"}
+{"c": "critical_control_point", "d": "point in food production process where control can be applied to prevent or eliminate hazard"}
+{"c": "temperature_control", "d": "maintaining food at safe temperatures to inhibit pathogenic bacteria growth"}
+{"c": "cold_holding_temperature", "d": "maximum temperature of 41°F or below for cold potentially hazardous foods"}
+{"c": "hot_holding_temperature", "d": "minimum temperature of 135°F or above for hot potentially hazardous foods"}
+{"c": "cooking_temperature", "d": "internal temperature food must reach during cooking to destroy pathogens"}
+{"c": "refrigeration_unit", "d": "equipment designed to maintain cold holding temperatures for food storage"}
+{"c": "freezer_unit", "d": "equipment designed to maintain frozen state at 0°F or below for food preservation"}
+{"c": "probe_thermometer", "d": "device used to measure internal temperature of food during cooking and holding"}
+{"c": "thermometer_calibration", "d": "process of verifying thermometer accuracy against known reference temperature"}
+{"c": "cross_contamination_prevention", "d": "practices preventing transfer of harmful microorganisms from one surface or food to another"}
+{"c": "raw_meat_storage", "d": "designated storage area or method for uncooked meat products separate from ready to eat foods"}
+{"c": "color_coded_cutting_boards", "d": "cutting boards coded by color to prevent cross contamination between food types"}
+{"c": "allergen_management", "d": "systematic approach to prevent allergic reactions through proper handling and labeling"}
+{"c": "allergen_training", "d": "specialized training for staff on identifying and properly handling food allergens"}
+{"c": "food_allergen_labeling", "d": "required disclosure of major food allergens present in menu items"}
+{"c": "cross_contact_prevention", "d": "preventing transfer of allergen proteins between foods through equipment or surfaces"}
+{"c": "gluten_free_protocol", "d": "specific procedures to prevent gluten contamination in gluten free designated preparation areas"}
+{"c": "handwashing_station", "d": "designated area with soap hot water and drying facilities for proper hand hygiene"}
+{"c": "employee_hygiene", "d": "personal cleanliness practices required of food service workers"}
+{"c": "personal_protective_equipment", "d": "equipment such as gloves hair restraints and aprons protecting food from contamination"}
+{"c": "hair_restraint", "d": "covering worn on head to prevent hair from falling into food during preparation"}
+{"c": "glove_usage", "d": "use of disposable gloves to prevent bare hand contact with ready to eat foods"}
+{"c": "illness_reporting_policy", "d": "mandatory reporting requirement for employees experiencing symptoms of illness"}
+{"c": "symptom_screening", "d": "checking employees for visible signs of illness before starting work shift"}
+{"c": "foodborne_illness_exclusion", "d": "prohibition of symptomatic workers from handling food until cleared by health authority"}
+{"c": "handwashing_procedure", "d": "proper technique for washing hands including duration soap use and drying"}
+{"c": "sanitation_procedure", "d": "systematic cleaning and sanitizing protocols for kitchen surfaces and equipment"}
+{"c": "cleaning_schedule", "d": "documented timeline specifying when and how each area or equipment item must be cleaned"}
+{"c": "three_compartment_sink", "d": "sink with three basins for washing rinsing and sanitizing dishes and utensils"}
+{"c": "dishwashing_machine", "d": "automated equipment using hot water or chemical sanitization for dish cleaning"}
+{"c": "sanitizer_concentration", "d": "level of sanitizer solution required to effectively kill pathogens on surfaces"}
+{"c": "sanitizer_test_strip", "d": "paper strip used to verify sanitizer solution is at proper concentration"}
+{"c": "surface_sanitizing", "d": "treatment of food contact surfaces to reduce microorganisms to safe levels"}
+{"c": "equipment_sanitizing", "d": "sanitization procedures specific to kitchen equipment and machinery"}
+{"c": "pest_control", "d": "measures to prevent and eliminate insects rodents and other pests from food establishment"}
+{"c": "integrated_pest_management", "d": "comprehensive pest control strategy combining prevention monitoring and treatment methods"}
+{"c": "pest_control_contractor", "d": "licensed professional service providing regular pest management for food facility"}
+{"c": "pest_infestation", "d": "presence of pests in quantities or locations posing contamination risk to food"}
+{"c": "rodent_evidence", "d": "signs of rodent activity such as droppings gnaw marks or nesting materials"}
+{"c": "insect_evidence", "d": "presence of flies cockroaches beetles or other insects in food preparation areas"}
+{"c": "food_storage_standards", "d": "requirements for proper organization labeling and condition of stored food items"}
+{"c": "fifo_rotation", "d": "first in first out inventory method ensuring older stock is used before newer stock"}
+{"c": "date_marking_procedure", "d": "labeling of prepared foods with preparation date to ensure timely use or disposal"}
+{"c": "ready_to_eat_date_labeling", "d": "required labeling of time temperature control for safety foods with use by date"}
+{"c": "food_labeling_requirements", "d": "regulatory specifications for what information must appear on food labels"}
+{"c": "supplier_verification", "d": "process of ensuring food suppliers meet safety and quality standards"}
+{"c": "supplier_approval_process", "d": "formal evaluation system for new and existing food suppliers"}
+{"c": "receiving_procedure", "d": "inspection and acceptance protocol for incoming food deliveries"}
+{"c": "delivery_temperature_check", "d": "verification that delivered foods arrive at proper temperature"}
+{"c": "damaged_product_rejection", "d": "refusal of deliveries containing compromised packaging or contamination"}
+{"c": "expired_product_rejection", "d": "refusal of deliveries with products past their use by or expiration dates"}
+{"c": "traceability_system", "d": "method for tracking food products from source through preparation to service"}
+{"c": "traceability_lot_coding", "d": "identification system linking food items to specific batches and suppliers"}
+{"c": "food_recall", "d": "action to remove unsafe food products from distribution and sale"}
+{"c": "recall_procedure", "d": "documented steps for executing an effective product recall"}
+{"c": "mock_recall_testing", "d": "practice exercise to verify ability to trace and account for food products"}
+{"c": "water_quality", "d": "safety standards for potable water used in food preparation and cleaning"}
+{"c": "potable_water_requirement", "d": "regulation requiring safe drinking water supply for all food handling operations"}
+{"c": "backflow_prevention", "d": "device preventing contaminated water from reversing flow into clean water supply"}
+{"c": "ice_machine_sanitation", "d": "regular cleaning and sanitizing of ice making and dispensing equipment"}
+{"c": "ice_scoop_hygiene", "d": "proper handling and storage of ice scoops to prevent contamination"}
+{"c": "waste_management", "d": "proper disposal procedures for garbage refuse and food waste"}
+{"c": "grease_trap_maintenance", "d": "regular cleaning and service of equipment capturing grease from wastewater"}
+{"c": "dumpster_area_sanitation", "d": "maintenance of outdoor garbage storage area to prevent pest attraction"}
+{"c": "health_department_inspection", "d": "official evaluation by government health authorities of facility compliance"}
+{"c": "food_safety_audit", "d": "comprehensive assessment of food safety practices by internal or external auditors"}
+{"c": "third_party_inspection", "d": "evaluation conducted by independent certified inspection organization"}
+{"c": "inspection_frequency", "d": "schedule of how often regulatory inspections occur at food establishment"}
+{"c": "reinspection", "d": "follow up inspection after initial inspection revealed violations requiring correction"}
+{"c": "violation_categories", "d": "classification system for types and severity levels of health code violations"}
+{"c": "critical_violation", "d": "serious violation posing immediate health hazard requiring immediate corrective action"}
+{"c": "major_violation", "d": "significant violation that could contribute to foodborne illness if not corrected"}
+{"c": "minor_violation", "d": "less serious violation representing housekeeping or procedural deficiency"}
+{"c": "inspection_report", "d": "official documented record of findings from health department inspection"}
+{"c": "violation_documentation", "d": "written record of specific code violations observed during inspection"}
+{"c": "closure_order", "d": "legal order requiring food establishment to cease operations due to health hazard"}
+{"c": "voluntary_closure", "d": "self initiated temporary shutdown to address food safety concerns"}
+{"c": "fines_and_penalties", "d": "monetary sanctions imposed for health code violations or regulatory noncompliance"}
+{"c": "legal_liability", "d": "legal responsibility for foodborne illness or injury resulting from negligence"}
+{"c": "outbreak_response", "d": "coordinated procedures for managing foodborne illness outbreak investigation"}
+{"c": "foodborne_illness_incident_reporting", "d": "mandatory notification to health authorities when illness is traced to facility"}
+{"c": "traceback_investigation", "d": "process of identifying source and distribution of contaminated food during outbreak"}
+{"c": "pathogen_testing", "d": "laboratory analysis to detect presence of harmful microorganisms in food or environment"}
+{"c": "environmental_pathogen_testing", "d": "swab testing of kitchen surfaces and equipment for harmful bacteria"}
+{"c": "salmonella_control", "d": "prevention measures specifically targeting salmonella bacteria contamination"}
+{"c": "e_coli_prevention", "d": "measures to prevent escherichia coli contamination especially in ground beef products"}
+{"c": "listeria_monitoring", "d": "surveillance and control measures for listeria monocytogenes particularly in ready to eat foods"}
+{"c": "norovirus_protocol", "d": "specific procedures for preventing and responding to norovirus contamination"}
+{"c": "hepatitis_a_exposure_protocol", "d": "response procedures when food handler is diagnosed with hepatitis a virus"}
+{"c": "food_defense_plan", "d": "security measures protecting food from intentional contamination or tampering"}
+{"c": "vulnerability_assessment", "d": "evaluation of potential security weaknesses in food production and handling"}
+{"c": "record_keeping", "d": "maintenance of required documentation demonstrating compliance with regulations"}
+{"c": "standard_operating_procedure", "d": "written detailed instructions for performing specific food safety tasks"}
+{"c": "temperature_log", "d": "documented record of temperatures for refrigeration hot holding and cooking operations"}
+{"c": "maintenance_record", "d": "documentation of equipment repairs and preventive maintenance activities"}
+{"c": "training_record", "d": "documentation of food safety training completed by each employee"}
+{"c": "chemical_storage", "d": "secure designated area for storing cleaning supplies and chemicals away from food"}
+{"c": "chemical_concentration_verification", "d": "testing procedure to ensure cleaning chemicals are diluted to proper strength"}
+{"c": "contact_time_requirement", "d": "duration sanitizer solution must remain on surface to achieve effective sanitization"}
+{"c": "chlorine_sanitizer", "d": "bleach based sanitizing solution meeting specified concentration requirements"}
+{"c": "quaternary_ammonium_sanitizer", "d": "quaternary ammonium compound based sanitizer for food contact surfaces"}
+{"c": "peroxyacetic_acid_sanitizer", "d": "acid based sanitizer effective against bacteria yeasts and molds on surfaces"}
+{"c": "facility_design", "d": "physical layout and construction features enabling effective cleaning and sanitation"}
+{"c": "ventilation_system", "d": "air circulation and exhaust system maintaining air quality in food preparation areas"}
+{"c": "hood_vent_cleaning", "d": "regular maintenance of kitchen exhaust hoods and ductwork to prevent fire and grease buildup"}
+{"c": "drain_maintenance", "d": "upkeep of floor drains to prevent backup and pest harborage"}
+{"c": "condensate_drain_cleaning", "d": "service of refrigeration unit condensate collection and discharge systems"}
+{"c": "refrigeration_coil_cleaning", "d": "maintenance of condenser coils for efficient operation of cooling equipment"}
+{"c": "cutting_board_condition", "d": "state of cutting boards including cleanliness wear and sanitization status"}
+{"c": "equipment_condition", "d": "physical state of kitchen equipment affecting sanitation and food safety"}
+{"c": "gasket_inspection", "d": "checking door seals and gaskets on refrigeration units for integrity and cleanliness"}
+{"c": "bloodborne_pathogen_protocol", "d": "procedures for safely handling blood and bodily fluids to prevent disease transmission"}
+{"c": "first_aid_kit_requirements", "d": "specifications for maintaining adequate first aid supplies in food service areas"}
+{"c": "time_as_public_health_control", "d": "alternative method allowing food to be held without temperature control for limited time"}
+{"c": "consumer_advisory", "d": "required disclosure informing customers of increased risk when ordering undercooked menu items"}
+{"c": "buffer_zone_requirement", "d": "specified distance between food preparation areas and potential contamination sources"}
+{"c": "continuing_education", "d": "ongoing professional development requirements for maintaining food safety certifications"}
+{"c": "compliance_deadline", "d": "specified date by which regulatory requirements must be met"}
+{"c": "regulatory_update", "d": "new or amended food safety regulations requiring facility adaptation"}
+{"c": "crisis_communication_plan", "d": "preplanned procedures for communicating with public and media during food safety incident"}
+{"c": "incident_documentation", "d": "records created during investigation of food safety complaint or illness outbreak"}
+{"c": "customer_complaint_procedure", "d": "protocol for receiving documenting investigating and responding to customer complaints"}
+{"c": "slicing_equipment_sanitation", "d": "cleaning procedures for meat slicers deli slicers and similar equipment"}
+{"c": "blender_sanitation", "d": "disassembly and sanitization procedures for blenders and food processors"}
+{"c": "prep_table_sanitation", "d": "cleaning and sanitizing of food preparation surfaces between tasks"}
+{"c": "line_cleaning", "d": "sanitization of cooking line and service areas during and between meal periods"}
+{"c": "end_of_shift_cleaning", "d": "required cleaning tasks performed at conclusion of each operational period"}
+{"c": "deep_cleaning_schedule", "d": "periodic thorough cleaning of equipment and areas beyond routine daily cleaning"}
+{"c": "thermometer_replacement_schedule", "d": "regular intervals for replacing thermometers to ensure accuracy"}
+{"r": ["food_safety_management_system", "haccp_plan"]}
+{"r": ["food_safety_management_system", "standard_operating_procedure"]}
+{"r": ["food_safety_management_system", "record_keeping"]}
+{"r": ["food_safety_management_system", "training_record"]}
+{"r": ["food_safety_management_system", "allergen_management"]}
+{"r": ["food_safety_management_system", "traceability_system"]}
+{"r": ["food_safety_management_system", "outbreak_response"]}
+{"r": ["health_permit", "manager_food_safety_certification"]}
+{"r": ["health_permit", "food_handler_certification"]}
+{"r": ["health_permit", "health_department_inspection"]}
+{"r": ["food_handler_certification", "allergen_training"]}
+{"r": ["food_handler_certification", "employee_hygiene"]}
+{"r": ["food_handler_certification", "continuing_education"]}
+{"r": ["manager_food_safety_certification", "haccp_plan"]}
+{"r": ["manager_food_safety_certification", "critical_control_point"]}
+{"r": ["manager_food_safety_certification", "standard_operating_procedure"]}
+{"r": ["haccp_plan", "critical_control_point"]}
+{"r": ["haccp_plan", "temperature_control"]}
+{"r": ["haccp_plan", "cross_contamination_prevention"]}
+{"r": ["haccp_plan", "pathogen_testing"]}
+{"r": ["haccp_plan", "supplier_verification"]}
+{"r": ["critical_control_point", "temperature_control"]}
+{"r": ["critical_control_point", "cooking_temperature"]}
+{"r": ["critical_control_point", "cross_contamination_prevention"]}
+{"r": ["critical_control_point", "receiving_procedure"]}
+{"r": ["temperature_control", "cold_holding_temperature"]}
+{"r": ["temperature_control", "hot_holding_temperature"]}
+{"r": ["temperature_control", "refrigeration_unit"]}
+{"r": ["temperature_control", "probe_thermometer"]}
+{"r": ["temperature_control", "temperature_log"]}
+{"r": ["cold_holding_temperature", "refrigeration_unit"]}
+{"r": ["cold_holding_temperature", "freezer_unit"]}
+{"r": ["cold_holding_temperature", "ice_machine_sanitation"]}
+{"r": ["hot_holding_temperature", "temperature_control"]}
+{"r": ["cooking_temperature", "probe_thermometer"]}
+{"r": ["cooking_temperature", "thermometer_calibration"]}
+{"r": ["cooking_temperature", "consumer_advisory"]}
+{"r": ["refrigeration_unit", "gasket_inspection"]}
+{"r": ["refrigeration_unit", "refrigeration_coil_cleaning"]}
+{"r": ["refrigeration_unit", "temperature_log"]}
+{"r": ["probe_thermometer", "thermometer_calibration"]}
+{"r": ["probe_thermometer", "thermometer_replacement_schedule"]}
+{"r": ["thermometer_calibration", "record_keeping"]}
+{"r": ["cross_contamination_prevention", "raw_meat_storage"]}
+{"r": ["cross_contamination_prevention", "color_coded_cutting_boards"]}
+{"r": ["cross_contamination_prevention", "allergen_management"]}
+{"r": ["cross_contamination_prevention", "handwashing_procedure"]}
+{"r": ["cross_contamination_prevention", "glove_usage"]}
+{"r": ["raw_meat_storage", "buffer_zone_requirement"]}
+{"r": ["color_coded_cutting_boards", "cutting_board_condition"]}
+{"r": ["allergen_management", "allergen_training"]}
+{"r": ["allergen_management", "food_allergen_labeling"]}
+{"r": ["allergen_management", "cross_contact_prevention"]}
+{"r": ["allergen_management", "gluten_free_protocol"]}
+{"r": ["allergen_training", "training_record"]}
+{"r": ["allergen_training", "customer_complaint_procedure"]}
+{"r": ["food_allergen_labeling", "consumer_advisory"]}
+{"r": ["cross_contact_prevention", "equipment_sanitizing"]}
+{"r": ["cross_contact_prevention", "prep_table_sanitation"]}
+{"r": ["cross_contact_prevention", "slicing_equipment_sanitation"]}
+{"r": ["gluten_free_protocol", "prep_table_sanitation"]}
+{"r": ["handwashing_station", "handwashing_procedure"]}
+{"r": ["handwashing_station", "sanitation_procedure"]}
+{"r": ["employee_hygiene", "handwashing_procedure"]}
+{"r": ["employee_hygiene", "hair_restraint"]}
+{"r": ["employee_hygiene", "glove_usage"]}
+{"r": ["employee_hygiene", "personal_protective_equipment"]}
+{"r": ["personal_protective_equipment", "glove_usage"]}
+{"r": ["glove_usage", "cross_contamination_prevention"]}
+{"r": ["glove_usage", "bare_hand_contact_prevention"]}
+{"r": ["glove_usage", "bloodborne_pathogen_protocol"]}
+{"r": ["illness_reporting_policy", "symptom_screening"]}
+{"r": ["illness_reporting_policy", "foodborne_illness_exclusion"]}
+{"r": ["illness_reporting_policy", "return_to_work_policy"]}
+{"r": ["illness_reporting_policy", "hepatitis_a_exposure_protocol"]}
+{"r": ["symptom_screening", "foodborne_illness_exclusion"]}
+{"r": ["handwashing_procedure", "sanitizer_concentration"]}
+{"r": ["sanitation_procedure", "cleaning_schedule"]}
+{"r": ["sanitation_procedure", "sanitizer_concentration"]}
+{"r": ["sanitation_procedure", "contact_time_requirement"]}
+{"r": ["sanitation_procedure", "surface_sanitizing"]}
+{"r": ["sanitation_procedure", "equipment_sanitizing"]}
+{"r": ["cleaning_schedule", "deep_cleaning_schedule"]}
+{"r": ["cleaning_schedule", "end_of_shift_cleaning"]}
+{"r": ["cleaning_schedule", "line_cleaning"]}
+{"r": ["three_compartment_sink", "sanitizer_concentration"]}
+{"r": ["three_compartment_sink", "contact_time_requirement"]}
+{"r": ["dishwashing_machine", "sanitizer_concentration"]}
+{"r": ["dishwashing_machine", "temperature_log"]}
+{"r": ["sanitizer_concentration", "sanitizer_test_strip"]}
+{"r": ["sanitizer_concentration", "chemical_concentration_verification"]}
+{"r": ["sanitizer_test_strip", "record_keeping"]}
+{"r": ["surface_sanitizing", "sanitizer_concentration"]}
+{"r": ["surface_sanitizing", "contact_time_requirement"]}
+{"r": ["surface_sanitizing", "prep_table_sanitation"]}
+{"r": ["equipment_sanitizing", "slicing_equipment_sanitation"]}
+{"r": ["equipment_sanitizing", "blender_sanitation"]}
+{"r": ["equipment_sanitizing", "cleaning_schedule"]}
+{"r": ["slicing_equipment_sanitation", "cross_contamination_prevention"]}
+{"r": ["slicing_equipment_sanitation", "allergen_management"]}
+{"r": ["blender_sanitation", "cross_contamination_prevention"]}
+{"r": ["pest_control", "integrated_pest_management"]}
+{"r": ["pest_control", "pest_control_contractor"]}
+{"r": ["pest_control", "pest_infestation"]}
+{"r": ["integrated_pest_management", "pest_control_contractor"]}
+{"r": ["pest_infestation", "rodent_evidence"]}
+{"r": ["pest_infestation", "insect_evidence"]}
+{"r": ["pest_infestation", "inspection_report"]}
+{"r": ["pest_infestation", "closure_order"]}
+{"r": ["rodent_evidence", "health_department_inspection"]}
+{"r": ["rodent_evidence", "dumpster_area_sanitation"]}
+{"r": ["insect_evidence", "health_department_inspection"]}
+{"r": ["food_storage_standards", "fifo_rotation"]}
+{"r": ["food_storage_standards", "date_marking_procedure"]}
+{"r": ["food_storage_standards", "raw_meat_storage"]}
+{"r": ["food_storage_standards", "chemical_storage"]}
+{"r": ["fifo_rotation", "date_marking_procedure"]}
+{"r": ["date_marking_procedure", "ready_to_eat_date_labeling"]}
+{"r": ["date_marking_procedure", "time_as_public_health_control"]}
+{"r": ["ready_to_eat_date_labeling", "cold_holding_temperature"]}
+{"r": ["food_labeling_requirements", "food_allergen_labeling"]}
+{"r": ["supplier_verification", "supplier_approval_process"]}
+{"r": ["supplier_verification", "receiving_procedure"]}
+{"r": ["supplier_approval_process", "traceability_system"]}
+{"r": ["receiving_procedure", "delivery_temperature_check"]}
+{"r": ["receiving_procedure", "damaged_product_rejection"]}
+{"r": ["receiving_procedure", "expired_product_rejection"]}
+{"r": ["delivery_temperature_check", "cold_holding_temperature"]}
+{"r": ["delivery_temperature_check", "hot_holding_temperature"]}
+{"r": ["traceability_system", "traceability_lot_coding"]}
+{"r": ["traceability_system", "food_recall"]}
+{"r": ["traceability_system", "traceback_investigation"]}
+{"r": ["traceability_system", "mock_recall_testing"]}
+{"r": ["food_recall", "recall_procedure"]}
+{"r": ["food_recall", "traceback_investigation"]}
+{"r": ["food_recall", "outbreak_response"]}
+{"r": ["recall_procedure", "record_keeping"]}
+{"r": ["mock_recall_testing", "record_keeping"]}
+{"r": ["water_quality", "potable_water_requirement"]}
+{"r": ["water_quality", "backflow_prevention"]}
+{"r": ["potable_water_requirement", "water_quality"]}
+{"r": ["potable_water_requirement", "health_department_inspection"]}
+{"r": ["backflow_prevention", "facility_design"]}
+{"r": ["ice_machine_sanitation", "cleaning_schedule"]}
+{"r": ["ice_machine_sanitation", "pest_infestation"]}
+{"r": ["ice_machine_sanitation", "environment"]}
+{"r": ["ice_scoop_hygiene", "ice_machine_sanitation"]}
+{"r": ["waste_management", "dumpster_area_sanitation"]}
+{"r": ["waste_management", "grease_trap_maintenance"]}
+{"r": ["dumpster_area_sanitation", "pest_control"]}
+{"r": ["dumpster_area_sanitation", "cleaning_schedule"]}
+{"r": ["grease_trap_maintenance", "drain_maintenance"]}
+{"r": ["grease_trap_maintenance", "cleaning_schedule"]}
+{"r": ["health_department_inspection", "inspection_report"]}
+{"r": ["health_department_inspection", "violation_categories"]}
+{"r": ["health_department_inspection", "inspection_frequency"]}
+{"r": ["health_department_inspection", "reinspection"]}
+{"r": ["health_department_inspection", "closure_order"]}
+{"r": ["food_safety_audit", "third_party_inspection"]}
+{"r": ["food_safety_audit", "violation_categories"]}
+{"r": ["food_safety_audit", "record_keeping"]}
+{"r": ["inspection_frequency", "reinspection"]}
+{"r": ["violation_categories", "critical_violation"]}
+{"r": ["violation_categories", "major_violation"]}
+{"r": ["violation_categories", "minor_violation"]}
+{"r": ["critical_violation", "inspection_report"]}
+{"r": ["critical_violation", "closure_order"]}
+{"r": ["critical_violation", "fines_and_penalties"]}
+{"r": ["critical_violation", "legal_liability"]}
+{"r": ["major_violation", "inspection_report"]}
+{"r": ["major_violation", "reinspection"]}
+{"r": ["major_violation", "fines_and_penalties"]}
+{"r": ["minor_violation", "inspection_report"]}
+{"r": ["inspection_report", "violation_documentation"]}
+{"r": ["inspection_report", "record_keeping"]}
+{"r": ["closure_order", "voluntary_closure"]}
+{"r": ["closure_order", "legal_liability"]}
+{"r": ["voluntary_closure", "reinspection"]}
+{"r": ["fines_and_penalties", "legal_liability"]}
+{"r": ["fines_and_penalties", "compliance_deadline"]}
+{"r": ["outbreak_response", "foodborne_illness_incident_reporting"]}
+{"r": ["outbreak_response", "traceback_investigation"]}
+{"r": ["outbreak_response", "crisis_communication_plan"]}
+{"r": ["outbreak_response", "incident_documentation"]}
+{"r": ["foodborne_illness_incident_reporting", "legal_liability"]}
+{"r": ["foodborne_illness_incident_reporting", "regulatory_agency_notification"]}
+{"r": ["traceback_investigation", "traceability_system"]}
+{"r": ["traceback_investigation", "supplier_verification"]}
+{"r": ["traceback_investigation", "pathogen_testing"]}
+{"r": ["pathogen_testing", "environmental_pathogen_testing"]}
+{"r": ["pathogen_testing", "salmonella_control"]}
+{"r": ["pathogen_testing", "e_coli_prevention"]}
+{"r": ["pathogen_testing", "listeria_monitoring"]}
+{"r": ["pathogen_testing", "norovirus_protocol"]}
+{"r": ["environmental_pathogen_testing", "surface_sanitizing"]}
+{"r": ["environmental_pathogen_testing", "record_keeping"]}
+{"r": ["salmonella_control", "cooking_temperature"]}
+{"r": ["salmonella_control", "cross_contamination_prevention"]}
+{"r": ["e_coli_prevention", "cooking_temperature"]}
+{"r": ["e_coli_prevention", "receiving_procedure"]}
+{"r": ["listeria_monitoring", "cold_holding_temperature"]}
+{"r": ["listeria_monitoring", "ready_to_eat_date_labeling"]}
+{"r": ["norovirus_protocol", "illness_reporting_policy"]}
+{"r": ["norovirus_protocol", "sanitation_procedure"]}
+{"r": ["norovirus_protocol", "bloodborne_pathogen_protocol"]}
+{"r": ["hepatitis_a_exposure_protocol", "illness_reporting_policy"]}
+{"r": ["hepatitis_a_exposure_protocol", "foodborne_illness_exclusion"]}
+{"r": ["food_defense_plan", "vulnerability_assessment"]}
+{"r": ["food_defense_plan", "supply_chain_security"]}
+{"r": ["vulnerability_assessment", "record_keeping"]}
+{"r": ["standard_operating_procedure", "sanitation_procedure"]}
+{"r": ["standard_operating_procedure", "receiving_procedure"]}
+{"r": ["standard_operating_procedure", "temperature_control"]}
+{"r": ["standard_operating_procedure", "allergen_management"]}
+{"r": ["record_keeping", "temperature_log"]}
+{"r": ["record_keeping", "maintenance_record"]}
+{"r": ["record_keeping", "training_record"]}
+{"r": ["chemical_storage", "facility_design"]}
+{"r": ["chemical_storage", "pest_control"]}
+{"r": ["chemical_concentration_verification", "sanitizer_test_strip"]}
+{"r": ["contact_time_requirement", "surface_sanitizing"]}
+{"r": ["facility_design", "cross_contamination_prevention"]}
+{"r": ["facility_design", "ventilation_system"]}
+{"r": ["facility_design", "handwashing_station"]}
+{"r": ["facility_design", "three_compartment_sink"]}
+{"r": ["facility_design", "drain_maintenance"]}
+{"r": ["ventilation_system", "hood_vent_cleaning"]}
+{"r": ["ventilation_system", "air_quality"]}
+{"r": ["hood_vent_cleaning", "cleaning_schedule"]}
+{"r": ["drain_maintenance", "condensate_drain_cleaning"]}
+{"r": ["drain_maintenance", "pest_control"]}
+{"r": ["condensate_drain_cleaning", "maintenance_record"]}
+{"r": ["refrigeration_coil_cleaning", "cleaning_schedule"]}
+{"r": ["refrigeration_coil_cleaning", "maintenance_record"]}
+{"r": ["cutting_board_condition", "cross_contamination_prevention"]}
+{"r": ["cutting_board_condition", "surface_sanitizing"]}
+{"r": ["equipment_condition", "equipment_sanitizing"]}
+{"r": ["equipment_condition", "maintenance_record"]}
+{"r": ["gasket_inspection", "maintenance_record"]}
+{"r": ["bloodborne_pathogen_protocol", "first_aid_kit_requirements"]}
+{"r": ["bloodborne_pathogen_protocol", "incident_documentation"]}
+{"r": ["time_as_public_health_control", "ready_to_eat_date_labeling"]}
+{"r": ["time_as_public_health_control", "temperature_control"]}
+{"r": ["consumer_advisory", "cooking_temperature"]}
+{"r": ["consumer_advisory", "food_allergen_labeling"]}
+{"r": ["continuing_education", "manager_food_safety_certification"]}
+{"r": ["continuing_education", "food_handler_certification"]}
+{"r": ["regulatory_update", "compliance_deadline"]}
+{"r": ["regulatory_update", "standard_operating_procedure"]}
+{"r": ["crisis_communication_plan", "incident_documentation"]}
+{"r": ["customer_complaint_procedure", "incident_documentation"]}
+{"r": ["customer_complaint_procedure", "legal_liability"]}
+{"r": ["line_cleaning", "sanitation_procedure"]}
+{"r": ["end_of_shift_cleaning", "sanitation_procedure"]}
+{"r": ["deep_cleaning_schedule", "equipment_condition"]}
+{"r": ["deep_cleaning_schedule", "hood_vent_cleaning"]}
+{"r": ["deep_cleaning_schedule", "refrigeration_coil_cleaning"]}
+{"r": ["facility_design", "buffer_zone_requirement"]}
+{"r": ["facility_design", "food_storage_standards"]}
+{"r": ["facility_design", "equipment_condition"]}

@@ -1,0 +1,196 @@
+{"c": "seamless_reservation_system", "d": "Easy online and phone booking with confirmation and reminders"}
+{"c": "warm_greeting_at_entrance", "d": "Friendly host acknowledgment upon arrival"}
+{"c": "minimal_wait_time_for_seating", "d": "Short or well-managed time between arrival and being seated"}
+{"c": "comfortable_waiting_area", "d": "Pleasant seating and atmosphere while waiting for table"}
+{"c": "thoughtful_table_assignment", "d": "Staff places guests at appropriate table based on party size and preferences"}
+{"c": "clean_and_well_maintained_restrooms", "d": "Restrooms are spotless, stocked, and properly maintained"}
+{"c": "adequate_parking_availability", "d": "Sufficient parking spaces or valet service for guests"}
+{"c": "wheelchair_accessible_entrance", "d": "Easy access for guests with mobility devices"}
+{"c": "welcoming_decor_and_interior", "d": "Visually appealing and well-designed restaurant interior"}
+{"c": "appropriate_lighting_ambiance", "d": "Lighting creates desired mood without being too bright or dim"}
+{"c": "pleasant_background_music", "d": "Music selection and volume appropriate for dining experience"}
+{"c": "comfortable_seating", "d": "Chairs and booths provide adequate comfort for duration of meal"}
+{"c": "appropriate_noise_level", "d": "Sound levels allow conversation without shouting"}
+{"c": "pleasant_temperature", "d": "Restaurant climate is neither too hot nor too cold"}
+{"c": "clean_table_and_surroundings", "d": "Table surface and immediate area are spotless upon seating"}
+{"c": "proper_table_settings", "d": "Correct utensils, glasses, napkins, and linens provided"}
+{"c": "menu_clarity_and_organization", "d": "Menu is easy to read with clear descriptions and sections"}
+{"c": "accommodating_dietary_restrictions", "d": "Staff readily helps guests with allergies and special diets"}
+{"c": "knowledgeable_server", "d": "Server understands menu items and can make recommendations"}
+{"c": "attentive_water_service", "d": "Water glasses are regularly refilled without asking"}
+{"c": "prompt_bread_or_appetizer_delivery", "d": "Starters arrive quickly after ordering"}
+{"c": "appetizer_quality", "d": "Starters are flavorful and well-prepared"}
+{"c": "proper_food_temperature", "d": "Hot foods arrive hot, cold foods arrive cold"}
+{"c": "generous_portion_sizes", "d": "Amount of food provided feels fair for price"}
+{"c": "excellent_food_taste", "d": "Food is flavorful and well-seasoned"}
+{"c": "beautiful_food_presentation", "d": "Dishes are plated attractively"}
+{"c": "fresh_ingredients", "d": "Food components taste and appear fresh"}
+{"c": "consistent_food_quality", "d": "Same dish tastes same across visits"}
+{"c": "suitable_pacing_between_courses", "d": "Timing between dishes feels natural and unhurried"}
+{"c": "attentive_service_throughout_meal", "d": "Server checks on table appropriately without being intrusive"}
+{"c": "wine_pairing_recommendations", "d": "Server suggests suitable wines for ordered food"}
+{"c": "smooth_drink_refills", "d": "Beverages are refilled promptly and without disruption"}
+{"c": "quick_problem_resolution", "d": "Issues with food or service are addressed immediately"}
+{"c": "appealing_dessert_selection", "d": "Dessert menu offers tempting options"}
+{"c": "quality_desserts", "d": "Sweet dishes are delicious and well-made"}
+{"c": "quality_coffee_service", "d": "Coffee is fresh and properly prepared"}
+{"c": "complimentary_treats", "d": "Free extras like mints or cookies enhance experience"}
+{"c": "discreet_check_delivery", "d": "Bill presented unobtrusively when requested"}
+{"c": "multiple_payment_options", "d": "Accepts cash, cards, mobile payments, contactless"}
+{"c": "transparent_pricing", "d": "All costs clear with no surprise fees"}
+{"c": "graceful_check_closing", "d": "Payment processed smoothly without delays"}
+{"c": "optional_tip_guidance", "d": "Tip suggestions displayed appropriately"}
+{"c": "quality_to_go_packaging", "d": "Takeout containers are sturdy and maintain food quality"}
+{"c": "thank_you_gesture_on_exit", "d": "Staff acknowledges guests kindly when leaving"}
+{"c": "manager_availability", "d": "Manager visible and accessible for concerns"}
+{"c": "loyalty_program_benefits", "d": "Rewards program provides meaningful perks"}
+{"c": "birthday_special_treatment", "d": "Special recognition or complimentary item for birthday"}
+{"c": "personalized_service", "d": "Staff remembers preferences from past visits"}
+{"c": "seamless_online_ordering", "d": "Website/app ordering is intuitive and reliable"}
+{"c": "accurate_takeout_orders", "d": "Takeout items match what was ordered"}
+{"c": "family_friendly_environment", "d": "Appropriate for children and families"}
+{"c": "kids_menu_variety", "d": "Children's options are appealing and varied"}
+{"c": "high_chair_availability", "d": "Sufficient high chairs for young children"}
+{"c": "booster_seat_availability", "d": "Booster seats available when needed"}
+{"c": "changing_table_in_restroom", "d": "Baby changing facilities provided"}
+{"c": "pet_friendly_outdoor_seating", "d": "Patio allows well-behaved pets"}
+{"c": "outdoor_seating_quality", "d": "Outside dining area is comfortable and pleasant"}
+{"c": "scenic_view", "d": "Restaurant offers attractive exterior scenery"}
+{"c": "romantic_atmosphere", "d": "Ambiance suitable for date night"}
+{"c": "private_dining_options", "d": "Separate rooms available for private events"}
+{"c": "special_occasion_acknowledgment", "d": "Staff recognizes holidays, anniversaries, etc"}
+{"c": "live_entertainment", "d": "Music or performances enhance evening"}
+{"c": "waitlist_management", "d": "System handles parties fairly when busy"}
+{"c": "delay_communication", "d": "Guests informed if wait exceeds expected time"}
+{"c": "reservation_conflict_resolution", "d": "Booking errors handled gracefully"}
+{"c": "catering_quality_consistency", "d": "Off-premise food matches dining room quality"}
+{"c": "gift_card_purchase_ease", "d": "Buying gift cards is simple and flexible"}
+{"c": "wifi_connectivity", "d": "Internet available and reliable for guests"}
+{"c": "outlet_availability", "d": "Places to charge devices available"}
+{"c": "coat_check_convenience", "d": "Coat and bag storage available"}
+{"c": "valet_parking_quality", "d": "Valet service is efficient and professional"}
+{"c": "condiment_presentation", "d": "Sauces and seasonings served appropriately"}
+{"c": "bread_freshness", "d": "Bread items are warm and fresh"}
+{"c": "soup_of_the_day_quality", "d": "Daily soup offerings are tasty and fresh"}
+{"c": "seasonal_menu_updates", "d": "Menu changes reflect current seasons"}
+{"c": "cultural_authenticity", "d": "Ethnic cuisine is respectfully authentic"}
+{"c": "innovative_dishes", "d": "Creative menu items provide excitement"}
+{"c": "comfort_food_satisfaction", "d": "Classic dishes satisfy traditional cravings"}
+{"c": "fine_dining_formality", "d": "Service style matches upscale setting"}
+{"c": "casual_dining_ease", "d": "Relaxed atmosphere encourages lingering"}
+{"c": "clean_tablecloths_napkins", "d": "Linens are pristine and well-maintained"}
+{"c": "staff_uniform_presentation", "d": "Employees appear neat and professional"}
+{"c": "exterior_cleanliness", "d": "Outside of building and entrance area is clean"}
+{"c": "signage_readability", "d": "Restaurant signs visible and clear"}
+{"c": "smoking_area_consideration", "d": "Outdoor smoking away from non-smokers"}
+{"c": "food_quality_consistency", "d": "Same dishes taste same across different visits"}
+{"c": "portion_value_perception", "d": "Guests feel portions justify prices"}
+{"c": "tip_jar_placement", "d": "Optional tipping is unobtrusive"}
+{"c": "corkage_policy_fairness", "d": "BYOB policy reasonable when allowed"}
+{"c": "pet_treat_provision", "d": "Treats offered for canine companions"}
+{"c": "oversized_appealing_dishes", "d": "Signature platters are visually impressive"}
+{"c": "comfortable_table_height", "d": "Tables at proper height for dining"}
+{"c": "chair_table_spacing", "d": "Seats not cramped or too far apart"}
+{"c": "table_sturdiness", "d": "Tables are stable without wobbling"}
+{"c": "napkin_quality", "d": "Napkins are soft and absorbent"}
+{"c": "fresh_flower_decor", "d": "Live plants or flowers add ambiance"}
+{"c": "seasonal_decor_changes", "d": "Interior decorations updated seasonally"}
+{"c": "complaint_handling_grace", "d": "Staff addresses grievances without defensiveness"}
+{"c": "free_dessert_apology", "d": "Complimentary sweet for service failures"}
+{"c": "surprise_upgrade_treatment", "d": "Unexpected improvements delight guests"}
+{"c": "return_visit_incentive", "d": "Something encourages coming back soon"}
+{"c": "social_media_engagement", "d": "Restaurant responds to online posts"}
+{"c": "review_solicitation", "d": "Guests invited to share feedback"}
+{"c": "newsletter_value", "d": "Email updates worth reading"}
+{"r": ["seamless_reservation_system", "warm_greeting_at_entrance"]}
+{"r": ["warm_greeting_at_entrance", "thoughtful_table_assignment"]}
+{"r": ["warm_greeting_at_entrance", "minimal_wait_time_for_seating"]}
+{"r": ["minimal_wait_time_for_seating", "comfortable_waiting_area"]}
+{"r": ["minimal_wait_time_for_seating", "waitlist_management"]}
+{"r": ["thoughtful_table_assignment", "comfortable_seating"]}
+{"r": ["thoughtful_table_assignment", "family_friendly_environment"]}
+{"r": ["thoughtful_table_assignment", "romantic_atmosphere"]}
+{"r": ["adequate_parking_availability", "valet_parking_quality"]}
+{"r": ["wheelchair_accessible_entrance", "clean_and_well_maintained_restrooms"]}
+{"r": ["welcoming_decor_and_interior", "clean_table_and_surroundings"]}
+{"r": ["welcoming_decor_and_interior", "fresh_flower_decor"]}
+{"r": ["appropriate_lighting_ambiance", "romantic_atmosphere"]}
+{"r": ["appropriate_lighting_ambiance", "menu_clarity_and_organization"]}
+{"r": ["pleasant_background_music", "appropriate_noise_level"]}
+{"r": ["appropriate_noise_level", "romantic_atmosphere"]}
+{"r": ["appropriate_noise_level", "family_friendly_environment"]}
+{"r": ["pleasant_temperature", "comfortable_seating"]}
+{"r": ["clean_table_and_surroundings", "clean_tablecloths_napkins"]}
+{"r": ["clean_table_and_surroundings", "proper_table_settings"]}
+{"r": ["menu_clarity_and_organization", "accommodating_dietary_restrictions"]}
+{"r": ["menu_clarity_and_organization", "kids_menu_variety"]}
+{"r": ["accommodating_dietary_restrictions", "fresh_ingredients"]}
+{"r": ["accommodating_dietary_restrictions", "complaint_handling_grace"]}
+{"r": ["knowledgeable_server", "wine_pairing_recommendations"]}
+{"r": ["knowledgeable_server", "recommendation_quality"]}
+{"r": ["knowledgeable_server", "cultural_authenticity"]}
+{"r": ["attentive_water_service", "smooth_drink_refills"]}
+{"r": ["prompt_bread_or_appetizer_delivery", "bread_freshness"]}
+{"r": ["prompt_bread_or_appetizer_delivery", "appetizer_quality"]}
+{"r": ["appetizer_quality", "food_quality_consistency"]}
+{"r": ["proper_food_temperature", "excellent_food_taste"]}
+{"r": ["generous_portion_sizes", "portion_value_perception"]}
+{"r": ["excellent_food_taste", "food_quality_consistency"]}
+{"r": ["beautiful_food_presentation", "oversized_appealing_dishes"]}
+{"r": ["fresh_ingredients", "excellent_food_taste"]}
+{"r": ["fresh_ingredients", "seasonal_menu_updates"]}
+{"r": ["suitable_pacing_between_courses", "casual_dining_ease"]}
+{"r": ["attentive_service_throughout_meal", "knowledgeable_server"]}
+{"r": ["attentive_service_throughout_meal", "prompt_bread_or_appetizer_delivery"]}
+{"r": ["attentive_service_throughout_meal", "suitable_pacing_between_courses"]}
+{"r": ["wine_pairing_recommendations", "corkage_policy_fairness"]}
+{"r": ["quick_problem_resolution", "complaint_handling_grace"]}
+{"r": ["quick_problem_resolution", "free_dessert_apology"]}
+{"r": ["appealing_dessert_selection", "quality_desserts"]}
+{"r": ["quality_desserts", "food_quality_consistency"]}
+{"r": ["quality_coffee_service", "complimentary_treats"]}
+{"r": ["discreet_check_delivery", "graceful_check_closing"]}
+{"r": ["transparent_pricing", "portion_value_perception"]}
+{"r": ["transparent_pricing", "optional_tip_guidance"]}
+{"r": ["quality_to_go_packaging", "accurate_takeout_orders"]}
+{"r": ["thank_you_gesture_on_exit", "warm_greeting_at_entrance"]}
+{"r": ["thank_you_gesture_on_exit", "return_visit_incentive"]}
+{"r": ["manager_availability", "quick_problem_resolution"]}
+{"r": ["loyalty_program_benefits", "personalized_service"]}
+{"r": ["birthday_special_treatment", "personalized_service"]}
+{"r": ["personalized_service", "return_visit_incentive"]}
+{"r": ["seamless_online_ordering", "accurate_takeout_orders"]}
+{"r": ["family_friendly_environment", "kids_menu_variety"]}
+{"r": ["family_friendly_environment", "high_chair_availability"]}
+{"r": ["family_friendly_environment", "booster_seat_availability"]}
+{"r": ["family_friendly_environment", "changing_table_in_restroom"]}
+{"r": ["kids_menu_variety", "comfort_food_satisfaction"]}
+{"r": ["pet_friendly_outdoor_seating", "pet_treat_provision"]}
+{"r": ["outdoor_seating_quality", "pet_friendly_outdoor_seating"]}
+{"r": ["outdoor_seating_quality", "scenic_view"]}
+{"r": ["romantic_atmosphere", "private_dining_options"]}
+{"r": ["special_occasion_acknowledgment", "birthday_special_treatment"]}
+{"r": ["special_occasion_acknowledgment", "surprise_upgrade_treatment"]}
+{"r": ["live_entertainment", "romantic_atmosphere"]}
+{"r": ["delay_communication", "waitlist_management"]}
+{"r": ["reservation_conflict_resolution", "seamless_reservation_system"]}
+{"r": ["catering_quality_consistency", "food_quality_consistency"]}
+{"r": ["gift_card_purchase_ease", "loyalty_program_benefits"]}
+{"r": ["wifi_connectivity", "outlet_availability"]}
+{"r": ["valet_parking_quality", "adequate_parking_availability"]}
+{"r": ["condiment_presentation", "fresh_ingredients"]}
+{"r": ["cultural_authenticity", "innovative_dishes"]}
+{"r": ["innovative_dishes", "surprise_upgrade_treatment"]}
+{"r": ["comfort_food_satisfaction", "food_quality_consistency"]}
+{"r": ["fine_dining_formality", "staff_uniform_presentation"]}
+{"r": ["fine_dining_formality", "suitable_pacing_between_courses"]}
+{"r": ["casual_dining_ease", "attentive_service_throughout_meal"]}
+{"r": ["exterior_cleanliness", "signage_readability"]}
+{"r": ["surprise_upgrade_treatment", "return_visit_incentive"]}
+{"r": ["return_visit_incentive", "loyalty_program_benefits"]}
+{"r": ["review_solicitation", "social_media_engagement"]}
+{"r": ["clean_and_well_maintained_restrooms", "changing_table_in_restroom"]}
+{"r": ["clean_and_well_maintained_restrooms", "exterior_cleanliness"]}
+{"r": ["staff_uniform_presentation", "warm_greeting_at_entrance"]}
+{"r": ["cozy_ambiance", "romantic_atmosphere"]}
+{"c": "cozy_ambiance", "d": "Overall feeling of warmth and comfort in space"}

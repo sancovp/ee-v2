@@ -1,0 +1,804 @@
+{"c": "pos_terminal", "d": "Main electronic device at point of sale for processing orders and payments"}
+{"c": "receipt_printer", "d": "Thermal or impact printer that produces customer receipts at time of sale"}
+{"c": "barcode_scanner", "d": "Optical scanner device to read product barcodes for inventory and ordering"}
+{"c": "cash_drawer", "d": "Mechanical or electronic drawer that stores cash currency and coins securely"}
+{"c": "credit_card_reader", "d": "Hardware device that reads credit debit cards via magnetic stripe chip or tap"}
+{"c": "contactless_payment_reader", "d": "NFC enabled reader for Apple Pay Google Pay Samsung Pay and contactless cards"}
+{"c": "emv_chip_reader", "d": "Europay Mastercard Visa compliant card reader for chip card transaction security"}
+{"c": "pin_pad", "d": "Dedicated keypad device for customers to enter personal identification numbers"}
+{"c": "kitchen_display_system", "d": "Digital screen in kitchen showing incoming orders from front of house"}
+{"c": "kitchen_printer", "d": "Impact or thermal printer in prep areas producing order tickets for cooks"}
+{"c": "handheld_pos_device", "d": "Wireless mobile POS unit carried by servers for tableside ordering and payment"}
+{"c": "tablet_pos", "d": "Commercial grade tablet running POS software for order and payment processing"}
+{"c": "self_service_kiosk", "d": "Standing digital terminal for customers to browse menu and place orders independently"}
+{"c": "digital_menu_board", "d": "Electronic display screen showing menu items with images and pricing dynamically"}
+{"c": "order_confirmation_display", "d": "Screen showing customer order details for verification before submission"}
+{"c": "customer_display", "d": "Secondary screen visible to customer showing transaction totals and prompts"}
+{"c": "thermal_printer", "d": "High speed printer using heat sensitive paper for receipts and kitchen tickets"}
+{"c": "label_printer", "d": "Printer producing adhesive labels for food packaging takeout and inventory"}
+{"c": "pos_software", "d": "Application program that manages sales transactions inventory and customer data"}
+{"c": "restaurant_management_software", "d": "Comprehensive platform overseeing all restaurant operations and data"}
+{"c": "cloud_pos", "d": "Internet based POS system storing data on remote servers with real time sync"}
+{"c": "on_premise_pos", "d": "Locally installed POS system running on premises server hardware"}
+{"c": "menu_management_system", "d": "Software for creating editing pricing and organizing menu items and categories"}
+{"c": "inventory_management_system", "d": "Digital tool tracking stock levels ingredient usage and reorder alerts"}
+{"c": "table_management_system", "d": "Software coordinating table assignments seating flow and turn times"}
+{"c": "reservation_system", "d": "Platform for booking guest reservations and walk in waitlist management"}
+{"c": "staff_scheduling_software", "d": "Digital tool for creating employee schedules and shift assignments"}
+{"c": "labor_cost_software", "d": "Analytics program tracking payroll expenses as percentage of revenue"}
+{"c": "loyalty_program_software", "d": "System managing customer reward points punch cards and member tiers"}
+{"c": "gift_card_system", "d": "Platform issuing and redeeming prepaid gift cards across locations"}
+{"c": "online_ordering_platform", "d": "Website or app enabling customers to place orders for pickup or delivery"}
+{"c": "third_party_delivery_integration", "d": "Software connection linking restaurant POS to DoorDash UberEats Grubhub"}
+{"c": "payment_processing_gateway", "d": "Service that securely transmits payment data between merchant and processor"}
+{"c": "tip_distribution_software", "d": "System calculating and allocating tips to servers bussers and support staff"}
+{"c": "analytics_reporting_dashboard", "d": "Visual interface displaying key performance metrics and business intelligence"}
+{"c": "customer_relationship_management_crm", "d": "Database tracking guest preferences purchase history and contact information"}
+{"c": "backoffice_accounting_software", "d": "Financial program managing accounts payable receivable and general ledger"}
+{"c": "cloud_computing", "d": "Remote server infrastructure hosting restaurant software and data storage"}
+{"c": "wifi_network", "d": "Wireless internet connectivity enabling POS devices and tablets to communicate"}
+{"c": "restaurant_app", "d": "Mobile application branded for the restaurant for ordering and engagement"}
+{"c": "mobile_ordering", "d": "Smartphone based system allowing customers to browse menu and place orders"}
+{"c": "qr_code_ordering", "d": "System where customers scan QR codes to access digital menu and order"}
+{"c": "digital_wallet_payment", "d": "Payment via stored credentials in Apple Google or Samsung digital wallets"}
+{"c": "biometric_payment", "d": "Transaction authenticated via fingerprint or facial recognition technology"}
+{"c": "voice_ordering", "d": "Natural language AI system allowing spoken menu orders via smart speaker"}
+{"c": "artificial_intelligence_ai", "d": "Computer systems performing tasks requiring human intelligence and judgment"}
+{"c": "machine_learning", "d": "Algorithmic systems improving through experience and data pattern recognition"}
+{"c": "predictive_analytics", "d": "Statistical techniques forecasting future outcomes based on historical data"}
+{"c": "inventory_forecasting", "d": "Algorithm predicting future stock needs based on sales trends and seasonality"}
+{"c": "demand_forecasting", "d": "Analysis predicting customer demand to optimize purchasing and staffing"}
+{"c": "menu_optimization_algorithm", "d": "AI analyzing sales data to recommend profitable menu item decisions"}
+{"c": "dynamic_pricing", "d": "Real time price adjustments based on demand time of day and inventory levels"}
+{"c": "kitchen_automation", "d": "Technology systems reducing manual labor in food preparation processes"}
+{"c": "automated_food_prep", "d": "Robotic or mechanical equipment performing cooking assembly tasks"}
+{"c": "robot_server", "d": "Autonomous machine delivering food and beverages from kitchen to tables"}
+{"c": "delivery_robot", "d": "Self driving robot transporting orders to customers outside the restaurant"}
+{"c": "digital_receipt", "d": "Electronic receipt sent via email or text instead of printed paper copy"}
+{"c": "electronic_signature", "d": "Digital capture of customer signature for receipts tips and authorizations"}
+{"c": "offline_mode", "d": "POS capability to process transactions without internet connectivity"}
+{"c": "real_time_sync", "d": "Instantaneous data synchronization across all connected devices and locations"}
+{"c": "api_integration", "d": "Technical connection allowing different software systems to share data"}
+{"c": "payment_gateway", "d": "Merchant service bridging restaurant POS and payment processor networks"}
+{"c": "pci_compliance", "d": "Payment Card Industry Data Security Standard requirements for card handling"}
+{"c": "data_security", "d": "Measures protecting sensitive restaurant and customer information from breaches"}
+{"c": "encryption", "d": "Mathematical encoding of data making it unreadable to unauthorized parties"}
+{"c": "tokenization", "d": "Replacing sensitive card data with non sensitive tokens for secure storage"}
+{"c": "order_management", "d": "End to end process of capturing transmitting and fulfilling customer orders"}
+{"c": "split_check", "d": "POS feature dividing one table bill into multiple separate payments"}
+{"c": "comp_management", "d": "System for authorizing and tracking complimentary items and discounts"}
+{"c": "discount_application", "d": "POS function applying percentage or dollar off promotions to transactions"}
+{"c": "tip_pooling", "d": "Process of combining and redistributing tips among service staff categories"}
+{"c": "service_charge_calculation", "d": "Automatic addition of gratuity or service fees to guest checks"}
+{"c": "tax_calculation", "d": "Automated computation of applicable sales taxes based on jurisdiction and items"}
+{"c": "multi_location_management", "d": "Centralized oversight of operations and data across restaurant chain"}
+{"c": "franchise_centralized_control", "d": "Parent company management of technology standards for franchisees"}
+{"c": "inventory_alert_system", "d": "Automated notifications when stock reaches predetermined reorder points"}
+{"c": "reorder_point", "d": "Stock level threshold triggering purchase orders to suppliers"}
+{"c": "food_cost_percentage", "d": "Metric measuring ingredient costs relative to menu item selling price"}
+{"c": "menu_item_profitability", "d": "Analysis of revenue versus cost for each menu item offering"}
+{"c": "table_turnover_rate", "d": "Metric measuring how quickly tables are cleared and reseated per shift"}
+{"c": "average_ticket_size", "d": "Mean dollar amount spent per customer check including all items"}
+{"c": "server_performance_tracking", "d": "POS reporting on individual server sales volume tips and table efficiency"}
+{"c": "staff_payroll_integration", "d": "Direct data flow from time tracking to payroll processing system"}
+{"c": "end_of_day_reconciliation", "d": "Closing process comparing register totals to expected cash and card receipts"}
+{"c": "cash_handling", "d": "Procedures and technology for managing physical currency in the restaurant"}
+{"c": "bank_deposit_automation", "d": "Electronic transfer of daily receipts directly to business bank account"}
+{"c": "vendor_payment_automation", "d": "Systematic scheduling of supplier invoice payments through accounting software"}
+{"c": "sales_reporting", "d": "Analysis of revenue by category time period item and server performance"}
+{"c": "labor_hour_tracking", "d": "Recording of employee work time for scheduling and payroll purposes"}
+{"c": "online_reservation_platform", "d": "Internet service like OpenTable for booking restaurant reservations"}
+{"c": "waitlist_management_system", "d": "Digital tool tracking walk in guests and estimated seating wait times"}
+{"c": "guest_seating_optimization", "d": "Algorithm matching party sizes and preferences to optimal available tables"}
+{"c": "digital_waitlist_app", "d": "Mobile interface allowing guests to join queue and receive text notifications"}
+{"c": "customer_loyalty_app", "d": "Branded mobile application tracking member rewards and personalized offers"}
+{"c": "table_side_ordering", "d": "Server use of handheld devices to input orders directly at guest table"}
+{"c": "self_checkout_kiosk", "d": "Customer operated terminal for placing and paying for orders without staff"}
+{"c": "digital_tipping", "d": "Electronic tip selection interface presented on receipt or tablet screen"}
+{"c": "feedback_tablet", "d": "Tablet device soliciting customer satisfaction ratings after meal"}
+{"c": "digital_review_request", "d": "Automated prompt encouraging guests to rate experience on review platforms"}
+{"c": "contactless_dining", "d": "Ordering and payment via personal smartphone minimizing physical contact"}
+{"c": "qr_code_payment", "d": "Customer scanning QR code to initiate mobile payment transaction"}
+{"c": "saved_payment_methods", "d": "Secure storage of customer credit card information for faster future checkout"}
+{"c": "customer_profiling", "d": "Building behavioral and preference data profiles for individual guests"}
+{"c": "spending_history_tracking", "d": "Recording of past purchases to identify customer ordering patterns"}
+{"c": "personalized_recommendations", "d": "AI suggesting menu items based on individual customer taste preferences"}
+{"c": "targeted_promotions", "d": "Customized discounts or offers sent to specific customers based on their data"}
+{"c": "email_marketing_integration", "d": "Connection between POS data and email campaign platform for guest outreach"}
+{"c": "sms_marketing_integration", "d": "Link between restaurant system and text message marketing platform"}
+{"c": "prep_station_display", "d": "Specialized screen showing orders for specific prep areas like grill or sauté"}
+{"c": "ticket_times_display", "d": "Monitor showing elapsed time since each order was placed in kitchen"}
+{"c": "menu_item_screen", "d": "Image display of specific menu item for reference during food preparation"}
+{"c": "order_routing_system", "d": "Software directing orders to appropriate kitchen stations based on items"}
+{"c": "course_pacing_software", "d": "System managing timing between appetizer main course and dessert courses"}
+{"c": "food_allergy_alert_system", "d": "Digital notification flagging orders containing guest allergy information"}
+{"c": "allergen_filtering", "d": "Menu software blocking items containing specified allergens from display"}
+{"c": "menu_label_printer", "d": "Device printing allergen and ingredient labels for individual plated dishes"}
+{"c": "inventory_count_scanner", "d": "Handheld barcode scanner for rapid physical inventory counts"}
+{"c": "spoilage_tracking", "d": "Logging waste and expired product to identify loss patterns and causes"}
+{"c": "waste_logging", "d": "Recording of discarded food and ingredients for cost analysis purposes"}
+{"c": "food_safety_tracking", "d": "Monitoring systems ensuring compliance with health safety protocols"}
+{"c": "temperature_monitoring", "d": "IoT sensors tracking refrigerator freezer and cooking equipment temperatures"}
+{"c": "food_storage_tracking", "d": "System managing ingredient locations and quantities in storage areas"}
+{"c": "expiration_date_alert", "d": "Automated warning when product shelf life approaches spoilage threshold"}
+{"c": "recipe_costing_software", "d": "Tool calculating true cost of each menu item based on ingredient quantities"}
+{"c": "plate_cost_calculator", "d": "Program determining food cost per plate for menu pricing decisions"}
+{"c": "portion_control_technology", "d": "Dispensing equipment ensuring consistent ingredient amounts per order"}
+{"c": "menu_engineering_software", "d": "Analytics platform evaluating menu items by popularity and profitability matrix"}
+{"c": "kitchen_call_system", "d": "Audio system announcing order ready times to servers for pickup"}
+{"c": "expo_station_display", "d": "Screen at expeditor station showing plated items ready for service"}
+{"c": "pos_api", "d": "Application programming interface allowing external apps to communicate with POS"}
+{"c": "third_party_delivery_aggregation", "d": "Platform consolidating orders from multiple delivery apps into one screen"}
+{"c": "doordash_integration", "d": "Direct POS connection to DoorDash platform for incoming delivery orders"}
+{"c": "uber_eats_integration", "d": "System linking restaurant to UberEats with automatic order transmission"}
+{"c": "grubhub_integration", "d": "Technical connection enabling seamless order flow from Grubhub to kitchen"}
+{"c": "postmates_integration", "d": "POS link to Postmates delivery service for order fulfillment management"}
+{"c": "square_integration", "d": "Connection to Square payment ecosystem and associated restaurant tools"}
+{"c": "toast_integration", "d": "Linkage to Toast POS platform features and supplementary applications"}
+{"c": "opentable_integration", "d": "Two way sync between reservation platform and table management system"}
+{"c": "opentable_reservation_sync", "d": "Automatic updating of availability across OpenTable and restaurant systems"}
+{"c": "instagram_menu_link", "d": "Bio link directing social media followers to online menu or ordering page"}
+{"c": "google_menu_integration", "d": "Syncing menu data with Google Business Profile for accurate search display"}
+{"c": "yelp_menu_sync", "d": "Automatic updating of menu content displayed on Yelp business listing"}
+{"c": "online_ordering_aggregation", "d": "Consolidating orders from all digital channels into single kitchen view"}
+{"c": "unified_inventory", "d": "Single inventory database updated by all sales channels to prevent overselling"}
+{"c": "menu_price_sync", "d": "Automated price updates across all platforms when POS menu pricing changes"}
+{"c": "ingredient_level_inventory", "d": "Stock tracking broken down to individual ingredient components"}
+{"c": "recipe_level_inventory", "d": "Inventory system using menu item recipes to calculate ingredient needs"}
+{"c": "supplier_integration", "d": "Direct electronic connection between restaurant ordering and vendor systems"}
+{"c": "food_tech_platform", "d": "Comprehensive ecosystem of restaurant technology providers and tools"}
+{"c": "delivery_management_software", "d": "Platform coordinating in house delivery drivers routes and ETAs"}
+{"c": "driver_routing_optimization", "d": "GPS and algorithm based planning for efficient delivery driver routes"}
+{"c": "geofencing", "d": "Location boundary triggering actions when delivery driver enters or exits area"}
+{"c": "customer_wait_time_display", "d": "Screen showing estimated wait time for food preparation and pickup"}
+{"c": "estimated_ready_time", "d": "Calculated time when order will be prepared for customer pickup or delivery"}
+{"c": "order_tracking", "d": "Real time status updates for customers monitoring their order progress"}
+{"c": "live_delivery_tracking", "d": "Customer facing map showing driver location and estimated arrival time"}
+{"c": "time_clock_app", "d": "Mobile or kiosk application for employees to record arrival and departure times"}
+{"c": "tip_tracking_app", "d": "Application logging daily tips for employee record keeping and tax purposes"}
+{"c": "staff_communication_app", "d": "Messaging platform enabling shift announcements and coordination among staff"}
+{"c": "shift_bidding_app", "d": "Digital system allowing employees to request or claim available shifts"}
+{"c": "training_management", "d": "Software tracking employee onboarding progress and ongoing skill development"}
+{"c": "certification_tracking", "d": "System monitoring expiration of food handler permits and alcohol certifications"}
+{"c": "performance_metrics_dashboard", "d": "Visual display of employee KPI data including sales efficiency and ratings"}
+{"c": "tip_out_automation", "d": "Automatic calculation and distribution of tips to support staff positions"}
+{"c": "tip_credit_calculation", "d": "Computing amount credited toward servers meeting minimum wage guarantee"}
+{"c": "hourly_rate_management", "d": "System handling different pay rates for various job roles and shifts"}
+{"c": "overtime_tracking", "d": "Monitoring hours worked beyond standard thresholds triggering premium pay"}
+{"c": "scheduling_forecast", "d": "AI predicting labor needs based on historical traffic and upcoming events"}
+{"c": "labor_percentage_alerts", "d": "Notifications when payroll costs approach or exceed target percentages"}
+{"c": "pos_security", "d": "Safeguards protecting point of sale system from unauthorized access and fraud"}
+{"c": "fraud_detection", "d": "AI monitoring transaction patterns to identify suspicious or fraudulent activity"}
+{"c": "chargeback_management", "d": "Process and tools for disputing and preventing payment card chargebacks"}
+{"c": "pci_dss_compliance", "d": "Adherence to security standards governing credit card data handling practices"}
+{"c": "end_to_end_encryption", "d": "Complete data protection from customer card swipe through payment processing"}
+{"c": "tokenization_payment", "d": "Replacing card numbers with secure tokens for storage and recurring billing"}
+{"c": "secure_remote_access", "d": "Encrypted VPN or similar technology for accessing POS from offsite locations"}
+{"c": "backup_recovery_system", "d": "Redundant data copies enabling restoration after hardware failure or loss"}
+{"c": "disaster_recovery", "d": "Business continuity plan and tools for resuming operations after catastrophic event"}
+{"c": "business_continuity", "d": "Strategies ensuring restaurant can continue serving during disruptions"}
+{"c": "data_backup", "d": "Regular copying of restaurant data to secondary storage for safekeeping"}
+{"c": "cloud_backup", "d": "Offsite storage service automatically copying restaurant data to cloud servers"}
+{"c": "real_time_data_replication", "d": "Continuous copying of data to multiple locations for redundancy and speed"}
+{"c": "audit_logging", "d": "Immutable record of all POS transactions and system activities for review"}
+{"c": "employee_permission_levels", "d": "Differentiated access rights for managers servers hosts versus owners"}
+{"c": "role_based_access_control", "d": "Security model granting system capabilities based on assigned job role"}
+{"c": "manager_override", "d": "Supervisor authentication required to execute restricted POS functions"}
+{"c": "void_password", "d": "Secure code needed to cancel or void previously processed transactions"}
+{"c": "refund_protection", "d": "Procedures and verification steps before returning money to customers"}
+{"c": "payment_processing", "d": "Complete cycle of authorizing settling and depositing card transactions"}
+{"c": "interchange_fees", "d": "Base fees paid to card issuing banks on every credit debit transaction"}
+{"c": "payment_terminal_leasing", "d": "Renting credit card processing hardware instead of purchasing outright"}
+{"c": "payment_subscription_model", "d": "Flat monthly fee POS providers charging instead of per transaction fees"}
+{"c": "merchant_account", "d": "Bank account enabling restaurant to accept and deposit card payments"}
+{"c": "payment_settlement", "d": "End of day process transferring card transaction funds to merchant account"}
+{"c": "batch_closing", "d": "Finalizing daily credit card transactions for deposit and reconciliation"}
+{"c": "tip_adjustment", "d": "Customer modification of tip amount after credit card authorization"}
+{"c": "cash_management", "d": "Tracking and reconciling physical currency flows through the restaurant"}
+{"c": "safe_counting_technology", "d": "Automated currency counting devices integrated with safe and POS"}
+{"c": "armored_car_integration", "d": "Automated scheduling and documentation for cash pickup by armored service"}
+{"c": "bank_deposit_sync", "d": "Direct electronic transfer of daily sales receipts to business bank account"}
+{"c": "revenue_management", "d": "Strategic pricing and inventory control to maximize profit from available capacity"}
+{"c": "profit_margin_tracking", "d": "Real time monitoring of net profit margins by category and time period"}
+{"c": "cost_accounting", "d": "Detailed tracking and allocation of all restaurant operating expenses"}
+{"c": "budget_forecasting", "d": "Projecting future financial performance based on historical trends and plans"}
+{"c": "network_stability", "d": "Reliable internet connectivity essential for cloud POS and online ordering operations"}
+{"c": "ups_backup_power", "d": "Uninterruptible power supply keeping POS running during electrical outages"}
+{"c": "hardware_maintenance", "d": "Regular service and repairs extending life of POS equipment and peripherals"}
+{"c": "software_updates", "d": "Regular patches and upgrades keeping POS platform secure and feature current"}
+{"c": "electronic_order_ticket", "d": "Digital version of paper order ticket transmitted from POS to kitchen"}
+{"c": "digital_wallet", "d": "Stored payment credentials in smartphone for contactless in restaurant purchases"}
+{"r": ["pos_terminal", "receipt_printer"]}
+{"r": ["pos_terminal", "barcode_scanner"]}
+{"r": ["pos_terminal", "cash_drawer"]}
+{"r": ["pos_terminal", "credit_card_reader"]}
+{"r": ["pos_terminal", "contactless_payment_reader"]}
+{"r": ["pos_terminal", "emv_chip_reader"]}
+{"r": ["pos_terminal", "pin_pad"]}
+{"r": ["pos_terminal", "pos_software"]}
+{"r": ["pos_terminal", "cloud_pos"]}
+{"r": ["pos_terminal", "on_premise_pos"]}
+{"r": ["pos_terminal", "order_management"]}
+{"r": ["pos_terminal", "split_check"]}
+{"r": ["pos_terminal", "comp_management"]}
+{"r": ["pos_terminal", "discount_application"]}
+{"r": ["pos_terminal", "tip_pooling"]}
+{"r": ["pos_terminal", "service_charge_calculation"]}
+{"r": ["pos_terminal", "tax_calculation"]}
+{"r": ["pos_terminal", "end_of_day_reconciliation"]}
+{"r": ["pos_terminal", "sales_reporting"]}
+{"r": ["pos_terminal", "cash_handling"]}
+{"r": ["pos_terminal", "payment_processing"]}
+{"r": ["pos_terminal", "manager_override"]}
+{"r": ["pos_terminal", "void_password"]}
+{"r": ["pos_terminal", "refund_protection"]}
+{"r": ["pos_terminal", "batch_closing"]}
+{"r": ["pos_terminal", "tip_adjustment"]}
+{"r": ["pos_terminal", "employee_permission_levels"]}
+{"r": ["pos_terminal", "role_based_access_control"]}
+{"r": ["pos_terminal", "audit_logging"]}
+{"r": ["pos_terminal", "pos_security"]}
+{"r": ["pos_terminal", "pci_compliance"]}
+{"r": ["pos_terminal", "offline_mode"]}
+{"r": ["pos_terminal", "real_time_sync"]}
+{"r": ["pos_terminal", "network_stability"]}
+{"r": ["pos_terminal", "wifi_network"]}
+{"r": ["pos_terminal", "pos_api"]}
+{"r": ["pos_terminal", "electronic_order_ticket"]}
+{"r": ["cloud_pos", "online_ordering_platform"]}
+{"r": ["cloud_pos", "real_time_sync"]}
+{"r": ["cloud_pos", "data_backup"]}
+{"r": ["cloud_pos", "cloud_backup"]}
+{"r": ["cloud_pos", "secure_remote_access"]}
+{"r": ["cloud_pos", "multi_location_management"]}
+{"r": ["cloud_pos", "franchise_centralized_control"]}
+{"r": ["cloud_pos", "cloud_computing"]}
+{"r": ["kitchen_display_system", "electronic_order_ticket"]}
+{"r": ["kitchen_display_system", "kitchen_printer"]}
+{"r": ["kitchen_display_system", "order_routing_system"]}
+{"r": ["kitchen_display_system", "prep_station_display"]}
+{"r": ["kitchen_display_system", "ticket_times_display"]}
+{"r": ["kitchen_display_system", "expo_station_display"]}
+{"r": ["kitchen_display_system", "kitchen_call_system"]}
+{"r": ["kitchen_display_system", "food_allergy_alert_system"]}
+{"r": ["kitchen_display_system", "course_pacing_software"]}
+{"r": ["kitchen_display_system", "unified_inventory"]}
+{"r": ["kitchen_display_system", "online_ordering_aggregation"]}
+{"r": ["kitchen_display_system", "third_party_delivery_integration"]}
+{"r": ["kitchen_display_system", "doordash_integration"]}
+{"r": ["kitchen_display_system", "uber_eats_integration"]}
+{"r": ["kitchen_display_system", "grubhub_integration"]}
+{"r": ["kitchen_display_system", "postmates_integration"]}
+{"r": ["kitchen_printer", "electronic_order_ticket"]}
+{"r": ["handheld_pos_device", "table_side_ordering"]}
+{"r": ["handheld_pos_device", "tip_distribution_software"]}
+{"r": ["handheld_pos_device", "digital_tipping"]}
+{"r": ["handheld_pos_device", "electronic_signature"]}
+{"r": ["tablet_pos", "restaurant_app"]}
+{"r": ["tablet_pos", "table_management_system"]}
+{"r": ["self_service_kiosk", "menu_management_system"]}
+{"r": ["self_service_kiosk", "payment_gateway"]}
+{"r": ["self_service_kiosk", "contactless_payment_reader"]}
+{"r": ["self_service_kiosk", "qr_code_ordering"]}
+{"r": ["self_service_kiosk", "digital_receipt"]}
+{"r": ["self_service_kiosk", "digital_wallet_payment"]}
+{"r": ["digital_menu_board", "menu_management_system"]}
+{"r": ["digital_menu_board", "dynamic_pricing"]}
+{"r": ["digital_menu_board", "allergen_filtering"]}
+{"r": ["digital_menu_board", "menu_engineering_software"]}
+{"r": ["pos_software", "menu_management_system"]}
+{"r": ["pos_software", "inventory_management_system"]}
+{"r": ["pos_software", "table_management_system"]}
+{"r": ["pos_software", "reservation_system"]}
+{"r": ["pos_software", "staff_scheduling_software"]}
+{"r": ["pos_software", "labor_cost_software"]}
+{"r": ["pos_software", "loyalty_program_software"]}
+{"r": ["pos_software", "gift_card_system"]}
+{"r": ["pos_software", "customer_relationship_management_crm"]}
+{"r": ["pos_software", "analytics_reporting_dashboard"]}
+{"r": ["pos_software", "backoffice_accounting_software"]}
+{"r": ["pos_software", "tip_distribution_software"]}
+{"r": ["pos_software", "online_ordering_platform"]}
+{"r": ["pos_software", "third_party_delivery_integration"]}
+{"r": ["pos_software", "payment_processing_gateway"]}
+{"r": ["pos_software", "staff_payroll_integration"]}
+{"r": ["pos_software", "multi_location_management"]}
+{"r": ["pos_software", "franchise_centralized_control"]}
+{"r": ["pos_software", "api_integration"]}
+{"r": ["restaurant_management_software", "pos_software"]}
+{"r": ["restaurant_management_software", "menu_management_system"]}
+{"r": ["restaurant_management_software", "inventory_management_system"]}
+{"r": ["restaurant_management_software", "analytics_reporting_dashboard"]}
+{"r": ["restaurant_management_software", "staff_scheduling_software"]}
+{"r": ["restaurant_management_software", "labor_cost_software"]}
+{"r": ["restaurant_management_software", "backoffice_accounting_software"]}
+{"r": ["restaurant_management_software", "customer_relationship_management_crm"]}
+{"r": ["restaurant_management_software", "multi_location_management"]}
+{"r": ["restaurant_management_software", "budget_forecasting"]}
+{"r": ["restaurant_management_software", "revenue_management"]}
+{"r": ["restaurant_management_software", "profit_margin_tracking"]}
+{"r": ["restaurant_management_software", "cost_accounting"]}
+{"r": ["menu_management_system", "allergen_filtering"]}
+{"r": ["menu_management_system", "food_allergy_alert_system"]}
+{"r": ["menu_management_system", "menu_label_printer"]}
+{"r": ["menu_management_system", "menu_item_profitability"]}
+{"r": ["menu_management_system", "menu_engineering_software"]}
+{"r": ["menu_management_system", "plate_cost_calculator"]}
+{"r": ["menu_management_system", "recipe_costing_software"]}
+{"r": ["menu_management_system", "dynamic_pricing"]}
+{"r": ["menu_management_system", "menu_price_sync"]}
+{"r": ["menu_management_system", "google_menu_integration"]}
+{"r": ["menu_management_system", "yelp_menu_sync"]}
+{"r": ["menu_management_system", "instagram_menu_link"]}
+{"r": ["menu_management_system", "personalized_recommendations"]}
+{"r": ["menu_management_system", "qr_code_ordering"]}
+{"r": ["menu_management_system", "digital_menu_board"]}
+{"r": ["menu_management_system", "order_confirmation_display"]}
+{"r": ["inventory_management_system", "inventory_alert_system"]}
+{"r": ["inventory_management_system", "reorder_point"]}
+{"r": ["inventory_management_system", "food_cost_percentage"]}
+{"r": ["inventory_management_system", "ingredient_level_inventory"]}
+{"r": ["inventory_management_system", "recipe_level_inventory"]}
+{"r": ["inventory_management_system", "unified_inventory"]}
+{"r": ["inventory_management_system", "barcode_scanner"]}
+{"r": ["inventory_management_system", "inventory_count_scanner"]}
+{"r": ["inventory_management_system", "inventory_forecasting"]}
+{"r": ["inventory_management_system", "demand_forecasting"]}
+{"r": ["inventory_management_system", "spoilage_tracking"]}
+{"r": ["inventory_management_system", "waste_logging"]}
+{"r": ["inventory_management_system", "expiration_date_alert"]}
+{"r": ["inventory_management_system", "food_storage_tracking"]}
+{"r": ["inventory_management_system", "supplier_integration"]}
+{"r": ["inventory_management_system", "online_ordering_aggregation"]}
+{"r": ["inventory_management_system", "third_party_delivery_aggregation"]}
+{"r": ["inventory_management_system", "predictive_analytics"]}
+{"r": ["table_management_system", "reservation_system"]}
+{"r": ["table_management_system", "guest_seating_optimization"]}
+{"r": ["table_management_system", "table_turnover_rate"]}
+{"r": ["table_management_system", "waitlist_management_system"]}
+{"r": ["table_management_system", "digital_waitlist_app"]}
+{"r": ["table_management_system", "customer_profiling"]}
+{"r": ["table_management_system", "opentable_integration"]}
+{"r": ["table_management_system", "opentable_reservation_sync"]}
+{"r": ["reservation_system", "customer_relationship_management_crm"]}
+{"r": ["reservation_system", "guest_seating_optimization"]}
+{"r": ["reservation_system", "waitlist_management_system"]}
+{"r": ["reservation_system", "opentable_integration"]}
+{"r": ["reservation_system", "email_marketing_integration"]}
+{"r": ["reservation_system", "sms_marketing_integration"]}
+{"r": ["reservation_system", "customer_profiling"]}
+{"r": ["staff_scheduling_software", "labor_hour_tracking"]}
+{"r": ["staff_scheduling_software", "time_clock_app"]}
+{"r": ["staff_scheduling_software", "scheduling_forecast"]}
+{"r": ["staff_scheduling_software", "shift_bidding_app"]}
+{"r": ["staff_scheduling_software", "staff_communication_app"]}
+{"r": ["staff_scheduling_software", "overtime_tracking"]}
+{"r": ["staff_scheduling_software", "labor_percentage_alerts"]}
+{"r": ["staff_scheduling_software", "training_management"]}
+{"r": ["staff_scheduling_software", "certification_tracking"]}
+{"r": ["staff_scheduling_software", "staff_payroll_integration"]}
+{"r": ["staff_scheduling_software", "predictive_analytics"]}
+{"r": ["staff_scheduling_software", "demand_forecasting"]}
+{"r": ["labor_cost_software", "labor_hour_tracking"]}
+{"r": ["labor_cost_software", "labor_percentage_alerts"]}
+{"r": ["labor_cost_software", "overtime_tracking"]}
+{"r": ["labor_cost_software", "server_performance_tracking"]}
+{"r": ["labor_cost_software", "hourly_rate_management"]}
+{"r": ["labor_cost_software", "staff_payroll_integration"]}
+{"r": ["labor_cost_software", "analytics_reporting_dashboard"]}
+{"r": ["loyalty_program_software", "customer_relationship_management_crm"]}
+{"r": ["loyalty_program_software", "customer_loyalty_app"]}
+{"r": ["loyalty_program_software", "targeted_promotions"]}
+{"r": ["loyalty_program_software", "email_marketing_integration"]}
+{"r": ["loyalty_program_software", "sms_marketing_integration"]}
+{"r": ["loyalty_program_software", "saved_payment_methods"]}
+{"r": ["loyalty_program_software", "spending_history_tracking"]}
+{"r": ["loyalty_program_software", "personalized_recommendations"]}
+{"r": ["gift_card_system", "pos_terminal"]}
+{"r": ["gift_card_system", "barcode_scanner"]}
+{"r": ["gift_card_system", "online_ordering_platform"]}
+{"r": ["gift_card_system", "multi_location_management"]}
+{"r": ["gift_card_system", "franchise_centralized_control"]}
+{"r": ["online_ordering_platform", "payment_processing_gateway"]}
+{"r": ["online_ordering_platform", "customer_relationship_management_crm"]}
+{"r": ["online_ordering_platform", "digital_receipt"]}
+{"r": ["online_ordering_platform", "order_tracking"]}
+{"r": ["online_ordering_platform", "saved_payment_methods"]}
+{"r": ["online_ordering_platform", "mobile_ordering"]}
+{"r": ["online_ordering_platform", "qr_code_ordering"]}
+{"r": ["online_ordering_platform", "restaurant_app"]}
+{"r": ["online_ordering_platform", "estimated_ready_time"]}
+{"r": ["online_ordering_platform", "customer_wait_time_display"]}
+{"r": ["online_ordering_platform", "menu_price_sync"]}
+{"r": ["online_ordering_platform", "unified_inventory"]}
+{"r": ["online_ordering_platform", "email_marketing_integration"]}
+{"r": ["online_ordering_platform", "sms_marketing_integration"]}
+{"r": ["online_ordering_platform", "targeted_promotions"]}
+{"r": ["online_ordering_platform", "api_integration"]}
+{"r": ["third_party_delivery_integration", "third_party_delivery_aggregation"]}
+{"r": ["third_party_delivery_integration", "doordash_integration"]}
+{"r": ["third_party_delivery_integration", "uber_eats_integration"]}
+{"r": ["third_party_delivery_integration", "grubhub_integration"]}
+{"r": ["third_party_delivery_integration", "postmates_integration"]}
+{"r": ["third_party_delivery_integration", "online_ordering_aggregation"]}
+{"r": ["third_party_delivery_integration", "kitchen_display_system"]}
+{"r": ["third_party_delivery_integration", "unified_inventory"]}
+{"r": ["third_party_delivery_integration", "live_delivery_tracking"]}
+{"r": ["third_party_delivery_integration", "delivery_management_software"]}
+{"r": ["payment_processing_gateway", "credit_card_reader"]}
+{"r": ["payment_processing_gateway", "emv_chip_reader"]}
+{"r": ["payment_processing_gateway", "contactless_payment_reader"]}
+{"r": ["payment_processing_gateway", "digital_wallet_payment"]}
+{"r": ["payment_processing_gateway", "merchant_account"]}
+{"r": ["payment_processing_gateway", "payment_settlement"]}
+{"r": ["payment_processing_gateway", "interchange_fees"]}
+{"r": ["payment_processing_gateway", "pci_compliance"]}
+{"r": ["payment_processing_gateway", "pos_security"]}
+{"r": ["payment_processing_gateway", "encryption"]}
+{"r": ["payment_processing_gateway", "tokenization"]}
+{"r": ["payment_processing_gateway", "end_to_end_encryption"]}
+{"r": ["payment_processing_gateway", "fraud_detection"]}
+{"r": ["payment_processing_gateway", "chargeback_management"]}
+{"r": ["payment_processing_gateway", "saved_payment_methods"]}
+{"r": ["payment_processing_gateway", "digital_wallet"]}
+{"r": ["tip_distribution_software", "tip_pooling"]}
+{"r": ["tip_distribution_software", "tip_out_automation"]}
+{"r": ["tip_distribution_software", "tip_credit_calculation"]}
+{"r": ["tip_distribution_software", "tip_tracking_app"]}
+{"r": ["tip_distribution_software", "staff_payroll_integration"]}
+{"r": ["tip_distribution_software", "server_performance_tracking"]}
+{"r": ["tip_distribution_software", "analytics_reporting_dashboard"]}
+{"r": ["analytics_reporting_dashboard", "sales_reporting"]}
+{"r": ["analytics_reporting_dashboard", "labor_cost_software"]}
+{"r": ["analytics_reporting_dashboard", "food_cost_percentage"]}
+{"r": ["analytics_reporting_dashboard", "menu_item_profitability"]}
+{"r": ["analytics_reporting_dashboard", "table_turnover_rate"]}
+{"r": ["analytics_reporting_dashboard", "average_ticket_size"]}
+{"r": ["analytics_reporting_dashboard", "server_performance_tracking"]}
+{"r": ["analytics_reporting_dashboard", "profit_margin_tracking"]}
+{"r": ["analytics_reporting_dashboard", "revenue_management"]}
+{"r": ["analytics_reporting_dashboard", "cost_accounting"]}
+{"r": ["analytics_reporting_dashboard", "predictive_analytics"]}
+{"r": ["analytics_reporting_dashboard", "demand_forecasting"]}
+{"r": ["analytics_reporting_dashboard", "menu_optimization_algorithm"]}
+{"r": ["analytics_reporting_dashboard", "performance_metrics_dashboard"]}
+{"r": ["customer_relationship_management_crm", "customer_profiling"]}
+{"r": ["customer_relationship_management_crm", "spending_history_tracking"]}
+{"r": ["customer_relationship_management_crm", "personalized_recommendations"]}
+{"r": ["customer_relationship_management_crm", "targeted_promotions"]}
+{"r": ["customer_relationship_management_crm", "email_marketing_integration"]}
+{"r": ["customer_relationship_management_crm", "sms_marketing_integration"]}
+{"r": ["customer_relationship_management_crm", "feedback_tablet"]}
+{"r": ["customer_relationship_management_crm", "digital_review_request"]}
+{"r": ["customer_relationship_management_crm", "loyalty_program_software"]}
+{"r": ["customer_relationship_management_crm", "saved_payment_methods"]}
+{"r": ["customer_relationship_management_crm", "guest_seating_optimization"]}
+{"r": ["backoffice_accounting_software", "cash_handling"]}
+{"r": ["backoffice_accounting_software", "bank_deposit_automation"]}
+{"r": ["backoffice_accounting_software", "vendor_payment_automation"]}
+{"r": ["backoffice_accounting_software", "staff_payroll_integration"]}
+{"r": ["backoffice_accounting_software", "cost_accounting"]}
+{"r": ["backoffice_accounting_software", "profit_margin_tracking"]}
+{"r": ["backoffice_accounting_software", "armored_car_integration"]}
+{"r": ["backoffice_accounting_software", "bank_deposit_sync"]}
+{"r": ["backoffice_accounting_software", "budget_forecasting"]}
+{"r": ["cloud_computing", "cloud_pos"]}
+{"r": ["cloud_computing", "cloud_backup"]}
+{"r": ["cloud_computing", "real_time_data_replication"]}
+{"r": ["cloud_computing", "secure_remote_access"]}
+{"r": ["cloud_computing", "disaster_recovery"]}
+{"r": ["restaurant_app", "mobile_ordering"]}
+{"r": ["restaurant_app", "qr_code_ordering"]}
+{"r": ["restaurant_app", "saved_payment_methods"]}
+{"r": ["restaurant_app", "order_tracking"]}
+{"r": ["restaurant_app", "loyalty_program_software"]}
+{"r": ["restaurant_app", "customer_loyalty_app"]}
+{"r": ["restaurant_app", "digital_receipt"]}
+{"r": ["restaurant_app", "targeted_promotions"]}
+{"r": ["restaurant_app", "personalized_recommendations"]}
+{"r": ["restaurant_app", "customer_relationship_management_crm"]}
+{"r": ["restaurant_app", "reservation_system"]}
+{"r": ["restaurant_app", "feedback_tablet"]}
+{"r": ["mobile_ordering", "restaurant_app"]}
+{"r": ["mobile_ordering", "payment_processing_gateway"]}
+{"r": ["mobile_ordering", "digital_wallet_payment"]}
+{"r": ["mobile_ordering", "order_tracking"]}
+{"r": ["mobile_ordering", "contactless_dining"]}
+{"r": ["mobile_ordering", "estimated_ready_time"]}
+{"r": ["mobile_ordering", "saved_payment_methods"]}
+{"r": ["qr_code_ordering", "menu_management_system"]}
+{"r": ["qr_code_ordering", "contactless_payment_reader"]}
+{"r": ["qr_code_ordering", "qr_code_payment"]}
+{"r": ["qr_code_ordering", "digital_receipt"]}
+{"r": ["qr_code_ordering", "customer_profiling"]}
+{"r": ["digital_wallet_payment", "contactless_payment_reader"]}
+{"r": ["digital_wallet_payment", "payment_gateway"]}
+{"r": ["digital_wallet_payment", "tokenization_payment"]}
+{"r": ["digital_wallet_payment", "saved_payment_methods"]}
+{"r": ["digital_wallet_payment", "biometric_payment"]}
+{"r": ["biometric_payment", "digital_wallet"]}
+{"r": ["voice_ordering", "restaurant_app"]}
+{"r": ["voice_ordering", "order_management"]}
+{"r": ["voice_ordering", "artificial_intelligence_ai"]}
+{"r": ["artificial_intelligence_ai", "predictive_analytics"]}
+{"r": ["artificial_intelligence_ai", "menu_optimization_algorithm"]}
+{"r": ["artificial_intelligence_ai", "demand_forecasting"]}
+{"r": ["artificial_intelligence_ai", "inventory_forecasting"]}
+{"r": ["artificial_intelligence_ai", "personalized_recommendations"]}
+{"r": ["artificial_intelligence_ai", "fraud_detection"]}
+{"r": ["artificial_intelligence_ai", "personalized_recommendations"]}
+{"r": ["artificial_intelligence_ai", "scheduling_forecast"]}
+{"r": ["artificial_intelligence_ai", "dynamic_pricing"]}
+{"r": ["machine_learning", "artificial_intelligence_ai"]}
+{"r": ["machine_learning", "predictive_analytics"]}
+{"r": ["machine_learning", "demand_forecasting"]}
+{"r": ["machine_learning", "inventory_forecasting"]}
+{"r": ["machine_learning", "fraud_detection"]}
+{"r": ["machine_learning", "personalized_recommendations"]}
+{"r": ["machine_learning", "menu_optimization_algorithm"]}
+{"r": ["machine_learning", "guest_seating_optimization"]}
+{"r": ["machine_learning", "driver_routing_optimization"]}
+{"r": ["predictive_analytics", "demand_forecasting"]}
+{"r": ["predictive_analytics", "inventory_forecasting"]}
+{"r": ["predictive_analytics", "scheduling_forecast"]}
+{"r": ["predictive_analytics", "revenue_management"]}
+{"r": ["predictive_analytics", "labor_percentage_alerts"]}
+{"r": ["predictive_analytics", "menu_optimization_algorithm"]}
+{"r": ["dynamic_pricing", "menu_management_system"]}
+{"r": ["dynamic_pricing", "revenue_management"]}
+{"r": ["dynamic_pricing", "demand_forecasting"]}
+{"r": ["dynamic_pricing", "predictive_analytics"]}
+{"r": ["kitchen_automation", "kitchen_display_system"]}
+{"r": ["kitchen_automation", "automated_food_prep"]}
+{"r": ["kitchen_automation", "kitchen_call_system"]}
+{"r": ["kitchen_automation", "portion_control_technology"]}
+{"r": ["automated_food_prep", "recipe_costing_software"]}
+{"r": ["automated_food_prep", "inventory_management_system"]}
+{"r": ["robot_server", "order_management"]}
+{"r": ["robot_server", "kitchen_call_system"]}
+{"r": ["delivery_robot", "delivery_management_software"]}
+{"r": ["delivery_robot", "driver_routing_optimization"]}
+{"r": ["delivery_robot", "geofencing"]}
+{"r": ["delivery_robot", "live_delivery_tracking"]}
+{"r": ["digital_receipt", "customer_relationship_management_crm"]}
+{"r": ["digital_receipt", "email_marketing_integration"]}
+{"r": ["digital_receipt", "customer_profiling"]}
+{"r": ["digital_receipt", "tax_calculation"]}
+{"r": ["electronic_signature", "pos_terminal"]}
+{"r": ["electronic_signature", "tip_adjustment"]}
+{"r": ["electronic_signature", "refund_protection"]}
+{"r": ["real_time_sync", "cloud_computing"]}
+{"r": ["real_time_sync", "multi_location_management"]}
+{"r": ["real_time_sync", "franchise_centralized_control"]}
+{"r": ["real_time_sync", "api_integration"]}
+{"r": ["api_integration", "pos_api"]}
+{"r": ["api_integration", "third_party_delivery_integration"]}
+{"r": ["api_integration", "opentable_integration"]}
+{"r": ["api_integration", "square_integration"]}
+{"r": ["api_integration", "toast_integration"]}
+{"r": ["api_integration", "supplier_integration"]}
+{"r": ["api_integration", "payment_gateway"]}
+{"r": ["api_integration", "email_marketing_integration"]}
+{"r": ["api_integration", "sms_marketing_integration"]}
+{"r": ["api_integration", "online_ordering_platform"]}
+{"r": ["api_integration", "food_tech_platform"]}
+{"r": ["api_integration", "backoffice_accounting_software"]}
+{"r": ["api_integration", "staff_payroll_integration"]}
+{"r": ["api_integration", "reservation_system"]}
+{"r": ["api_integration", "loyalty_program_software"]}
+{"r": ["pci_compliance", "payment_gateway"]}
+{"r": ["pci_compliance", "pos_security"]}
+{"r": ["pci_compliance", "emv_chip_reader"]}
+{"r": ["pci_compliance", "encryption"]}
+{"r": ["pci_compliance", "tokenization"]}
+{"r": ["pci_compliance", "end_to_end_encryption"]}
+{"r": ["pci_compliance", "audit_logging"]}
+{"r": ["pci_compliance", "fraud_detection"]}
+{"r": ["data_security", "encryption"]}
+{"r": ["data_security", "tokenization"]}
+{"r": ["data_security", "pos_security"]}
+{"r": ["data_security", "pci_dss_compliance"]}
+{"r": ["data_security", "secure_remote_access"]}
+{"r": ["data_security", "fraud_detection"]}
+{"r": ["data_security", "backup_recovery_system"]}
+{"r": ["data_security", "cloud_backup"]}
+{"r": ["inventory_alert_system", "reorder_point"]}
+{"r": ["inventory_alert_system", "supplier_integration"]}
+{"r": ["inventory_alert_system", "spoilage_tracking"]}
+{"r": ["inventory_alert_system", "expiration_date_alert"]}
+{"r": ["inventory_alert_system", "inventory_forecasting"]}
+{"r": ["inventory_alert_system", "waste_logging"]}
+{"r": ["online_reservation_platform", "reservation_system"]}
+{"r": ["online_reservation_platform", "table_management_system"]}
+{"r": ["online_reservation_platform", "customer_relationship_management_crm"]}
+{"r": ["online_reservation_platform", "waitlist_management_system"]}
+{"r": ["online_reservation_platform", "opentable_integration"]}
+{"r": ["online_reservation_platform", "opentable_reservation_sync"]}
+{"r": ["online_reservation_platform", "email_marketing_integration"]}
+{"r": ["online_reservation_platform", "sms_marketing_integration"]}
+{"r": ["waitlist_management_system", "digital_waitlist_app"]}
+{"r": ["waitlist_management_system", "customer_wait_time_display"]}
+{"r": ["waitlist_management_system", "guest_seating_optimization"]}
+{"r": ["waitlist_management_system", "customer_relationship_management_crm"]}
+{"r": ["waitlist_management_system", "text_notification_waitlist"]}
+{"r": ["customer_loyalty_app", "loyalty_program_software"]}
+{"r": ["customer_loyalty_app", "customer_relationship_management_crm"]}
+{"r": ["customer_loyalty_app", "targeted_promotions"]}
+{"r": ["customer_loyalty_app", "saved_payment_methods"]}
+{"r": ["customer_loyalty_app", "spending_history_tracking"]}
+{"r": ["customer_loyalty_app", "digital_receipt"]}
+{"r": ["digital_tipping", "pos_terminal"]}
+{"r": ["digital_tipping", "handheld_pos_device"]}
+{"r": ["digital_tipping", "tablet_pos"]}
+{"r": ["digital_tipping", "tip_distribution_software"]}
+{"r": ["digital_tipping", "tip_pooling"]}
+{"r": ["digital_tipping", "electronic_signature"]}
+{"r": ["feedback_tablet", "customer_relationship_management_crm"]}
+{"r": ["feedback_tablet", "digital_review_request"]}
+{"r": ["feedback_tablet", "customer_profiling"]}
+{"r": ["contactless_dining", "mobile_ordering"]}
+{"r": ["contactless_dining", "qr_code_ordering"]}
+{"r": ["contactless_dining", "digital_wallet_payment"]}
+{"r": ["contactless_dining", "digital_receipt"]}
+{"r": ["contactless_dining", "feedback_tablet"]}
+{"r": ["qr_code_payment", "contactless_payment_reader"]}
+{"r": ["qr_code_payment", "payment_gateway"]}
+{"r": ["qr_code_payment", "digital_receipt"]}
+{"r": ["qr_code_payment", "saved_payment_methods"]}
+{"r": ["apple_pay", "digital_wallet"]}
+{"r": ["apple_pay", "contactless_payment_reader"]}
+{"r": ["google_pay", "digital_wallet"]}
+{"r": ["google_pay", "contactless_payment_reader"]}
+{"r": ["samsung_pay", "digital_wallet"]}
+{"r": ["samsung_pay", "contactless_payment_reader"]}
+{"r": ["saved_payment_methods", "customer_relationship_management_crm"]}
+{"r": ["saved_payment_methods", "payment_gateway"]}
+{"r": ["saved_payment_methods", "tokenization_payment"]}
+{"r": ["saved_payment_methods", "online_ordering_platform"]}
+{"r": ["saved_payment_methods", "restaurant_app"]}
+{"r": ["saved_payment_methods", "loyalty_program_software"]}
+{"r": ["targeted_promotions", "customer_relationship_management_crm"]}
+{"r": ["targeted_promotions", "email_marketing_integration"]}
+{"r": ["targeted_promotions", "sms_marketing_integration"]}
+{"r": ["targeted_promotions", "personalized_recommendations"]}
+{"r": ["targeted_promotions", "spending_history_tracking"]}
+{"r": ["targeted_promotions", "customer_loyalty_app"]}
+{"r": ["email_marketing_integration", "customer_relationship_management_crm"]}
+{"r": ["email_marketing_integration", "spending_history_tracking"]}
+{"r": ["email_marketing_integration", "digital_review_request"]}
+{"r": ["email_marketing_integration", "reservation_system"]}
+{"r": ["email_marketing_integration", "online_ordering_platform"]}
+{"r": ["sms_marketing_integration", "customer_relationship_management_crm"]}
+{"r": ["sms_marketing_integration", "digital_waitlist_app"]}
+{"r": ["sms_marketing_integration", "order_tracking"]}
+{"r": ["sms_marketing_integration", "live_delivery_tracking"]}
+{"r": ["sms_marketing_integration", "estimated_ready_time"]}
+{"r": ["sms_marketing_integration", "customer_wait_time_display"]}
+{"r": ["food_allergy_alert_system", "allergen_filtering"]}
+{"r": ["food_allergy_alert_system", "menu_management_system"]}
+{"r": ["food_allergy_alert_system", "kitchen_display_system"]}
+{"r": ["food_allergy_alert_system", "menu_label_printer"]}
+{"r": ["allergen_filtering", "menu_management_system"]}
+{"r": ["allergen_filtering", "customer_relationship_management_crm"]}
+{"r": ["allergen_filtering", "digital_menu_board"]}
+{"r": ["allergen_filtering", "qr_code_ordering"]}
+{"r": ["allergen_filtering", "mobile_ordering"]}
+{"r": ["allergen_filtering", "self_service_kiosk"]}
+{"r": ["allergen_filtering", "menu_item_screen"]}
+{"r": ["menu_label_printer", "food_allergy_alert_system"]}
+{"r": ["menu_label_printer", "allergen_filtering"]}
+{"r": ["menu_label_printer", "kitchen_display_system"]}
+{"r": ["spoilage_tracking", "waste_logging"]}
+{"r": ["spoilage_tracking", "inventory_management_system"]}
+{"r": ["spoilage_tracking", "expiration_date_alert"]}
+{"r": ["spoilage_tracking", "food_cost_percentage"]}
+{"r": ["spoilage_tracking", "analytics_reporting_dashboard"]}
+{"r": ["waste_logging", "food_cost_percentage"]}
+{"r": ["waste_logging", "menu_item_profitability"]}
+{"r": ["waste_logging", "analytics_reporting_dashboard"]}
+{"r": ["waste_logging", "spoilage_tracking"]}
+{"r": ["food_safety_tracking", "temperature_monitoring"]}
+{"r": ["food_safety_tracking", "food_storage_tracking"]}
+{"r": ["food_safety_tracking", "expiration_date_alert"]}
+{"r": ["food_safety_tracking", "inventory_management_system"]}
+{"r": ["temperature_monitoring", "food_storage_tracking"]}
+{"r": ["temperature_monitoring", "expiration_date_alert"]}
+{"r": ["temperature_monitoring", "spoilage_tracking"]}
+{"r": ["food_storage_tracking", "inventory_management_system"]}
+{"r": ["food_storage_tracking", "ingredient_level_inventory"]}
+{"r": ["food_storage_tracking", "expiration_date_alert"]}
+{"r": ["recipe_costing_software", "plate_cost_calculator"]}
+{"r": ["recipe_costing_software", "menu_item_profitability"]}
+{"r": ["recipe_costing_software", "food_cost_percentage"]}
+{"r": ["recipe_costing_software", "portion_control_technology"]}
+{"r": ["recipe_costing_software", "inventory_management_system"]}
+{"r": ["recipe_costing_software", "recipe_level_inventory"]}
+{"r": ["recipe_costing_software", "ingredient_level_inventory"]}
+{"r": ["plate_cost_calculator", "menu_item_profitability"]}
+{"r": ["plate_cost_calculator", "menu_engineering_software"]}
+{"r": ["plate_cost_calculator", "dynamic_pricing"]}
+{"r": ["portion_control_technology", "recipe_costing_software"]}
+{"r": ["portion_control_technology", "food_cost_percentage"]}
+{"r": ["portion_control_technology", "plate_cost_calculator"]}
+{"r": ["menu_engineering_software", "menu_item_profitability"]}
+{"r": ["menu_engineering_software", "food_cost_percentage"]}
+{"r": ["menu_engineering_software", "analytics_reporting_dashboard"]}
+{"r": ["menu_engineering_software", "menu_optimization_algorithm"]}
+{"r": ["menu_engineering_software", "dynamic_pricing"]}
+{"r": ["menu_engineering_software", "predictive_analytics"]}
+{"r": ["pos_api", "third_party_delivery_integration"]}
+{"r": ["pos_api", "online_ordering_platform"]}
+{"r": ["pos_api", "loyalty_program_software"]}
+{"r": ["pos_api", "email_marketing_integration"]}
+{"r": ["pos_api", "opentable_integration"]}
+{"r": ["pos_api", "payment_gateway"]}
+{"r": ["pos_api", "reservation_system"]}
+{"r": ["pos_api", "analytics_reporting_dashboard"]}
+{"r": ["pos_api", "inventory_management_system"]}
+{"r": ["pos_api", "delivery_management_software"]}
+{"r": ["pos_api", "customer_relationship_management_crm"]}
+{"r": ["pos_api", "staff_payroll_integration"]}
+{"r": ["third_party_delivery_aggregation", "doordash_integration"]}
+{"r": ["third_party_delivery_aggregation", "uber_eats_integration"]}
+{"r": ["third_party_delivery_aggregation", "grubhub_integration"]}
+{"r": ["third_party_delivery_aggregation", "postmates_integration"]}
+{"r": ["third_party_delivery_aggregation", "kitchen_display_system"]}
+{"r": ["third_party_delivery_aggregation", "unified_inventory"]}
+{"r": ["third_party_delivery_aggregation", "online_ordering_aggregation"]}
+{"r": ["doordash_integration", "third_party_delivery_aggregation"]}
+{"r": ["doordash_integration", "kitchen_display_system"]}
+{"r": ["doordash_integration", "unified_inventory"]}
+{"r": ["uber_eats_integration", "third_party_delivery_aggregation"]}
+{"r": ["uber_eats_integration", "kitchen_display_system"]}
+{"r": ["uber_eats_integration", "unified_inventory"]}
+{"r": ["grubhub_integration", "third_party_delivery_aggregation"]}
+{"r": ["grubhub_integration", "kitchen_display_system"]}
+{"r": ["grubhub_integration", "unified_inventory"]}
+{"r": ["postmates_integration", "third_party_delivery_aggregation"]}
+{"r": ["postmates_integration", "kitchen_display_system"]}
+{"r": ["postmates_integration", "unified_inventory"]}
+{"r": ["opentable_integration", "opentable_reservation_sync"]}
+{"r": ["opentable_integration", "reservation_system"]}
+{"r": ["opentable_integration", "table_management_system"]}
+{"r": ["opentable_integration", "customer_relationship_management_crm"]}
+{"r": ["opentable_reservation_sync", "table_management_system"]}
+{"r": ["opentable_reservation_sync", "guest_seating_optimization"]}
+{"r": ["opentable_reservation_sync", "waitlist_management_system"]}
+{"r": ["opentable_reservation_sync", "customer_relationship_management_crm"]}
+{"r": ["google_menu_integration", "menu_management_system"]}
+{"r": ["google_menu_integration", "menu_price_sync"]}
+{"r": ["google_menu_integration", "allergen_filtering"]}
+{"r": ["yelp_menu_sync", "menu_management_system"]}
+{"r": ["yelp_menu_sync", "menu_price_sync"]}
+{"r": ["yelp_menu_sync", "digital_review_request"]}
+{"r": ["online_ordering_aggregation", "third_party_delivery_aggregation"]}
+{"r": ["online_ordering_aggregation", "kitchen_display_system"]}
+{"r": ["online_ordering_aggregation", "unified_inventory"]}
+{"r": ["online_ordering_aggregation", "order_management"]}
+{"r": ["online_ordering_aggregation", "menu_price_sync"]}
+{"r": ["unified_inventory", "online_ordering_aggregation"]}
+{"r": ["unified_inventory", "third_party_delivery_aggregation"]}
+{"r": ["unified_inventory", "third_party_delivery_integration"]}
+{"r": ["unified_inventory", "inventory_management_system"]}
+{"r": ["unified_inventory", "recipe_level_inventory"]}
+{"r": ["unified_inventory", "ingredient_level_inventory"]}
+{"r": ["unified_inventory", "menu_management_system"]}
+{"r": ["unified_inventory", "spoilage_tracking"]}
+{"r": ["unified_inventory", "waste_logging"]}
+{"r": ["unified_inventory", "food_cost_percentage"]}
+{"r": ["unified_inventory", "inventory_alert_system"]}
+{"r": ["unified_inventory", "supplier_integration"]}
+{"r": ["ingredient_level_inventory", "inventory_management_system"]}
+{"r": ["ingredient_level_inventory", "recipe_level_inventory"]}
+{"r": ["ingredient_level_inventory", "recipe_costing_software"]}
+{"r": ["ingredient_level_inventory", "plate_cost_calculator"]}
+{"r": ["ingredient_level_inventory", "menu_item_profitability"]}
+{"r": ["ingredient_level_inventory", "food_cost_percentage"]}
+{"r": ["ingredient_level_inventory", "spoilage_tracking"]}
+{"r": ["ingredient_level_inventory", "waste_logging"]}
+{"r": ["ingredient_level_inventory", "expiration_date_alert"]}
+{"r": ["recipe_level_inventory", "inventory_management_system"]}
+{"r": ["recipe_level_inventory", "ingredient_level_inventory"]}
+{"r": ["recipe_level_inventory", "menu_management_system"]}
+{"r": ["recipe_level_inventory", "recipe_costing_software"]}
+{"r": ["recipe_level_inventory", "un

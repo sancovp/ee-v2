@@ -1,0 +1,317 @@
+{"c": "food_cost_percentage", "d": "Cost of ingredients divided by food sales revenue"}
+{"c": "prime_cost", "d": "Combined food cost plus labor cost"}
+{"c": "cost_of_goods_sold", "d": "Direct costs of producing menu items sold"}
+{"c": "labor_cost_percentage", "d": "Total labor expenses as percentage of revenue"}
+{"c": "rent_to_revenue_ratio", "d": "Monthly rent compared to total revenue"}
+{"c": "break_even_point", "d": "Revenue needed to cover all fixed costs"}
+{"c": "profit_margin", "d": "Net profit divided by total revenue"}
+{"c": "gross_profit", "d": "Revenue minus cost of goods sold"}
+{"c": "net_profit", "d": "Total revenue minus all expenses"}
+{"c": "operating_expenses", "d": "Day to day costs of running restaurant"}
+{"c": "fixed_costs", "d": "Costs that remain constant regardless of volume"}
+{"c": "variable_costs", "d": "Costs that scale with sales volume"}
+{"c": "menu_price", "d": "Listed price for menu item"}
+{"c": "food_cost_per_plate", "d": "Ingredient cost for single menu item"}
+{"c": "portion_cost", "d": "Cost of one serving portion of item"}
+{"c": "inventory_cost", "d": "Total value of held food and beverage stock"}
+{"c": "waste_cost", "d": "Financial loss from discarded food"}
+{"c": "shrinkage", "d": "Inventory loss from theft damage or error"}
+{"c": "theft_loss", "d": "Inventory loss from employee or customer theft"}
+{"c": "pour_cost", "d": "Cost of alcohol poured versus alcohol revenue"}
+{"c": "liquor_cost_percentage", "d": "Cost of spirits relative to spirit sales"}
+{"c": "beer_cost_percentage", "d": "Cost of draft and bottled beer relative to sales"}
+{"c": "wine_cost_percentage", "d": "Cost of wine relative to wine sales"}
+{"c": "beverage_cost_percentage", "d": "Cost of all beverages relative to beverage sales"}
+{"c": "daily_revenue", "d": "Total sales income for one business day"}
+{"c": "weekly_revenue", "d": "Total sales income for seven day period"}
+{"c": "monthly_revenue", "d": "Total sales income for calendar month"}
+{"c": "annual_revenue", "d": "Total sales income for fiscal year"}
+{"c": "average_check", "d": "Average total spent per table or party"}
+{"c": "table_turnover_rate", "d": "Number of times tables are occupied per shift"}
+{"c": "seat_turnover", "d": "Number of customers per seat per day"}
+{"c": "revenue_per_seat", "d": "Daily revenue divided by number of seats"}
+{"c": "labor_hour_cost", "d": "Cost per hour of employee work"}
+{"c": "tipped_wage_expense", "d": "Total cost of tipped employee wages"}
+{"c": "minimum_wage_expense", "d": "Cost of paying non tipped minimum wage staff"}
+{"c": "health_insurance_cost", "d": "Employer health coverage expense"}
+{"c": "workers_comp_insurance", "d": "Workers compensation insurance premium"}
+{"c": "liability_insurance", "d": "General liability insurance cost"}
+{"c": "property_insurance", "d": "Insurance for building and equipment"}
+{"c": "utility_costs", "d": "Combined monthly utilities expense"}
+{"c": "electricity_cost", "d": "Monthly electric bill total"}
+{"c": "gas_cost", "d": "Monthly natural gas or propane expense"}
+{"c": "water_cost", "d": "Monthly water and sewer bill"}
+{"c": "cleaning_supplies_cost", "d": "Cleaning chemicals and tools expense"}
+{"c": "equipment_cost", "d": "Initial purchase price of kitchen equipment"}
+{"c": "equipment_depreciation", "d": "Annual value reduction of equipment"}
+{"c": "equipment_maintenance_cost", "d": "Repair and service expenses for equipment"}
+{"c": "smallwares_cost", "d": "Cost of utensils pots pans and prep tools"}
+{"c": "linens_cost", "d": "Tablecloths napkins and uniform laundry expense"}
+{"c": "menu_printing_cost", "d": "Menu design and printing expense"}
+{"c": "marketing_expense", "d": "Total spending on promotion and advertising"}
+{"c": "advertising_cost", "d": "Paid media advertising spending"}
+{"c": "credit_card_processing_fee", "d": "Percentage charged per card transaction"}
+{"c": "delivery_platform_commission", "d": "Fee paid to third party delivery service"}
+{"c": "online_ordering_fee", "d": "Charge for third party ordering platform"}
+{"c": "third_party_delivery_fee", "d": "Cost of using outside delivery service"}
+{"c": "reservation_platform_fee", "d": "Charge from online reservation system"}
+{"c": "accountant_fee", "d": "Bookkeeping and accounting professional cost"}
+{"c": "legal_fee", "d": "Attorney consultation and representation expense"}
+{"c": "permit_cost", "d": "Government permit application and renewal fees"}
+{"c": "license_cost", "d": "Business license annual fee"}
+{"c": "health_inspection_fee", "d": "Municipal health department inspection charge"}
+{"c": "liquor_license_cost", "d": "Alcohol beverage license purchase or renewal fee"}
+{"c": "business_license_cost", "d": "Local operating license annual fee"}
+{"c": "tax_obligation", "d": "Total tax liability for the period"}
+{"c": "sales_tax", "d": "Sales tax collected and remitted to state"}
+{"c": "payroll_tax", "d": "Employer portion of social security and medicare"}
+{"c": "tip_credit", "d": "Credit against minimum wage for tips received"}
+{"c": "tip_pool", "d": "Shared tips distributed among staff members"}
+{"c": "tip_reporting", "d": "Declared tip income for tax purposes"}
+{"c": "cash_flow", "d": "Net movement of cash in and out of business"}
+{"c": "cash_reserve", "d": "Minimum cash kept on hand for operations"}
+{"c": "operating_cash_flow", "d": "Cash generated from normal business operations"}
+{"c": "starting_capital", "d": "Initial funding to open restaurant"}
+{"c": "loan_payment", "d": "Monthly debt service on business loan"}
+{"c": "interest_expense", "d": "Interest paid on outstanding debt"}
+{"c": "rent_payment", "d": "Monthly commercial lease payment"}
+{"c": "cam_charges", "d": "Common area maintenance charges from landlord"}
+{"c": "common_area_maintenance_fee", "d": "Proportional share of building maintenance costs"}
+{"c": "franchise_fee", "d": "Upfront fee paid to franchise brand"}
+{"c": "royalty_fee", "d": "Ongoing percentage of gross sales to franchisor"}
+{"c": "startup_cost", "d": "Total one time costs to open restaurant"}
+{"c": "buildout_cost", "d": "Interior construction and renovation expense"}
+{"c": "renovation_cost", "d": "Costs to remodel or update existing space"}
+{"c": "signage_cost", "d": "Interior and exterior signage purchase and install"}
+{"c": "point_of_sale_cost", "d": "POS hardware and software system expense"}
+{"c": "pos_subscription_fee", "d": "Monthly POS software as a service charge"}
+{"c": "online_ordering_cost", "d": "Cost to maintain proprietary online ordering"}
+{"c": "website_cost", "d": "Website hosting and maintenance expense"}
+{"c": "social_media_marketing_cost", "d": "Spending on social platform advertising"}
+{"c": "loyalty_program_cost", "d": "Rewards program redemption expense"}
+{"c": "gift_card_liability", "d": "Outstanding gift card balance owed to customers"}
+{"c": "gift_card_redemption", "d": "Revenue recognized when gift card is used"}
+{"c": "comp_loss", "d": "Revenue lost from complimentary items served"}
+{"c": "complimentary_item_cost", "d": "Cost of food served at no charge"}
+{"c": "employee_meal_cost", "d": "Cost of meals provided to staff"}
+{"c": "staff_meal_cost", "d": "Family meal and employee food expense"}
+{"c": "food_donation_cost", "d": "Cost of donated food items"}
+{"c": "spoilage_cost", "d": "Loss from expired or ruined inventory"}
+{"c": "expiration_loss", "d": "Write off of past date inventory"}
+{"c": "portion_control", "d": "Practice of measuring serving sizes to reduce cost"}
+{"c": "recipe_cost", "d": "Total ingredient cost per recipe batch"}
+{"c": "ingredient_cost", "d": "Price paid for individual food ingredient"}
+{"c": "wholesale_food_price", "d": "Bulk or distributor pricing for ingredients"}
+{"c": "food_price_inflation", "d": "Year over year increase in food costs"}
+{"c": "supply_chain_cost", "d": "Total cost of sourcing and delivering inventory"}
+{"c": "delivery_fee", "d": "Charge for vendor or distributor delivery"}
+{"c": "minimum_order_quantity", "d": "Minimum purchase amount required by vendor"}
+{"c": "bulk_discount", "d": "Price reduction for large quantity purchase"}
+{"c": "vendor_relationship", "d": "Business arrangement with food supplier"}
+{"c": "net_30_terms", "d": "Payment due thirty days after invoice date"}
+{"c": "cash_terms", "d": "Payment required at time of delivery"}
+{"c": "accounts_payable", "d": "Money owed to vendors and suppliers"}
+{"c": "accounts_receivable", "d": "Money owed to restaurant by customers"}
+{"c": "daily_sales_report", "d": "End of day breakdown of sales by category"}
+{"c": "weekly_p_and_l", "d": "Seven day profit and loss statement"}
+{"c": "monthly_balance_sheet", "d": "Monthly snapshot of assets and liabilities"}
+{"c": "cost_analysis", "d": "Review of expense categories to identify savings"}
+{"c": "menu_engineering", "d": "Strategic pricing and placement based on profitability"}
+{"c": "plate_cost", "d": "Total cost of ingredients in finished dish"}
+{"c": "recipe_scaling", "d": "Adjusting recipe quantities for batch production"}
+{"c": "yield_percentage", "d": "Edible portion after trimming versus original weight"}
+{"c": "prep_labor", "d": "Labor hours spent on food preparation tasks"}
+{"c": "prep_time_cost", "d": "Labor cost of preparation work per item"}
+{"c": "cook_time_cost", "d": "Labor cost of active cooking per item"}
+{"c": "plating_cost", "d": "Labor cost to assemble and plate finished dish"}
+{"c": "dish_cost", "d": "Complete cost to produce single menu item"}
+{"c": "combo_meal_cost", "d": "Ingredient and labor cost of bundled meal deal"}
+{"c": "prix_fixe_cost", "d": "Cost of multi course set price meal"}
+{"c": "buffet_cost_per_head", "d": "Food cost per person for buffet service"}
+{"c": "catering_cost", "d": "Total expense to produce offsite catering event"}
+{"c": "private_event_pricing", "d": "Revenue charged for exclusive venue rental"}
+{"c": "corkage_fee", "d": "Charge for customer bringing own wine"}
+{"c": "cake_cutting_fee", "d": "Charge for cutting outside dessert"}
+{"c": "reservation_deposit", "d": "Upfront payment to confirm booking"}
+{"c": "cancellation_fee", "d": "Charge for cancelled reservations or events"}
+{"c": "no_show_fee", "d": "Charge for parties who fail to appear"}
+{"c": "service_charge", "d": "Mandatory charge added to bill"}
+{"c": "gratuity_charge", "d": "Pre set tip amount added to large parties"}
+{"c": "auto_gratuity", "d": "Automatic gratuity for parties over certain size"}
+{"c": "vat_cost", "d": "Value added tax expense on purchases"}
+{"c": "bread_service_cost", "d": "Cost of complimentary bread basket"}
+{"c": "amuse_bouche_cost", "d": "Cost of complimentary appetizer course"}
+{"c": "tasting_menu_cost", "d": "Total food cost for multi course tasting"}
+{"c": "chef_tasting_cost", "d": "Cost of chef tasting menu offering"}
+{"r": ["recipe_cost", "ingredient_cost"]}
+{"r": ["recipe_cost", "portion_cost"]}
+{"r": ["recipe_scaling", "recipe_cost"]}
+{"r": ["plate_cost", "recipe_cost"]}
+{"r": ["plate_cost", "prep_time_cost"]}
+{"r": ["plate_cost", "cook_time_cost"]}
+{"r": ["plate_cost", "plating_cost"]}
+{"r": ["dish_cost", "plate_cost"]}
+{"r": ["dish_cost", "prep_labor"]}
+{"r": ["food_cost_per_plate", "portion_cost"]}
+{"r": ["food_cost_percentage", "food_cost_per_plate"]}
+{"r": ["food_cost_percentage", "menu_price"]}
+{"r": ["food_cost_percentage", "average_check"]}
+{"r": ["cost_of_goods_sold", "food_cost_per_plate"]}
+{"r": ["cost_of_goods_sold", "inventory_cost"]}
+{"r": ["cost_of_goods_sold", "food_cost_percentage"]}
+{"r": ["gross_profit", "cost_of_goods_sold"]}
+{"r": ["gross_profit", "daily_revenue"]}
+{"r": ["labor_cost_percentage", "labor_hour_cost"]}
+{"r": ["labor_cost_percentage", "tipped_wage_expense"]}
+{"r": ["labor_cost_percentage", "minimum_wage_expense"]}
+{"r": ["labor_cost_percentage", "monthly_revenue"]}
+{"r": ["prime_cost", "food_cost_percentage"]}
+{"r": ["prime_cost", "labor_cost_percentage"]}
+{"r": ["prime_cost", "cost_of_goods_sold"]}
+{"r": ["prime_cost", "labor_cost_percentage"]}
+{"r": ["operating_expenses", "fixed_costs"]}
+{"r": ["operating_expenses", "variable_costs"]}
+{"r": ["operating_expenses", "rent_payment"]}
+{"r": ["operating_expenses", "utility_costs"]}
+{"r": ["operating_expenses", "marketing_expense"]}
+{"r": ["net_profit", "gross_profit"]}
+{"r": ["net_profit", "operating_expenses"]}
+{"r": ["net_profit", "tax_obligation"]}
+{"r": ["profit_margin", "net_profit"]}
+{"r": ["profit_margin", "annual_revenue"]}
+{"r": ["break_even_point", "fixed_costs"]}
+{"r": ["break_even_point", "variable_costs"]}
+{"r": ["break_even_point", "profit_margin"]}
+{"r": ["inventory_cost", "wholesale_food_price"]}
+{"r": ["inventory_cost", "delivery_fee"]}
+{"r": ["inventory_cost", "bulk_discount"]}
+{"r": ["inventory_cost", "minimum_order_quantity"]}
+{"r": ["inventory_cost", "vendor_relationship"]}
+{"r": ["shrinkage", "inventory_cost"]}
+{"r": ["shrinkage", "theft_loss"]}
+{"r": ["waste_cost", "spoilage_cost"]}
+{"r": ["waste_cost", "expiration_loss"]}
+{"r": ["waste_cost", "shrinkage"]}
+{"r": ["spoilage_cost", "food_price_inflation"]}
+{"r": ["beverage_cost_percentage", "pour_cost"]}
+{"r": ["liquor_cost_percentage", "pour_cost"]}
+{"r": ["beer_cost_percentage", "pour_cost"]}
+{"r": ["wine_cost_percentage", "pour_cost"]}
+{"r": ["pour_cost", "portion_cost"]}
+{"r": ["yield_percentage", "portion_cost"]}
+{"r": ["yield_percentage", "ingredient_cost"]}
+{"r": ["portion_control", "yield_percentage"]}
+{"r": ["portion_control", "waste_cost"]}
+{"r": ["daily_revenue", "average_check"]}
+{"r": ["daily_revenue", "table_turnover_rate"]}
+{"r": ["monthly_revenue", "daily_revenue"]}
+{"r": ["annual_revenue", "monthly_revenue"]}
+{"r": ["revenue_per_seat", "daily_revenue"]}
+{"r": ["revenue_per_seat", "seat_turnover"]}
+{"r": ["average_check", "menu_price"]}
+{"r": ["average_check", "combo_meal_cost"]}
+{"r": ["average_check", "liquor_cost_percentage"]}
+{"r": ["table_turnover_rate", "seat_turnover"]}
+{"r": ["table_turnover_rate", "average_check"]}
+{"r": ["combo_meal_cost", "plate_cost"]}
+{"r": ["combo_meal_cost", "menu_price"]}
+{"r": ["menu_engineering", "plate_cost"]}
+{"r": ["menu_engineering", "menu_price"]}
+{"r": ["menu_engineering", "food_cost_percentage"]}
+{"r": ["tipped_wage_expense", "tip_credit"]}
+{"r": ["tipped_wage_expense", "tip_pool"]}
+{"r": ["tipped_wage_expense", "tip_reporting"]}
+{"r": ["labor_hour_cost", "minimum_wage_expense"]}
+{"r": ["workers_comp_insurance", "labor_hour_cost"]}
+{"r": ["health_insurance_cost", "labor_cost_percentage"]}
+{"r": ["payroll_tax", "labor_cost_percentage"]}
+{"r": ["payroll_tax", "tipped_wage_expense"]}
+{"r": ["rent_to_revenue_ratio", "rent_payment"]}
+{"r": ["rent_to_revenue_ratio", "monthly_revenue"]}
+{"r": ["rent_payment", "cam_charges"]}
+{"r": ["rent_payment", "common_area_maintenance_fee"]}
+{"r": ["cam_charges", "common_area_maintenance_fee"]}
+{"r": ["utility_costs", "electricity_cost"]}
+{"r": ["utility_costs", "gas_cost"]}
+{"r": ["utility_costs", "water_cost"]}
+{"r": ["equipment_cost", "equipment_depreciation"]}
+{"r": ["equipment_cost", "equipment_maintenance_cost"]}
+{"r": ["equipment_depreciation", "startup_cost"]}
+{"r": ["buildout_cost", "startup_cost"]}
+{"r": ["renovation_cost", "buildout_cost"]}
+{"r": ["signage_cost", "buildout_cost"]}
+{"r": ["startup_cost", "starting_capital"]}
+{"r": ["starting_capital", "loan_payment"]}
+{"r": ["loan_payment", "interest_expense"]}
+{"r": ["interest_expense", "cash_flow"]}
+{"r": ["franchise_fee", "royalty_fee"]}
+{"r": ["franchise_fee", "starting_capital"]}
+{"r": ["royalty_fee", "annual_revenue"]}
+{"r": ["credit_card_processing_fee", "daily_revenue"]}
+{"r": ["delivery_platform_commission", "online_ordering_fee"]}
+{"r": ["third_party_delivery_fee", "delivery_platform_commission"]}
+{"r": ["reservation_platform_fee", "monthly_revenue"]}
+{"r": ["marketing_expense", "social_media_marketing_cost"]}
+{"r": ["marketing_expense", "advertising_cost"]}
+{"r": ["marketing_expense", "loyalty_program_cost"]}
+{"r": ["point_of_sale_cost", "pos_subscription_fee"]}
+{"r": ["online_ordering_cost", "website_cost"]}
+{"r": ["accountant_fee", "operating_expenses"]}
+{"r": ["legal_fee", "operating_expenses"]}
+{"r": ["permit_cost", "health_inspection_fee"]}
+{"r": ["license_cost", "liquor_license_cost"]}
+{"r": ["license_cost", "business_license_cost"]}
+{"r": ["liquor_license_cost", "starting_capital"]}
+{"r": ["liability_insurance", "property_insurance"]}
+{"r": ["liability_insurance", "workers_comp_insurance"]}
+{"r": ["comp_loss", "complimentary_item_cost"]}
+{"r": ["complimentary_item_cost", "plate_cost"]}
+{"r": ["employee_meal_cost", "staff_meal_cost"]}
+{"r": ["staff_meal_cost", "inventory_cost"]}
+{"r": ["food_donation_cost", "inventory_cost"]}
+{"r": ["gift_card_liability", "gift_card_redemption"]}
+{"r": ["gift_card_redemption", "daily_revenue"]}
+{"r": ["service_charge", "gratuity_charge"]}
+{"r": ["service_charge", "auto_gratuity"]}
+{"r": ["corkage_fee", "wine_cost_percentage"]}
+{"r": ["cake_cutting_fee", "plating_cost"]}
+{"r": ["reservation_deposit", "cancellation_fee"]}
+{"r": ["cancellation_fee", "no_show_fee"]}
+{"r": ["prix_fixe_cost", "plate_cost"]}
+{"r": ["buffet_cost_per_head", "inventory_cost"]}
+{"r": ["buffet_cost_per_head", "portion_cost"]}
+{"r": ["catering_cost", "plate_cost"]}
+{"r": ["catering_cost", "prep_labor"]}
+{"r": ["private_event_pricing", "catering_cost"]}
+{"r": ["bread_service_cost", "plate_cost"]}
+{"r": ["amuse_bouche_cost", "plate_cost"]}
+{"r": ["tasting_menu_cost", "plate_cost"]}
+{"r": ["chef_tasting_cost", "tasting_menu_cost"]}
+{"r": ["accounts_payable", "net_30_terms"]}
+{"r": ["accounts_payable", "cash_terms"]}
+{"r": ["accounts_payable", "vendor_relationship"]}
+{"r": ["supply_chain_cost", "delivery_fee"]}
+{"r": ["supply_chain_cost", "inventory_cost"]}
+{"r": ["wholesale_food_price", "food_price_inflation"]}
+{"r": ["wholesale_food_price", "bulk_discount"]}
+{"r": ["cash_flow", "accounts_payable"]}
+{"r": ["cash_flow", "accounts_receivable"]}
+{"r": ["cash_flow", "loan_payment"]}
+{"r": ["cash_flow", "cash_reserve"]}
+{"r": ["operating_cash_flow", "cash_flow"]}
+{"r": ["operating_cash_flow", "net_profit"]}
+{"r": ["daily_sales_report", "cost_of_goods_sold"]}
+{"r": ["weekly_p_and_l", "daily_sales_report"]}
+{"r": ["weekly_p_and_l", "labor_cost_percentage"]}
+{"r": ["monthly_balance_sheet", "accounts_payable"]}
+{"r": ["monthly_balance_sheet", "cash_reserve"]}
+{"r": ["cost_analysis", "food_cost_percentage"]}
+{"r": ["cost_analysis", "labor_cost_percentage"]}
+{"r": ["cost_analysis", "profit_margin"]}
+{"r": ["tax_obligation", "sales_tax"]}
+{"r": ["tax_obligation", "payroll_tax"]}
+{"r": ["sales_tax", "daily_revenue"]}
+{"r": ["linens_cost", "cleaning_supplies_cost"]}
+{"r": ["smallwares_cost", "equipment_maintenance_cost"]}
+{"r": ["vat_cost", "ingredient_cost"]}
+{"r": ["vat_cost", "equipment_cost"]}

@@ -1,0 +1,248 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l1_p1",
+  "target": "ee_ontology",
+  "certificate": {
+    "compiled_at": "2026-08-08T14:59:09.399668+00:00",
+    "construction_facts_sha256": "bafe6e22f09816b5db381861c90ae3c8e41268db37b1d154c82a1f27480ac0af",
+    "construction_lowering_id": "ee.map.ontology.lowering.v1",
+    "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+    "construction_payload_sha256": "f9cbff4f3b19d1ad95be813e4f93321311cd2c56c408a138576c408951230d0a",
+    "construction_render_sha256": "60a8fc75bef610cff50ea3b094d1e18e55e3f6ec7610abf7d4a820b12decff72",
+    "construction_schema_id": "ee.map.ontology.v1",
+    "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+    "domain_id": "ee_ontology",
+    "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "17353fe6d4a6f314719080f69e1c15de7a488c0533117055f9826b344482107b",
+    "observation_facts_sha256": "515028165cf2a33a4703a842b9ff1d44aaa2c3953ab5dbed8ba9ad40ab4e937b",
+    "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+    "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+    "observation_payload_sha256": "29c576dac008d067102cee5c5fcd7e947425c8d35a9a646527cc5842ebf4702d",
+    "observation_render_sha256": "39c2379e5c976b752ba96a013d8677665c37447523bc25295ab1fa28ab98e29a",
+    "observation_schema_id": "ee.map.pass_witness.v1",
+    "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+    "status": "compiled",
+    "subject": "j_l1_p1",
+    "target": "ee_ontology",
+    "workspace_sha256": "129fb64c95d05567db08a7a9c201696276cec0d09a9b6d1b80c2b52a10a51aa8"
+  },
+  "kappa": {
+    "domain": "ee_conceptualization",
+    "invariants": {
+      "ontology_coherence": "every relation touches declared concepts; every concept participates"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_concept",
+        "candidate_relation"
+      ],
+      "facts_sha256": "bafe6e22f09816b5db381861c90ae3c8e41268db37b1d154c82a1f27480ac0af",
+      "lowering_id": "ee.map.ontology.lowering.v1",
+      "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+      "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+      "payload": {
+        "concepts": [
+          {
+            "definition": "Generative architecture achieving closure through transformation, persisting through feedback participation",
+            "id": "system_builder",
+            "kind": "concept"
+          },
+          {
+            "definition": "Property of producing complete outputs from inputs without external intervention in generation",
+            "id": "generative_closure",
+            "kind": "concept"
+          },
+          {
+            "definition": "Entity maintaining identity through continuous change via feedback loop participation",
+            "id": "living_pattern",
+            "kind": "concept"
+          },
+          {
+            "definition": "Daily parameters input to generation: covers, staff, inventory, events",
+            "id": "configuration",
+            "kind": "concept"
+          },
+          {
+            "definition": "Generated execution plan output: task assignments, sequences, resource allocations",
+            "id": "workflow",
+            "kind": "concept"
+          },
+          {
+            "definition": "Processing module converting configuration into workflow through selection, assembly, verification",
+            "id": "transformation_engine",
+            "kind": "concept"
+          },
+          {
+            "definition": "Persistent layer storing patterns, constraints, protocols, profiles for generation",
+            "id": "knowledge_base",
+            "kind": "concept"
+          },
+          {
+            "definition": "Closing mechanism connecting execution back to generation: capture, extract, validate, modify",
+            "id": "feedback_loop",
+            "kind": "concept"
+          },
+          {
+            "definition": "Maria, authority validating knowledge modifications and ensuring operational alignment",
+            "id": "human_validator",
+            "kind": "concept"
+          },
+          {
+            "definition": "Non-negotiable invariant defining possibility space boundaries; violation produces INVALID_OUTPUT",
+            "id": "hard_constraint",
+            "kind": "concept"
+          },
+          {
+            "definition": "Invariant structure: knowledge precedes processing precedes integration layer",
+            "id": "three_layer_architecture",
+            "kind": "concept"
+          },
+          {
+            "definition": "Gate enforcing hard_constraints before workflow output delivery",
+            "id": "constraint_verifier",
+            "kind": "concept"
+          }
+        ],
+        "kind": "ee_ontology",
+        "relations": [
+          {
+            "id": "r1",
+            "kind": "relation",
+            "source": "system_builder",
+            "target": "generative_closure"
+          },
+          {
+            "id": "r2",
+            "kind": "relation",
+            "source": "system_builder",
+            "target": "living_pattern"
+          },
+          {
+            "id": "r3",
+            "kind": "relation",
+            "source": "system_builder",
+            "target": "three_layer_architecture"
+          },
+          {
+            "id": "r4",
+            "kind": "relation",
+            "source": "transformation_engine",
+            "target": "generative_closure"
+          },
+          {
+            "id": "r5",
+            "kind": "relation",
+            "source": "transformation_engine",
+            "target": "configuration"
+          },
+          {
+            "id": "r6",
+            "kind": "relation",
+            "source": "transformation_engine",
+            "target": "workflow"
+          },
+          {
+            "id": "r7",
+            "kind": "relation",
+            "source": "transformation_engine",
+            "target": "knowledge_base"
+          },
+          {
+            "id": "r8",
+            "kind": "relation",
+            "source": "transformation_engine",
+            "target": "constraint_verifier"
+          },
+          {
+            "id": "r9",
+            "kind": "relation",
+            "source": "workflow",
+            "target": "feedback_loop"
+          },
+          {
+            "id": "r10",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "knowledge_base"
+          },
+          {
+            "id": "r11",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "human_validator"
+          },
+          {
+            "id": "r12",
+            "kind": "relation",
+            "source": "human_validator",
+            "target": "knowledge_base"
+          },
+          {
+            "id": "r13",
+            "kind": "relation",
+            "source": "constraint_verifier",
+            "target": "hard_constraint"
+          },
+          {
+            "id": "r14",
+            "kind": "relation",
+            "source": "knowledge_base",
+            "target": "hard_constraint"
+          },
+          {
+            "id": "r15",
+            "kind": "relation",
+            "source": "three_layer_architecture",
+            "target": "knowledge_base"
+          },
+          {
+            "id": "r16",
+            "kind": "relation",
+            "source": "three_layer_architecture",
+            "target": "transformation_engine"
+          }
+        ],
+        "subject": "j_l1_p1"
+      },
+      "payload_sha256": "f9cbff4f3b19d1ad95be813e4f93321311cd2c56c408a138576c408951230d0a",
+      "render_sha256": "60a8fc75bef610cff50ea3b094d1e18e55e3f6ec7610abf7d4a820b12decff72",
+      "rendered": "ontology:j_l1_p1\nsystem_builder: Generative architecture achieving closure through transformation, persisting through feedback participation\ngenerative_closure: Property of producing complete outputs from inputs without external intervention in generation\nliving_pattern: Entity maintaining identity through continuous change via feedback loop participation\nconfiguration: Daily parameters input to generation: covers, staff, inventory, events\nworkflow: Generated execution plan output: task assignments, sequences, resource allocations\ntransformation_engine: Processing module converting configuration into workflow through selection, assembly, verification\nknowledge_base: Persistent layer storing patterns, constraints, protocols, profiles for generation\nfeedback_loop: Closing mechanism connecting execution back to generation: capture, extract, validate, modify\nhuman_validator: Maria, authority validating knowledge modifications and ensuring operational alignment\nhard_constraint: Non-negotiable invariant defining possibility space boundaries; violation produces INVALID_OUTPUT\nthree_layer_architecture: Invariant structure: knowledge precedes processing precedes integration layer\nconstraint_verifier: Gate enforcing hard_constraints before workflow output delivery\nr1: system_builder -> generative_closure\nr2: system_builder -> living_pattern\nr3: system_builder -> three_layer_architecture\nr4: transformation_engine -> generative_closure\nr5: transformation_engine -> configuration\nr6: transformation_engine -> workflow\nr7: transformation_engine -> knowledge_base\nr8: transformation_engine -> constraint_verifier\nr9: workflow -> feedback_loop\nr10: feedback_loop -> knowledge_base\nr11: feedback_loop -> human_validator\nr12: human_validator -> knowledge_base\nr13: constraint_verifier -> hard_constraint\nr14: knowledge_base -> hard_constraint\nr15: three_layer_architecture -> knowledge_base\nr16: three_layer_architecture -> transformation_engine",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.ontology.v1",
+      "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+      "target": "ee_ontology"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "515028165cf2a33a4703a842b9ff1d44aaa2c3953ab5dbed8ba9ad40ab4e937b",
+      "lowering_id": "ee.map.pass_witness.lowering.v1",
+      "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+      "model_type": "ee_v2.map_gate.adapter.PassWitness",
+      "observation_predicates": [
+        "source_pass_complete"
+      ],
+      "payload": {
+        "kind": "pass_witness",
+        "layer": 1,
+        "pass_num": 1,
+        "subject": "j_l1_p1"
+      },
+      "payload_sha256": "29c576dac008d067102cee5c5fcd7e947425c8d35a9a646527cc5842ebf4702d",
+      "render_sha256": "39c2379e5c976b752ba96a013d8677665c37447523bc25295ab1fa28ab98e29a",
+      "rendered": "witness:j_l1_p1:L1P1",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.pass_witness.v1",
+      "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+      "target": "ee_ontology"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l1_p1,ee_ontology).",
+      "ee_ontology_proof(j_l1_p1,ontology_coherence)."
+    ]
+  },
+  "envelope_sha256": "3e77f7afea27e990aae55d2a65e446099720df3f90976cc29c9fb851f6ea83cb"
+}

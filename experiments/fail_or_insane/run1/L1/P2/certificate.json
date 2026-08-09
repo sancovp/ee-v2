@@ -1,0 +1,162 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l1_p2",
+  "target": "ee_skill",
+  "certificate": {
+    "compiled_at": "2026-08-08T12:56:50.180309+00:00",
+    "construction_facts_sha256": "53bf8fc0598a0942cefba57b1152f7c9a757d50370439462647c1460be61217a",
+    "construction_lowering_id": "ee.map.skill.lowering.v1",
+    "construction_lowering_sha256": "6f8d45fcc947e98b6f46f0c6cd227b1b6e97246183ec941b25182c118362fb28",
+    "construction_payload_sha256": "e6dbd40d051e86fe3250e00f469d1af0879ad9878dee033bb602a51eb7381ed3",
+    "construction_render_sha256": "3468b8bbfd5b57c4df891adf41be7afa46e438e7dcf941804f2fd859cabd6e52",
+    "construction_schema_id": "ee.map.skill.v1",
+    "construction_schema_sha256": "b90d833e14dbb242cd8b4c5cb0238ce187d1e47dfd7faa7ce77448c3cd1ae8f0",
+    "domain_id": "ee_skill",
+    "domain_sha256": "a7adf1092a25410936cb837d8d4935ded3a53eaf0fad5f4dfb5f941698fba18e",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "94a477922032457cbc587ae04f29d51e28ac4a7c8f723faf370161f9e577ec5e",
+    "observation_facts_sha256": "b20ff1fc5e7d0211ab2c620a7dd4d71c12d950f4415e1b1f92e883c1544d24f1",
+    "observation_lowering_id": "ee.map.skill_ground.lowering.v1",
+    "observation_lowering_sha256": "56df84298e4ffe994b430e7cfd40d766c7a5427f93dfedb2e628188a45496686",
+    "observation_payload_sha256": "0bc6e916d9d424550c6234107255f3effe9ae3c08bf7299220f9099b5b9745b6",
+    "observation_render_sha256": "961c163a33990b5052055b3450a69358f60fc539e0f88d83e5252db6e74706ca",
+    "observation_schema_id": "ee.map.skill_ground.v1",
+    "observation_schema_sha256": "c2d4a7f119955f1ea83f1c6e377afe5f0a2b4e53037159074a79289466c41c32",
+    "status": "compiled",
+    "subject": "j_l1_p2",
+    "target": "ee_skill",
+    "workspace_sha256": "197b81e2263e01860c4056d514f8ad893f05ce4e97c44c31f62b8226a54e2e36"
+  },
+  "kappa": {
+    "domain": "ee_generalization",
+    "invariants": {
+      "skill_grounding": "every step's uses reference P1-certified concepts"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_step",
+        "candidate_use"
+      ],
+      "facts_sha256": "53bf8fc0598a0942cefba57b1152f7c9a757d50370439462647c1460be61217a",
+      "lowering_id": "ee.map.skill.lowering.v1",
+      "lowering_sha256": "6f8d45fcc947e98b6f46f0c6cd227b1b6e97246183ec941b25182c118362fb28",
+      "model_type": "ee_v2.map_gate.adapter.SkillConstruction",
+      "payload": {
+        "kind": "ee_skill",
+        "name": "build_workflow_generation_system_constructor",
+        "steps": [
+          {
+            "action": "Extract concrete requirements from meta-specifications, categorizing functional needs, constraint boundaries, and capability targets for the system to construct",
+            "id": "define_generation_specifications",
+            "kind": "step",
+            "uses": [
+              "abstract_kitchen_context",
+              "generative_grammar",
+              "static_design"
+            ]
+          },
+          {
+            "action": "Select and compose processing modules including specification processor, architecture assembler, configuration engine, and quality verifier into coherent processing pipeline",
+            "id": "assemble_processing_architecture",
+            "kind": "step",
+            "uses": [
+              "transformation_apparatus",
+              "static_design",
+              "dynamic_design"
+            ]
+          },
+          {
+            "action": "Populate knowledge base with domain entities, instantiate constraint templates, and seed pattern library with workflow patterns appropriate to target context",
+            "id": "configure_knowledge_structures",
+            "kind": "step",
+            "uses": [
+              "workflow_generation_system",
+              "generative_grammar",
+              "static_design"
+            ]
+          },
+          {
+            "action": "Wire observation collectors, interpretation analyzers, and incorporation updaters into closed feedback loop connecting generation to execution outcomes",
+            "id": "establish_feedback_mechanisms",
+            "kind": "step",
+            "uses": [
+              "feedback_loop",
+              "learning_design",
+              "living_pattern"
+            ]
+          },
+          {
+            "action": "Verify structural completeness, semantic alignment with target context, and operational feasibility of constructed system before deployment",
+            "id": "validate_system_coherence",
+            "kind": "step",
+            "uses": [
+              "feedback_loop",
+              "concrete_workflow_instance",
+              "learning_design"
+            ]
+          },
+          {
+            "action": "Bundle configured system with documentation, installation scripts, and integration adapters into deployable package ready for kitchen instantiation",
+            "id": "prepare_deployment_package",
+            "kind": "step",
+            "uses": [
+              "living_pattern",
+              "transformation_apparatus",
+              "dynamic_design"
+            ]
+          }
+        ],
+        "subject": "j_l1_p2"
+      },
+      "payload_sha256": "e6dbd40d051e86fe3250e00f469d1af0879ad9878dee033bb602a51eb7381ed3",
+      "render_sha256": "3468b8bbfd5b57c4df891adf41be7afa46e438e7dcf941804f2fd859cabd6e52",
+      "rendered": "skill:build_workflow_generation_system_constructor\ndefine_generation_specifications: Extract concrete requirements from meta-specifications, categorizing functional needs, constraint boundaries, and capability targets for the system to construct [uses: abstract_kitchen_context, generative_grammar, static_design]\nassemble_processing_architecture: Select and compose processing modules including specification processor, architecture assembler, configuration engine, and quality verifier into coherent processing pipeline [uses: transformation_apparatus, static_design, dynamic_design]\nconfigure_knowledge_structures: Populate knowledge base with domain entities, instantiate constraint templates, and seed pattern library with workflow patterns appropriate to target context [uses: workflow_generation_system, generative_grammar, static_design]\nestablish_feedback_mechanisms: Wire observation collectors, interpretation analyzers, and incorporation updaters into closed feedback loop connecting generation to execution outcomes [uses: feedback_loop, learning_design, living_pattern]\nvalidate_system_coherence: Verify structural completeness, semantic alignment with target context, and operational feasibility of constructed system before deployment [uses: feedback_loop, concrete_workflow_instance, learning_design]\nprepare_deployment_package: Bundle configured system with documentation, installation scripts, and integration adapters into deployable package ready for kitchen instantiation [uses: living_pattern, transformation_apparatus, dynamic_design]",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.skill.v1",
+      "schema_sha256": "b90d833e14dbb242cd8b4c5cb0238ce187d1e47dfd7faa7ce77448c3cd1ae8f0",
+      "target": "ee_skill"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "b20ff1fc5e7d0211ab2c620a7dd4d71c12d950f4415e1b1f92e883c1544d24f1",
+      "lowering_id": "ee.map.skill_ground.lowering.v1",
+      "lowering_sha256": "56df84298e4ffe994b430e7cfd40d766c7a5427f93dfedb2e628188a45496686",
+      "model_type": "ee_v2.map_gate.adapter.SkillGroundWitness",
+      "observation_predicates": [
+        "source_concept",
+        "source_pass_complete"
+      ],
+      "payload": {
+        "certified_concepts": [
+          "workflow_generation_system",
+          "generative_grammar",
+          "abstract_kitchen_context",
+          "concrete_workflow_instance",
+          "feedback_loop",
+          "static_design",
+          "dynamic_design",
+          "learning_design",
+          "living_pattern",
+          "transformation_apparatus"
+        ],
+        "kind": "skill_ground_witness",
+        "subject": "j_l1_p2"
+      },
+      "payload_sha256": "0bc6e916d9d424550c6234107255f3effe9ae3c08bf7299220f9099b5b9745b6",
+      "render_sha256": "961c163a33990b5052055b3450a69358f60fc539e0f88d83e5252db6e74706ca",
+      "rendered": "ground:j_l1_p2:workflow_generation_system,generative_grammar,abstract_kitchen_context,concrete_workflow_instance,feedback_loop,static_design,dynamic_design,learning_design,living_pattern,transformation_apparatus",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.skill_ground.v1",
+      "schema_sha256": "c2d4a7f119955f1ea83f1c6e377afe5f0a2b4e53037159074a79289466c41c32",
+      "target": "ee_skill"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l1_p2,ee_skill).",
+      "ee_skill_proof(j_l1_p2,skill_grounding)."
+    ]
+  },
+  "envelope_sha256": "b5ab11e3265a39268309ec6f9635f50cebf6dfbba210eb2616dabd3f6e2d69c3"
+}

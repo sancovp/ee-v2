@@ -1,0 +1,322 @@
+{"c": "raw_produce_procurement", "d": "sourcing fruits and vegetables from farms, wholesalers, or local growers"}
+{"c": "meat_supplier_relationships", "d": "managing vendors who provide beef, pork, poultry, and game meats"}
+{"c": "seafood_supply_chain", "d": "obtaining fresh, frozen, or sustainable seafood from distributors"}
+{"c": "dairy_sourcing", "d": "acquiring milk, cheese, butter, cream, and yogurt from dairies"}
+{"c": "dry_goods_wholesaler", "d": "bulk purchasing of grains, flour, sugar, and canned goods"}
+{"c": "specialty_ingredient_vendor", "d": "suppliers for unique items like truffle oil, saffron, or artisanal products"}
+{"c": "food_service_distributor", "d": "broadline distributors supplying multiple product categories"}
+{"c": "local_farm_direct_sourcing", "d": "buying directly from nearby farms to reduce food miles"}
+{"c": "organic_certified_suppliers", "d": "vendors providing USDA organic verified ingredients"}
+{"c": "sustainable_fishery_sources", "d": "MSC or similar certified sustainable seafood suppliers"}
+{"c": "farm_to_table_procurement", "d": "direct purchasing programs connecting restaurants with local farms"}
+{"c": "seasonal_menu_ingredient_sourcing", "d": "adjusting menus based on seasonal availability from suppliers"}
+{"c": "implied_grower_relationships", "d": "implied relationship between restaurants and the farms that grow their produce"}
+{"c": "implied_agricultural_commodities", "d": "implied connection to base agricultural products in the supply chain"}
+{"c": "supplier_contract_negotiation", "d": "formal agreements with vendors on pricing, terms, and exclusivity"}
+{"c": "vendor_credit_terms", "d": "negotiated payment schedules such as net_30 or net_60"}
+{"c": "volume_discount_agreements", "d": "contracted price breaks for purchasing specified quantities"}
+{"c": "minimum_order_requirements", "d": "supplier-imposed thresholds for order size to qualify for delivery"}
+{"c": "lead_time_expectations", "d": "time between placing an order and receiving delivery from vendors"}
+{"c": "supplier_delivery_reliability", "d": "track record of vendors fulfilling orders on time and complete"}
+{"c": "backup_supplier_identification", "d": "identifying secondary vendors for critical ingredients"}
+{"c": "supplier_certification_verification", "d": "confirming vendors hold required food safety certifications"}
+{"c": "gFSI_standard_compliance", "d": "suppliers meeting Global Food Safety Initiative benchmark standards"}
+{"c": "HAACP_certified_vendors", "d": "suppliers maintaining HACCP food safety plan certifications"}
+{"c": "supplier_food_safety_audits", "d": "on-site inspections of supplier facilities for compliance"}
+{"c": "delivery_dock_operations", "d": "receiving area logistics for inbound supplier deliveries"}
+{"c": "receiving_inspection_protocol", "d": "checking delivered goods against order for quality and accuracy"}
+{"c": "temperature_of_delivered_goods", "d": "verifying proper cold chain maintenance during delivery"}
+{"c": "case_lot_inspection", "d": "examining outer packaging for damage or contamination signs"}
+{"c": "weight_verification_receiving", "d": "confirming delivered weight matches invoiced quantities"}
+{"c": "bill_of_lading_verification", "d": "matching delivery documents to purchase orders"}
+{"c": "implied_delivery_logistics", "d": "implied relationship to transportation and logistics providers"}
+{"c": "cold_storage_facility", "d": "refrigerated walk-in cooler for perishable ingredient storage"}
+{"c": "freezer_storage_unit", "d": "walk-in or reach-in freezer for frozen product preservation"}
+{"c": "dry_storage_room", "d": "ambient temperature space for non-perishable supplies and ingredients"}
+{"c": "storage_shelving_systems", "d": "metal or wire shelving for organized inventory storage"}
+{"c": "pallet_racking_storage", "d": "industrial racking for bulk storage of goods received on pallets"}
+{"c": "storage_capacity_planning", "d": "determining available storage space for inventory items"}
+{"c": "first_in_first_out_rotation", "d": "FIFO method using older stock before newer deliveries"}
+{"c": "stock_rotation_schedules", "d": "planned intervals for rotating perishable inventory"}
+{"c": "implied_food_preservation_methods", "d": "implied connection to refrigeration, freezing, and curing techniques"}
+{"c": "expiration_date_tracking", "d": "monitoring use-by and best-by dates on stored products"}
+{"c": "shelf_life_management", "d": "tracking how long ingredients remain viable in storage"}
+{"c": "cold_chain_temperature_monitoring", "d": "continuous logging of refrigeration and freezer temperatures"}
+{"c": "storage_organization_by_zone", "d": "assigning specific storage areas for produce, dairy, meat, etc."}
+{"c": "cross_contamination_prevention_storage", "d": "separating raw meats from ready-to-eat items in storage"}
+{"c": "implied_food_safety_storage_standards", "d": "implied connection to regulatory storage requirements"}
+{"c": "implied_refrigeration_equipment", "d": "implied relationship to commercial refrigeration systems"}
+{"c": "implied_freezing_equipment", "d": "implied connection to blast chillers and freezer units"}
+{"c": "inventory_management_software", "d": "digital systems for tracking stock levels and movements"}
+{"c": "perpetual_inventory_system", "d": "real-time updating of inventory counts as items are received or used"}
+{"c": "physical_inventory_count", "d": "periodic manual counting of all stored items"}
+{"c": "cycle_counting", "d": "regular partial counts of specific inventory locations"}
+{"c": "blind_count_receiving", "d": "receiving process where actual counts are hidden from expected quantities"}
+{"c": "inventory_shrinkage_tracking", "d": "monitoring losses between recorded and actual inventory levels"}
+{"c": "theft_prevention_in_storage", "d": "security measures to prevent employee or external theft of inventory"}
+{"c": "barcode_scanning_inventory", "d": "using UPC or QR codes to track inventory movements"}
+{"c": "RFID_tracking_system", "d": "radio-frequency identification for automated inventory visibility"}
+{"c": "cloud_based_inventory_dashboard", "d": "remote access inventory management through web applications"}
+{"c": "real_time_inventory_alerts", "d": "automated notifications for low stock or expiring items"}
+{"c": "implied_inventory_data_systems", "d": "implied connection to database and software infrastructure"}
+{"c": "par_level_setting", "d": "establishing minimum stock quantities before reordering"}
+{"c": "auto_reorder_point_calculation", "d": "automated purchase order generation based on usage rates"}
+{"c": "reorder_quantity_optimization", "d": "determining ideal order sizes to balance carrying costs and stockouts"}
+{"c": "purchase_order_management", "d": "creating and tracking formal orders sent to suppliers"}
+{"c": "standing_order_agreements", "d": "prearranged recurring orders with scheduled deliveries"}
+{"c": "emergency_rush_ordering", "d": "urgent procurement outside normal ordering schedules"}
+{"c": "menu_forecast_based_ordering", "d": "ordering driven by predicted menu item sales volumes"}
+{"c": "batch_cooking_schedules", "d": "production planning that determines ingredient batch requirements"}
+{"c": "prep_sheet_ordering", "d": "ordering based on daily prep requirements from station prep lists"}
+{"c": "order_sheet_preparation", "d": "compiling daily or weekly order sheets from all kitchen stations"}
+{"c": "vendor_ordering_deadlines", "d": "cut-off times for placing orders with each supplier"}
+{"c": "delivery_day_scheduling", "d": "coordinating which suppliers arrive on which days"}
+{"c": "multiple_delivery_days_management", "d": "handling staggered delivery schedules from various vendors"}
+{"c": "receiving_staff_scheduling", "d": "assigning staff to be available during supplier delivery windows"}
+{"c": "ingredient_costing_sheets", "d": "documents calculating per-ingredient costs for menu items"}
+{"c": "plate_cost_calculation", "d": "determining total ingredient cost for individual menu dishes"}
+{"c": "portion_control_standards", "d": "specified quantities of each ingredient per menu item"}
+{"c": "portion_scale_calibration", "d": "regular checking of scales for accurate portioning"}
+{"c": "yield_testing_ingredients", "d": "measuring usable portion of purchased ingredients after trimming"}
+{"c": "food_cost_percentage_calculation", "d": "dividing cost of goods sold by total food revenue"}
+{"c": "cost_of_goods_sold_tracking", "d": "monitoring expense of ingredients used over a period"}
+{"c": "menu_item_profitability_analysis", "d": "evaluating which dishes generate highest margin contributions"}
+{"c": "menu_engineering_inventory_impact", "d": "designing menus to optimize inventory turnover rates"}
+{"c": "inventory_turnover_ratio", "d": "measuring how quickly inventory is sold and replaced"}
+{"c": "dead_stock_identification", "d": "recognizing slow-moving or obsolete inventory items"}
+{"c": "implied_menu_pricing_factors", "d": "implied connection to how ingredient costs affect menu pricing"}
+{"c": "implied_recipe_portioning_systems", "d": "implied relationship to standardized recipe and portion methods"}
+{"c": "supplier_price_fluctuation_tracking", "d": "monitoring changes in vendor pricing over time"}
+{"c": "commodity_market_price_awareness", "d": "tracking broader market prices for beef, produce, grains, etc."}
+{"c": "currency_exchange_rate_impact", "d": "effect of exchange rates on imported ingredient costs"}
+{"c": "seasonal_price_variance_accounting", "d": "budgeting for predictable price changes during seasons"}
+{"c": "bulk_purchasing_decisions", "d": "buying larger quantities to secure lower per-unit costs"}
+{"c": "carrying_cost_of_inventory", "d": "expense of storing and maintaining inventory over time"}
+{"c": "storage_cost_allocation", "d": "assigning space costs to inventory items"}
+{"c": "implied_supply_chain_financial_planning", "d": "implied connection to budgeting and financial forecasting"}
+{"c": "spoilage_loss_tracking", "d": "recording inventory losses from product deterioration"}
+{"c": "waste_logging_systems", "d": "documenting discarded food and ingredients"}
+{"c": "trim_and_yield_loss_recording", "d": "tracking inedible portions removed during preparation"}
+{"c": "food_waste_reduction_strategies", "d": "programs to minimize discard of usable ingredients"}
+{"c": "inventory_theft_investigation", "d": "processes for identifying and addressing employee theft"}
+{"c": "recall_response_procedures", "d": "protocols for managing supplier product recalls"}
+{"c": "traceability_through_supply_chain", "d": "ability to track ingredients from source to plate"}
+{"c": "lot_number_tracking", "d": "recording batch or lot numbers for recall purposes"}
+{"c": "supplier_traceability_documentation", "d": "requiring suppliers to provide farm or source documentation"}
+{"c": "implied_food_safety_incident_response", "d": "implied connection to emergency response procedures"}
+{"c": "implied_incident_investigation", "d": "implied relationship to root cause analysis methods"}
+{"c": "allergen_ingredient_tracking", "d": "monitoring presence of major allergens in inventory"}
+{"c": "implied_allergen_management_systems", "d": "implied connection to allergen identification and labeling"}
+{"c": "dietary_restriction_ingredient_inventory", "d": "tracking items suitable for vegan, gluten-free, or religious diets"}
+{"c": "implied_dietary_accommodation_systems", "d": "implied relationship to special dietary requirement protocols"}
+{"c": "packaging_material_suppliers", "d": "vendors of take-out containers, cups, and to-go supplies"}
+{"c": "sustainable_packaging_procurement", "d": "sourcing eco-friendly or compostable packaging materials"}
+{"c": "disposable_supply_inventory", "d": "managing stock of napkins, straws, stirrers, and cutlery"}
+{"c": "cleaning_chemical_suppliers", "d": "vendors of sanitizers, detergents, anddegreasers"}
+{"c": "sanitation_supply_inventory", "d": "stocking soaps, paper towels, and toilet tissue"}
+{"c": "implied_cleaning_equipment_suppliers", "d": "implied connection to mop, broom, and tool vendors"}
+{"c": "linen_service_relationships", "d": "commercial laundry vendors for tablecloths and napkins"}
+{"c": "uniform_supplier_contracts", "d": "vendors providing employee chef coats, aprons, and uniforms"}
+{"c": "kitchen_equipment_parts_inventory", "d": "stocking replacement parts like burner valves or gaskets"}
+{"c": "smallware_replacement_supply", "d": "vendors for tongs, spatulas, hotel pans, and prep tools"}
+{"c": "cooking_oil_suppliers", "d": "vendors of frying oils including vegetable, canola, and peanut oil"}
+{"c": "cooking_oil_disposal_service", "d": "used fryer oil collection and recycling service vendors"}
+{"c": "implied_cooking_equipment_vendors", "d": "implied connection to equipment manufacturers and service techs"}
+{"c": "pest_control_service_contracts", "d": "ongoing pest management vendor relationships"}
+{"c": "pest_control_supply_inventory", "d": "baits, traps, and preventative treatments on hand"}
+{"c": "maintenance_supply_stock", "d": "minor repair items like light bulbs, tape, and lubricant"}
+{"c": "office_supply_vendors", "d": "suppliers of menus, receipt paper, pens, and administrative items"}
+{"c": "implied_maintenance_service_vendors", "d": "implied relationship to repair technicians and contractors"}
+{"c": "supply_shortage_contingency_planning", "d": "strategies for maintaining operations when supplies unavailable"}
+{"c": "seasonal_storage_considerations", "d": "adjusting storage practices for summer heat or winter freezing"}
+{"c": "holiday_demand_surge_ordering", "d": "preordering extra inventory for high-volume holiday periods"}
+{"c": "event_catering_supply_stocking", "d": "preparing inventory levels for private events or banquets"}
+{"c": "menu_special_ingredient_procurement", "d": "sourcing unique ingredients for limited-time menu offerings"}
+{"c": "imported_ingredient_logistics", "d": "managing customs, duties, and extended lead times for foreign goods"}
+{"c": "customs_duty_management", "d": "handling import tariffs and customs clearance for foreign products"}
+{"c": "import_permit_compliance", "d": "obtaining required permits for restricted imported ingredients"}
+{"c": "implied_international_trade_compliance", "d": "implied connection to customs and trade regulation systems"}
+{"c": "fair_trade_ingredient_sourcing", "d": "purchasing certified fair trade products like coffee or chocolate"}
+{"c": "rainforest_alliance_suppliers", "d": "vendors with environmental certification for coffee or cocoa"}
+{"c": "food_miles_calculation", "d": "measuring distance ingredients travel from source to restaurant"}
+{"c": "carbon_footprint_supply_tracking", "d": "environmental impact assessment of supply chain choices"}
+{"c": "local_egg_producers", "d": "nearby farms or suppliers providing fresh shell eggs"}
+{"c": "local_bakery_wholesale", "d": "neighboring bakeries supplying fresh bread or pastries"}
+{"c": "craft_brewery_supply_agreements", "d": "contracts with local breweries for tap beer供给"}
+{"c": "wine_distributor_relationships", "d": "working with wine merchants for restaurant pour programs"}
+{"c": "spirits_wholesale_vendors", "d": "liquor distributors for bar program supply"}
+{"c": "bottled_water_supply", "d": "vendors for still and sparkling bottled water"}
+{"c": "soft_drink_bottler_contracts", "d": "agreements with soda bottlers for syrup and beverage supply"}
+{"c": "coffee_roaster_direct_relationships", "d": "sourcing whole bean or ground coffee from local roasters"}
+{"c": "tea_supplier_vendor_relationships", "d": "specialty tea distributors for hot and iced tea programs"}
+{"c": "specialty_cheese_affineurs", "d": "vendors of aged or imported artisanal cheeses"}
+{"c": "butcher_shop_wholesale_accounts", "d": "local butcher shops providing custom-cut meats"}
+{"c": "fishmongers_local_relationships", "d": "working with specialty fish markets for fresh catches"}
+{"c": "asian_specialty_food_distributors", "d": "suppliers of noodles, soy sauce, and Asian pantry staples"}
+{"c": "latin_ingredient_vendors", "d": "distributors for masa, dried chiles, and Mexican pantry items"}
+{"c": "middle_eastern_ingredient_suppliers", "d": "vendors for tahini, pomegranate, and Mediterranean products"}
+{"c": "gluten_free_flour_suppliers", "d": "specialty vendors for almond flour, coconut flour, etc."}
+{"c": "vegan_substitute_protein_vendors", "d": "suppliers of plant-based meat alternatives"}
+{"c": "alternative_dairy_suppliers", "d": "vendors for oat milk, almond milk, and coconut cream"}
+{"c": "sugar_free_specialty_ingredients", "d": "suppliers of stevia, monk fruit, and sugar-free products"}
+{"c": "cannabis_infused_supplier_compliance", "d": "legal compliance suppliers for THC or CBD edibles where permitted"}
+{"c": "premium_steak_dry_aging_suppliers", "d": "vendors providing wet-aged or dry-aged beef primals"}
+{"c": "whole_animal_butchery_relationships", "d": "working with suppliers for nose-to-tail primal cuts"}
+{"c": "implied_local_producer_networks", "d": "implied connection to community of regional food producers"}
+{"c": "implied_agricultural_seasonality", "d": "implied relationship to growing seasons affecting supply"}
+{"c": "implied_food_beverage_pairing_inventory", "d": "implied connection to pairing specific ingredients with beverages"}
+{"c": "supply_chain_technology_integration", "d": "connecting POS, inventory, and ordering systems digitally"}
+{"c": "vendor_portal_usage", "d": "online platforms for placing orders and tracking deliveries"}
+{"c": "electronic_data_interchange_ordering", "d": "automated B2B ordering with major distributors"}
+{"c": "inventory_reporting_automation", "d": "scheduled report generation for management review"}
+{"c": "cost_analysis_dashboard", "d": "visual tools displaying food cost trends and variances"}
+{"c": "supplier_performance_scorecards", "d": "tracking vendor on-time delivery, quality, and pricing"}
+{"c": "vendor_payment_processing", "d": "managing invoices and payments to suppliers"}
+{"c": "implied_accounting_payable_systems", "d": "implied connection to financial and payment processing infrastructure"}
+{"r": ["raw_produce_procurement", "local_farm_direct_sourcing"]}
+{"r": ["raw_produce_procurement", "organic_certified_suppliers"]}
+{"r": ["raw_produce_procurement", "seasonal_menu_ingredient_sourcing"]}
+{"r": ["meat_supplier_relationships", "supplier_contract_negotiation"]}
+{"r": ["meat_supplier_relationships", "premium_steak_dry_aging_suppliers"]}
+{"r": ["meat_supplier_relationships", "whole_animal_butchery_relationships"]}
+{"r": ["seafood_supply_chain", "sustainable_fishery_sources"]}
+{"r": ["seafood_supply_chain", "fishmongers_local_relationships"]}
+{"r": ["dairy_sourcing", "specialty_cheese_affineurs"]}
+{"r": ["dairy_sourcing", "alternative_dairy_suppliers"]}
+{"r": ["dry_goods_wholesaler", "bulk_purchasing_decisions"]}
+{"r": ["dry_goods_wholesaler", "implied_agricultural_commodities"]}
+{"r": ["food_service_distributor", "lead_time_expectations"]}
+{"r": ["food_service_distributor", "minimum_order_requirements"]}
+{"r": ["food_service_distributor", "electronic_data_interchange_ordering"]}
+{"r": ["local_farm_direct_sourcing", "farm_to_table_procurement"]}
+{"r": ["local_farm_direct_sourcing", "food_miles_calculation"]}
+{"r": ["local_farm_direct_sourcing", "implied_grower_relationships"]}
+{"r": ["organic_certified_suppliers", "implied_food_safety_storage_standards"]}
+{"r": ["sustainable_fishery_sources", "implied_food_safety_incident_response"]}
+{"r": ["supplier_contract_negotiation", "vendor_credit_terms"]}
+{"r": ["supplier_contract_negotiation", "volume_discount_agreements"]}
+{"r": ["supplier_contract_negotiation", "supplier_price_fluctuation_tracking"]}
+{"r": ["vendor_credit_terms", "vendor_payment_processing"]}
+{"r": ["volume_discount_agreements", "bulk_purchasing_decisions"]}
+{"r": ["minimum_order_requirements", "reorder_quantity_optimization"]}
+{"r": ["backup_supplier_identification", "supply_shortage_contingency_planning"]}
+{"r": ["supplier_certification_verification", "gFSI_standard_compliance"]}
+{"r": ["supplier_certification_verification", "HAACP_certified_vendors"]}
+{"r": ["supplier_food_safety_audits", "implied_incident_investigation"]}
+{"r": ["delivery_dock_operations", "receiving_inspection_protocol"]}
+{"r": ["delivery_dock_operations", "implied_delivery_logistics"]}
+{"r": ["receiving_inspection_protocol", "temperature_of_delivered_goods"]}
+{"r": ["receiving_inspection_protocol", "case_lot_inspection"]}
+{"r": ["receiving_inspection_protocol", "weight_verification_receiving"]}
+{"r": ["receiving_inspection_protocol", "bill_of_lading_verification"]}
+{"r": ["temperature_of_delivered_goods", "implied_refrigeration_equipment"]}
+{"r": ["cold_storage_facility", "implied_food_preservation_methods"]}
+{"r": ["cold_storage_facility", "implied_refrigeration_equipment"]}
+{"r": ["cold_storage_facility", "cross_contamination_prevention_storage"]}
+{"r": ["freezer_storage_unit", "implied_freezing_equipment"]}
+{"r": ["dry_storage_room", "implied_food_safety_storage_standards"]}
+{"r": ["first_in_first_out_rotation", "expiration_date_tracking"]}
+{"r": ["first_in_first_out_rotation", "shelf_life_management"]}
+{"r": ["shelf_life_management", "cold_chain_temperature_monitoring"]}
+{"r": ["shelf_life_management", "spoilage_loss_tracking"]}
+{"r": ["storage_organization_by_zone", "cross_contamination_prevention_storage"]}
+{"r": ["inventory_management_software", "perpetual_inventory_system"]}
+{"r": ["inventory_management_software", "barcode_scanning_inventory"]}
+{"r": ["inventory_management_software", "RFID_tracking_system"]}
+{"r": ["inventory_management_software", "cloud_based_inventory_dashboard"]}
+{"r": ["inventory_management_software", "real_time_inventory_alerts"]}
+{"r": ["inventory_management_software", "supply_chain_technology_integration"]}
+{"r": ["inventory_management_software", "inventory_reporting_automation"]}
+{"r": ["inventory_management_software", "cost_analysis_dashboard"]}
+{"r": ["inventory_management_software", "implied_inventory_data_systems"]}
+{"r": ["physical_inventory_count", "cycle_counting"]}
+{"r": ["physical_inventory_count", "inventory_shrinkage_tracking"]}
+{"r": ["physical_inventory_count", "blind_count_receiving"]}
+{"r": ["inventory_shrinkage_tracking", "theft_prevention_in_storage"]}
+{"r": ["inventory_shrinkage_tracking", "inventory_theft_investigation"]}
+{"r": ["par_level_setting", "auto_reorder_point_calculation"]}
+{"r": ["par_level_setting", "reorder_quantity_optimization"]}
+{"r": ["auto_reorder_point_calculation", "menu_forecast_based_ordering"]}
+{"r": ["auto_reorder_point_calculation", "vendor_portal_usage"]}
+{"r": ["purchase_order_management", "order_sheet_preparation"]}
+{"r": ["purchase_order_management", "vendor_ordering_deadlines"]}
+{"r": ["purchase_order_management", "vendor_payment_processing"]}
+{"r": ["emergency_rush_ordering", "supply_shortage_contingency_planning"]}
+{"r": ["menu_forecast_based_ordering", "batch_cooking_schedules"]}
+{"r": ["menu_forecast_based_ordering", "prep_sheet_ordering"]}
+{"r": ["menu_forecast_based_ordering", "holiday_demand_surge_ordering"]}
+{"r": ["menu_forecast_based_ordering", "event_catering_supply_stocking"]}
+{"r": ["delivery_day_scheduling", "receiving_staff_scheduling"]}
+{"r": ["delivery_day_scheduling", "multiple_delivery_days_management"]}
+{"r": ["ingredient_costing_sheets", "plate_cost_calculation"]}
+{"r": ["ingredient_costing_sheets", "yield_testing_ingredients"]}
+{"r": ["plate_cost_calculation", "portion_control_standards"]}
+{"r": ["plate_cost_calculation", "food_cost_percentage_calculation"]}
+{"r": ["plate_cost_calculation", "implied_menu_pricing_factors"]}
+{"r": ["portion_control_standards", "portion_scale_calibration"]}
+{"r": ["portion_control_standards", "implied_recipe_portioning_systems"]}
+{"r": ["food_cost_percentage_calculation", "cost_of_goods_sold_tracking"]}
+{"r": ["cost_of_goods_sold_tracking", "menu_item_profitability_analysis"]}
+{"r": ["menu_item_profitability_analysis", "menu_engineering_inventory_impact"]}
+{"r": ["inventory_turnover_ratio", "dead_stock_identification"]}
+{"r": ["inventory_turnover_ratio", "carrying_cost_of_inventory"]}
+{"r": ["dead_stock_identification", "menu_special_ingredient_procurement"]}
+{"r": ["dead_stock_identification", "food_waste_reduction_strategies"]}
+{"r": ["supplier_price_fluctuation_tracking", "commodity_market_price_awareness"]}
+{"r": ["commodity_market_price_awareness", "seasonal_price_variance_accounting"]}
+{"r": ["commodity_market_price_awareness", "currency_exchange_rate_impact"]}
+{"r": ["bulk_purchasing_decisions", "carrying_cost_of_inventory"]}
+{"r": ["carrying_cost_of_inventory", "storage_cost_allocation"]}
+{"r": ["carrying_cost_of_inventory", "implied_supply_chain_financial_planning"]}
+{"r": ["spoilage_loss_tracking", "waste_logging_systems"]}
+{"r": ["spoilage_loss_tracking", "trim_and_yield_loss_recording"]}
+{"r": ["spoilage_loss_tracking", "dead_stock_identification"]}
+{"r": ["recall_response_procedures", "traceability_through_supply_chain"]}
+{"r": ["traceability_through_supply_chain", "lot_number_tracking"]}
+{"r": ["traceability_through_supply_chain", "supplier_traceability_documentation"]}
+{"r": ["lot_number_tracking", "implied_food_safety_incident_response"]}
+{"r": ["allergen_ingredient_tracking", "implied_allergen_management_systems"]}
+{"r": ["dietary_restriction_ingredient_inventory", "implied_dietary_accommodation_systems"]}
+{"r": ["packaging_material_suppliers", "sustainable_packaging_procurement"]}
+{"r": ["disposable_supply_inventory", "implied_cleaning_equipment_suppliers"]}
+{"r": ["cleaning_chemical_suppliers", "sanitation_supply_inventory"]}
+{"r": ["sanitation_supply_inventory", "implied_cleaning_equipment_suppliers"]}
+{"r": ["linen_service_relationships", "uniform_supplier_contracts"]}
+{"r": ["cooking_oil_suppliers", "cooking_oil_disposal_service"]}
+{"r": ["cooking_oil_suppliers", "implied_cooking_equipment_vendors"]}
+{"r": ["smallware_replacement_supply", "implied_cooking_equipment_vendors"]}
+{"r": ["implied_cooking_equipment_vendors", "maintenance_supply_stock"]}
+{"r": ["implied_cooking_equipment_vendors", "implied_maintenance_service_vendors"]}
+{"r": ["pest_control_service_contracts", "pest_control_supply_inventory"]}
+{"r": ["implied_maintenance_service_vendors", "maintenance_supply_stock"]}
+{"r": ["implied_maintenance_service_vendors", "implied_accounting_payable_systems"]}
+{"r": ["holiday_demand_surge_ordering", "supply_shortage_contingency_planning"]}
+{"r": ["event_catering_supply_stocking", "menu_special_ingredient_procurement"]}
+{"r": ["imported_ingredient_logistics", "customs_duty_management"]}
+{"r": ["imported_ingredient_logistics", "import_permit_compliance"]}
+{"r": ["imported_ingredient_logistics", "lead_time_expectations"]}
+{"r": ["imported_ingredient_logistics", "currency_exchange_rate_impact"]}
+{"r": ["customs_duty_management", "implied_international_trade_compliance"]}
+{"r": ["fair_trade_ingredient_sourcing", "rainforest_alliance_suppliers"]}
+{"r": ["fair_trade_ingredient_sourcing", "implied_supply_chain_financial_planning"]}
+{"r": ["food_miles_calculation", "carbon_footprint_supply_tracking"]}
+{"r": ["local_egg_producers", "implied_local_producer_networks"]}
+{"r": ["local_bakery_wholesale", "implied_local_producer_networks"]}
+{"r": ["craft_brewery_supply_agreements", "implied_food_beverage_pairing_inventory"]}
+{"r": ["wine_distributor_relationships", "implied_food_beverage_pairing_inventory"]}
+{"r": ["coffee_roaster_direct_relationships", "fair_trade_ingredient_sourcing"]}
+{"r": ["specialty_cheese_affineurs", "implied_food_beverage_pairing_inventory"]}
+{"r": ["butcher_shop_wholesale_accounts", "implied_local_producer_networks"]}
+{"r": ["fishmongers_local_relationships", "implied_local_producer_networks"]}
+{"r": ["fishmongers_local_relationships", "implied_agricultural_seasonality"]}
+{"r": ["asian_specialty_food_distributors", "imported_ingredient_logistics"]}
+{"r": ["latin_ingredient_vendors", "imported_ingredient_logistics"]}
+{"r": ["middle_eastern_ingredient_suppliers", "imported_ingredient_logistics"]}
+{"r": ["vegan_substitute_protein_vendors", "alternative_dairy_suppliers"]}
+{"r": ["vegan_substitute_protein_vendors", "dietary_restriction_ingredient_inventory"]}
+{"r": ["alternative_dairy_suppliers", "dietary_restriction_ingredient_inventory"]}
+{"r": ["whole_animal_butchery_relationships", "implied_agricultural_seasonality"]}
+{"r": ["supplier_performance_scorecards", "backup_supplier_identification"]}
+{"r": ["supplier_performance_scorecards", "supplier_delivery_reliability"]}
+{"r": ["vendor_payment_processing", "implied_accounting_payable_systems"]}
+{"r": ["supply_chain_technology_integration", "implied_inventory_data_systems"]}

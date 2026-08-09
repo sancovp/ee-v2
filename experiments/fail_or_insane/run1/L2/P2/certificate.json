@@ -1,0 +1,206 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l2_p2",
+  "target": "ee_skill",
+  "certificate": {
+    "compiled_at": "2026-08-08T13:49:45.236007+00:00",
+    "construction_facts_sha256": "166963176067bfebad04f0dd5079810bb7b0223eac7e3d58b68fbe1d7993b34d",
+    "construction_lowering_id": "ee.map.skill.lowering.v1",
+    "construction_lowering_sha256": "6f8d45fcc947e98b6f46f0c6cd227b1b6e97246183ec941b25182c118362fb28",
+    "construction_payload_sha256": "8a4c9c805fe63f7951af4135daca2b5da3497a166c2cf7b5000e526d32ab8b9f",
+    "construction_render_sha256": "6ed891191058d944c2fda7f380388553f128ef49afb3ce5e7467286ec107f9b8",
+    "construction_schema_id": "ee.map.skill.v1",
+    "construction_schema_sha256": "b90d833e14dbb242cd8b4c5cb0238ce187d1e47dfd7faa7ce77448c3cd1ae8f0",
+    "domain_id": "ee_skill",
+    "domain_sha256": "a7adf1092a25410936cb837d8d4935ded3a53eaf0fad5f4dfb5f941698fba18e",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "94a477922032457cbc587ae04f29d51e28ac4a7c8f723faf370161f9e577ec5e",
+    "observation_facts_sha256": "7c22c9a46cb95b39cc8f673d0271e9f6b7317bf6bb3929eb62bccb31118b821b",
+    "observation_lowering_id": "ee.map.skill_ground.lowering.v1",
+    "observation_lowering_sha256": "56df84298e4ffe994b430e7cfd40d766c7a5427f93dfedb2e628188a45496686",
+    "observation_payload_sha256": "dfc92dc6527bb996fb3598a460c64607133750facb1413d9576dae861ca7d37d",
+    "observation_render_sha256": "9b823309cc9888e92578610aa909ec00fa89bdd302ace6b857110a69613cb8db",
+    "observation_schema_id": "ee.map.skill_ground.v1",
+    "observation_schema_sha256": "c2d4a7f119955f1ea83f1c6e377afe5f0a2b4e53037159074a79289466c41c32",
+    "status": "compiled",
+    "subject": "j_l2_p2",
+    "target": "ee_skill",
+    "workspace_sha256": "6acae1d2747ffa8dcc742afb12f67d6bd77be9734bdd4c3a13b417b807d04c64"
+  },
+  "kappa": {
+    "domain": "ee_generalization",
+    "invariants": {
+      "skill_grounding": "every step's uses reference P1-certified concepts"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_step",
+        "candidate_use"
+      ],
+      "facts_sha256": "166963176067bfebad04f0dd5079810bb7b0223eac7e3d58b68fbe1d7993b34d",
+      "lowering_id": "ee.map.skill.lowering.v1",
+      "lowering_sha256": "6f8d45fcc947e98b6f46f0c6cd227b1b6e97246183ec941b25182c118362fb28",
+      "model_type": "ee_v2.map_gate.adapter.SkillConstruction",
+      "payload": {
+        "kind": "ee_skill",
+        "name": "build_constructor_generator",
+        "steps": [
+          {
+            "action": "Validate and parse incoming domain, architecture, grammar, and feedback specifications into internal representations",
+            "id": "parse_specifications",
+            "kind": "step",
+            "uses": [
+              "static_design",
+              "dynamic_design",
+              "learning_design",
+              "generative_grammar"
+            ]
+          },
+          {
+            "action": "Filter and select appropriate templates from the template library based on validated specifications",
+            "id": "select_templates",
+            "kind": "step",
+            "uses": [
+              "generative_grammar",
+              "pattern_extraction"
+            ]
+          },
+          {
+            "action": "Fill template slots with specification content, applying defaults and verifying constraints",
+            "id": "instantiate_templates",
+            "kind": "step",
+            "uses": [
+              "generative_grammar",
+              "integration",
+              "static_design",
+              "dynamic_design",
+              "learning_design"
+            ]
+          },
+          {
+            "action": "Combine instantiated components into coherent constructor structure following assembly order",
+            "id": "assemble_components",
+            "kind": "step",
+            "uses": [
+              "static_design",
+              "dynamic_design",
+              "learning_design",
+              "integration"
+            ]
+          },
+          {
+            "action": "Wire inter-component relationships: static-dynamic bridge, dynamic-learning bridge, learning-static bridge",
+            "id": "establish_connections",
+            "kind": "step",
+            "uses": [
+              "static_design",
+              "dynamic_design",
+              "learning_design",
+              "feedback_loop",
+              "integration"
+            ]
+          },
+          {
+            "action": "Execute validation gates: structural, integration, generative, and output validation",
+            "id": "validate_constructor",
+            "kind": "step",
+            "uses": [
+              "generative_grammar",
+              "feedback_loop",
+              "integration"
+            ]
+          },
+          {
+            "action": "Issue validation certificate or return detailed error report based on validation results",
+            "id": "issue_certificate",
+            "kind": "step",
+            "uses": [
+              "integration"
+            ]
+          },
+          {
+            "action": "Produce accompanying documentation: grammar docs, architecture docs, configuration guides",
+            "id": "generate_documentation",
+            "kind": "step",
+            "uses": [
+              "static_design",
+              "dynamic_design",
+              "learning_design"
+            ]
+          },
+          {
+            "action": "Process feedback about generated constructor performance into template refinements",
+            "id": "incorporate_feedback",
+            "kind": "step",
+            "uses": [
+              "feedback_loop",
+              "pattern_extraction",
+              "hypothesis_generation",
+              "integration"
+            ]
+          },
+          {
+            "action": "Modify template library based on validated hypotheses from cross-constructor pattern analysis",
+            "id": "refine_templates",
+            "kind": "step",
+            "uses": [
+              "generative_grammar",
+              "pattern_extraction",
+              "hypothesis_generation",
+              "integration"
+            ]
+          }
+        ],
+        "subject": "j_l2_p2"
+      },
+      "payload_sha256": "8a4c9c805fe63f7951af4135daca2b5da3497a166c2cf7b5000e526d32ab8b9f",
+      "render_sha256": "6ed891191058d944c2fda7f380388553f128ef49afb3ce5e7467286ec107f9b8",
+      "rendered": "skill:build_constructor_generator\nparse_specifications: Validate and parse incoming domain, architecture, grammar, and feedback specifications into internal representations [uses: static_design, dynamic_design, learning_design, generative_grammar]\nselect_templates: Filter and select appropriate templates from the template library based on validated specifications [uses: generative_grammar, pattern_extraction]\ninstantiate_templates: Fill template slots with specification content, applying defaults and verifying constraints [uses: generative_grammar, integration, static_design, dynamic_design, learning_design]\nassemble_components: Combine instantiated components into coherent constructor structure following assembly order [uses: static_design, dynamic_design, learning_design, integration]\nestablish_connections: Wire inter-component relationships: static-dynamic bridge, dynamic-learning bridge, learning-static bridge [uses: static_design, dynamic_design, learning_design, feedback_loop, integration]\nvalidate_constructor: Execute validation gates: structural, integration, generative, and output validation [uses: generative_grammar, feedback_loop, integration]\nissue_certificate: Issue validation certificate or return detailed error report based on validation results [uses: integration]\ngenerate_documentation: Produce accompanying documentation: grammar docs, architecture docs, configuration guides [uses: static_design, dynamic_design, learning_design]\nincorporate_feedback: Process feedback about generated constructor performance into template refinements [uses: feedback_loop, pattern_extraction, hypothesis_generation, integration]\nrefine_templates: Modify template library based on validated hypotheses from cross-constructor pattern analysis [uses: generative_grammar, pattern_extraction, hypothesis_generation, integration]",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.skill.v1",
+      "schema_sha256": "b90d833e14dbb242cd8b4c5cb0238ce187d1e47dfd7faa7ce77448c3cd1ae8f0",
+      "target": "ee_skill"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "7c22c9a46cb95b39cc8f673d0271e9f6b7317bf6bb3929eb62bccb31118b821b",
+      "lowering_id": "ee.map.skill_ground.lowering.v1",
+      "lowering_sha256": "56df84298e4ffe994b430e7cfd40d766c7a5427f93dfedb2e628188a45496686",
+      "model_type": "ee_v2.map_gate.adapter.SkillGroundWitness",
+      "observation_predicates": [
+        "source_concept",
+        "source_pass_complete"
+      ],
+      "payload": {
+        "certified_concepts": [
+          "feedback_loop",
+          "constructor",
+          "static_design",
+          "dynamic_design",
+          "learning_design",
+          "pattern_extraction",
+          "hypothesis_generation",
+          "integration",
+          "generative_grammar"
+        ],
+        "kind": "skill_ground_witness",
+        "subject": "j_l2_p2"
+      },
+      "payload_sha256": "dfc92dc6527bb996fb3598a460c64607133750facb1413d9576dae861ca7d37d",
+      "render_sha256": "9b823309cc9888e92578610aa909ec00fa89bdd302ace6b857110a69613cb8db",
+      "rendered": "ground:j_l2_p2:feedback_loop,constructor,static_design,dynamic_design,learning_design,pattern_extraction,hypothesis_generation,integration,generative_grammar",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.skill_ground.v1",
+      "schema_sha256": "c2d4a7f119955f1ea83f1c6e377afe5f0a2b4e53037159074a79289466c41c32",
+      "target": "ee_skill"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l2_p2,ee_skill).",
+      "ee_skill_proof(j_l2_p2,skill_grounding)."
+    ]
+  },
+  "envelope_sha256": "f051eca8b08edc1e1fc839f55cc4d2796df850bfc4a67cfab5203263f26ceffa"
+}

@@ -1,0 +1,11 @@
+{"run": "run1", "node": "L0P1", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l0_p1,ee_ontology)."], "secs": 0.9, "ts": "2026-08-08T11:50:25"}
+{"run": "run1", "node": "L0P2", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l0_p2,ee_skill)."], "secs": 0.9, "ts": "2026-08-08T12:06:10"}
+{"run": "run1", "node": "L1P1", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l1_p1,ee_ontology)."], "secs": 0.9, "ts": "2026-08-08T12:38:20"}
+{"run": "run1", "node": "L1P2", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l1_p2,ee_skill)."], "secs": 1.0, "ts": "2026-08-08T12:56:50"}
+{"run": "run1", "node": "L2P1", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l2_p1,ee_ontology)."], "secs": 0.8, "ts": "2026-08-08T13:30:19"}
+{"run": "run1", "node": "L2P2", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l2_p2,ee_skill)."], "secs": 0.8, "ts": "2026-08-08T13:49:45"}
+{"run": "run2", "node": "L0P1", "ont": false, "n_frontier": 4, "frontier": ["map_target_frontier_report(j_l0_p1,ee_ontology).", "map_target_frontier(j_l0_p1,ee_ontology,closed_ontology,partial).", "dangling(r9,execution).", "dangling(r8,execution)."], "secs": 0.8, "ts": "2026-08-08T14:20:25"}
+{"run": "run2", "node": "L0P1", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l0_p1,ee_ontology)."], "secs": 0.8, "ts": "2026-08-08T14:20:50"}
+{"run": "run2", "node": "L0P2", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l0_p2,ee_skill)."], "secs": 0.8, "ts": "2026-08-08T14:34:32"}
+{"run": "run2", "node": "L1P1", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l1_p1,ee_ontology)."], "secs": 0.9, "ts": "2026-08-08T14:59:09"}
+{"run": "run2", "node": "L1P2", "ont": true, "n_frontier": 1, "frontier": ["map_target_frontier_report(j_l1_p2,ee_skill)."], "secs": 0.9, "ts": "2026-08-08T15:14:00"}

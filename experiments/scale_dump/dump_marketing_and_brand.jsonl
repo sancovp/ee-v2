@@ -1,0 +1,506 @@
+{"c": "brand_positioning_strategy", "d": "Strategic approach to differentiate restaurant from competitors in consumer mind"}
+{"c": "target_demographic_definition", "d": "Identification of ideal customer segments based on age income lifestyle geography"}
+{"c": "competitive_differentiation", "d": "Unique attributes that set restaurant apart from similar dining options"}
+{"c": "value_proposition", "d": "Core benefit promise that makes restaurant the preferred choice over alternatives"}
+{"c": "brand_promise", "d": "Specific commitment made to customers about experience quality and service"}
+{"c": "brand_values", "d": "Core principles and beliefs that guide restaurant identity and behavior"}
+{"c": "brand_personality", "d": "Human characteristics attributed to restaurant brand character and voice"}
+{"c": "brand_voice", "d": "Consistent tone style and language used in all restaurant communications"}
+{"c": "brand_storytelling", "d": "Narrative account of restaurant origins heritage and mission"}
+{"c": "visual_brand_identity", "d": "Logo color palette typography and visual elements defining brand appearance"}
+{"c": "logo_design", "d": "Graphic symbol representing restaurant brand for recognition"}
+{"c": "color_palette_strategy", "d": "Defined set of brand colors applied consistently across touchpoints"}
+{"c": "typography_selection", "d": "Chosen typefaces for brand materials menus signage and advertising"}
+{"c": "signage_design", "d": "Exterior and interior branded signage for visibility and wayfinding"}
+{"c": "brand_guidelines", "d": "Comprehensive documentation of brand standards for consistent application"}
+{"c": "brand_consistency", "d": "Uniform application of brand elements across all locations and channels"}
+{"c": "brand_awareness", "d": "Consumer recognition and recall of restaurant brand in marketplace"}
+{"c": "brand_equity", "d": "Monetary value of brand strength based on customer loyalty and recognition"}
+{"c": "brand_loyalty", "d": "Repeat customer preference and advocacy for restaurant brand"}
+{"c": "brand_recognition", "d": "Customer ability to identify restaurant through visual and auditory cues"}
+{"c": "brand_reputation", "d": "Overall public perception of restaurant quality reliability and trustworthiness"}
+{"c": "social_media_marketing", "d": "Marketing strategy utilizing social platforms to engage customers and promote brand"}
+{"c": "content_marketing_strategy", "d": "Planning and creation of valuable content to attract and retain customers"}
+{"c": "food_photography_styling", "d": "Professional staging and photography of menu items for marketing materials"}
+{"c": "menu_photography_guidelines", "d": "Standards for consistent food imagery across all menu and marketing channels"}
+{"c": "behind_scenes_content", "d": "Behind the kitchen footage showing prep cooking staff and restaurant operations"}
+{"c": "chef_storytelling", "d": "Marketing narrative around chef background training philosophy and expertise"}
+{"c": "social_media_content_calendar", "d": "Planned schedule of posts across social platforms for consistent engagement"}
+{"c": "instagram_marketing_strategy", "d": "Platform-specific approach leveraging Instagram visual content and stories"}
+{"c": "tiktok_marketing_strategy", "d": "Short-form video strategy for reaching younger demographics on TikTok"}
+{"c": "facebook_business_page", "d": "Restaurant presence on Facebook for business promotion and customer interaction"}
+{"c": "twitter_marketing", "d": "Real-time engagement and promotional tweets for brand visibility"}
+{"c": "user_generated_content", "d": "Customer-created photos reviews and posts featuring restaurant"}
+{"c": "brand_hashtag_campaign", "d": "Custom hashtag to aggregate and promote user content and brand mentions"}
+{"c": "social_media_contest", "d": "Contest promotions on social platforms to increase engagement and followers"}
+{"c": "giveaway_promotion", "d": "Free prize drawings to generate social shares and email signups"}
+{"c": "influencer_marketing", "d": "Partnerships with social media influencers to promote restaurant"}
+{"c": "influencer_partnerships", "d": "Formal agreements with influencers for content creation and brand exposure"}
+{"c": "micro_influencer_partnership", "d": "Partnerships with smaller influencers having niche dedicated audiences"}
+{"c": "influencer_tasting_event", "d": "Exclusive dining event for influencers to experience and review restaurant"}
+{"c": "celebrity_chef_collaboration", "d": "High-profile chef partnerships for brand elevation and media coverage"}
+{"c": "food_blogger_outreach", "d": "Targeted communication with food bloggers for reviews and features"}
+{"c": "email_marketing_strategy", "d": "Email campaign approach for customer communication and promotions"}
+{"c": "email_newsletter_campaign", "d": "Regular branded email newsletters with updates offers and content"}
+{"c": "email_newsletter_signup_promo", "d": "Incentive offer to encourage email list subscription"}
+{"c": "promotional_email_offer", "d": "Discount or special deal communicated via email to subscribers"}
+{"c": "reservation_reminder_email", "d": "Automated email reminder for upcoming confirmed reservations"}
+{"c": "sms_marketing_strategy", "d": "Text message marketing approach for direct customer communication"}
+{"c": "text_promotion_offer", "d": "Limited time offer delivered via SMS to opted-in customers"}
+{"c": "sms_opt_in_promo", "d": "Incentive to encourage text message marketing subscription"}
+{"c": "push_notification_promotion", "d": "Mobile app notification for special offers and updates"}
+{"c": "online_advertising", "d": "Digital ad campaigns across websites search engines and social platforms"}
+{"c": "google_ads_search", "d": "Paid search advertising to appear for relevant restaurant-related queries"}
+{"c": "facebook_advertising", "d": "Paid social ads on Facebook platform targeting specific audiences"}
+{"c": "instagram_sponsored_post", "d": "Paid promotional posts on Instagram feed and stories"}
+{"c": "retargeting_advertising", "d": "Ads shown to users who previously visited website or engaged with content"}
+{"c": "local_targeted_ads", "d": "Geographic advertising focused on customers within delivery radius"}
+{"c": "display_advertising", "d": "Banner ads on websites apps and platforms for brand awareness"}
+{"c": "youtube_advertising", "d": "Video ads on YouTube to reach engaged video audiences"}
+{"c": "podcast_advertising", "d": "Audio ads on food dining and local interest podcasts"}
+{"c": "local_print_advertising", "d": "Traditional print ads in local newspapers magazines and community publications"}
+{"c": "radio_advertising", "d": "Audio commercials on local radio stations during meal times"}
+{"c": "billboard_advertising", "d": "Large format outdoor signage for high-traffic location visibility"}
+{"c": "flyering_local_targeting", "d": "Distribution of flyers in neighborhoods to drive local awareness"}
+{"c": "geo_targeted_social_ads", "d": "Social media advertisements targeting users in specific geographic areas"}
+{"c": "local_search_optimization", "d": "SEO tactics to appear prominently in local search results"}
+{"c": "seo_keyword_strategy", "d": "Targeted keyword research for restaurant website and content optimization"}
+{"c": "google_business_profile", "d": "Google listing providing business information hours photos and reviews"}
+{"c": "google_business_profile_optimization", "d": "Maximizing completeness and engagement on Google business listing"}
+{"c": "yelp_listing_optimization", "d": "Enhancing restaurant presence and response on Yelp platform"}
+{"c": "tripadvisor_page", "d": "Restaurant listing on major travel dining review site"}
+{"c": "tripadvisor_reputation_management", "d": "Active management of restaurant presence and reviews on TripAdvisor"}
+{"c": "online_directory_listing", "d": "Consistent business information across all online directory platforms"}
+{"c": "online_review_response", "d": "Professional replies to customer reviews on all platforms"}
+{"c": "negative_review_management", "d": "Strategic response protocol for handling unfavorable reviews"}
+{"c": "online_reputation_management", "d": "Overall strategy for maintaining positive digital presence and reviews"}
+{"c": "review_platform_management", "d": "Monitoring and engaging with reviews across all relevant platforms"}
+{"c": "customer_feedback_survey", "d": "Post-visit survey to gather quantitative and qualitative customer input"}
+{"c": "net_promoter_score_tracking", "d": "Measurement of customer loyalty likelihood to recommend restaurant"}
+{"c": "customer_testimonial_video", "d": "Recorded customer endorsements for use in marketing materials"}
+{"c": "testimonial_display", "d": "Featuring customer quotes and reviews in restaurant and marketing materials"}
+{"c": "customer_review_request", "d": "Proactive ask for reviews from satisfied customers after dining"}
+{"c": "review_incentive_program", "d": "Rewards offered for customers who leave verified reviews"}
+{"c": "star_rating_display", "d": "Showing aggregate review scores prominently in marketing materials"}
+{"c": "award_badge_marketing", "d": "Using earned awards and recognitions in promotional materials"}
+{"c": "loyalty_program_design", "d": "Structure and mechanics of customer reward program"}
+{"c": "points_redemption_system", "d": "System for customers to earn and redeem loyalty points for rewards"}
+{"c": "loyalty_tier_program", "d": "Multi-level program with increasing benefits for frequent customers"}
+{"c": "birthday_reward_offer", "d": "Special offer or reward for loyalty members on their birthday"}
+{"c": "anniversary_discount", "d": "Special discount for repeat customers on dining anniversary"}
+{"c": "referral_bonus_reward", "d": "Reward offered to existing customers who refer new diners"}
+{"c": "first_time_customer_offer", "d": "Special promotion to encourage initial visit from new customers"}
+{"c": "free_item_promotion", "d": "Complimentary food or beverage offer to drive trial and engagement"}
+{"c": "discount_code_campaign", "d": "Unique codes for tracking promotion effectiveness and customer acquisition"}
+{"c": "welcome_offer_new_customer", "d": "First visit incentive for customers new to restaurant brand"}
+{"c": "repeat_visit_promotion", "d": "Incentive to encourage returning customers for additional visits"}
+{"c": "vip_treatment_marketing", "d": "Marketing high-value customer perks and exclusive experiences"}
+{"c": "loyalty_card_design", "d": "Physical or digital card design for loyalty program identification"}
+{"c": "app_download_incentive", "d": "Offer to encourage mobile app installation"}
+{"c": "mobile_ordering_promo", "d": "Promotion specifically for ordering through restaurant mobile app"}
+{"c": "direct_ordering_promotion", "d": "Incentive to order directly instead of through third-party platforms"}
+{"c": "third_party_delivery_partnership", "d": "Business relationship with delivery platforms like DoorDash UberEats"}
+{"c": "delivery_platform_presence", "d": "Restaurant listings and menus on delivery service platforms"}
+{"c": "delivery_brand_visibility", "d": "Brand representation and menu presentation on delivery apps"}
+{"c": "direct_delivery_marketing", "d": "Promotion of in-house delivery service to customers"}
+{"c": "online_ordering_promotion", "d": "Marketing push for restaurant's own online ordering system"}
+{"c": "first_order_discount", "d": "Discount for first online or delivery order"}
+{"c": "free_delivery_threshold", "d": "Minimum order amount to qualify for free delivery"}
+{"c": "delivery_fee_promotion", "d": "Waived or reduced delivery fees as promotional incentive"}
+{"c": "takeout_discount_promotion", "d": "Price incentive for customers choosing takeout over dining in"}
+{"c": "curbside_pickup_promotion", "d": "Incentive for customers who order ahead and pick up at curb"}
+{"c": "contactless_dining_marketing", "d": "Promotion of safe convenient contactless service options"}
+{"c": "qr_code_menu", "d": "Digital menu access via QR code scanning"}
+{"c": "augmented_reality_menu", "d": "AR-enhanced menu experience showing 3D food visualization"}
+{"c": "virtual_restaurant_branding", "d": "Brand identity for delivery-only or virtual restaurant concepts"}
+{"c": "ghost_kitchen_branding", "d": "Marketing presence for delivery-only kitchen operations"}
+{"c": "dark_kitchen_marketing", "d": "Promotional strategy for restaurant operating without dine-in service"}
+{"c": "delivery_only_brand_positioning", "d": "Market positioning emphasizing delivery and takeout as primary service"}
+{"c": "menu_engineering", "d": "Strategic analysis and design of menu layout pricing and item placement"}
+{"c": "menu_design", "d": "Visual layout and organization of menu items for appeal and navigation"}
+{"c": "menu_cover_design", "d": "Branded cover design for physical menu presentation"}
+{"c": "combo_meal_promotion", "d": "Bundled meal deal combining multiple items at special price"}
+{"c": "bundle_deal_promotion", "d": "Package offer combining multiple products for discounted total"}
+{"c": "limited_time_offer", "d": "Temporary menu item or promotion available for restricted period"}
+{"c": "seasonal_specials", "d": "Menu items featuring seasonal ingredients or holiday themes"}
+{"c": "seasonal_menu_stories", "d": "Marketing narrative around seasonal ingredients and preparation"}
+{"c": "limited_edition_item_marketing", "d": "Promotion of exclusive menu items with scarcity messaging"}
+{"c": "signature_dish_marketing", "d": "Promotion of iconic or signature menu item as brand cornerstone"}
+{"c": "signature_dish_branding", "d": "Marketing identity built around restaurant's most famous dish"}
+{"c": "appetizer_sample_strategy", "d": "Complimentary appetizer tasting to encourage additional orders"}
+{"c": "complementary_item_marketing", "d": "Free additional items promoted to enhance meal experience"}
+{"c": "upselling_strategy", "d": "Training and incentives to encourage purchase of higher-margin items"}
+{"c": "cross_selling_strategy", "d": "Recommendation of complementary items to accompany ordered dishes"}
+{"c": "menu_item_add_on_marketing", "d": "Promotion of premium additions to base menu items"}
+{"c": "drink_paired_marketing", "d": "Suggestion and promotion of beverage pairings with food orders"}
+{"c": "dessert_course_promotion", "d": "Marketing push for dessert menu at end of meal experience"}
+{"c": "happy_hour_promotion", "d": "Discounted food and beverage pricing during afternoon or early evening hours"}
+{"c": "early_bird_special", "d": "Value menu offered during early dinner service hours"}
+{"c": "lunch_business_marketing", "d": "Targeted promotions for weekday business lunch demographic"}
+{"c": "late_night_dining_marketing", "d": "Promotion targeting customers seeking food after typical dinner hours"}
+{"c": "breakfast_daypart_marketing", "d": "Marketing push for morning dining daypart and early riser audience"}
+{"c": "brunch_marketing_campaign", "d": "Promotion targeting weekend late-morning dining occasions"}
+{"c": "group_booking_promotion", "d": "Special offer for large party reservations and events"}
+{"c": "private_event_marketing", "d": "Promotion of private dining space for special occasions and corporate events"}
+{"c": "catering_service_marketing", "d": "Marketing of off-site catering services for events and gatherings"}
+{"c": "corporate_catering_partnership", "d": "Business relationship with companies for regular catering accounts"}
+{"c": "private_dining_marketing", "d": "Promotion of exclusive private dining room reservations"}
+{"c": "reservation_rewards_program", "d": "Incentives for customers who book through direct reservation channels"}
+{"c": "waitlist_marketing_app", "d": "Digital waitlist system with promotional engagement features"}
+{"c": "anticipated_visit_reminder", "d": "Advance notification for upcoming reservations and special events"}
+{"c": "re_engagement_campaign", "d": "Targeted outreach to inactive or lapsed previous customers"}
+{"c": "win_back_campaign", "d": "Special offer to regain customers who have stopped visiting"}
+{"c": "customer_churn_prevention", "d": "Proactive retention efforts for customers showing declining engagement"}
+{"c": "lifetime_value_marketing", "d": "Marketing strategy focused on maximizing customer lifetime revenue"}
+{"c": "customer_journey_mapping", "d": "Visual representation of all customer touchpoints from awareness to loyalty"}
+{"c": "first_time_visitor_experience", "d": "Special onboarding experience for new restaurant customers"}
+{"c": "returning_customer_retention", "d": "Strategy to maintain relationship with repeat dining customers"}
+{"c": "customer_feedback_loop", "d": "System for collecting analyzing and acting on customer input"}
+{"c": "touchpoint_optimization", "d": "Improvement of all customer interaction points for better experience"}
+{"c": "brand_experience_design", "d": "Intentionally designed customer experience aligned with brand promise"}
+{"c": "customer_segmentation", "d": "Dividing customer base into groups for targeted marketing approaches"}
+{"c": "demographic_targeting", "d": "Marketing messages directed at specific age income and lifestyle groups"}
+{"c": "psychographic_targeting", "d": "Marketing appeals based on customer values attitudes and interests"}
+{"c": "market_research", "d": "Systematic collection and analysis of market data and consumer insights"}
+{"c": "competitive_analysis", "d": "Study of competitor strategies positioning pricing and marketing tactics"}
+{"c": "trend_identification", "d": "Monitoring emerging food trends dining preferences and consumer behaviors"}
+{"c": "buyer_persona_development", "d": "Detailed fictional representations of ideal customer segments"}
+{"c": "customer_data_collection", "d": "Gathering customer information through various touchpoints and opt-ins"}
+{"c": "crm_email_collection", "d": "Building email database through customer relationship management"}
+{"c": "customer_data_analysis", "d": "Using customer data to inform marketing decisions and personalization"}
+{"c": "personalized_marketing", "d": "Tailored messages and offers based on individual customer preferences"}
+{"c": "personalized_email_offer", "d": "Customized promotion sent based on individual customer history"}
+{"c": "personalized_menu_recommendation", "d": "AI-driven dish suggestions based on past orders and preferences"}
+{"c": "seasonal_marketing_campaign", "d": "Time-based marketing initiatives aligned with seasons and holidays"}
+{"c": "holiday_menu_promotion", "d": "Special menu items and offers tied to specific holidays"}
+{"c": "seasonal_decor_branding", "d": "Temporary visual branding elements reflecting seasonal themes"}
+{"c": "seasonal_limited_offer", "d": "Time-bound promotion featuring seasonal ingredients or themes"}
+{"c": "holiday_promotion_calendar", "d": "Planned marketing schedule for all major holidays and observances"}
+{"c": "restaurant_week_promotion", "d": "Participation in city-wide restaurant week dining promotion"}
+{"c": "anniversary_celebration_event", "d": "Marketing event commemorating restaurant founding anniversary"}
+{"c": "customer_appreciation_day", "d": "Special event to thank loyal customers with exclusive offers"}
+{"c": "flash_sale_campaign", "d": "Very short-term sale promotion creating urgency and buzz"}
+{"c": "pre_order_campaign", "d": "Advance ordering promotion for special events or holiday meals"}
+{"c": "grand_opening_event", "d": "Launch celebration for new restaurant location with promotional offers"}
+{"c": "soft_open_promotion", "d": "Limited invitation-only opening period before official launch"}
+{"c": "ribbon_cutting_ceremony", "d": "Official opening event with community leaders and media coverage"}
+{"c": "grand_reopening_campaign", "d": "Marketing push for renovated or newly rebranded restaurant"}
+{"c": "renovation_reveal_event", "d": "Event showcasing newly renovated restaurant space and offerings"}
+{"c": "menu_launch_event", "d": "Special event introducing new menu to customers and media"}
+{"c": "new_menu_introduction", "d": "Marketing campaign for updated or expanded menu offerings"}
+{"c": "collaboration_dish_promotion", "d": "Limited dish created with another chef brand or business"}
+{"c": "chef_collaboration_event", "d": "Dining event featuring joint creation between restaurant and guest chef"}
+{"c": "rebrand_announcement", "d": "Public communication of restaurant brand refresh or transformation"}
+{"c": "brand_refresh", "d": "Partial update to brand identity without full rebranding"}
+{"c": "new_management_transition", "d": "Marketing communication about ownership or management changes"}
+{"c": "chef_change_announcement", "d": "Public statement introducing new executive chef leadership"}
+{"c": "award_recognition_marketing", "d": "Promotion of industry awards and professional accolades received"}
+{"c": "michelin_star_marketing", "d": "Marketing of Michelin restaurant rating and culinary distinction"}
+{"c": "press_release_announcement", "d": "Official written communication to media outlets for coverage"}
+{"c": "media_kit_development", "d": "Prepared materials for media including story angles and high-res images"}
+{"c": "food_critic_invitation", "d": "Curated invitation and experience for professional food reviewers"}
+{"c": "media_event_hosting", "d": "Press events and media gatherings at restaurant location"}
+{"c": "local_press_coverage", "d": "Feature stories and coverage in local newspapers and publications"}
+{"c": "community_engagement", "d": "Active participation and involvement in local community events and causes"}
+{"c": "community_event_sponsorship", "d": "Financial or in-kind support for local community activities"}
+{"c": "local_charity_partnership", "d": "Ongoing charitable partnership with local nonprofit organizations"}
+{"c": "local_business_partnership", "d": "Collaborative marketing with neighboring local businesses"}
+{"c": "cross_promotion_campaign", "d": "Joint promotion with complementary non-competing business"}
+{"c": "co_brand_menu_item", "d": "Menu item featuring two brands in collaboration"}
+{"c": "brand_partnership_cross_promotion", "d": "Mutual marketing effort between restaurant and partner brand"}
+{"c": "food_festival_participation", "d": "Active involvement in culinary festivals and tasting events"}
+{"c": "local_festival_sponsorship", "d": "Sponsorship of community festivals and neighborhood events"}
+{"c": "cooperative_advertising", "d": "Joint advertising with other businesses sharing marketing costs"}
+{"c": "brand_cause_marketing", "d": "Marketing aligning brand with social cause for shared values messaging"}
+{"c": "sustainability_message", "d": "Communication of environmental responsibility and green practices"}
+{"c": "sustainability_brand_message", "d": "Brand positioning emphasizing environmental consciousness"}
+{"c": "eco_friendly_packaging_marketing", "d": "Promotion of sustainable disposable and takeout packaging"}
+{"c": "farm_to_table_storytelling", "d": "Marketing narrative about ingredient sourcing and local farmers"}
+{"c": "locally_sourced_story", "d": "Communication about use of local and regional ingredients"}
+{"c": "locally_sourced_ingredients_marketing", "d": "Promotion of menu items featuring locally sourced ingredients"}
+{"c": "organic_menu_marketing", "d": "Marketing emphasis on organic certified ingredients"}
+{"c": "carbon_neutral_claim", "d": "Assertion of net-zero carbon footprint operations"}
+{"c": "waste_reduction_initiative_marketing", "d": "Communication of composting recycling and waste reduction efforts"}
+{"c": "health_option_branding", "d": "Positioning restaurant around healthy menu choices and nutrition"}
+{"c": "healthy_option_branding", "d": "Marketing of nutritious and health-conscious menu items"}
+{"c": "allergen_free_marketing", "d": "Promotion of menu items without common allergens"}
+{"c": "dietary_restriction_menu_options", "d": "Marketing of options for vegan vegetarian gluten-free diets"}
+{"c": "vegan_vegetarian_menu_marketing", "d": "Promotion of plant-based menu offerings to wider audience"}
+{"c": "comfort_food_branding", "d": "Positioning around hearty satisfying classic comfort dishes"}
+{"c": "upscale_dining_branding", "d": "Premium positioning for fine dining and elevated cuisine"}
+{"c": "fast_casual_marketing", "d": "Marketing positioning between quick service and casual dining"}
+{"c": "quick_service_branding", "d": "Brand identity emphasizing speed efficiency and convenience"}
+{"c": "family_restaurant_positioning", "d": "Family-friendly positioning with kid amenities and menu"}
+{"c": "kid_friendly_restaurant_branding", "d": "Marketing emphasizing child welcoming atmosphere and offerings"}
+{"c": "romantic_dining_branding", "d": "Positioning for couples and intimate special occasions"}
+{"c": "sports_bar_branding", "d": "Marketing positioning around sports viewing and casual pub atmosphere"}
+{"c": "live_music_event", "d": "Promotion of musical performances at restaurant venue"}
+{"c": "trivia_night_promotion", "d": "Weekly trivia event promotion for customer engagement"}
+{"c": "sports_viewing_party", "d": "Special event for watching major sporting events at restaurant"}
+{"c": "cooking_demonstration_event", "d": "Live cooking show event featuring chef or guest culinary personality"}
+{"c": "chef_table_experience_marketing", "d": "Promotion of exclusive counter seating dining experience"}
+{"c": "open_kitchen_marketing", "d": "Marketing highlight of visible kitchen and chef interaction"}
+{"c": "cooking_class_event", "d": "Paid instructional cooking event hosted by restaurant chef"}
+{"c": "customer_photo_sharing", "d": "Encouraging customers to share dining photos on social media"}
+{"c": "social_proof_marketing", "d": "Use of testimonials reviews and user activity to build credibility"}
+{"c": "social_media_follower_discount", "d": "Discount offered to customers who follow social media accounts"}
+{"c": "reputation_score_display", "d": "Prominent display of aggregate review ratings and scores"}
+{"c": "crisis_communication_plan", "d": "Prepared response strategy for negative publicity incidents"}
+{"c": "negative_publicity_response", "d": "Strategic response to adverse media coverage or social media crisis"}
+{"c": "food_safety_transparency", "d": "Open communication about food safety practices and inspections"}
+{"c": "service_failure_apology", "d": "Public acknowledgment and apology for service quality issues"}
+{"c": "franchise_marketing_support", "d": "Corporate provided marketing materials and campaigns for franchisees"}
+{"c": "corporate_branding_guidelines", "d": "Official standards for brand application across franchise system"}
+{"c": "local_marketing_fund", "d": "Franchise marketing budget allocated for local market activities"}
+{"c": "multi_location_brand_consistency", "d": "Maintaining uniform brand experience across all restaurant locations"}
+{"c": "multi_unit_development_plan", "d": "Franchise expansion marketing for new unit development"}
+{"c": "franchise_opportunity_marketing", "d": "Promotion of franchise ownership opportunities to prospective investors"}
+{"c": "investment_opportunity_pitch", "d": "Marketing materials for attracting franchise investment capital"}
+{"c": "minority_owned_certification", "d": "Marketing certification and recognition as minority-owned business"}
+{"c": "women_owned_business_marketing", "d": "Promotion of women-owned business certification and identity"}
+{"c": "veteran_owned_business_marketing", "d": "Marketing of veteran ownership and participation in vet programs"}
+{"c": "small_business_support_marketing", "d": "Positioning and promotion as locally-owned small business"}
+{"c": "local_economic_impact_story", "d": "Communication about local hiring spending and community contribution"}
+{"c": "job_creation_narrative", "d": "Marketing story about employment and career opportunities created"}
+{"c": "competitor_capture_strategy", "d": "Marketing tactics aimed at winning customers from competing restaurants"}
+{"c": "market_share_expansion", "d": "Marketing initiatives to increase percentage of local dining market"}
+{"c": "geographic_expansion_plan", "d": "Marketing strategy for entering new geographic markets"}
+{"c": "new_location_announcement", "d": "Marketing communication about new restaurant location opening"}
+{"c": "delivery_zone_expansion", "d": "Promotion of expanded delivery coverage to new neighborhoods"}
+{"c": "new_cuisine_introduction", "d": "Marketing campaign introducing new cuisine type or culinary concept"}
+{"c": "food_truck_marketing", "d": "Promotion of food truck operations and event appearances"}
+{"c": "food_hall_brand_positioning", "d": "Marketing within food hall or food court environment"}
+{"c": "airport_restaurant_branding", "d": "Specialized branding for airport and travel hub locations"}
+{"c": "stadium_venue_marketing", "d": "Marketing for sports arena and stadium concession operations"}
+{"c": "casino_restaurant_branding", "d": "Positioning for restaurants within casino and gaming properties"}
+{"c": "hotel_restaurant_marketing", "d": "Marketing strategy for hotel-affiliated restaurant serving both guests and locals"}
+{"c": "hospital_restaurant_branding", "d": "Marketing for hospital cafeteria and dining services"}
+{"c": "university_dining_marketing", "d": "Marketing for campus dining locations to students and faculty"}
+{"c": "corporate_cafeteria_branding", "d": "Marketing employee dining services to corporate clients"}
+{"c": "military_base_restaurant_marketing", "d": "Marketing for military installation dining facilities"}
+{"c": "cruise_ship_restaurant_marketing", "d": "Marketing for shipboard dining venues and specialty restaurants"}
+{"c": "transit_shelter_advertising", "d": "Advertising on bus stops and transit shelters near restaurant"}
+{"c": "outdoor_dining_promotion", "d": "Marketing of patio rooftop or sidewalk seating availability"}
+{"c": "interior_design_photography", "d": "Professional photography of restaurant interior for marketing use"}
+{"c": "exterior_signage_branding", "d": "Building exterior signage reinforcing brand identity and visibility"}
+{"c": "window_display_marketing", "d": "In-window marketing displays visible to passersby"}
+{"c": "table_tent_marketing", "d": "Small branded cards on tables promoting specials and offers"}
+{"c": "receipt_marketing", "d": "Promotional messages and offers printed on customer receipts"}
+{"c": "business_card_design", "d": "Branded business cards for staff and restaurant distribution"}
+{"c": "name_tag_branding", "d": "Staff name tags featuring restaurant branding elements"}
+{"c": "staff_uniform_design", "d": "Branded employee clothing and appearance standards"}
+{"c": "staff_appearance_standards", "d": "Guidelines for employee presentation reflecting brand image"}
+{"c": "ambient_branding", "d": "Multi-sensory brand experience through music lighting scent"}
+{"c": "music_brand_alignment", "d": "Curated music selection reflecting brand personality and atmosphere"}
+{"c": "scent_marketing", "d": "Strategic use of aromas to enhance brand experience"}
+{"c": "restroom_marketing", "d": "Marketing messages in restroom for captive audience engagement"}
+{"c": "parking_lot_signage", "d": "Visible signage directing and marketing to arriving customers"}
+{"c": "drive_thru_menu_board_design", "d": "Brand-consistent digital menu board design for drive-through"}
+{"c": "packaging_design", "d": "Branded takeout containers bags and wrapping materials"}
+{"c": "branded_merchandise", "d": "Restaurant logo merchandise for sale and promotional giveaways"}
+{"c": "restaurant_branded_apparel", "d": "Branded clothing items featuring restaurant logo and colors"}
+{"c": "gift_card_program", "d": "Branded gift card offering for gifting and promotional use"}
+{"c": "gift_card_marketing", "d": "Promotion of gift card purchases for gifting occasions"}
+{"c": "near_field_communication_promotion", "d": "NFC-enabled marketing materials for mobile interaction"}
+{"c": "qr_code_marketing", "d": "Use of QR codes on materials to drive digital engagement"}
+{"c": "mobile_app_branding", "d": "Brand identity and experience within restaurant mobile application"}
+{"c": "digital_menu_kiosk", "d": "Branded digital self-service ordering kiosks"}
+{"c": "tabletop_digital_display", "d": "Interactive digital screens at table for ordering and entertainment"}
+{"c": "event_sponsorship", "d": "Sponsorship of external events for brand exposure and association"}
+{"c": "sports_team_sponsorship", "d": "Sponsorship of local sports teams for community visibility"}
+{"c": "music_festival_sponsorship", "d": "Sponsorship of music and cultural festivals"}
+{"c": "community_fundraiser_support", "d": "Donating food service or funds to community fundraising events"}
+{"c": "cooking_competition_entry", "d": "Participation in culinary competitions for recognition and publicity"}
+{"c": "culinary_demonstration", "d": "Public cooking demonstrations to showcase expertise and attract attention"}
+{"c": "sampling_strategy", "d": "Offering free food samples in strategic locations to drive trial"}
+{"c": "street_sampling_event", "d": "Off-site food sampling to introduce restaurant to new audiences"}
+{"c": "neighborhood_canvassing", "d": "Direct outreach to nearby residents and businesses for awareness"}
+{"c": "neighborhood_welcome_packet", "d": "Welcome materials delivered to new neighborhood residents"}
+{"c": "local_influencer_identification", "d": "Finding and engaging micro-influencers specific to local market"}
+{"c": "local_search_navigation", "d": "Optimization for customers using GPS and map applications"}
+{"c": "voice_search_optimization", "d": "SEO for voice-activated search queries through Alexa Siri"}
+{"c": "alexa_skill_integration", "d": "Voice-activated ordering and information through Amazon Alexa"}
+{"c": "google_maps_listing", "d": "Accurate restaurant information on Google Maps platform"}
+{"c": "waze_navigation_promotion", "d": "Location-based advertising through Waze navigation app"}
+{"c": "health_inspection_rating_display", "d": "Prominent posting of health department inspection grades"}
+{"c": "sustainable_practice_certification", "d": "Marketing third-party sustainability certifications and ratings"}
+{"c": "organic_certification_marketing", "d": "Promotion of organic food certifications and sourcing"}
+{"c": "fair_trade_sourcing_marketing", "d": "Communication about ethical fair trade ingredient sourcing"}
+{"c": "humane_treatment_claim", "d": "Marketing about animal welfare and ethical treatment practices"}
+{"c": "price_increase_communication", "d": "Transparent messaging about menu price changes"}
+{"c": "supply_shortage_transparency", "d": "Honest communication about menu item availability issues"}
+{"c": "menu_item_discontinuation_notice", "d": "Advance communication about removed menu items"}
+{"c": "menu_engineering_analysis", "d": "Data-driven analysis of menu item performance and profitability"}
+{"c": "popular_item_promotion", "d": "Marketing push for already popular best-selling menu items"}
+{"c": "underdog_menu_item_marketing", "d": "Promotion of lesser-known menu items to increase awareness"}
+{"c": "chef_recommendation_marketing", "d": "Server and staff promotion of chef-selected featured items"}
+{"c": "daily_special_promotion", "d": "Marketing daily changing specials to drive repeat visits"}
+{"c": "off_peak_hour_promotion", "d": "Incentives for dining during slower service periods"}
+{"c": "weekday_vs_weekend_promotion", "d": "Different marketing messages for weekday and weekend occasions"}
+{"c": "weather_based_marketing", "d": "Targeted promotions triggered by weather conditions"}
+{"c": "local_event_timing", "d": "Marketing campaigns coordinated with local events and happenings"}
+{"c": "menu_translation_strategy", "d": "Multilingual menu and marketing materials for diverse markets"}
+{"c": "cultural_adaptation_marketing", "d": "Marketing adapted for specific cultural communities and preferences"}
+{"c": "religious_dietary_marketing", "d": "Marketing around halal kosher or other religious dietary options"}
+{"c": "gluten_free_menu_marketing", "d": "Promoting gluten-free menu options to celiac and health-conscious diners"}
+{"c": "low_carb_option_branding", "d": "Marketing of low-carb and keto-friendly menu items"}
+{"c": "keto_friendly_menu_marketing", "d": "Promotion of ketogenic diet compatible menu offerings"}
+{"c": "paleo_menu_marketing", "d": "Marketing menu items aligned with paleo dietary approach"}
+{"c": "whole30_compliance_marketing", "d": "Promotion of Whole30 approved menu items and meals"}
+{"c": "weight_watcher_points_marketing", "d": "Marketing displaying WW point values for health-conscious customers"}
+{"c": "calorie_count_display", "d": "Prominent calorie information on menu items"}
+{"c": "nutritional_information_marketing", "d": "Promotion of detailed nutritional transparency"}
+{"c": "ingredient_transparency_marketing", "d": "Communication about ingredient sourcing and quality"}
+{"c": "additive_free_claim", "d": "Marketing about absence of artificial additives and preservatives"}
+{"c": "non_gmo_marketing", "d": "Promotion of non-genetically modified ingredients"}
+{"c": "grass_fed_meat_marketing", "d": "Marketing around grass-fed and pasture-raised beef sourcing"}
+{"c": "wild_caught_fish_marketing", "d": "Promotion of sustainably sourced wild-caught seafood"}
+{"c": "antibiotic_free_marketing", "d": "Marketing about meat raised without antibiotics"}
+{"c": "hormone_free_claim", "d": "Marketing about poultry and meat raised without added hormones"}
+{"c": "plant_based_option_marketing", "d": "Promotion of plant-based and meat alternative menu items"}
+{"c": "impossible_burger_partnership", "d": "Partnership marketing with Impossible Foods plant-based brand"}
+{"c": "beyond_meat_collaboration", "d": "Marketing collaboration featuring Beyond Meat products"}
+{"c": "craft_cocktail_branding", "d": "Positioning around artisanal handcrafted cocktails"}
+{"c": "wine_program_marketing", "d": "Promotion of curated wine selection and sommelier expertise"}
+{"c": "beer_tap_handle_marketing", "d": "Custom branded tap handles for craft beer visibility"}
+{"c": "brewery_partnership_marketing", "d": "Joint marketing with local craft breweries"}
+{"c": "coffee_program_marketing", "d": "Promotion of specialty coffee sourcing and preparation methods"}
+{"c": "specialty_beverage_branding", "d": "Marketing around unique drinks and beverage programs"}
+{"c": "brunch_cocktail_promotion", "d": "Marketing of signature brunch cocktails and beverage specials"}
+{"c": "happy_hour_beverage_deal", "d": "Discounted drink pricing during happy hour window"}
+{"c": "bottle_service_marketing", "d": "Premium positioning for bottle service and table reservations"}
+{"c": "dessert_wine_pairing_marketing", "d": "Promotion of dessert courses with paired wines or spirits"}
+{"c": "coffee_paired_marketing", "d": "Promotion of premium coffee to accompany dessert courses"}
+{"c": "late_night_m酒_marketing", "d": "Marketing bar menu and drinks for late-night audience"}
+{"c": "sober_curious_positioning", "d": "Marketing offering sophisticated non-alcoholic beverage options"}
+{"c": "mocktail_promotion", "d": "Marketing of creative non-alcoholic cocktail options"}
+{"c": "beverage_subscription_box", "d": "Monthly curated beverage product subscription marketing"}
+{"c": "cooking_competition_promotion", "d": "Marketing of restaurant cooking competition events"}
+{"c": "eating_challenge_marketing", "d": "Promotion of food challenges and eating contests for publicity"}
+{"c": "spicy_food_challenge_marketing", "d": "Marketing around heat-level food challenges and competitions"}
+{"c": "buffet_branding", "d": "Positioning around unlimited dining variety and value"}
+{"c": "all_you_can_eat_promotion", "d": "Marketing fixed-price unlimited dining offer"}
+{"c": " prix_fixe_marketing", "d": "Promotion of fixed-price multi-course dining experience"}
+{"c": "tasting_menu_marketing", "d": "Marketing chef's tasting menu as premium dining experience"}
+{"c": "omakase_marketing", "d": "Promotion of chef's choice omakase dining experience"}
+{"c": "chef_counter_marketing", "d": "Marketing intimate chef's counter seating experience"}
+{"c": "ingredient_depletion_marketing", "d": "Creating urgency around limited daily ingredient availability"}
+{"c": "wait_time_awareness_marketing", "d": "Transparent communication about wait times to manage expectations"}
+{"c": "virtual_queuing_system", "d": "Digital waitlist with mobile check-in and status updates"}
+{"c": "customer_wait_list_promotion", "d": "Making waitlist customers engaged while waiting with offers"}
+{"c": "in_restaurant_entertainment_marketing", "d": "Promotion of live entertainment sports viewing at restaurant"}
+{"c": "game_day_promotion", "d": "Special marketing push for major sporting event viewing"}
+{"c": "holiday_event_marketing", "d": "Special programming and marketing for holiday dining occasions"}
+{"c": "valentines_day_promotion", "d": "Romantic Valentine's Day special menu and experience marketing"}
+{"c": "mothers_day_brunch_marketing", "d": "Special Mother's Day brunch promotion and marketing campaign"}
+{"c": "fathers_day_promotion", "d": "Father's Day dining promotion and marketing"}
+{"c": "thanksgiving_takeout_marketing", "d": "Promotion of complete Thanksgiving meal takeout service"}
+{"c": "christmas_eve_dining_marketing", "d": "Special Christmas Eve dining experience promotion"}
+{"c": "new_years_eve_marketing", "d": "Premium New Year's Eve dining and celebration packages"}
+{"c": "super_bowl_promotion", "d": "Special Super Bowl viewing party and menu promotion"}
+{"c": "fourth_of_july_barbecue_marketing", "d": "Patriotic holiday cookout promotion and marketing"}
+{"c": "easter_brunch_promotion", "d": "Easter Sunday brunch special marketing campaign"}
+{"c": "st_patricks_day_promotion", "d": "Irish-themed holiday menu and celebration marketing"}
+{"c": "cinco_de_mayo_promotion", "d": "Mexican holiday celebration menu and event marketing"}
+{"c": "halloween_event_marketing", "d": "Halloween special menu decorations and event promotion"}
+{"c": "costume_contest_promotion", "d": "Marketing customer costume contest for Halloween or events"}
+{"c": "black_friday_promotion", "d": "Post-Thanksgiving gift card and dining promotion"}
+{"c": "cyber_monday_dining_promo", "d": "Online-exclusive dining promotion for Cyber Monday"}
+{"c": "graduation_celebration_marketing", "d": "Promotion targeting graduation season celebrations"}
+{"c": "back_to_school_promotion", "d": "Marketing push for family dining during back-to-school season"}
+{"c": "valentines_day_early_booking", "d": "Advance reservation promotion for Valentine's Day dining"}
+{"c": "mothers_day_early_booking", "d": "Advance reservation marketing for Mother's Day brunch"}
+{"c": "seasonal_brewery_release_marketing", "d": "Marketing around seasonal beer releases and tap takeovers"}
+{"c": "wine_vintage_release_marketing", "d": "Promotion of new wine vintage releases and tastings"}
+{"c": "harvest_season_menu_marketing", "d": "Marketing fall harvest ingredients and seasonal menu"}
+{"c": "summer_menu_refresh_marketing", "d": "Marketing launch of lighter summer menu offerings"}
+{"c": "winter_comfort_food_marketing", "d": "Marketing hearty winter dishes and warm dining experience"}
+{"c": "spring_fresh_menu_marketing", "d": "Promotion of spring seasonal ingredients and light dishes"}
+{"c": "menu_item_naming_strategy", "d": "Strategic naming of dishes to enhance appeal and marketing"}
+{"c": "descriptive_menu_language", "d": "Evocative descriptive language on menu to drive selections"}
+{"c": "origin_story_marketing", "d": "Marketing narrative about restaurant founder heritage"}
+{"c": "neighborhood_story_marketing", "d": "Marketing restaurant connection to local neighborhood history"}
+{"c": "family_recipe_heritage", "d": "Marketing multi-generational family recipe legacy"}
+{"c": "chef_journey_narrative", "d": "Storytelling about chef's culinary journey and influences"}
+{"c": "restaurant_history_marketing", "d": "Marketing rich history and heritage of restaurant establishment"}
+{"c": "celebrity_visit_marketing", "d": "Marketing notable celebrity and influencer visits to restaurant"}
+{"c": "movie_tv_location_marketing", "d": "Promotion of restaurant filming location history"}
+{"c": "award_history_marketing", "d": "Marketing accumulation of industry awards and recognition over time"}
+{"c": "best_kept_secret_positioning", "d": "Marketing angle positioning restaurant as undiscovered gem"}
+{"c": "hidden_gem_branding", "d": "Positioning restaurant as local secret worth discovering"}
+{"c": "locals_favorite_marketing", "d": "Marketing as beloved neighborhood gathering spot"}
+{"c": "tourist_destination_marketing", "d": "Marketing restaurant as must-visit destination for travelers"}
+{"c": "influencer_visit_announcement", "d": "Social media announcement when notable influencer dines at restaurant"}
+{"c": "celebrity_sighting_marketing", "d": "Marketing notable celebrity sightings at restaurant"}
+{"c": "social_media_milestone_celebration", "d": "Celebrating follower milestones with special promotions"}
+{"c": "user_milestone_reward", "d": "Special reward offered when customer reaches loyalty milestone"}
+{"c": "referral_milestone_bonus", "d": "Bonus reward when customer refers certain number of friends"}
+{"c": "check_in_promotion", "d": "Reward for customers who check in at restaurant on social media"}
+{"c": "photo_tag_promotion", "d": "Incentive for customers who tag restaurant in social media photos"}
+{"c": "review_share_promotion", "d": "Encouragement to share review across social media platforms"}
+{"c": "social_media_exclusive_offer", "d": "Special promotion available only to social media followers"}
+{"c": "platform_exclusive_promo", "d": "Promotion available only on specific social platform"}
+{"c": "follower_appreciation_post", "d": "Social media content thanking and celebrating followers"}
+{"c": "community_question_poll", "d": "Engagement posts asking followers to vote on menu items"}
+{"c": "menu_item_naming_contest", "d": "Contest asking community to name new menu item"}
+{"c": "customer_photo_feature", "d": "Feature of customer-submitted photos on restaurant channels"}
+{"c": "staff_spotlight_post", "d": "Social media feature highlighting individual team members"}
+{"c": "behind_menu_post", "d": "Social content explaining menu item inspiration and preparation"}
+{"c": "supplier_vendor_spotlight", "d": "Social media feature of local suppliers and vendor partners"}
+{"c": "farmer_producer_feature", "d": "Marketing feature highlighting local farm and producer partnerships"}
+{"c": "ingredient_origin_story", "d": "Marketing story about specific ingredient source and producer"}
+{"c": "wine_vendor_feature", "d": "Social media feature of wine distributor and selection story"}
+{"c": "brewery_partner_feature", "d": "Marketing feature of brewery partner and beer selection"}
+{"c": "local_artisan_feature", "d": "Feature of local artisan providing products or décor elements"}
+{"c": "neighboring_business_feature", "d": "Cross-promotion feature of neighboring local businesses"}
+{"c": "loyalty_member_spotlight", "d": "Feature celebrating loyal repeat customers"}
+{"c": "regular_customer_acknowledgment", "d": "Recognition and appreciation of frequent diners"}
+{"c": "celebration_announcement", "d": "Social post celebrating customer celebrations shared with restaurant"}
+{"c": "milestone_celebration_marketing", "d": "Marketing around restaurant reaching operational milestones"}
+{"c": "service_anniversary_marketing", "d": "Marketing around staff member years of service anniversaries"}
+{"c": "team_member_anniversary_recognition", "d": "Recognition of team member tenure and loyalty to restaurant"}
+{"c": "seasonal_staff_photo", "d": "Branding photo featuring team during different seasons"}
+{"c": "restaurant_pet_policy_marketing", "d": "Marketing around pet-friendly outdoor seating and policies"}
+{"c": "family_policy_positioning", "d": "Marketing family-friendly policies and amenities"}
+{"c": "accessibility_marketing", "d": "Marketing commitment to accessibility for all guests"}
+{"c": "accommodation_marketing", "d": "Marketing ability to accommodate special requests and needs"}
+{"c": "private_party_capacity_marketing", "d": "Marketing private event space and group dining capacity"}
+{"c": "intimate_dining_capacity_marketing", "d": "Marketing small intimate seating and romantic atmosphere"}
+{"c": "large_party_accommodation", "d": "Marketing ability to accommodate large party reservations"}
+{"c": "corporate_account_marketing", "d": "Marketing to businesses for employee dining and events"}
+{"c": "meeting_room_availability_marketing", "d": "Marketing private meeting space for business gatherings"}
+{"c": "team_building_event_marketing", "d": "Marketing team building dining experiences for companies"}
+{"c": "business_lunch_program", "d": "Special marketing program targeting weekday business lunch market"}
+{"c": "corporate_member_benefits", "d": "Special perks and pricing for corporate account holders"}
+{"c": "sports_team_dining_marketing", "d": "Marketing to sports teams for pre and post-game dining"}
+{"c": "wedding_reception_marketing", "d": "Marketing restaurant as wedding reception venue option"}
+{"c": "engagement_celebration_marketing", "d": "Marketing restaurant for engagement party celebrations"}
+{"c": "rehearsal_dinner_marketing", "d": "Marketing restaurant for wedding rehearsal dinner events"}
+{"c": "anniversary_dinner_marketing", "d": "Marketing restaurant for anniversary celebration dining occasions"}
+{"c": "birthday_celebration_package", "d": "Special birthday dining package and promotion"}
+{"c": "vip_loyalty_tier", "d": "Premium highest tier in loyalty program with exclusive perks"}
+{"c": "exclusive_dinner_invitation", "d": "VIP invitation to exclusive member-only dining events"}
+{"c": "early_access_new_menu", "d": "Loyalty member early access to new menu items before public"}
+{"c": "reserved_preferred_seating", "d": "Priority seating benefit for top loyalty program members"}
+{"c": "complimentary_appetizer_offer", "d": "Free appetizer promotion for loyalty members"}
+{"c": "free_dessert_reward", "d": "Complimentary dessert reward for loyalty program members"}
+{"c": "anniversary_free_meal", "d": "Free entree reward on restaurant dining anniversary"}
+{"c": "points_multiplier_promotion", "d": "Special promotion where loyalty points earned are multiplied"}
+{"c": "double_points_weekend", "d": "Weekend promotion where loyalty points are doubled"}
+{"c": "bonus_points_campaign", "d": "Limited time promotion to earn extra loyalty points"}
+{"c": "points_expiration_warning", "d": "Notification that loyalty points are about to expire"}
+{"c": "tier_upgrade_notification", "d": "Communication when loyalty member qualifies for next tier"}
+{"c": "loyalty_member_survey", "d": "Feedback survey sent to loyalty program members"}
+{"c": "member_suggestion_program", "d": "Program soliciting menu and service suggestions from members"}
+{"c": "beta_tester_program", "d": "Loyalty members testing new menu items before launch"}
+{"c": "cooking_class_invitation_vip", "d": "Exclusive cooking class invitation for top loyalty members"}
+{"c": "behind_scenes_tour_vip", "d": "Kitchen tour and behind-scenes experience for VIP members"}
+{"c": "meet_chef_dinner_vip", "d": "Exclusive dinner with executive chef for VIP loyalty members"}
+{"c": "exclusive_supplier_tour", "d": "VIP member tour of farm supplier or producer facility"}
+{"c": "harvest_dinner_event_vip", "d": "Exclusive farm-to-table dinner event for VIP loyalty members"}
+{"c": "wine_purchase_discount", "d": "Discount on retail wine purchases for loyalty members"}
+{"c": "merchandise_loyalty_discount", "d": "Discount on branded merchandise for loyalty members"}
+{"c": "catering_discount_member", "d": "Catering discount for loyalty program members"}
+{"c": "gift_card_bonus_offer", "d": "Bonus value added when purchasing restaurant gift cards"}
+{"c": "referral_sign_up_bonus", "d": "Bonus reward when referred friend signs up for loyalty program"}
+{"c": "welcome_series_email", "d": "Automated email series welcoming new loyalty members

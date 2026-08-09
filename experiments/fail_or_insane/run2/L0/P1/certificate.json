@@ -1,0 +1,214 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l0_p1",
+  "target": "ee_ontology",
+  "certificate": {
+    "compiled_at": "2026-08-08T14:20:50.214898+00:00",
+    "construction_facts_sha256": "944fe532ec08c8d86d22082593041a3149b69c614c63dcac87c2a9ba9dac64f0",
+    "construction_lowering_id": "ee.map.ontology.lowering.v1",
+    "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+    "construction_payload_sha256": "8fd3d1b5a91c1e73e638ce6748f2716f845ecdfedfc5ecfbcac98d0e0fb8c6ec",
+    "construction_render_sha256": "76fc6d5000024bd6d4b0f4a81f88a3f09eea2361be9ba5295717c0f97279622e",
+    "construction_schema_id": "ee.map.ontology.v1",
+    "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+    "domain_id": "ee_ontology",
+    "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "17353fe6d4a6f314719080f69e1c15de7a488c0533117055f9826b344482107b",
+    "observation_facts_sha256": "8afc919a372acc41e3c87d7297533aa82ecb8a8f1a1e94fe957c0c64772ab183",
+    "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+    "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+    "observation_payload_sha256": "a1d484f87e8ae6ee9cdc670cb00abdb04abba0bfe1fca056a491509dd0fbe306",
+    "observation_render_sha256": "43f211c4519019372062b89645fc9b8f616e1466aff66d48b8199a489b6ff569",
+    "observation_schema_id": "ee.map.pass_witness.v1",
+    "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+    "status": "compiled",
+    "subject": "j_l0_p1",
+    "target": "ee_ontology",
+    "workspace_sha256": "d1a182a51541cc75ca46db767b53a867dd80d6df4a7a3b68c2a5c426a574dad6"
+  },
+  "kappa": {
+    "domain": "ee_conceptualization",
+    "invariants": {
+      "ontology_coherence": "every relation touches declared concepts; every concept participates"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_concept",
+        "candidate_relation"
+      ],
+      "facts_sha256": "944fe532ec08c8d86d22082593041a3149b69c614c63dcac87c2a9ba9dac64f0",
+      "lowering_id": "ee.map.ontology.lowering.v1",
+      "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+      "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+      "payload": {
+        "concepts": [
+          {
+            "definition": "Mediating apparatus that transforms contextual configurations into operational workflow instances through embodied knowledge and adaptive protocols.",
+            "id": "constructor",
+            "kind": "concept"
+          },
+          {
+            "definition": "Set of input parameters defining a particular day's context including date, staff, inventory, equipment, and expected volume.",
+            "id": "configuration",
+            "kind": "concept"
+          },
+          {
+            "definition": "A specific, time-sequenced operational plan generated for a particular day with assigned tasks and phases.",
+            "id": "workflow_instance",
+            "kind": "concept"
+          },
+          {
+            "definition": "Information about workflow execution captured from automated metrics, human review, and staff observations.",
+            "id": "feedback",
+            "kind": "concept"
+          },
+          {
+            "definition": "Process of extracting patterns from accumulated feedback and integrating validated improvements into the Constructor's knowledge.",
+            "id": "learning",
+            "kind": "concept"
+          },
+          {
+            "definition": "Reusable validated template encoding successful operational sequences drawn upon during workflow generation.",
+            "id": "pattern",
+            "kind": "concept"
+          },
+          {
+            "definition": "Triggered response procedure activated by specific conditions that modifies workflow generation or execution.",
+            "id": "protocol",
+            "kind": "concept"
+          },
+          {
+            "definition": "Inviolable condition that valid workflow outputs must satisfy including safety and minimum staffing requirements.",
+            "id": "constraint",
+            "kind": "concept"
+          },
+          {
+            "definition": "Maria's approval authority over knowledge modifications ensuring Constructor aligns with operational goals.",
+            "id": "maria_validation",
+            "kind": "concept"
+          },
+          {
+            "definition": "Process of assembling workflow instances from selected patterns adapted to validated configurations.",
+            "id": "generation",
+            "kind": "concept"
+          }
+        ],
+        "kind": "ee_ontology",
+        "relations": [
+          {
+            "id": "r1",
+            "kind": "relation",
+            "source": "configuration",
+            "target": "workflow_instance"
+          },
+          {
+            "id": "r2",
+            "kind": "relation",
+            "source": "constructor",
+            "target": "workflow_instance"
+          },
+          {
+            "id": "r3",
+            "kind": "relation",
+            "source": "workflow_instance",
+            "target": "generation"
+          },
+          {
+            "id": "r4",
+            "kind": "relation",
+            "source": "generation",
+            "target": "feedback"
+          },
+          {
+            "id": "r5",
+            "kind": "relation",
+            "source": "feedback",
+            "target": "learning"
+          },
+          {
+            "id": "r6",
+            "kind": "relation",
+            "source": "learning",
+            "target": "constructor"
+          },
+          {
+            "id": "r7",
+            "kind": "relation",
+            "source": "configuration",
+            "target": "pattern"
+          },
+          {
+            "id": "r8",
+            "kind": "relation",
+            "source": "pattern",
+            "target": "workflow_instance"
+          },
+          {
+            "id": "r9",
+            "kind": "relation",
+            "source": "feedback",
+            "target": "pattern"
+          },
+          {
+            "id": "r10",
+            "kind": "relation",
+            "source": "protocol",
+            "target": "workflow_instance"
+          },
+          {
+            "id": "r11",
+            "kind": "relation",
+            "source": "constraint",
+            "target": "workflow_instance"
+          },
+          {
+            "id": "r12",
+            "kind": "relation",
+            "source": "maria_validation",
+            "target": "learning"
+          }
+        ],
+        "subject": "j_l0_p1"
+      },
+      "payload_sha256": "8fd3d1b5a91c1e73e638ce6748f2716f845ecdfedfc5ecfbcac98d0e0fb8c6ec",
+      "render_sha256": "76fc6d5000024bd6d4b0f4a81f88a3f09eea2361be9ba5295717c0f97279622e",
+      "rendered": "ontology:j_l0_p1\nconstructor: Mediating apparatus that transforms contextual configurations into operational workflow instances through embodied knowledge and adaptive protocols.\nconfiguration: Set of input parameters defining a particular day's context including date, staff, inventory, equipment, and expected volume.\nworkflow_instance: A specific, time-sequenced operational plan generated for a particular day with assigned tasks and phases.\nfeedback: Information about workflow execution captured from automated metrics, human review, and staff observations.\nlearning: Process of extracting patterns from accumulated feedback and integrating validated improvements into the Constructor's knowledge.\npattern: Reusable validated template encoding successful operational sequences drawn upon during workflow generation.\nprotocol: Triggered response procedure activated by specific conditions that modifies workflow generation or execution.\nconstraint: Inviolable condition that valid workflow outputs must satisfy including safety and minimum staffing requirements.\nmaria_validation: Maria's approval authority over knowledge modifications ensuring Constructor aligns with operational goals.\ngeneration: Process of assembling workflow instances from selected patterns adapted to validated configurations.\nr1: configuration -> workflow_instance\nr2: constructor -> workflow_instance\nr3: workflow_instance -> generation\nr4: generation -> feedback\nr5: feedback -> learning\nr6: learning -> constructor\nr7: configuration -> pattern\nr8: pattern -> workflow_instance\nr9: feedback -> pattern\nr10: protocol -> workflow_instance\nr11: constraint -> workflow_instance\nr12: maria_validation -> learning",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.ontology.v1",
+      "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+      "target": "ee_ontology"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "8afc919a372acc41e3c87d7297533aa82ecb8a8f1a1e94fe957c0c64772ab183",
+      "lowering_id": "ee.map.pass_witness.lowering.v1",
+      "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+      "model_type": "ee_v2.map_gate.adapter.PassWitness",
+      "observation_predicates": [
+        "source_pass_complete"
+      ],
+      "payload": {
+        "kind": "pass_witness",
+        "layer": 0,
+        "pass_num": 1,
+        "subject": "j_l0_p1"
+      },
+      "payload_sha256": "a1d484f87e8ae6ee9cdc670cb00abdb04abba0bfe1fca056a491509dd0fbe306",
+      "render_sha256": "43f211c4519019372062b89645fc9b8f616e1466aff66d48b8199a489b6ff569",
+      "rendered": "witness:j_l0_p1:L0P1",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.pass_witness.v1",
+      "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+      "target": "ee_ontology"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l0_p1,ee_ontology).",
+      "ee_ontology_proof(j_l0_p1,ontology_coherence)."
+    ]
+  },
+  "envelope_sha256": "060884cc105ae147e80ae1ec381809437d653efd8dcd1f22a67c0cb84591f60d"
+}

@@ -1,0 +1,648 @@
+{"c": "commercial_stove", "d": "large format gas or electric range with multiple burners for high volume cooking"}
+{"c": "convection_oven", "d": "fan assisted oven for even heat circulation and faster cooking"}
+{"c": "deck_oven", "d": "stone floored oven for pizza and bread baking"}
+{"c": "combi_oven", "d": "combination steam and convection oven for versatile cooking methods"}
+{"c": "microwave_oven", "d": "high speed heating device for quick food preparation"}
+{"c": "commercial_grill", "d": "flat or ribbed cooking surface for searing meats and vegetables"}
+{"c": "charbroiler", "d": "open flame broiler for char marks and smoky flavor"}
+{"c": "salamander_broiler", "d": "overhead broiler for finishing and melting"}
+{"c": "flat_top_grill", "d": "smooth steel cooking surface for breakfast and short order cooking"}
+{"c": "deep_fryer", "d": "oil filled vessel for frying foods at precise temperatures"}
+{"c": "pressure_fryer", "d": "sealed fryer that uses pressure to cook faster with crispy results"}
+{"c": "commercial_mixer", "d": "heavy duty stand mixer for dough batters and mixtures"}
+{"c": "food_processor", "d": "electric device for chopping slicing and shredding ingredients"}
+{"c": "meat_slicer", "d": "powered device for precise thin cutting of meats and cheeses"}
+{"c": "meat_grinder", "d": "machine for grinding fresh burger and sausage meat"}
+{"c": "pasta_machine", "d": "roller machine for making fresh pasta sheets and shapes"}
+{"c": "espresso_machine", "d": "high pressure coffee brewing apparatus"}
+{"c": "coffee_brewer", "d": "drip brewing system for regular coffee service"}
+{"c": "coffee_grinder", "d": "burr grinder for fresh ground coffee beans"}
+{"c": "blender", "d": "high speed motor device for smoothies and liquidizing"}
+{"c": "bar_blender", "d": "heavy duty blender for frozen drinks and cocktails"}
+{"c": "toaster", "d": "slot or conveyor toaster for bread products"}
+{"c": "warming_drawer", "d": "heated storage drawer for keeping food warm"}
+{"c": "holding_cabinet", "d": "insulated heated cabinet for holding prepared foods"}
+{"c": "steam_table", "d": "heated Bain Marie counter for displaying hot food items"}
+{"c": "cold_table", "d": "refrigerated counter for displaying cold food items"}
+{"c": "soup_warmer", "d": "heated well for maintaining soup temperature"}
+{"c": "sauce_warmer", "d": "small heated vessel for individual sauce service"}
+{"c": "rotisserie", "d": "spit roasting device for chickens and roasts"}
+{"c": "smoker", "d": "wood chip powered cooking device for smoked foods"}
+{"c": "induction_cooktop", "d": "electromagnetic cooking surface for precise heating"}
+{"c": "tilt_s_skillet", "d": "braising pan on a tilting stand for large batch cooking"}
+{"c": "stock_pot", "d": "large pot for preparing soups and stocks"}
+{"c": "dutch_oven", "d": "heavy pot for braising and stewing"}
+{"c": "pizza_oven", "d": "specialized high temperature oven for pizza baking"}
+{"c": "bread_oven", "d": "deck style oven optimized for artisan bread"}
+{"c": "wok_station", "d": "high BTU burner with wok ring for stir fry"}
+{"c": "cheese_melter", "d": "infrared broiler for melting cheese on dishes"}
+{"c": "ice_machine", "d": "self contained machine for producing ice cubes or crushed ice"}
+{"c": "slush_machine", "d": "frozen beverage dispenser for slushies and granitas"}
+{"c": "frozen_drink_machine", "d": "continuous frozen cocktail and slush dispenser"}
+{"c": "milkshake_machine", "d": "stainless blender station for thick milkshakes"}
+{"c": "walk_in_cooler", "d": "large refrigerated room for storing ingredients"}
+{"c": "walk_in_freezer", "d": "large frozen storage room for long term preservation"}
+{"c": "reach_in_refrigerator", "d": "upright glass door refrigerator for kitchen access"}
+{"c": "undercounter_refrigerator", "d": "compact refrigerator under prep tables"}
+{"c": "freezer_chest", "d": "top opening freezer for storage efficiency"}
+{"c": "wine_cooler", "d": "temperature controlled cabinet for wine storage"}
+{"c": "keg_cooler", "d": "refrigerated cabinet for storing beer kegs"}
+{"c": "underbar_refrigeration", "d": "coolers built into the bar structure"}
+{"c": "glasswasher", "d": "high temperature commercial dishwasher for glasses"}
+{"c": "dishwasher", "d": "high temperature door or conveyor dishwasher"}
+{"c": "pot_washer", "d": "heavy duty sink style dishwasher for pots and pans"}
+{"c": "glass_rack", "d": "compartment rack for washing and storing glasses"}
+{"c": "bus_tub", "d": "plastic tub for collecting dirty dishes"}
+{"c": "dish_table", "d": "stainless steel table for stacking dirty dishes"}
+{"c": "prewash_station", "d": "sink area for pre rinsing dishes before washing"}
+{"c": "three_compartment_sink", "d": "sink with three basins for washing rinsing sanitizing"}
+{"c": "hand_sink", "d": "designated sink for employee hand washing"}
+{"c": "mop_sink", "d": "utility sink for filling and emptying mop buckets"}
+{"c": "prep_table", "d": "stainless steel work surface for food preparation"}
+{"c": "stainless_steel_worktable", "d": "standard prep counter with undershelf"}
+{"c": "cutting_board", "d": "sanitary surface for chopping and slicing"}
+{"c": "metal_shelving", "d": "stainless steel wire or solid shelf units for storage"}
+{"c": "pan_rack", "d": "shelving for storing sheet pans and sheet trays"}
+{"c": "dry_storage_shelving", "d": "shelving for canned and dry goods inventory"}
+{"c": "utility_cart", "d": "mobile stainless cart for transport"}
+{"c": "food_transport_cart", "d": "insulated cart for moving hot or cold food"}
+{"c": "Cambro_container", "d": "stackable food storage container for ingredients"}
+{"c": "sheet_pan", "d": "standard aluminum pan for baking and roasting"}
+{"c": "hotel_pan", "d": "standard stainless inset pan for steam tables"}
+{"c": "chafing_dish", "d": "fuel heated serving vessel for buffet service"}
+{"c": "serving_cart", "d": "decorative wheeled cart for table side service"}
+{"c": "tray_stand", "d": "folding stand for serving trays in dining room"}
+{"c": "tray_slide", "d": "heated or refrigerated serving counter with sliding surface"}
+{"c": "exhaust_hood", "d": "kitchen ventilation hood over cooking equipment"}
+{"c": "grease_hood", "d": "type 1 hood with grease filters for cooking equipment"}
+{"c": "make_up_air_unit", "d": "HVAC unit that replaces exhausted kitchen air"}
+{"c": "air_curtain", "d": "overhead air stream at doorways to block pests and weather"}
+{"c": "Ansul_fire_suppression", "d": "wet chemical fire suppression system for kitchen equipment"}
+{"c": "fire_extinguisher", "d": "portable fire fighting device for emergency response"}
+{"c": "fire_blanket", "d": "flame resistant blanket for smothering small fires"}
+{"c": "grease_trap", "d": "interceptor that captures grease before plumbing drainage"}
+{"c": "grease_recycling_container", "d": "sealed bin for storing used cooking oil"}
+{"c": "floor_drain", "d": "drainage point in kitchen floor for water cleanup"}
+{"c": "mop_wringer", "d": "bucket with wringer mechanism for mops"}
+{"c": "mop_bucket", "d": "rolling bucket for floor cleaning solution"}
+{"c": "cleaning_cart", "d": "mobile cart stocked with cleaning supplies"}
+{"c": "sanitizing_bucket", "d": "container for sanitizer solution at correct dilution"}
+{"c": "sanitizer_dispenser", "d": "wall mounted dispenser for sanitizing solution"}
+{"c": "soap_dispenser", "d": "wall mounted dispenser for hand or dish soap"}
+{"c": "paper_towel_dispenser", "d": "wall mounted dispenser for paper towels"}
+{"c": "hand_dryer", "d": "electric air dryer for restroom hand drying"}
+{"c": "hand_sanitizer_dispenser", "d": "wall mounted dispenser for alcohol based hand sanitizer"}
+{"c": "wet_floor_sign", "d": "yellow warning sign for slippery wet floors"}
+{"c": "floor_mat", "d": "protective mat at entrances and slip resistant mats"}
+{"c": "anti_fatigue_mat", "d": "cushioned mat for standing work areas"}
+{"c": "cutting_board_rack", "d": "vertical storage rack for clean cutting boards"}
+{"c": "knife_magnetic_strip", "d": "wall mounted magnetic strip for knife storage"}
+{"c": "knife_block", "d": "wooden or plastic block with slots for knife storage"}
+{"c": "sharpening_steel", "d": "steel rod for maintaining knife edges"}
+{"c": "honing_rod", "d": "fine steel rod for aligning knife blade edges"}
+{"c": "chef_knife", "d": "professional 8 to 12 inch kitchen knife"}
+{"c": "paring_knife", "d": "small knife for detailed peeling and trimming"}
+{"c": "slicing_knife", "d": "long thin blade for slicing meats and breads"}
+{"c": "serrated_bread_knife", "d": "saw toothed knife for slicing bread without crushing"}
+{"c": "boning_knife", "d": "flexible thin blade for deboning meats"}
+{"c": "cleaver", "d": "heavy rectangular knife for chopping through bone"}
+{"c": "whisk", "d": "wire tool for beating and blending"}
+{"c": "spatula", "d": "flat turner for flipping and lifting food"}
+{"c": "tongs", "d": "pincer tool for gripping and turning food"}
+{"c": "ladle", "d": "soup serving spoon with long handle and deep bowl"}
+{"c": "slotted_spoon", "d": "perforated spoon for lifting foods from liquids"}
+{"c": "basting_brush", "d": "bristle brush for applying sauces and glazes"}
+{"c": "skimmer", "d": "fine mesh strainer for removing foam and skimming"}
+{"c": "spider_strainer", "d": "wire basket strainer with long handle for deep frying"}
+{"c": "kitchen_scale", "d": "portion control scale for measuring ingredients"}
+{"c": "digital_scale", "d": "electronic precision scale for accurate portions"}
+{"c": "instant_read_thermometer", "d": "probe thermometer for checking food temperatures"}
+{"c": "probe_thermometer", "d": "oven safe thermometer with wire probe for monitoring roasting"}
+{"c": "kitchen_timer", "d": "countdown timer for tracking cooking times"}
+{"c": "measuring_cup", "d": "graduated vessel for measuring liquid volumes"}
+{"c": "measuring_spoon", "d": "set of graduated spoons for measuring small volumes"}
+{"c": "colander", "d": "perforated bowl for draining pasta and washed vegetables"}
+{"c": "strainer", "d": "fine mesh sieve for sifting and straining"}
+{"c": "funnel", "d": "conical pour device for transferring liquids"}
+{"c": "kitchen_torch", "d": "butane torch for caramelizing and finishing dishes"}
+{"c": "serving_spoon", "d": "large spoon for serving entrees and sides"}
+{"c": "serving_tongs", "d": "large tongs for plating and buffet service"}
+{"c": "pastry_bag", "d": "cone shaped bag for piped decorations and purees"}
+{"c": "piping_tips", "d": "decorative tips for pastry bags"}
+{"c": "rolling_pin", "d": "cylindrical pin for rolling out dough"}
+{"c": "dough_scraper", "d": "flexible metal or plastic scraper for dough work"}
+{"c": "bench_scrape", "d": "large rectangular scraper for moving and cutting dough"}
+{"c": "plastic_bucket", "d": "general purpose container for water and solutions"}
+{"c": "trash_can", "d": "large bin for collecting waste"}
+{"c": "recycling_bin", "d": "designated bin for recyclable materials"}
+{"c": "composting_bin", "d": "sealed container for organic waste composting"}
+{"c": "trash_can_dolly", "d": "wheeled platform for moving large trash cans"}
+{"c": "linen_hamp", "d": "canvas lined hamper for soiled linens"}
+{"c": "laundry_cart", "d": "utility cart for transporting linens"}
+{"c": "tray_caddy", "d": "stackable tray carrier for transporting clean dishes"}
+{"c": "pallet_jack", "d": "manual hydraulic truck for moving pallets"}
+{"c": "hand_truck", "d": "two wheeled dolly for moving heavy items"}
+{"c": "dolly", "d": "flat four wheeled platform for moving equipment"}
+{"c": "broom", "d": "soft bristled broom for general sweeping"}
+{"c": "push_broom", "d": "stiff bristled wide broom for outdoor and rough surfaces"}
+{"c": "dustpan", "d": "hand held pan for collecting swept debris"}
+{"c": "deck_brush", "d": "stiff bristle brush for scrubbing floors"}
+{"c": "toilet_brush", "d": "specialized brush for cleaning toilet bowls"}
+{"c": "urinal_brush", "d": "specialized brush for cleaning urinals"}
+{"c": "sink_brush", "d": "brush for scrubbing sink basins"}
+{"c": "pot_brush", "d": "stiff bristle brush for scrubbing pots and pans"}
+{"c": "scouring_pad", "d": "abrasive pad for tough scrubbing"}
+{"c": "steel_wool", "d": "abrasive wool for heavy duty cleaning"}
+{"c": "microfiber_cloth", "d": "reusable highly absorbent cleaning cloth"}
+{"c": "cleaning_cloth", "d": "reusable or disposable wiping cloth"}
+{"c": "apron_hook", "d": "wall mounted hook for hanging aprons"}
+{"c": "chef_coat_hook", "d": "hook for hanging chef coats and jackets"}
+{"c": "employee_locker", "d": "secure metal cabinet for staff personal belongings"}
+{"c": "time_clock", "d": "device for recording employee punch in and out times"}
+{"c": "first_aid_kit", "d": "medical supplies container for emergency treatment"}
+{"c": "safety_glove", "d": "rubber or latex glove for food handling protection"}
+{"c": "cut_resistant_glove", "d": "mesh metal glove for protection when slicing"}
+{"c": "oven_mitt", "d": "insulated glove for handling hot cookware"}
+{"c": "pot_holder", "d": "padded cloth for protecting hands from heat"}
+{"c": "non_slip_shoe", "d": "specialized footwear with slip resistant soles"}
+{"c": "chef_coat", "d": "double breasted white coat for kitchen staff"}
+{"c": "apron", "d": "protective garment for front and clothing coverage"}
+{"c": "bistro_table", "d": "small round table for dining room seating"}
+{"c": "dining_table", "d": "standard rectangular or round table for seating guests"}
+{"c": "booth", "d": "upholstered bench style seating against a wall"}
+{"c": "banquette", "d": "long upholstered bench seating along a wall"}
+{"c": "communal_table", "d": "long shared table for dining with strangers"}
+{"c": "family_style_table", "d": "large table for group family style dining"}
+{"c": "high_top_table", "d": "tall bar height table for standing or stool seating"}
+{"c": "counter_table", "d": "standard height counter for stool seating"}
+{"c": "cocktail_table", "d": "small low table for lounge and bar areas"}
+{"c": "patio_table", "d": "weather resistant outdoor dining table"}
+{"c": "picnic_table", "d": "bench attached outdoor table for casual dining"}
+{"c": "dining_chair", "d": "standard chair for seated dining"}
+{"c": "booth_seat", "d": "cushioned bench seat for booths"}
+{"c": "bar_stool", "d": "tall stool for bar and high top seating"}
+{"c": "counter_stool", "d": "standard height stool for counter seating"}
+{"c": "lounge_chair", "d": "comfortable upholstered chair for lounge seating"}
+{"c": "outdoor_chair", "d": "weather resistant chair for patio seating"}
+{"c": "outdoor_lounge_seating", "d": "weather resistant furniture for outdoor lounge areas"}
+{"c": "outdoor_sofa", "d": "weather resistant outdoor couch seating"}
+{"c": "outdoor_love_seat", "d": "small outdoor couch for two people"}
+{"c": "outdoor_daybed", "d": "outdoor lounger for extended relaxation"}
+{"c": "outdoor_ottomans", "d": "outdoor footstools for lounge seating"}
+{"c": "outdoor_benches", "d": "weather resistant benches for outdoor seating"}
+{"c": "outdoor_swing", "d": "suspended swinging seat for outdoor lounging"}
+{"c": "outdoor_hammock", "d": "fabric suspended lounger for outdoor relaxation"}
+{"c": "fire_pit", "d": "contained outdoor fire feature for ambiance and warmth"}
+{"c": "outdoor_fireplace", "d": "permanent outdoor masonry fireplace"}
+{"c": "patio_heater", "d": "propane or electric radiant heater for outdoor dining"}
+{"c": "outdoor_umbrella", "d": "cantilever or market umbrella for shade and rain protection"}
+{"c": "outdoor_string_lights", "d": "festoon style string lights for outdoor ambiance"}
+{"c": "outdoor_lantern", "d": "decorative outdoor lighting fixture"}
+{"c": "outdoor_trellis", "d": "lattice structure for climbing plants and shade"}
+{"c": "outdoor_planter", "d": "decorative container for plants and flowers"}
+{"c": "booth_partition", "d": "divider between booth sections for privacy"}
+{"c": "room_divider", "d": "movable partition for creating private dining spaces"}
+{"c": "privacy_screen", "d": "portable screen for visual separation"}
+{"c": "sound_absorbing_panel", "d": "acoustic treatment to reduce noise levels"}
+{"c": "ambient_noise_system", "d": "electronic system generating background noise for privacy"}
+{"c": "carpet", "d": "soft floor covering for dining room areas"}
+{"c": "hardwood_flooring", "d": "polished wood floor for upscale dining"}
+{"c": "tile_flooring", "d": "ceramic or porcelain tile floor for easy cleaning"}
+{"c": "concrete_flooring", "d": "polished concrete floor for industrial look"}
+{"c": "rubber_flooring", "d": "slip resistant flooring for kitchen areas"}
+{"c": "mat_at_entrance", "d": "scraper mat at doorways for removing debris"}
+{"c": "runner_mat", "d": "long mat for corridor protection and safety"}
+{"c": "host_stand", "d": "designated station for greeting and seating guests"}
+{"c": "podium", "d": "standing desk for host and cashier"}
+{"c": "service_station", "d": "supply station for servers in dining room"}
+{"c": "server_station", "d": "refrigerated and stocked station for servers"}
+{"c": "cashier_station", "d": "counter with register and payment processing equipment"}
+{"c": "POS_terminal", "d": "point of sale touch screen computer for orders and payments"}
+{"c": "cash_register", "d": "mechanical or electronic device for recording transactions"}
+{"c": "credit_card_reader", "d": "card terminal for processing electronic payments"}
+{"c": "receipt_printer", "d": "printer for customer receipts"}
+{"c": "order_ticket_printer", "d": "kitchen printer for incoming orders"}
+{"c": "kitchen_display_system", "d": "digital screen displaying orders for kitchen staff"}
+{"c": "menu_holder", "d": "display stand for menus"}
+{"c": "table_tent", "d": "small tent shaped card holder for specials and info"}
+{"c": "candle_holder", "d": "votive or pillar candle holder for table ambiance"}
+{"c": "table_centerpiece", "d": "decorative display in center of tables"}
+{"c": "salt_and_pepper_shaker", "d": "table condiment dispensers"}
+{"c": "condiment_caddy", "d": "serving tray for table condiments and napkins"}
+{"c": "napkin_dispenser", "d": "table or counter mounted napkin holder"}
+{"c": "menu_board", "d": "large format display for ordering options"}
+{"c": "digital_menu_board", "d": "electronic screen displaying menu items and prices"}
+{"c": "chalk_board", "d": "handwritten menu board for specials and drinks"}
+{"c": "sandwich_board", "d": "A frame outdoor sign for daily specials"}
+{"c": "neon_sign", "d": "illuminated glass tube signage for exterior branding"}
+{"c": "illuminated_sign", "d": "backlit signage for visibility in low light"}
+{"c": "hanging_sign", "d": "suspended wooden or metal sign for storefront"}
+{"c": "window_sign", "d": "decorative or informational sign for window display"}
+{"c": "safety_sign", "d": "regulatory or warning signage for compliance"}
+{"c": "exit_sign", "d": "illuminated egress marker for emergency exits"}
+{"c": "emergency_lighting", "d": "battery backed lights for emergency egress"}
+{"c": "bar_counter", "d": "long horizontal surface for drink preparation and service"}
+{"c": "bar_back_bar", "d": "back shelf display for liquor bottles and glassware"}
+{"c": "speed_rail", "d": "under bar rail holding frequently used bottles"}
+{"c": "speed_rack", "d": "metal rack holding upside down bottles for quick access"}
+{"c": "bottle_well", "d": "recessed area in bar for chilling open bottles"}
+{"c": "glassware_shelf", "d": "open shelf for storing glassware behind bar"}
+{"c": "garnish_container", "d": "refrigerated inset for holding fresh garnishes"}
+{"c": "ice_bin", "d": "insulated bin for bar ice supply"}
+{"c": "ice_scoops", "d": "large scoops for transferring ice to glasses"}
+{"c": "bar_mat", "d": "rubber mat on bar for drainage and slip resistance"}
+{"c": "speed_opener", "d": "bottle cap remover for servers"}
+{"c": "corkscrew", "d": "screw device for removing wine corks"}
+{"c": "wine_pump", "d": "vacuum pump for preserving open wine bottles"}
+{"c": "bar_shaker", "d": "tins for shaking cocktails"}
+{"c": "mixing_glass", "d": "heavy duty glass for stirring cocktails"}
+{"c": "jigger", "d": "dual ended measuring device for spirits"}
+{"c": "bar_spoon", "d": "long twisted handle spoon for stirring cocktails"}
+{"c": "muddler", "d": "stick for muddling fruits and herbs in drinks"}
+{"c": "citrus_juicer", "d": "hand or electric juicer for fresh citrus juice"}
+{"c": "syrup_pump", "d": "dispenser pump for flavored syrups"}
+{"c": "soda_dispenser", "d": "post mix system for carbonated beverages"}
+{"c": "draft_beer_system", "d": " refrigerated lines and faucets for draft beer service"}
+{"c": "beer_tap", "d": "faucet for dispensing draft beer"}
+{"c": "kegerator", "d": "refrigerated cabinet with tap for keg beer"}
+{"c": "wine_tap", "d": "specialized tap for wine on tap systems"}
+{"c": "wine_pump_tap", "d": "tap with integrated wine preservation pump"}
+{"c": "glass_rack_over_bar", "d": "shelf hanging over bar for upside down glass storage"}
+{"c": "drain_board", "d": "ridged surface for air drying glassware"}
+{"c": "glass_storage_shelf", "d": "open wire shelf for clean glasses"}
+{"c": "plate_storage_shelf", "d": "shelf for storing clean plates and platters"}
+{"c": "beverage_station", "d": "self service area for drinks"}
+{"c": "coffee_station", "d": "self service area for coffee and tea"}
+{"c": "sundae_station", "d": "topping bar for make your own ice cream sundaes"}
+{"c": "salad_bar", "d": "self service display of salad ingredients"}
+{"c": "soup_station", "d": "self service area for soup and bread"}
+{"c": "dessert_display", "d": "refrigerated display case for pastries and cakes"}
+{"c": "pastry_case", "d": "glass front case for displaying baked goods"}
+{"c": "cake_display", "d": "refrigerated case for decorated cakes"}
+{"c": "sneeze_guard", "d": "transparent barrier protecting food from contamination"}
+{"c": "hot_rail", "d": "heated holding surface for plated food"}
+{"c": "cold_rail", "d": "refrigerated holding surface for cold appetizers"}
+{"c": "carving_station", "d": "heated display for sliced roasted meats"}
+{"c": "deli_slicer", "d": "automatic slicer for cold cuts and cheeses"}
+{"c": "drop_in_refrigerator", "d": "flushed mount refrigerator for counters and bars"}
+{"c": "drop_in_freezer", "d": "flushed mount freezer for counters and bars"}
+{"c": "drop_in_warmer", "d": "flushed mount heated well for counters"}
+{"c": "drop_in_cold_well", "d": "flushed mount refrigerated well for cold food"}
+{"c": "drop_in_ice_bin", "d": "flushed mount ice container for counters"}
+{"c": "pot_filler", "d": "wall mounted gooseneck faucet for filling pots"}
+{"c": "pre_rinse_spray", "d": "flexible hose spray for pre rinsing dishes"}
+{"c": "water_filter", "d": "filtration system for improving water quality"}
+{"c": "water_softener", "d": "ion exchange system for reducing water hardness"}
+{"c": "reverse_osmosis_system", "d": "high purity water filtration for ice and beverages"}
+{"c": "ice_machine_bin", "d": "storage bin attached to ice machine"}
+{"c": "drink_dispenser", "d": "refrigerated or ambient container for self service drinks"}
+{"c": "tea_steeping_system", "d": "brewing system for fresh hot tea"}
+{"c": "hot_chocolate_machine", "d": "automated machine for dispensing hot chocolate"}
+{"c": "cocoa_sprinkler", "d": "shaker for dusting cocoa on drinks"}
+{"c": "whipped_cream_dispenser", "d": "pressurized dispenser for whipped cream"}
+{"c": "topping_dispenser", "d": "squeeze bottle or pump for sauces and syrups"}
+{"c": "crouton_dispenser", "d": "portion controlled dispenser for salad croutons"}
+{"c": "nacho_cheese_dispenser", "d": "heated dispenser for nacho cheese sauce"}
+{"c": "popcorn_machine", "d": "popcorn maker for movie theater style snacks"}
+{"c": "cotton_candy_machine", "d": "spinning machine for cotton candy"}
+{"c": "hot_dog_roller", "d": "roller grill for keeping hot dogs warm"}
+{"c": "roller_grill", "d": "heated rollers for hot dogs and taquitos"}
+{"c": "bain_marie", "d": "water bath for gentle heating of foods"}
+{"c": "soup_bowl_warmer", "d": "heated cabinet for warming soup bowls"}
+{"c": "plate_warming_drawer", "d": "heated drawer for warming dinner plates"}
+{"c": "plate_chilling_unit", "d": "refrigerated unit for chilling dessert plates"}
+{"c": "heated_serving_platter", "d": "electric heated plate for table side service"}
+{"c": "chafing_fuel", "d": "gel or liquid fuel for heating chafing dishes"}
+{"c": "serving_ladle", "d": "large ladle for portioning soups and stews"}
+{"c": "pie_server", "d": "serrated server for cutting and plating pies"}
+{"c": "cake_server", "d": "angled server for plating sliced cake"}
+{"c": "pizza_cutter", "d": "rotary blade for cutting pizza slices"}
+{"c": "pizza_peel", "d": "long handled paddle for placing and removing pizzas"}
+{"c": "pizza_screen", "d": "perforated pan for baking pizza crusts"}
+{"c": "pizza_stone", "d": "heat absorbing stone for crispier pizza crusts"}
+{"c": "dough_box", "d": "stainless box for proofing and storing dough"}
+{"c": "pizza_oven_stone", "d": "thick stone floor for high temperature pizza baking"}
+{"c": "pizza_warm_lamp", "d": "infrared heat lamp for keeping pizza warm"}
+{"c": "banana_holder", "d": "hanging rack for ripe banana display"}
+{"c": "fruit_display", "d": "refrigerated case for fresh fruit display"}
+{"c": "vegetable_cooler", "d": "refrigerated case for fresh vegetable display"}
+{"c": "meat_display_case", "d": "refrigerated case for retail meat sales"}
+{"c": "seafood_display", "d": "refrigerated case for fresh fish and seafood"}
+{"c": "cheese_display", "d": "refrigerated case for artisan cheese display"}
+{"c": "wine_display", "d": "rack or case for retail wine bottle display"}
+{"c": "liquor_display", "d": "locked display case for premium spirits"}
+{"c": "retail_shelf", "d": "shelving for packaged food and merchandise"}
+{"c": "checkout_counter", "d": "counter for retail transaction processing"}
+{"c": "shopping_basket", "d": "small carrying basket for customer purchases"}
+{"c": "gift_card_kiosk", "d": "self service terminal for purchasing gift cards"}
+{"c": "coat_check", "d": "designated area with staff for storing guest coats"}
+{"c": "coat_rack", "d": "standing or wall rack for hanging coats and bags"}
+{"c": "umbrella_stand", "d": "container for storing guest umbrellas"}
+{"c": "lost_and_found_box", "d": "container for storing misplaced items"}
+{"c": "high_chair", "d": "boosted seat for infants and toddlers"}
+{"c": "booster_seat", "d": "raised seat for young children at table"}
+{"c": "playpen", "d": "enclosed safe area for crawling babies"}
+{"c": "kids_activity_table", "d": "low table with activities for children"}
+{"c": "changing_station", "d": "diaper changing table in restroom"}
+{"c": "diaper_disposal", "d": "sanitary container for disposing diapers"}
+{"c": "handicap_accessible_table", "d": "table designed for wheelchair access"}
+{"c": "service_animal_water_bowl", "d": "water station for assistance animals"}
+{"c": "water_bowl_station", "d": "designated area for pet water bowls"}
+{"c": "pet_tie_up", "d": "secure post for tying up service animals"}
+{"c": "smoking_area", "d": "designated outdoor area for smoking"}
+{"c": "smoking_shelter", "d": "covered structure for smoking area weather protection"}
+{"c": "smoking_ash_tray", "d": "receptacle for cigarette disposal in smoking area"}
+{"c": "ashtray", "d": "small receptacle for cigarette ash throughout restaurant"}
+{"c": "drive_thru_window", "d": "service window for drive through customers"}
+{"c": "drive_thru_menu_board", "d": "large digital or physical menu for drive through ordering"}
+{"c": "drive_thru_intercom", "d": "speaker system for verbal communication in drive through"}
+{"c": "drive_thru_speaker", "d": "exterior speaker for drive through audio"}
+{"c": "drive_thru_camera", "d": "video system for identifying vehicles and orders"}
+{"c": "drive_thru_lane", "d": "designated traffic lane for drive through service"}
+{"c": "drive_thru_bay", "d": "area for pulling forward to second window"}
+{"c": "menu_board_lighting", "d": "illumination for outdoor menu boards"}
+{"c": "parking_lot_lighting", "d": "exterior light poles and fixtures for parking areas"}
+{"c": "landscape_lighting", "d": "illumination for decorative landscaping features"}
+{"c": "outdoor_speaker", "d": "weather resistant speaker for exterior audio"}
+{"c": "security_camera", "d": "surveillance camera for monitoring premises"}
+{"c": "security_mirror", "d": "convex mirror for eliminating blind spots"}
+{"c": "cash_drop_safe", "d": "secure safe with drop slot for cash storage"}
+{"c": "lock_box", "d": "secure container for daily receipts"}
+{"c": "panic_button", "d": "emergency alert device for staff safety"}
+{"c": "drive_thru_timer", "d": "clock measuring drive through service speed"}
+{"c": "temperature_recorder", "d": "device logging refrigerator and freezer temperatures"}
+{"c": "walk_through_metal_detector", "d": "security screening device at entrance"}
+{"c": "security_door", "d": "reinforced lockable door for back of house security"}
+{"c": "emergency_exit_door", "d": "designated egress door for emergency evacuation"}
+{"c": "service_door", "d": "back door for deliveries and staff entry"}
+{"c": "receiving_dock", "d": "loading area for incoming product deliveries"}
+{"c": "dock_leveler", "d": "adjustable platform bridging dock and delivery truck"}
+{"c": "recycling_station", "d": "designated area for sorting recyclables"}
+{"c": "composting_station", "d": "area for collecting organic waste for composting"}
+{"c": "trash_enclosure", "d": "fenced or walled area for dumpster storage"}
+{"c": "dumpster", "d": "large metal waste container for trash disposal"}
+{"c": "compactor", "d": "machine for crushing and compacting trash"}
+{"c": "baler", "d": "machine for baling cardboard for recycling"}
+{"c": "cardboard_recycling_bin", "d": "container specifically for cardboard recycling"}
+{"c": "glass_recycling_container", "d": "container for recycled glass materials"}
+{"c": "refrigerant_recycling_tank", "d": " pressurized tank for reclaiming refrigerant gases"}
+{"c": "evacuation_chair", "d": "specialized chair for evacuating mobility impaired persons"}
+{"c": "emergency_generator", "d": "backup power generator for power outages"}
+{"c": "electric_vehicle_charging_station", "d": "EV charging equipment for customer vehicles"}
+{"c": "bike_rack", "d": "secure parking for bicycles"}
+{"c": "outdoor_bbq_grill", "d": "permanent outdoor grill for cooking events"}
+{"c": "outdoor_smoker", "d": "smoking apparatus for outdoor cooking"}
+{"c": "outdoor_pizza_oven", "d": "wood fired outdoor oven for pizza and bread"}
+{"c": "outdoor_deep_fryer", "d": "outdoor fryer for fried foods"}
+{"c": "outdoor_beverage_station", "d": "service counter for outdoor drink service"}
+{"c": "outdoor_prep_station", "d": "prep table for outdoor cooking and assembly"}
+{"c": "outdoor_serving_station", "d": "hot holding and serving counter for outdoor dining"}
+{"c": "outdoor_dining_area", "d": "designated patio or terrace seating space"}
+{"c": "awning", "d": "fabric shade structure over outdoor seating"}
+{"c": "outdoor_curtain", "d": "fabric side panel for outdoor shelter"}
+{"c": "wind_screen", "d": "barrier blocking wind in outdoor dining area"}
+{"c": "sidewalk_cafe_permit_area", "d": "licensed outdoor seating on public sidewalk"}
+{"c": "greenhouses_dining", "d": "enclosed transparent structure for dining"}
+{"c": "garden_dining_area", "d": "outdoor seating within landscaped garden"}
+{"c": "rooftop_dining", "d": "seating on building rooftop"}
+{"c": "private_dining_room", "d": "enclosed room for exclusive group dining"}
+{"c": "banquet_hall", "d": "large room for hosting events and parties"}
+{"c": "ballroom", "d": "elegant large room for formal events"}
+{"c": "conference_room", "d": "meeting room for business dining and presentations"}
+{"c": "break_room", "d": "employee rest area with seating and amenities"}
+{"c": "staff_dining_room", "d": "designated area for employee meals"}
+{"c": "manager_office", "d": "private office for management staff"}
+{"c": "accounting_office", "d": "office space for financial record keeping"}
+{"c": "computer_workstation", "d": "desk with computer for administrative tasks"}
+{"c": "phone_system", "d": "business telephone system with multiple extensions"}
+{"c": "intercom_system", "d": "internal communication system throughout restaurant"}
+{"c": "music_system", "d": "background music and audio system"}
+{"c": "television", "d": "display screen for entertainment and sports viewing"}
+{"c": "display_screen", "d": "mounted digital screen for menus or information"}
+{"c": "projection_screen", "d": "pull down or fixed screen for presentations"}
+{"c": "projector", "d": "digital projector for displaying content"}
+{"c": "karaoke_machine", "d": "sound system for customer karaoke entertainment"}
+{"c": "pool_table", "d": "billiard table for entertainment area"}
+{"c": "dart_board", "d": "mounted target for dart throwing game"}
+{"c": "pinball_machine", "d": "arcade game machine for entertainment"}
+{"c": "video_game_machine", "d": "arcade video game for customer entertainment"}
+{"c": "jukebox", "d": "coin operated music selection machine"}
+{"c": "atm_machine", "d": "automated teller machine for cash withdrawals"}
+{"c": "gift_shop_shelf", "d": "display shelving for merchandise sales"}
+{"c": "retail_merchandise_display", "d": "decorative display for retail products"}
+{"c": "linen_closet", "d": "storage for table linens napkins and aprons"}
+{"c": "maintenance_office", "d": "workspace for maintenance and repair supplies"}
+{"c": "workbench", "d": "sturdy work surface for repairs and maintenance"}
+{"c": "maintenance_tool_cabinet", "d": "locked cabinet storing repair tools and supplies"}
+{"c": "spare_part_shelf", "d": "shelving for replacement parts inventory"}
+{"c": "chemical_storage_cabinet", "d": "locked cabinet for hazardous cleaning chemicals"}
+{"c": "oil_storage_cabinet", "d": "sealed cabinet for storing备用 cooking oils"}
+{"c": "fire_alarm_panel", "d": "central control for fire detection and alerting system"}
+{"c": "smoke_detector", "d": "device for detecting smoke particles"}
+{"c": "sprinkler_head", "d": "nozzle head for water suppression system"}
+{"c": "sprinkler_system", "d": "overhead water distribution fire suppression system"}
+{"c": "carbon_monoxide_detector", "d": "device detecting dangerous CO gas levels"}
+{"c": "gas_leak_detector", "d": "device detecting natural gas or propane leaks"}
+{"c": "hood_exhaust_fan", "d": "motor driven fan pulling air through exhaust hood"}
+{"c": "air_conditioning_unit", "d": "refrigeration system for cooling interior spaces"}
+{"c": "heating_system", "d": "furnace or boiler for warming interior spaces"}
+{"c": "air_handler", "d": "HVAC unit circulating conditioned air"}
+{"c": "ductwork", "d": "sheet metal channels distributing air throughout building"}
+{"c": "thermostat", "d": "temperature control device for HVAC systems"}
+{"c": "humidifier", "d": "device adding moisture to interior air"}
+{"c": "dehumidifier", "d": "device removing excess moisture from air"}
+{"c": "air_filtration_system", "d": "HEPA or similar filters cleaning circulating air"}
+{"c": "ultraviolet_sanitizer", "d": "UV light system for killing bacteria on surfaces and in air"}
+{"c": "ozone_generator", "d": "device producing ozone for deep cleaning and deodorizing"}
+{"c": "restroom_toilet", "d": "flush toilet fixture in customer restroom"}
+{"c": "restroom_urinal", "d": "wall mounted male restroom fixture"}
+{"c": "restroom_sink", "d": "washbasin in customer or staff restroom"}
+{"c": "restroom_partition", "d": "privacy wall between toilet stalls"}
+{"c": "restroom_fixtures", "d": "collective term for toilets sinks and urinals"}
+{"c": "restroom_tile", "d": "wall and floor tile in restroom areas"}
+{"c": "restroom_vanity", "d": "counter with integrated sink in restroom"}
+{"c": "restroom_mirror", "d": "mirror in restroom for grooming"}
+{"c": "restroom_exhaust_fan", "d": "ventilation fan for removing moisture and odors"}
+{"c": "hand_washing_sign", "d": "posted reminder for proper hand washing technique"}
+{"c": "toilet_paper_holder", "d": "wall mounted dispenser for toilet paper"}
+{"c": "feminine_hygiene_dispenser", "d": "sanitary product dispenser in restroom"}
+{"c": "diaper_genie", "d": "sealed disposal unit for diapers in restroom"}
+{"c": "baby_changing_station", "d": "fold down table for changing diapers"}
+{"c": "hair_dryer", "d": "electric hand dryer for restroom use"}
+{"c": "trash_receptacle_restroom", "d": "waste bin in restroom"}
+{"c": "paper_towel_dispenser_restroom", "d": "towel dispenser in restroom"}
+{"c": "hand_sanitizer_restroom", "d": "sanitizer dispenser in restroom"}
+{"c": "restroom_air_freshener", "d": "scent dispensing device for restroom"}
+{"c": "restroom_mat", "d": "anti slip mat for restroom floor"}
+{"c": "crawl_space_access", "d": "hatch for accessing building crawl space"}
+{"c": "attic_access", "d": "pull down ladder and hatch to attic space"}
+{"c": "basement_access", "d": "stairs or ladder to basement storage area"}
+{"c": "loading_dock_door", "d": "large overhead door for receiving shipments"}
+{"c": "overhead_door", "d": "vertically opening door for warehouse or dock"}
+{"c": "roll_up_door", "d": "curling steel door for kitchen or storage areas"}
+{"c": "walk_in_door", "d": "standard personnel door to walk in units"}
+{"c": "emergency_exit_door_alarm", "d": "audible alarm when emergency door is opened"}
+{"c": "ADA_accessible_door", "d": "door with automatic open sensor for wheelchair access"}
+{"c": "automatic_door_opener", "d": "motion sensor device that automatically opens doors"}
+{"c": "revolving_door", "d": "rotating door for energy efficiency and high traffic"}
+{"c": "vestibule", "d": "enclosed airlock entryway between interior and exterior"}
+{"c": "screen_door", "d": "mesh door allowing ventilation while blocking insects"}
+{"c": "storm_door", "d": "protective exterior door for weather conditions"}
+{"c": "garage_door", "d": "large horizontal panel door for garage or delivery area"}
+{"c": "ductless_hood", "d": "filtration based exhaust hood not requiring ductwork"}
+{"c": "snorkel_hood", "d": "flexible exhaust arm for spot ventilation"}
+{"c": "UV_hood", "d": "exhaust hood with ultraviolet germicidal lights"}
+{"c": "type_1_hood", "d": "exhaust hood required over heavy grease producing equipment"}
+{"c": "type_2_hood", "d": "exhaust hood for steam and heat from light cooking"}
+{"c": "hood_capture_area", "d": "the zone where hood effectively captures exhaust"}
+{"c": "hood_filter", "d": "removable grease capturing filter in hood"}
+{"c": "fire_suppression_system", "d": "automated system for extinguishing kitchen fires"}
+{"c": "Ansul_tank", "d": "pressure vessel containing wet chemical for suppression system"}
+{"c": "gas_shutoff_valve", "d": "emergency valve for cutting natural gas supply"}
+{"c": "gas_line", "d": "piping delivering gas to kitchen equipment"}
+{"c": "water_line", "d": "plumbing supply line for water to equipment"}
+{"c": "drain_line", "d": "piping carrying waste water to sewer"}
+{"c": "vent_pipe", "d": "vertical pipe allowing sewer gases to escape roof"}
+{"c": "backflow_preventer", "d": "device preventing contaminated water from entering clean supply"}
+{"c": "pressure_regulator", "d": "device controlling water pressure to safe levels"}
+{"c": "water_heater", "d": "tank or tankless unit heating water for kitchen and restrooms"}
+{"c": "hot_water_tank", "d": "insulated storage vessel for heated water"}
+{"c": "tankless_water_heater", "d": "on demand water heating without storage tank"}
+{"c": "boiler", "d": "heating unit producing steam or hot water for building systems"}
+{"c": "compressor", "d": "mechanical device compressing refrigerant for cooling systems"}
+{"c": "condenser", "d": "heat exchange coil releasing heat from refrigerant"}
+{"c": "evaporator", "d": "coil absorbing heat to produce cooling effect"}
+{"c": "refrigerant_line", "d": "copper tubing carrying refrigerant between components"}
+{"c": "thermostatic_expansion_valve", "d": "metering device controlling refrigerant flow"}
+{"c": "refrigeration_control_panel", "d": "electrical panel controlling refrigeration equipment"}
+{"c": "defrost_timer", "d": "timer cycling refrigeration defrost heaters"}
+{"c": "defrost_heater", "d": "heating element melting ice from evaporator coils"}
+{"c": "drain_pan", "d": "container collecting condensate from refrigeration units"}
+{"c": "refrigeration_condensate_pump", "d": "pump removing water from defrost cycle"}
+{"c": "emergency_refrigeration_shutdown", "d": "safety device for emergency refrigeration stoppage"}
+{"c": "electrical_panel", "d": "main circuit breaker panel distributing building power"}
+{"c": "circuit_breaker", "d": "safety device preventing electrical overload"}
+{"c": "GFCI_outlet", "d": "ground fault protected outlet near water sources"}
+{"c": "dedicated_circuit", "d": "single purpose electrical circuit for heavy equipment"}
+{"c": "electrical_outlet", "d": "receptacle for plugging in equipment"}
+{"c": "extension_cord", "d": "temporary flexible power extension"}
+{"c": "power_strip", "d": "multiple outlet power strip for connecting devices"}
+{"c": "volt_meter", "d": "instrument measuring electrical voltage"}
+{"c": "amp_meter", "d": "instrument measuring electrical current"}
+{"c": "multimeter", "d": "instrument for measuring voltage current and resistance"}
+{"c": "wire_nut", "d": "insulated twist cap for connecting electrical wires"}
+{"c": "electrical_tape", "d": "insulating tape for electrical repairs"}
+{"c": "extension_cord_reel", "d": "reel storing rolled extension cord for easy use"}
+{"c": "motor", "d": "electromechanical device converting electricity to mechanical motion"}
+{"c": "pump", "d": "device moving liquids through plumbing or equipment"}
+{"c": "vacuum_pump", "d": "pump creating negative pressure for lifting or packaging"}
+{"c": "air_compressor", "d": "machine producing pressurized air for tools and equipment"}
+{"c": "air_hose", "d": "flexible tube delivering compressed air"}
+{"c": "blow_torch", "d": "hand held flame tool for finishing and soldering"}
+{"c": "plumbing_wrench", "d": "specialized wrench for plumbing repairs"}
+{"c": "pipe_cutter", "d": "tool for cutting copper and plastic pipe"}
+{"c": "pipe_wrench", "d": "large adjustable wrench for turning pipe fittings"}
+{"c": "basin_wrench", "d": "long shaft wrench for installing faucets in confined spaces"}
+{"c": "drain_auger", "d": "snake tool for clearing clogged drains"}
+{"c": "plunger", "d": "rubber suction cup for clearing drain clogs"}
+{"c": "pipe_drain_cleaner", "d": "chemical or mechanical drain clearing product"}
+{"c": "crown_molding_machine", "d": "tool for installing decorative trim"}
+{"c": "screwdriver_set", "d": "assorted screwdrivers for assembly and repair"}
+{"c": "wrench_set", "d": "assorted wrenches for mechanical work"}
+{"c": "socket_set", "d": "ratchet driven sockets for nuts and bolts"}
+{"c": "hammer", "d": "striking tool for driving nails and prying"}
+{"c": "rubber_mallet", "d": "non damaging hammer for delicate surfaces"}
+{"c": "level", "d": "tool for checking horizontal and vertical alignment"}
+{"c": "tape_measure", "d": "retractable measuring tape"}
+{"c": "square", "d": "tool for marking and checking right angles"}
+{"c": "utility_knife", "d": "retractable blade knife for general cutting"}
+{"c": "box_cutter", "d": "safety knife with retractable blade for opening boxes"}
+{"c": "scissors", "d": "cutting tool for general and food service use"}
+{"c": "safety_glasses", "d": "impact protective eyewear"}
+{"c": "hearing_protection", "d": "earplugs or earmuffs for loud equipment areas"}
+{"c": "respirator_mask", "d": "filter mask for protection from airborne particles"}
+{"c": "dust_mask", "d": "disposable mask for light dust protection"}
+{"c": "chemical_gloves", "d": "impervious gloves for handling cleaning chemicals"}
+{"c": "safety_shoes", "d": "steel toe or slip resistant safety footwear"}
+{"c": "hair_net", "d": "mesh cap for keeping hair contained"}
+{"c": "beard_net", "d": "mesh covering for facial hair"}
+{"c": "disposable_gloves", "d": "single use gloves for food handling"}
+{"c": "kitchen_shoes", "d": "slip resistant footwear for kitchen staff"}
+{"c": "first_aid_supplies", "d": "bandages antiseptic and basic medical supplies"}
+{"c": "eye_wash_station", "d": "flushing station for chemical eye exposure"}
+{"c": "safety_data_sheet_book", "d": "binder containing chemical safety information"}
+{"c": "emergency_eye_wash", "d": "plumbed eyewash for chemical emergencies"}
+{"c": "emergency_shower", "d": "plumbed shower for chemical spill decontamination"}
+{"c": "spill_kit", "d": "absorbent materials for cleaning chemical or grease spills"}
+{"c": "biohazard_kit", "d": "specialized cleanup materials for biological hazards"}
+{"c": "sharps_container", "d": "puncture proof container for used needles and blades"}
+{"c": "HACCP_thermometer", "d": "certified thermometer for temperature control compliance"}
+{"c": "calibration_thermometer", "d": "reference thermometer for verifying instrument accuracy"}
+{"c": "probe_wipe", "d": "sanitary cloth for cleaning thermometer probes"}
+{"c": "refrigeration_thermometer", "d": "thermometer monitoring cooler and freezer temperatures"}
+{"c": "oven_thermometer", "d": "thermometer verifying oven internal temperature"}
+{"c": "grill_thermometer", "d": "surface thermometer for grill temperature"}
+{"c": "smoker_thermometer", "d": "thermometer for monitoring smoking chamber temperature"}
+{"c": "infrared_thermometer", "d": "non contact thermometer for surface temperatures"}
+{"c": "food_probe", "d": "temperature probe inserted into food for monitoring"}
+{"c": "test_strip_ph", "d": "paper strip for testing solution acidity"}
+{"c": "chlorine_test_strip", "d": "strip for verifying sanitizer chlorine concentration"}
+{"c": "quaternary_ammonium_test_strip", "d": "strip for testing quat sanitizer levels"}
+{"c": "test_strip_sanitizer", "d": "generic sanitizer concentration test strip"}
+{"c": "pH_meter", "d": "digital device measuring solution acidity"}
+{"c": "lux_meter", "d": "device measuring light levels in foot candles"}
+{"c": "sound_level_meter", "d": "device measuring decibel levels for noise compliance"}
+{"c": "moisture_meter", "d": "device measuring moisture content in ingredients"}
+{"c": "scale_calibration_weight", "d": "certified weight for verifying scale accuracy"}
+{"c": "Brix_refractometer", "d": "instrument measuring sugar concentration in beverages"}
+{"c": "aluminum_foil", "d": "thin aluminum sheet for food wrapping and covering"}
+{"c": "plastic_wrap", "d": "cling film for food storage and covering"}
+{"c": "plastic_bags", "d": "disposable bags for packaging and storage"}
+{"c": "zip_top_bag", "d": "resealable plastic bag for ingredient storage"}
+{"c": "vacuum_bag", "d": "heat sealing bag for vacuum packaging"}
+{"c": "vacuum_sealer", "d": "machine removing air and sealing vacuum bags"}
+{"c": "stretch_wrap", "d": "plastic film for wrapping pallets and large items"}
+{"c": "packing_tape", "d": "adhesive tape for sealing boxes and packages"}
+{"c": "label_maker", "d": "printer for generating adhesive labels"}
+{"c": "pricing_gun", "d": "hand held device for printing price labels"}
+{"c": "label_tape", "d": "adhesive tape for labeling containers"}
+{"c": "permanent_marker", "d": "indelible marker for labeling and dating"}
+{"c": "grease_pencil", "d": "wax pencil for marking on wet or cold surfaces"}
+{"c": "date_stamp", "d": "ink stamp for marking dates on labels"}
+{"c": "safety_cone", "d": "orange traffic cone for marking hazards"}
+{"c": "caution_tape", "d": "yellow tape marking restricted or hazardous areas"}
+{"c": "stanchion", "d": "movable post with rope for crowd control"}
+{"c": "velvet_stanchion_rope", "d": "decorative rope between stanchions for elegant queuing"}
+{"c": "queue_barrier", "d": "barrier system for forming customer lines"}
+{"c": "crowd_control_rope", "d": "rope connecting stanchions for line formation"}
+{"c": "line_stanchion", "d": "post for forming orderly customer queues"}
+{"c": "bulletin_board", "d": "display board for posting schedules and announcements"}
+{"c": "dry_erase_board", "d": "wipe clean board for writing schedules and messages"}
+{"c": "cork_board", "d": "pin board for posting papers and schedules"}
+{"c": "menu_holder_wall", "d": "wall mounted display for menus and specials"}
+{"c": "table_number", "d": "numbered card or stand identifying table location"}
+{"c": "section_marker", "d": "indicator showing which server is assigned to each section"}
+{"c": "server_book", "d": "order pad holder carried by servers"}
+{"c": "order_pad", "d": "paper for writing customer orders"}
+{"c": "check_presenter", "d": "folder for presenting customer checks"}
+{"c": "payment_tray", "d": "tray for carrying and presenting payments"}
+{"c": "tip_jar", "d": "container for voluntary customer tips at counter service"}
+{"c": "tip_report_form", "d": "form for servers to record and report tips"}
+{"c": "bank_bag", "d": "secured bag for daily cash deposits"}
+{"c": "cash_drawer", "d": "locking compartment storing cash in register"}
+{"c": "drawer_insert", "d": "organizer tray for cash drawer compartments"}
+{"c": "coin_sorter", "d": "tray for sorting and counting coins"}
+{"c": "coin_wrap", "d": "paper wrapper for rolled coins"}
+{"c": "bill_money_counter", "d": "machine for counting paper currency"}
+{"c": " counterfeit_detector_pen", "d": "marker for testing bill authenticity"}
+{"c": "UV_light_detector", "d": "ultraviolet light for verifying currency security features"}
+{"c": "key_holder", "d": "wall mount or drawer for storing keys"}
+{"c": "master_key", "d": "key that opens multiple locks in building"}
+{"c": "key_cabinet", "d": "locked cabinet storing all facility keys"}
+{"c": "alarm_panel", "d": "control panel for building security alarm system"}
+{"c": "motion_sensor", "d": "infrared detector for movement in secured areas"}
+{"c": "door_sensor", "d": "magnetic sensor detecting door opening"}
+{"c": "glass_break_sensor", "d": "acoustic sensor detecting breaking glass"}
+{"c": "panic_alarm_button", "d": "discrete button summoning help in emergency"}
+{"c": "silent_alarm", "d": "discreet alert system contacting police without sounding siren"}
+{"

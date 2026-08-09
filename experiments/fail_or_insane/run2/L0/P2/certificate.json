@@ -1,0 +1,166 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l0_p2",
+  "target": "ee_skill",
+  "certificate": {
+    "compiled_at": "2026-08-08T14:34:32.855151+00:00",
+    "construction_facts_sha256": "b5dc3bd9fa2ddb2cc48e5db7737e1b4386a130a440c4d985315e62fe0b71908c",
+    "construction_lowering_id": "ee.map.skill.lowering.v1",
+    "construction_lowering_sha256": "6f8d45fcc947e98b6f46f0c6cd227b1b6e97246183ec941b25182c118362fb28",
+    "construction_payload_sha256": "29b40483ac1c99e62e1e74259b05a9bdae8b5dafd8dee82895e8e7c3fd5ee266",
+    "construction_render_sha256": "630a00abbba31c3a774e77564e254815f1c8e7050bca0dd13725a2cdddf4cce5",
+    "construction_schema_id": "ee.map.skill.v1",
+    "construction_schema_sha256": "b90d833e14dbb242cd8b4c5cb0238ce187d1e47dfd7faa7ce77448c3cd1ae8f0",
+    "domain_id": "ee_skill",
+    "domain_sha256": "a7adf1092a25410936cb837d8d4935ded3a53eaf0fad5f4dfb5f941698fba18e",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "94a477922032457cbc587ae04f29d51e28ac4a7c8f723faf370161f9e577ec5e",
+    "observation_facts_sha256": "bf35a8b7eec577a4744c0a28df8890937e461ac5d742d52416c2a20faef5a1ea",
+    "observation_lowering_id": "ee.map.skill_ground.lowering.v1",
+    "observation_lowering_sha256": "56df84298e4ffe994b430e7cfd40d766c7a5427f93dfedb2e628188a45496686",
+    "observation_payload_sha256": "45a5e2eb07610a80e1ebacd9c76db93d26cb51fb1c31123b569a48afcacd7b16",
+    "observation_render_sha256": "4728f7de00aadf65592563f542b4a431fb59aea2e6330968dc050e33d7617ed6",
+    "observation_schema_id": "ee.map.skill_ground.v1",
+    "observation_schema_sha256": "c2d4a7f119955f1ea83f1c6e377afe5f0a2b4e53037159074a79289466c41c32",
+    "status": "compiled",
+    "subject": "j_l0_p2",
+    "target": "ee_skill",
+    "workspace_sha256": "e31df69317b1699b4a586f795c234cd7f81e3cb6a1709051d24c231a67036cd2"
+  },
+  "kappa": {
+    "domain": "ee_generalization",
+    "invariants": {
+      "skill_grounding": "every step's uses reference P1-certified concepts"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_step",
+        "candidate_use"
+      ],
+      "facts_sha256": "b5dc3bd9fa2ddb2cc48e5db7737e1b4386a130a440c4d985315e62fe0b71908c",
+      "lowering_id": "ee.map.skill.lowering.v1",
+      "lowering_sha256": "6f8d45fcc947e98b6f46f0c6cd227b1b6e97246183ec941b25182c118362fb28",
+      "model_type": "ee_v2.map_gate.adapter.SkillConstruction",
+      "payload": {
+        "kind": "ee_skill",
+        "name": "build_operational_workflow_constructor",
+        "steps": [
+          {
+            "action": "Establish the purpose and success criteria for the constructor",
+            "id": "define_abstract_goal",
+            "kind": "step",
+            "uses": [
+              "generation",
+              "constructor",
+              "configuration"
+            ]
+          },
+          {
+            "action": "Create persistent structures for patterns, constraints, protocols",
+            "id": "build_knowledge_layer",
+            "kind": "step",
+            "uses": [
+              "pattern",
+              "constraint",
+              "protocol",
+              "configuration"
+            ]
+          },
+          {
+            "action": "Create transformation modules that convert config to workflow",
+            "id": "build_processing_layer",
+            "kind": "step",
+            "uses": [
+              "constructor",
+              "configuration",
+              "pattern",
+              "constraint",
+              "protocol"
+            ]
+          },
+          {
+            "action": "Create I/O interfaces for configuration and workflow delivery",
+            "id": "build_integration_layer",
+            "kind": "step",
+            "uses": [
+              "constructor",
+              "feedback",
+              "configuration"
+            ]
+          },
+          {
+            "action": "Connect execution to generation through pattern extraction",
+            "id": "implement_feedback_loop",
+            "kind": "step",
+            "uses": [
+              "feedback",
+              "learning",
+              "constructor",
+              "maria_validation"
+            ]
+          },
+          {
+            "action": "Verify completeness and constraint satisfaction",
+            "id": "validate_construction",
+            "kind": "step",
+            "uses": [
+              "constructor",
+              "generation",
+              "constraint"
+            ]
+          }
+        ],
+        "subject": "j_l0_p2"
+      },
+      "payload_sha256": "29b40483ac1c99e62e1e74259b05a9bdae8b5dafd8dee82895e8e7c3fd5ee266",
+      "render_sha256": "630a00abbba31c3a774e77564e254815f1c8e7050bca0dd13725a2cdddf4cce5",
+      "rendered": "skill:build_operational_workflow_constructor\ndefine_abstract_goal: Establish the purpose and success criteria for the constructor [uses: generation, constructor, configuration]\nbuild_knowledge_layer: Create persistent structures for patterns, constraints, protocols [uses: pattern, constraint, protocol, configuration]\nbuild_processing_layer: Create transformation modules that convert config to workflow [uses: constructor, configuration, pattern, constraint, protocol]\nbuild_integration_layer: Create I/O interfaces for configuration and workflow delivery [uses: constructor, feedback, configuration]\nimplement_feedback_loop: Connect execution to generation through pattern extraction [uses: feedback, learning, constructor, maria_validation]\nvalidate_construction: Verify completeness and constraint satisfaction [uses: constructor, generation, constraint]",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.skill.v1",
+      "schema_sha256": "b90d833e14dbb242cd8b4c5cb0238ce187d1e47dfd7faa7ce77448c3cd1ae8f0",
+      "target": "ee_skill"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "bf35a8b7eec577a4744c0a28df8890937e461ac5d742d52416c2a20faef5a1ea",
+      "lowering_id": "ee.map.skill_ground.lowering.v1",
+      "lowering_sha256": "56df84298e4ffe994b430e7cfd40d766c7a5427f93dfedb2e628188a45496686",
+      "model_type": "ee_v2.map_gate.adapter.SkillGroundWitness",
+      "observation_predicates": [
+        "source_concept",
+        "source_pass_complete"
+      ],
+      "payload": {
+        "certified_concepts": [
+          "constructor",
+          "configuration",
+          "workflow_instance",
+          "feedback",
+          "learning",
+          "pattern",
+          "protocol",
+          "constraint",
+          "maria_validation",
+          "generation"
+        ],
+        "kind": "skill_ground_witness",
+        "subject": "j_l0_p2"
+      },
+      "payload_sha256": "45a5e2eb07610a80e1ebacd9c76db93d26cb51fb1c31123b569a48afcacd7b16",
+      "render_sha256": "4728f7de00aadf65592563f542b4a431fb59aea2e6330968dc050e33d7617ed6",
+      "rendered": "ground:j_l0_p2:constructor,configuration,workflow_instance,feedback,learning,pattern,protocol,constraint,maria_validation,generation",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.skill_ground.v1",
+      "schema_sha256": "c2d4a7f119955f1ea83f1c6e377afe5f0a2b4e53037159074a79289466c41c32",
+      "target": "ee_skill"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l0_p2,ee_skill).",
+      "ee_skill_proof(j_l0_p2,skill_grounding)."
+    ]
+  },
+  "envelope_sha256": "138e0e0547bdbdd51c1ca6cb5c3f8fb90e469af8d16e73df734718d8ab9a4b27"
+}

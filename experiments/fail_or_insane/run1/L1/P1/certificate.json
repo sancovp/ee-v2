@@ -1,0 +1,238 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l1_p1",
+  "target": "ee_ontology",
+  "certificate": {
+    "compiled_at": "2026-08-08T12:38:20.566788+00:00",
+    "construction_facts_sha256": "03b59e1ec52e59880ccb7af4df0c48c4a6670baa231cafd68ae5b9b0ae8d2bc5",
+    "construction_lowering_id": "ee.map.ontology.lowering.v1",
+    "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+    "construction_payload_sha256": "f979f88770f27652cb1b97ff054e02a8bc218edf70845020eed151d6c7b0ba59",
+    "construction_render_sha256": "ee35049fae1e55955e20fbfb0cb179548e4ba6cc8d0d598047b879fd700c4e96",
+    "construction_schema_id": "ee.map.ontology.v1",
+    "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+    "domain_id": "ee_ontology",
+    "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "17353fe6d4a6f314719080f69e1c15de7a488c0533117055f9826b344482107b",
+    "observation_facts_sha256": "515028165cf2a33a4703a842b9ff1d44aaa2c3953ab5dbed8ba9ad40ab4e937b",
+    "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+    "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+    "observation_payload_sha256": "29c576dac008d067102cee5c5fcd7e947425c8d35a9a646527cc5842ebf4702d",
+    "observation_render_sha256": "39c2379e5c976b752ba96a013d8677665c37447523bc25295ab1fa28ab98e29a",
+    "observation_schema_id": "ee.map.pass_witness.v1",
+    "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+    "status": "compiled",
+    "subject": "j_l1_p1",
+    "target": "ee_ontology",
+    "workspace_sha256": "7fa671d60489ad21db1c47b650527b8b35565844ebb45ac6ab86cf54d002a2d8"
+  },
+  "kappa": {
+    "domain": "ee_conceptualization",
+    "invariants": {
+      "ontology_coherence": "every relation touches declared concepts; every concept participates"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_concept",
+        "candidate_relation"
+      ],
+      "facts_sha256": "03b59e1ec52e59880ccb7af4df0c48c4a6670baa231cafd68ae5b9b0ae8d2bc5",
+      "lowering_id": "ee.map.ontology.lowering.v1",
+      "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+      "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+      "payload": {
+        "concepts": [
+          {
+            "definition": "A transformation apparatus that converts abstract kitchen contexts into concrete workflow instances through generative processes",
+            "id": "workflow_generation_system",
+            "kind": "concept"
+          },
+          {
+            "definition": "The implicit and explicit rules that determine what workflows a system can and cannot generate, constituting its essential identity",
+            "id": "generative_grammar",
+            "kind": "concept"
+          },
+          {
+            "definition": "Representations of physical layout, equipment, staff, and menu that serve as inputs to the generation process",
+            "id": "abstract_kitchen_context",
+            "kind": "concept"
+          },
+          {
+            "definition": "A complete, coherent daily workflow specification ready for execution by kitchen practitioners",
+            "id": "concrete_workflow_instance",
+            "kind": "concept"
+          },
+          {
+            "definition": "The cyclic mechanism by which execution outcomes inform and improve future generation processes",
+            "id": "feedback_loop",
+            "kind": "concept"
+          },
+          {
+            "definition": "The explicit generation rules, constraint specifications, and pattern libraries that constitute the fixed structure of the system",
+            "id": "static_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "Real-time generation adaptations to context changes during workflow execution",
+            "id": "dynamic_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "Mechanisms that enable the system to improve from accumulated execution feedback",
+            "id": "learning_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "A self-maintaining pattern that persists through feedback loops and evolves through use",
+            "id": "living_pattern",
+            "kind": "concept"
+          },
+          {
+            "definition": "The core function of converting abstraction into concretion, possibility into specificity, general principle into particular instance",
+            "id": "transformation_apparatus",
+            "kind": "concept"
+          }
+        ],
+        "kind": "ee_ontology",
+        "relations": [
+          {
+            "id": "r1",
+            "kind": "relation",
+            "source": "workflow_generation_system",
+            "target": "transformation_apparatus"
+          },
+          {
+            "id": "r2",
+            "kind": "relation",
+            "source": "transformation_apparatus",
+            "target": "abstract_kitchen_context"
+          },
+          {
+            "id": "r3",
+            "kind": "relation",
+            "source": "transformation_apparatus",
+            "target": "concrete_workflow_instance"
+          },
+          {
+            "id": "r4",
+            "kind": "relation",
+            "source": "workflow_generation_system",
+            "target": "generative_grammar"
+          },
+          {
+            "id": "r5",
+            "kind": "relation",
+            "source": "generative_grammar",
+            "target": "concrete_workflow_instance"
+          },
+          {
+            "id": "r6",
+            "kind": "relation",
+            "source": "workflow_generation_system",
+            "target": "static_design"
+          },
+          {
+            "id": "r7",
+            "kind": "relation",
+            "source": "workflow_generation_system",
+            "target": "dynamic_design"
+          },
+          {
+            "id": "r8",
+            "kind": "relation",
+            "source": "workflow_generation_system",
+            "target": "learning_design"
+          },
+          {
+            "id": "r9",
+            "kind": "relation",
+            "source": "learning_design",
+            "target": "feedback_loop"
+          },
+          {
+            "id": "r10",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "dynamic_design"
+          },
+          {
+            "id": "r11",
+            "kind": "relation",
+            "source": "dynamic_design",
+            "target": "static_design"
+          },
+          {
+            "id": "r12",
+            "kind": "relation",
+            "source": "static_design",
+            "target": "learning_design"
+          },
+          {
+            "id": "r13",
+            "kind": "relation",
+            "source": "concrete_workflow_instance",
+            "target": "feedback_loop"
+          },
+          {
+            "id": "r14",
+            "kind": "relation",
+            "source": "static_design",
+            "target": "generative_grammar"
+          },
+          {
+            "id": "r15",
+            "kind": "relation",
+            "source": "learning_design",
+            "target": "generative_grammar"
+          },
+          {
+            "id": "r16",
+            "kind": "relation",
+            "source": "workflow_generation_system",
+            "target": "living_pattern"
+          }
+        ],
+        "subject": "j_l1_p1"
+      },
+      "payload_sha256": "f979f88770f27652cb1b97ff054e02a8bc218edf70845020eed151d6c7b0ba59",
+      "render_sha256": "ee35049fae1e55955e20fbfb0cb179548e4ba6cc8d0d598047b879fd700c4e96",
+      "rendered": "ontology:j_l1_p1\nworkflow_generation_system: A transformation apparatus that converts abstract kitchen contexts into concrete workflow instances through generative processes\ngenerative_grammar: The implicit and explicit rules that determine what workflows a system can and cannot generate, constituting its essential identity\nabstract_kitchen_context: Representations of physical layout, equipment, staff, and menu that serve as inputs to the generation process\nconcrete_workflow_instance: A complete, coherent daily workflow specification ready for execution by kitchen practitioners\nfeedback_loop: The cyclic mechanism by which execution outcomes inform and improve future generation processes\nstatic_design: The explicit generation rules, constraint specifications, and pattern libraries that constitute the fixed structure of the system\ndynamic_design: Real-time generation adaptations to context changes during workflow execution\nlearning_design: Mechanisms that enable the system to improve from accumulated execution feedback\nliving_pattern: A self-maintaining pattern that persists through feedback loops and evolves through use\ntransformation_apparatus: The core function of converting abstraction into concretion, possibility into specificity, general principle into particular instance\nr1: workflow_generation_system -> transformation_apparatus\nr2: transformation_apparatus -> abstract_kitchen_context\nr3: transformation_apparatus -> concrete_workflow_instance\nr4: workflow_generation_system -> generative_grammar\nr5: generative_grammar -> concrete_workflow_instance\nr6: workflow_generation_system -> static_design\nr7: workflow_generation_system -> dynamic_design\nr8: workflow_generation_system -> learning_design\nr9: learning_design -> feedback_loop\nr10: feedback_loop -> dynamic_design\nr11: dynamic_design -> static_design\nr12: static_design -> learning_design\nr13: concrete_workflow_instance -> feedback_loop\nr14: static_design -> generative_grammar\nr15: learning_design -> generative_grammar\nr16: workflow_generation_system -> living_pattern",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.ontology.v1",
+      "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+      "target": "ee_ontology"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "515028165cf2a33a4703a842b9ff1d44aaa2c3953ab5dbed8ba9ad40ab4e937b",
+      "lowering_id": "ee.map.pass_witness.lowering.v1",
+      "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+      "model_type": "ee_v2.map_gate.adapter.PassWitness",
+      "observation_predicates": [
+        "source_pass_complete"
+      ],
+      "payload": {
+        "kind": "pass_witness",
+        "layer": 1,
+        "pass_num": 1,
+        "subject": "j_l1_p1"
+      },
+      "payload_sha256": "29c576dac008d067102cee5c5fcd7e947425c8d35a9a646527cc5842ebf4702d",
+      "render_sha256": "39c2379e5c976b752ba96a013d8677665c37447523bc25295ab1fa28ab98e29a",
+      "rendered": "witness:j_l1_p1:L1P1",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.pass_witness.v1",
+      "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+      "target": "ee_ontology"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l1_p1,ee_ontology).",
+      "ee_ontology_proof(j_l1_p1,ontology_coherence)."
+    ]
+  },
+  "envelope_sha256": "cc34e709fed26b52677374f8fed98ae4c7a21de99ee7c88a03934a0b461ae2ae"
+}

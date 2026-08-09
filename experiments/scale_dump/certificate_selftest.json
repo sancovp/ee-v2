@@ -1,0 +1,146 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "restaurants",
+  "target": "ee_ontology",
+  "certificate": {
+    "compiled_at": "2026-08-08T16:29:27.259522+00:00",
+    "construction_facts_sha256": "39b9ebadc2084ccc12a1a904658ba9947d31d23820095bac1007d20000984b7c",
+    "construction_lowering_id": "ee.map.ontology.lowering.v1",
+    "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+    "construction_payload_sha256": "4e925541944f7f510aaed70898fc5cb6b293bd524c2785c3a8a35226d940f75b",
+    "construction_render_sha256": "b1711071549be1cd2cdaadcb7b8da2b54f4647f7042b1aee51e9d062eb4231e5",
+    "construction_schema_id": "ee.map.ontology.v1",
+    "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+    "domain_id": "ee_ontology",
+    "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+    "observation_facts_sha256": "71eae0c7a1bca381741e3ad9eed5f9c23097be878f54133411dd345536434118",
+    "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+    "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+    "observation_payload_sha256": "a96dfe43fba1a0fc9492df02c2c77dc2583e681c21a431e2c6fef19cc2d62a66",
+    "observation_render_sha256": "cb6c5c70c1c67119160b4e38eeafed39254a97f72758f160d80d10a136633ba7",
+    "observation_schema_id": "ee.map.pass_witness.v1",
+    "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+    "status": "compiled",
+    "subject": "restaurants",
+    "target": "ee_ontology",
+    "workspace_sha256": "58f3e036cf453e8d44613ca7fc00ef5064f797d99625f771f9a8df853ba44af8"
+  },
+  "kappa": {
+    "domain": "ee_conceptualization",
+    "invariants": {
+      "ontology_coherence": "closed + connected"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_concept",
+        "candidate_relation"
+      ],
+      "facts_sha256": "39b9ebadc2084ccc12a1a904658ba9947d31d23820095bac1007d20000984b7c",
+      "lowering_id": "ee.map.ontology.lowering.v1",
+      "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+      "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+      "payload": {
+        "concepts": [
+          {
+            "definition": "cold storage room",
+            "id": "walk_in_cooler",
+            "kind": "concept"
+          },
+          {
+            "definition": "prepared staged ingredients",
+            "id": "mise_en_place",
+            "kind": "concept"
+          },
+          {
+            "definition": "station cook",
+            "id": "line_cook",
+            "kind": "concept"
+          },
+          {
+            "definition": "point of sale device",
+            "id": "pos_terminal",
+            "kind": "concept"
+          },
+          {
+            "definition": "mean spend per table",
+            "id": "check_average",
+            "kind": "concept"
+          },
+          {
+            "definition": "a thing nobody wired up",
+            "id": "lonely_concept",
+            "kind": "concept"
+          }
+        ],
+        "kind": "ee_ontology",
+        "relations": [
+          {
+            "id": "r0",
+            "kind": "relation",
+            "source": "lonely_concept",
+            "target": "walk_in_cooler"
+          },
+          {
+            "id": "r1",
+            "kind": "relation",
+            "source": "mise_en_place",
+            "target": "line_cook"
+          },
+          {
+            "id": "r2",
+            "kind": "relation",
+            "source": "pos_terminal",
+            "target": "check_average"
+          },
+          {
+            "id": "r3",
+            "kind": "relation",
+            "source": "walk_in_cooler",
+            "target": "walk_in_cooler"
+          }
+        ],
+        "subject": "restaurants"
+      },
+      "payload_sha256": "4e925541944f7f510aaed70898fc5cb6b293bd524c2785c3a8a35226d940f75b",
+      "render_sha256": "b1711071549be1cd2cdaadcb7b8da2b54f4647f7042b1aee51e9d062eb4231e5",
+      "rendered": "ontology:restaurants\nwalk_in_cooler: cold storage room\nmise_en_place: prepared staged ingredients\nline_cook: station cook\npos_terminal: point of sale device\ncheck_average: mean spend per table\nlonely_concept: a thing nobody wired up\nr0: lonely_concept -> walk_in_cooler\nr1: mise_en_place -> line_cook\nr2: pos_terminal -> check_average\nr3: walk_in_cooler -> walk_in_cooler",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.ontology.v1",
+      "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+      "target": "ee_ontology"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "71eae0c7a1bca381741e3ad9eed5f9c23097be878f54133411dd345536434118",
+      "lowering_id": "ee.map.pass_witness.lowering.v1",
+      "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+      "model_type": "ee_v2.map_gate.adapter.PassWitness",
+      "observation_predicates": [
+        "source_pass_complete"
+      ],
+      "payload": {
+        "kind": "pass_witness",
+        "layer": 0,
+        "pass_num": 1,
+        "subject": "restaurants"
+      },
+      "payload_sha256": "a96dfe43fba1a0fc9492df02c2c77dc2583e681c21a431e2c6fef19cc2d62a66",
+      "render_sha256": "cb6c5c70c1c67119160b4e38eeafed39254a97f72758f160d80d10a136633ba7",
+      "rendered": "witness:restaurants:L0P1",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.pass_witness.v1",
+      "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+      "target": "ee_ontology"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(restaurants,ee_ontology).",
+      "ee_ontology_proof(restaurants,ontology_coherence)."
+    ]
+  },
+  "envelope_sha256": "1530376225de4a196abddaf06dde3d0b89f3ec4a7c0975bfa0d5dab4c52bce58"
+}

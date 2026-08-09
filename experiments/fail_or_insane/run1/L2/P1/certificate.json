@@ -1,0 +1,209 @@
+{
+  "schema": "map.node_certificate.v1",
+  "subject": "j_l2_p1",
+  "target": "ee_ontology",
+  "certificate": {
+    "compiled_at": "2026-08-08T13:30:19.581387+00:00",
+    "construction_facts_sha256": "e3e66722ec62b8d7414aa2c9515ceebd33096ddc3363d4dac67cbef3d9713d2a",
+    "construction_lowering_id": "ee.map.ontology.lowering.v1",
+    "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+    "construction_payload_sha256": "608bd9435f364e6a09cd5850b352d57e861ad7c61eac540b81d557922560f86e",
+    "construction_render_sha256": "d3e0b3df726b6779f08c69fe7d1bf8ad0e53c2ee622e71c6c01d167015ee1c64",
+    "construction_schema_id": "ee.map.ontology.v1",
+    "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+    "domain_id": "ee_ontology",
+    "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+    "griess_outcome": "ont",
+    "kappa_binding": "domain_obligations",
+    "kappa_sha256": "17353fe6d4a6f314719080f69e1c15de7a488c0533117055f9826b344482107b",
+    "observation_facts_sha256": "e8c1506b2c54a82f59dc44a209e6d2d13c6c2e2fe8e1efcbb36bc5a9b92541b2",
+    "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+    "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+    "observation_payload_sha256": "707643412e0cf489f42469755bc619c38035e0c732f368c452d1f3e5e28892b9",
+    "observation_render_sha256": "dcd0477c0f85ea03765d95aebfe58aaaecb67bf5c1e7e9c37a6ab178b017ff5c",
+    "observation_schema_id": "ee.map.pass_witness.v1",
+    "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+    "status": "compiled",
+    "subject": "j_l2_p1",
+    "target": "ee_ontology",
+    "workspace_sha256": "60faf0658ea201ed4cfeb846fc295ae436cbfe8eeedee0dbf912d518195af076"
+  },
+  "kappa": {
+    "domain": "ee_conceptualization",
+    "invariants": {
+      "ontology_coherence": "every relation touches declared concepts; every concept participates"
+    }
+  },
+  "proof_context": {
+    "construction": {
+      "candidate_predicates": [
+        "candidate_concept",
+        "candidate_relation"
+      ],
+      "facts_sha256": "e3e66722ec62b8d7414aa2c9515ceebd33096ddc3363d4dac67cbef3d9713d2a",
+      "lowering_id": "ee.map.ontology.lowering.v1",
+      "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+      "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+      "payload": {
+        "concepts": [
+          {
+            "definition": "The cyclical information pathway connecting execution outcomes to generative modification, enabling continuous improvement through observation and integration",
+            "id": "feedback_loop",
+            "kind": "concept"
+          },
+          {
+            "definition": "The meta-level artifact that produces workflow generation systems through a generative grammar, existing through participation in feedback cycles",
+            "id": "constructor",
+            "kind": "concept"
+          },
+          {
+            "definition": "The past-directed design level that captures explicit knowledge, patterns, and learned procedures for persistence across generations",
+            "id": "static_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "The present-directed design level that responds to context in real-time through sensing, adaptation protocols, and exception handling",
+            "id": "dynamic_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "The future-directed design level that processes feedback into patterns and proposes improvements to generative structures",
+            "id": "learning_design",
+            "kind": "concept"
+          },
+          {
+            "definition": "The process of identifying regularities, anomalies, and trends within captured feedback data to transform raw observations into structured information",
+            "id": "pattern_extraction",
+            "kind": "concept"
+          },
+          {
+            "definition": "The process of proposing explanations for extracted patterns and suggesting specific modifications that could improve outcomes",
+            "id": "hypothesis_generation",
+            "kind": "concept"
+          },
+          {
+            "definition": "The process of incorporating verified hypotheses into the constructor's generative structures, making learning permanent",
+            "id": "integration",
+            "kind": "concept"
+          },
+          {
+            "definition": "The formal system embedded in the constructor defining what workflow generation systems and workflows are possible to produce",
+            "id": "generative_grammar",
+            "kind": "concept"
+          }
+        ],
+        "kind": "ee_ontology",
+        "relations": [
+          {
+            "id": "r1",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "static_design"
+          },
+          {
+            "id": "r2",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "dynamic_design"
+          },
+          {
+            "id": "r3",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "learning_design"
+          },
+          {
+            "id": "r4",
+            "kind": "relation",
+            "source": "feedback_loop",
+            "target": "constructor"
+          },
+          {
+            "id": "r5",
+            "kind": "relation",
+            "source": "constructor",
+            "target": "generative_grammar"
+          },
+          {
+            "id": "r6",
+            "kind": "relation",
+            "source": "generative_grammar",
+            "target": "pattern_extraction"
+          },
+          {
+            "id": "r7",
+            "kind": "relation",
+            "source": "pattern_extraction",
+            "target": "hypothesis_generation"
+          },
+          {
+            "id": "r8",
+            "kind": "relation",
+            "source": "hypothesis_generation",
+            "target": "integration"
+          },
+          {
+            "id": "r9",
+            "kind": "relation",
+            "source": "integration",
+            "target": "generative_grammar"
+          },
+          {
+            "id": "r10",
+            "kind": "relation",
+            "source": "static_design",
+            "target": "dynamic_design"
+          },
+          {
+            "id": "r11",
+            "kind": "relation",
+            "source": "dynamic_design",
+            "target": "learning_design"
+          },
+          {
+            "id": "r12",
+            "kind": "relation",
+            "source": "learning_design",
+            "target": "static_design"
+          }
+        ],
+        "subject": "j_l2_p1"
+      },
+      "payload_sha256": "608bd9435f364e6a09cd5850b352d57e861ad7c61eac540b81d557922560f86e",
+      "render_sha256": "d3e0b3df726b6779f08c69fe7d1bf8ad0e53c2ee622e71c6c01d167015ee1c64",
+      "rendered": "ontology:j_l2_p1\nfeedback_loop: The cyclical information pathway connecting execution outcomes to generative modification, enabling continuous improvement through observation and integration\nconstructor: The meta-level artifact that produces workflow generation systems through a generative grammar, existing through participation in feedback cycles\nstatic_design: The past-directed design level that captures explicit knowledge, patterns, and learned procedures for persistence across generations\ndynamic_design: The present-directed design level that responds to context in real-time through sensing, adaptation protocols, and exception handling\nlearning_design: The future-directed design level that processes feedback into patterns and proposes improvements to generative structures\npattern_extraction: The process of identifying regularities, anomalies, and trends within captured feedback data to transform raw observations into structured information\nhypothesis_generation: The process of proposing explanations for extracted patterns and suggesting specific modifications that could improve outcomes\nintegration: The process of incorporating verified hypotheses into the constructor's generative structures, making learning permanent\ngenerative_grammar: The formal system embedded in the constructor defining what workflow generation systems and workflows are possible to produce\nr1: feedback_loop -> static_design\nr2: feedback_loop -> dynamic_design\nr3: feedback_loop -> learning_design\nr4: feedback_loop -> constructor\nr5: constructor -> generative_grammar\nr6: generative_grammar -> pattern_extraction\nr7: pattern_extraction -> hypothesis_generation\nr8: hypothesis_generation -> integration\nr9: integration -> generative_grammar\nr10: static_design -> dynamic_design\nr11: dynamic_design -> learning_design\nr12: learning_design -> static_design",
+      "schema": "map.typed_construction.v1",
+      "schema_id": "ee.map.ontology.v1",
+      "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+      "target": "ee_ontology"
+    },
+    "domain_terms": [],
+    "observation": {
+      "facts_sha256": "e8c1506b2c54a82f59dc44a209e6d2d13c6c2e2fe8e1efcbb36bc5a9b92541b2",
+      "lowering_id": "ee.map.pass_witness.lowering.v1",
+      "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+      "model_type": "ee_v2.map_gate.adapter.PassWitness",
+      "observation_predicates": [
+        "source_pass_complete"
+      ],
+      "payload": {
+        "kind": "pass_witness",
+        "layer": 2,
+        "pass_num": 1,
+        "subject": "j_l2_p1"
+      },
+      "payload_sha256": "707643412e0cf489f42469755bc619c38035e0c732f368c452d1f3e5e28892b9",
+      "render_sha256": "dcd0477c0f85ea03765d95aebfe58aaaecb67bf5c1e7e9c37a6ab178b017ff5c",
+      "rendered": "witness:j_l2_p1:L2P1",
+      "schema": "map.typed_observation.v1",
+      "schema_id": "ee.map.pass_witness.v1",
+      "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+      "target": "ee_ontology"
+    },
+    "proof_terms": [
+      "map_target_outputs_report(j_l2_p1,ee_ontology).",
+      "ee_ontology_proof(j_l2_p1,ontology_coherence)."
+    ]
+  },
+  "envelope_sha256": "bd1c6da9b70d87387ae9219586d281818994bce226eb8ee010cf034830973e14"
+}

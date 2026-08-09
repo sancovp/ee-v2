@@ -1,0 +1,882 @@
+{"c": "italian_cuisine", "d": "Traditional food from Italy featuring pasta, pizza, and regional specialties"}
+{"c": "mexican_cuisine", "d": "Food from Mexico using corn, beans, peppers, and fresh herbs"}
+{"c": "chinese_cuisine", "d": "Food from China with regional styles like Cantonese, Sichuan, and Hunan"}
+{"c": "japanese_cuisine", "d": "Food from Japan emphasizing freshness, seasonality, and precise preparation"}
+{"c": "indian_cuisine", "d": "Food from India characterized by complex spice blends and regional ingredients"}
+{"c": "thai_cuisine", "d": "Food from Thailand balancing sweet, sour, salty, and spicy flavors"}
+{"c": "french_cuisine", "d": "Traditional cooking from France known for sauces and technique"}
+{"c": "korean_cuisine", "d": "Food from Korea featuring fermented foods, rice, and bold flavors"}
+{"c": "vietnamese_cuisine", "d": "Food from Vietnam using fresh herbs, rice noodles, and light preparations"}
+{"c": "mediterranean_cuisine", "d": "Food from countries around the Mediterranean Sea with olive oil and vegetables"}
+{"c": "american_cuisine", "d": "Food native to the United States including burgers, BBQ, and fusion dishes"}
+{"c": "greek_cuisine", "d": "Traditional food from Greece with olive oil, feta, and grilled meats"}
+{"c": "spanish_cuisine", "d": "Food from Spain including tapas, paella, and cured meats"}
+{"c": "middle_eastern_cuisine", "d": "Food from the Middle East with hummus, pita, and grilled lamb"}
+{"c": "ethiopian_cuisine", "d": "Food from Ethiopia featuring injera bread and stews"}
+{"c": "caribbean_cuisine", "d": "Food from Caribbean islands blending African, European, and indigenous influences"}
+{"c": "brazilian_cuisine", "d": "Food from Brazil including churrasco and feijoada"}
+{"c": "peruvian_cuisine", "d": "Food from Peru known for ceviche and fusion of cultures"}
+{"c": "german_cuisine", "d": "Traditional food from Germany with sausages, sauerkraut, and beer"}
+{"c": "british_cuisine", "d": "Food from the United Kingdom including fish and chips and roast dinners"}
+{"c": "moroccan_cuisine", "d": "Food from Morocco with tagines, couscous, and preserved lemons"}
+{"c": "turkish_cuisine", "d": "Food from Turkey combining Middle Eastern and Balkan influences"}
+{"c": "indonesian_cuisine", "d": "Food from Indonesia featuring rice, satay, and spicy sambals"}
+{"c": "filipino_cuisine", "d": "Food from the Philippines with adobo, sinigang, and rice"}
+{"c": "russian_cuisine", "d": "Traditional food from Russia including borscht and pelmeni"}
+{"c": "lebanese_cuisine", "d": "Food from Lebanon with mezze, kibbeh, and fresh vegetables"}
+{"c": "appetizer", "d": "Small dish served before the main course to stimulate appetite"}
+{"c": "main_course", "d": "Primary dish of a meal, usually the largest and most substantial"}
+{"c": "dessert", "d": "Sweet course served after the main meal"}
+{"c": "soup", "d": "Liquid dish often served as starter, hot or cold"}
+{"c": "salad", "d": "Cold dish of mixed vegetables, often with dressing"}
+{"c": "side_dish", "d": "Secondary dish served alongside the main course"}
+{"c": "entree", "d": "Main dish or course in American dining, or starter in French dining"}
+{"c": "tapas", "d": "Small Spanish dishes served with drinks"}
+{"c": "antipasto", "d": "Italian appetizer course before the main meal"}
+{"c": "breadbasket", "d": "Basket of bread served at the table"}
+{"c": "sampler_platter", "d": "Assortment of small portions of various dishes"}
+{"c": "combo_meal", "d": "Pre-set meal combining multiple items at a set price"}
+{"c": "tasting_menu", "d": "Multi-course meal of small portions showcasing chef's selections"}
+{"c": "a_la_carte", "d": "Menu where each item is priced and ordered separately"}
+{"c": "buffet", "d": "Self-service dining with multiple dishes laid out"}
+{"c": "family_style", "d": "Dishes served for sharing among the table"}
+{"c": "daily_special", "d": "Limited-time dish offered on a particular day"}
+{"c": "seasonal_menu", "d": "Menu featuring ingredients available at that time of year"}
+{"c": "prix_fixe_menu", "d": "Fixed-price multi-course meal with limited choices"}
+{"c": "veggie_menu", "d": "Menu section featuring vegetarian dishes"}
+{"c": "vegan_menu", "d": "Menu section featuring fully plant-based dishes"}
+{"c": "kids_menu", "d": "Smaller portions and simpler dishes for children"}
+{"c": "wine_pairing", "d": "Selected wines chosen to complement each course"}
+{"c": "bread_course", "d": "Bread served between courses to cleanse palate"}
+{"c": "amuse_bouche", "d": "Complimentary bite-sized appetizer from the chef"}
+{"c": "palate_cleanser", "d": "Neutral-flavored item between courses to refresh taste"}
+{"c": "pasta", "d": "Italian food made from unleavened dough shaped into various forms"}
+{"c": "pizza", "d": "Italian flatbread with toppings baked in oven"}
+{"c": "sushi", "d": "Japanese dish of vinegared rice with raw fish or vegetables"}
+{"c": "ramen", "d": "Japanese noodle soup with various toppings"}
+{"c": "curry", "d": "Spiced dish in sauce, originating from Indian subcontinent"}
+{"c": "stir_fry", "d": "Quickly cooked chopped vegetables and meat in wok"}
+{"c": "risotto", "d": "Italian rice dish cooked slowly with broth and cheese"}
+{"c": "paella", "d": "Spanish rice dish with seafood, meat, and saffron"}
+{"c": "fish_and_chips", "d": "British dish of battered fried fish with potato fries"}
+{"c": "burrito", "d": "Mexican tortilla wrapped around filling including meat and beans"}
+{"c": "taco", "d": "Mexican folded tortilla with various fillings"}
+{"c": "dim_sum", "d": "Chinese small dishes including dumplings and buns"}
+{"c": "dumplings", "d": "Small dough包裹 filled with meat or vegetables"}
+{"c": "spring_rolls", "d": "Crispy cylindrical appetizer with vegetable or meat filling"}
+{"c": "pad_thai", "d": "Thai stir-fried rice noodles with egg, peanuts, and lime"}
+{"c": "pho", "d": "Vietnamese soup with rice noodles, herbs, and meat"}
+{"c": "kebab", "d": "Grilled skewered meat popular in Middle Eastern cuisine"}
+{"c": "falafel", "d": "Deep-fried chickpea fritters from Middle East"}
+{"c": "hummus", "d": "Creamy dip made from chickpeas and tahini"}
+{"c": "gyro", "d": "Greek dish of meat cooked on vertical spit in pita"}
+{"c": "steak", "d": "Cut of beef grilled or pan-seared"}
+{"c": "burger", "d": "Ground beef patty in a bun with various toppings"}
+{"c": "chicken_wings", "d": "Chicken wing sections, often fried and sauced"}
+{"c": "french_fries", "d": "Deep-fried strips of potato"}
+{"c": "onion_rings", "d": "Deep-fried breaded onion slices"}
+{"c": "mozzarella_sticks", "d": "Breaded and fried mozzarella cheese sticks"}
+{"c": "nachos", "d": "Tortilla chips topped with cheese and toppings"}
+{"c": "jalapeño_poppers", "d": "Stuffed jalapeño peppers, often breaded and fried"}
+{"c": "caesar_salad", "d": "Salad with romaine, croutons, parmesan, and caesar dressing"}
+{"c": "caprese_salad", "d": "Italian salad of tomatoes, mozzarella, and basil"}
+{"c": "greek_salad", "d": "Salad with tomatoes, cucumbers, olives, and feta cheese"}
+{"c": "cobb_salad", "d": "American composed salad with chicken, bacon, egg, and avocado"}
+{"c": "wedge_salad", "d": "Iceberg lettuce cut in wedges with blue cheese dressing"}
+{"c": "tomato_soup", "d": "Creamy soup made from tomatoes"}
+{"c": "minestrone", "d": "Italian vegetable soup with pasta or rice"}
+{"c": "clam_chowder", "d": "Creamy American soup with clams and potatoes"}
+{"c": "french_onion_soup", "d": "Onion soup topped with bread and melted cheese"}
+{"c": "hot_and_sour_soup", "d": "Chinese soup with spicy and tangy flavors"}
+{"c": "tortilla_soup", "d": "Mexican soup with tortillas, chicken, and toppings"}
+{"c": "mashed_potatoes", "d": "Boiled potatoes mashed with butter and milk"}
+{"c": "mac_and_cheese", "d": "Pasta in creamy cheese sauce"}
+{"c": "coleslaw", "d": "Shredded raw cabbage in creamy dressing"}
+{"c": "garlic_bread", "d": "Bread sliced and spread with garlic butter, toasted"}
+{"c": "cornbread", "d": "Baked cornmeal bread, often slightly sweet"}
+{"c": "dinner_roll", "d": "Small round bread serving individual portions"}
+{"c": "focaccia", "d": "Italian flatbread with olive oil and herbs"}
+{"c": "naan", "d": "Indian leavened oven-baked flatbread"}
+{"c": "pita_bread", "d": "Round flatbread with pocket"}
+{"c": "flour_tortilla", "d": "Soft flatbread made from wheat flour"}
+{"c": "corn_tortilla", "d": "Flatbread made from corn masa"}
+{"c": "fried_rice", "d": "Wok-fried rice with vegetables and egg"}
+{"c": "jasmine_rice", "d": "Fragrant long-grain rice from Thailand"}
+{"c": "basmati_rice", "d": "Aromatic long-grain rice from India"}
+{"c": "quinoa", "d": "Protein-rich grain from South America"}
+{"c": "tiramisu", "d": "Italian dessert with coffee-soaked ladyfingers and mascarpone"}
+{"c": "cheesecake", "d": "Dessert with cream cheese filling on graham cracker crust"}
+{"c": "chocolate_lava_cake", "d": "Cake with molten chocolate center"}
+{"c": "creme_brulee", "d": "French dessert of baked custard with caramelized sugar top"}
+{"c": "apple_pie", "d": "Baked dessert with apples in pastry crust"}
+{"c": "gelato", "d": "Italian ice cream with lower fat content"}
+{"c": "mochi", "d": "Japanese rice cake, often filled with ice cream"}
+{"c": "baklava", "d": "Middle Eastern pastry with layers of phyllo, nuts, and honey"}
+{"c": "flan", "d": "Caramel custard dessert"}
+{"c": "panna_cotta", "d": "Italian dessert of sweetened cream set with gelatin"}
+{"c": "red_velvet_cake", "d": "Red-colored chocolate cake with cream cheese frosting"}
+{"c": "carrot_cake", "d": "Cake made with grated carrots and cream cheese frosting"}
+{"c": "chocolate_cake", "d": "Cake made with cocoa or melted chocolate"}
+{"c": "ice_cream_sundae", "d": "Ice cream with sauce, whipped cream, and toppings"}
+{"c": "affogato", "d": "Dessert of vanilla gelato with espresso poured over"}
+{"c": "crepe", "d": "Thin French pancake, sweet or savory"}
+{"c": "waffle", "d": "Grid-patterned batter cake cooked in waffle iron"}
+{"c": "pancakes", "d": "Flat round breakfast cakes made from batter"}
+{"c": "french_toast", "d": "Bread dipped in egg and fried"}
+{"c": "eggs_benedict", "d": "Poached eggs on English muffin with ham and hollandaise"}
+{"c": "omelette", "d": "Eggs beaten and fried with fillings"}
+{"c": "avocado_toast", "d": "Smashed avocado on toasted bread"}
+{"c": "breakfast_burrito", "d": "Burrito filled with eggs, cheese, and breakfast meats"}
+{"c": "hash_browns", "d": "Shredded potatoes fried until crispy"}
+{"c": "biscuit_and_gravy", "d": "American breakfast of biscuits with sausage gravy"}
+{"c": "bacon", "d": "Cured pork belly, fried crisp"}
+{"c": "sausage_links", "d": "Ground meat in casing, grilled or fried"}
+{"c": "grilled_chicken", "d": "Chicken cooked on a grill"}
+{"c": "grilled_salmon", "d": "Salmon fillet cooked on a grill"}
+{"c": "grilled_steak", "d": "Beef steak cooked on a grill"}
+{"c": "fried_chicken", "d": "Chicken coated in flour and fried"}
+{"c": "crispy_chicken", "d": "Chicken with crispy breading or skin"}
+{"c": "roast_chicken", "d": "Whole chicken roasted in oven"}
+{"c": "braised_beef", "d": "Beef slow-cooked in liquid until tender"}
+{"c": "slow_cooked_pork", "d": "Pork cooked slowly until very tender"}
+{"c": "steamed_fish", "d": "Fish cooked by steaming"}
+{"c": "pan_seared_scallops", "d": "Scallops quickly seared in pan"}
+{"c": "grilled_shrimp", "d": "Shrimp cooked on a grill"}
+{"c": "lobster_tail", "d": "Tail portion of lobster, often grilled or baked"}
+{"c": "crab_cakes", "d": "Cakes made from crab meat, pan-fried"}
+{"c": "oysters", "d": "Raw or cooked bivalve shellfish"}
+{"c": "clams", "d": "Small shellfish, often steamed or in chowder"}
+{"c": "mussels", "d": "Blue-black shellfish often steamed with white wine"}
+{"c": "seafood_gumbo", "d": "Louisiana gumbo with shrimp, crab, and oysters"}
+{"c": "seafood_paella", "d": "Paella with seafood instead of meat"}
+{"c": "vegetable_stir_fry", "d": "Stir-fried mixed vegetables"}
+{"c": "roasted_vegetables", "d": "Vegetables roasted in oven with oil"}
+{"c": "steamed_broccoli", "d": "Broccoli cooked by steaming"}
+{"c": "grilled_asparagus", "d": "Asparagus cooked on a grill"}
+{"c": "creamed_spinach", "d": "Spinach cooked in cream sauce"}
+{"c": "sauteed_mushrooms", "d": "Mushrooms cooked quickly in pan"}
+{"c": "bruschetta", "d": "Toasted bread topped with tomatoes and basil"}
+{"c": "guacamole", "d": "Mashed avocado dip with lime and cilantro"}
+{"c": "salsa", "d": "Mexican tomato-based condiment"}
+{"c": " pico_de_gallo", "d": "Fresh tomato salsa with onion and cilantro"}
+{"c": "sour_cream", "d": "Cultured dairy product used as topping"}
+{"c": "shredded_cheese", "d": "Cheese grated into shreds for topping"}
+{"c": "hot_sauce", "d": "Spicy condiment made from chili peppers"}
+{"c": "bbq_sauce", "d": "Sweet and tangy sauce for grilled meats"}
+{"c": "ranch_dressing", "d": "Creamy American salad dressing"}
+{"c": "blue_cheese_dressing", "d": "Dressing made with blue cheese"}
+{"c": "balsamic_vinaigrette", "d": "Salad dressing with balsamic vinegar and oil"}
+{"c": "soy_sauce", "d": "Fermented soybean liquid, used in Asian cuisine"}
+{"c": "teriyaki_sauce", "d": "Japanese sauce of soy, mirin, and sugar"}
+{"c": "worcestershire_sauce", "d": "Fermented condiment with tangy flavor"}
+{"c": "marinara_sauce", "d": "Italian tomato sauce for pasta and pizza"}
+{"c": "alfredo_sauce", "d": "Creamy white sauce with parmesan cheese"}
+{"c": "pesto", "d": "Italian sauce of basil, pine nuts, and parmesan"}
+{"c": "chimichurri", "d": "Argentine herb sauce for grilled meats"}
+{"c": "tzatziki", "d": "Greek yogurt sauce with cucumber and garlic"}
+{"c": "tartar_sauce", "d": "Sauce for seafood made with mayo and pickles"}
+{"c": "aioli", "d": "Garlic mayonnaise from Mediterranean cuisine"}
+{"c": "house_salad_dressing", "d": "Restaurant's signature salad dressing"}
+{"c": "gluten_free_menu", "d": "Menu items without gluten-containing ingredients"}
+{"c": "low_carb_options", "d": "Menu items with reduced carbohydrate content"}
+{"c": "low_sodium_menu", "d": "Menu items with reduced salt content"}
+{"c": "spicy_rating", "d": "Scale indicating heat level of dishes"}
+{"c": "portion_size", "d": "Amount of food served in a single serving"}
+{"c": "chef_special", "d": "Signature dish created by the restaurant's chef"}
+{"c": "signature_dish", "d": "Renowned dish associated with a restaurant"}
+{"c": "regional_specialty", "d": "Dish typical of a specific region's cuisine"}
+{"c": "street_food", "d": "Casual food sold by vendors, adapted for restaurants"}
+{"c": "comfort_food", "d": "Familiar, hearty dishes that evoke home cooking"}
+{"c": "fusion_cuisine", "d": "Combination of elements from different culinary traditions"}
+{"c": "farm_to_table", "d": "Menu featuring locally sourced, seasonal ingredients"}
+{"c": "organic_ingredients", "d": "Ingredients grown without synthetic pesticides"}
+{"c": "grass_fed_beef", "d": "Beef from cattle that ate grass"}
+{"c": "wild_caught_fish", "d": "Fish caught in natural wild habitats"}
+{"c": "free_range_chicken", "d": "Chicken from birds with outdoor access"}
+{"c": "heirloom_vegetables", "d": "Traditional vegetable varieties, not hybridized"}
+{"c": "artisan_bread", "d": "Hand-crafted bread made with traditional methods"}
+{"c": "truffle_oil", "d": "Oil infused with truffle flavor"}
+{"c": "saffron", "d": "Expensive spice from crocus flowers"}
+{"c": "caviar", "d": "Salt-cured fish eggs, considered a delicacy"}
+{"c": "foie_gras", "d": "Fatty liver of duck or goose, French delicacy"}
+{"c": "lobster", "d": "Large saltwater crustacean, considered luxurious"}
+{"c": "wagyu_beef", "d": "Premium Japanese beef with high marbling"}
+{"c": "kobe_beef", "d": "Famous Japanese Wagyu beef from Kobe cattle"}
+{"c": "kombucha", "d": "Fermented tea drink, often served on tap"}
+{"c": "cold_brew_coffee", "d": "Coffee brewed cold for extended period"}
+{"c": "nitro_coffee", "d": "Cold coffee infused with nitrogen gas"}
+{"c": "espresso", "d": "Concentrated coffee made by forcing hot water through grounds"}
+{"c": "flat_white", "d": "Coffee drink of espresso with steamed milk"}
+{"c": "mocha", "d": "Coffee drink with chocolate and steamed milk"}
+{"c": "chai_latte", "d": "Spiced tea with steamed milk"}
+{"c": "smoothie", "d": "Blended fruit and liquid drink"}
+{"c": "milkshake", "d": "Blended dairy drink with ice cream"}
+{"c": "draft_beer", "d": "Beer served from a keg through a tap"}
+{"c": "craft_cocktail", "d": "Bartender-made cocktail with quality ingredients"}
+{"c": "wine_by_glass", "d": "Individual glass of wine from bottle"}
+{"c": "wine_by_bottle", "d": "Full bottle of wine for the table"}
+{"c": "sparkling_wine", "d": "Wine with carbonation, includes champagne"}
+{"c": "rose_wine", "d": "Pink-colored wine from brief skin contact"}
+{"c": "red_wine", "d": "Wine made from dark grapes, served at room temperature"}
+{"c": "white_wine", "d": "Wine made from light grapes, served chilled"}
+{"c": "appetizer_wine", "d": "Light wine paired with appetizers"}
+{"c": "dessert_wine", "d": "Sweet wine paired with desserts"}
+{"c": "brunch_menu", "d": "Menu for late morning meal combining breakfast and lunch"}
+{"c": "late_night_menu", "d": "Limited menu available during late hours"}
+{"c": "breakfast_menu", "d": "Morning menu with breakfast items"}
+{"c": "lunch_menu", "d": "Midday menu with lighter fare"}
+{"c": "dinner_menu", "d": "Evening menu with full offerings"}
+{"c": "carryout_menu", "d": "Menu for food to go"}
+{"c": "catering_menu", "d": "Menu for large group and event dining"}
+{"c": "banquet_menu", "d": "Fixed menu for private events and parties"}
+{"c": "seasonal_ingredient", "d": "Ingredient available only during certain seasons"}
+{"c": "local_seasonal", "d": "Produce sourced locally and in season"}
+{"c": "sourcing_transparency", "d": "Clear information about ingredient origins"}
+{"c": "chef_recommended", "d": "Items personally recommended by the chef"}
+{"c": "customer_favorite", "d": "Popular dish based on customer orders"}
+{"c": "new_menu_item", "d": "Recently added dish to the menu"}
+{"c": "limited_time_offer", "d": "Special available for a short period only"}
+{"c": "house_redemption_offer", "d": "Deal allowing free items after visits"}
+{"c": "allergy_information", "d": "Details about allergens in dishes"}
+{"c": "calorie_count", "d": "Number of calories in each dish"}
+{"c": "nutritional_information", "d": "Details about protein, carbs, fat content"}
+{"c": "menu_item_name", "d": "Name given to a specific dish"}
+{"c": "menu_item_description", "d": "Written description explaining dish components"}
+{"c": "menu_item_price", "d": "Cost of a specific menu item"}
+{"c": "menu_item_photo", "d": "Photograph of a menu item"}
+{"c": "spicy", "d": "Dishes containing hot peppers or spices"}
+{"c": "vegetarian", "d": "Food without any meat or fish"}
+{"c": "vegan", "d": "Food without any animal products"}
+{"c": "halal", "d": "Food prepared according to Islamic law"}
+{"c": "kosher", "d": "Food prepared according to Jewish dietary laws"}
+{"c": "gluten_free", "d": "Food without gluten-containing ingredients"}
+{"c": "dairy_free", "d": "Food without dairy ingredients"}
+{"c": "nut_free", "d": "Food without tree nuts or peanuts"}
+{"c": "shellfish_free", "d": "Food without shrimp, crab, lobster, or shellfish"}
+{"c": "low_fat", "d": "Food with reduced fat content"}
+{"c": "low_sugar", "d": "Food with reduced sugar content"}
+{"c": "high_protein", "d": "Food with elevated protein content"}
+{"c": "keto_friendly", "d": "Food suitable for ketogenic diet"}
+{"c": "paleo_friendly", "d": "Food suitable for paleo diet"}
+{"c": "raw_food", "d": "Uncooked or minimally processed ingredients"}
+{"c": "smoked_food", "d": "Food cooked with smoke for flavor"}
+{"c": "cured_food", "d": "Food preserved through salting or drying"}
+{"c": "fermented_food", "d": "Food prepared using fermentation"}
+{"c": "pickled_food", "d": "Food preserved in vinegar or brine"}
+{"c": "preserved_food", "d": "Food preserved for long storage"}
+{"c": "aged_food", "d": "Food aged for flavor development"}
+{"c": "grilled_food", "d": "Food cooked over open flame or grill"}
+{"c": "baked_food", "d": "Food cooked in oven using dry heat"}
+{"c": "fried_food", "d": "Food cooked in hot oil"}
+{"c": "deep_fried_food", "d": "Food submerged in hot oil"}
+{"c": "pan_fried_food", "d": "Food cooked in oil in a pan"}
+{"c": "sauteed_food", "d": "Food cooked quickly in small amount of fat"}
+{"c": "braised_food", "d": "Food slow-cooked in liquid"}
+{"c": "stewed_food", "d": "Food cooked slowly in liquid"}
+{"c": "roasted_food", "d": "Food cooked with dry heat in oven"}
+{"c": "steamed_food", "d": "Food cooked by steam contact"}
+{"c": "poached_food", "d": "Food gently cooked in simmering liquid"}
+{"c": "broiled_food", "d": "Food cooked under direct high heat"}
+{"c": "blanched_food", "d": "Food briefly boiled then plunged in ice water"}
+{"c": "raw_fish", "d": "Fish served uncooked, as in sashimi or ceviche"}
+{"c": "rare_cooked", "d": "Meat cooked minimally, barely seared"}
+{"c": "medium_rare", "d": "Meat cooked to 130-135F internal temperature"}
+{"c": "medium", "d": "Meat cooked to 140-145F internal temperature"}
+{"c": "medium_well", "d": "Meat cooked to 150-155F internal temperature"}
+{"c": "well_done", "d": "Meat cooked to 160F or higher"}
+{"c": "charred", "d": "Food with burned or blackened exterior"}
+{"c": "crispy", "d": "Food with a crunchy, crispy texture"}
+{"c": "tender", "d": "Food that is soft and easy to chew"}
+{"c": "chewy", "d": "Food with a tough, resilient texture"}
+{"c": "creamy", "d": "Food with smooth, rich texture"}
+{"c": "crunchy", "d": "Food with hard, crispy texture when bitten"}
+{"c": "fluffy", "d": "Food with light, airy texture"}
+{"c": "dense", "d": "Food with compact, heavy texture"}
+{"c": "light", "d": "Food with delicate, not heavy preparation"}
+{"c": "rich", "d": "Food with high fat content and intense flavor"}
+{"c": "delicate", "d": "Food with subtle, refined flavors"}
+{"c": "bold", "d": "Food with strong, pronounced flavors"}
+{"c": "mild", "d": "Food with subtle, not strong flavors"}
+{"c": "savory", "d": "Food with umami or meaty flavor"}
+{"c": "sweet", "d": "Food with sugar or sweet flavor notes"}
+{"c": "spicy_hot", "d": "Food with burning sensation from peppers"}
+{"c": "tangy", "d": "Food with sharp, sour flavor"}
+{"c": "bitter", "d": "Food with sharp, acrid taste"}
+{"c": "salty", "d": "Food with high salt content"}
+{"c": "umami", "d": "Food with savory, meaty fifth taste quality"}
+{"c": "smoky", "d": "Food with flavor of smoke"}
+{"c": "earthy", "d": "Food with flavors reminiscent of earth, mushrooms"}
+{"c": "herbal", "d": "Food with prominent herb flavors"}
+{"c": "citrusy", "d": "Food with lemon, lime, or orange flavor"}
+{"c": "fruity", "d": "Food with pronounced fruit flavors"}
+{"c": "nutty", "d": "Food with roasted nut flavors"}
+{"c": "floral", "d": "Food with flower-scented aromatics"}
+{"c": "caramelized", "d": "Food with browned sugar flavor from cooking"}
+{"c": "buttery", "d": "Food tasting of butter"}
+{"c": "cheesy", "d": "Food with prominent cheese flavor"}
+{"c": "smoky_bacon", "d": "Food flavored with smoked bacon"}
+{"c": "wine_reduced", "d": "Food cooked in reduced wine sauce"}
+{"c": "beer_battered", "d": "Food coated in beer-infused batter and fried"}
+{"c": "breaded", "d": "Food coated with bread crumbs before cooking"}
+{"c": "battered", "d": "Food coated in liquid batter before cooking"}
+{"c": "stuffed", "d": "Food filled with other ingredients inside"}
+{"c": "topped", "d": "Food with additional ingredients placed on top"}
+{"c": "drizzled", "d": "Food with sauce or liquid applied in thin stream"}
+{"c": "garnished", "d": "Food decorated with additional items for presentation"}
+{"c": "served_over", "d": "Food placed atop another food item"}
+{"c": "surrounded_by", "d": "Food with items placed all around it on plate"}
+{"c": "served_on", "d": "Food placed atop a specific plate or bowl"}
+{"c": "deconstructed", "d": "Traditional dish presented in separated components"}
+{"c": "plated", "d": "Food arranged artistically on a plate"}
+{"c": "course_1", "d": "First course of a multi-course meal"}
+{"c": "course_2", "d": "Second course of a multi-course meal"}
+{"c": "course_3", "d": "Third course of a multi-course meal"}
+{"c": "pre_dinner_drink", "d": "Cocktail served before meal begins"}
+{"c": "after_dinner_drink", "d": "Dessert liqueur or digestif served after meal"}
+{"c": "aperitif", "d": "Light alcoholic drink before meal to stimulate appetite"}
+{"c": "digestif", "d": "Drink after meal to aid digestion"}
+{"c": "complimentary_bread", "d": "Free bread served at table before meal"}
+{"c": "complimentary_amuse", "d": "Free chef's amuse-bouche course"}
+{"c": "water_service", "d": "Still or sparkling water brought to table"}
+{"c": "sommelier_recommendation", "d": "Wine selected by restaurant sommelier"}
+{"c": "plate_presentation", "d": "Visual arrangement of food on plate"}
+{"c": "edible_flower_garnish", "d": "Decorative flowers used as garnish"}
+{"c": "microgreens", "d": "Very young vegetable greens used as garnish"}
+{"c": "truffle_shaving", "d": "Thin slices of truffle as garnish"}
+{"c": "herb_garnish", "d": "Fresh herb sprigs as garnish"}
+{"c": "citrus_zest", "d": "Grated citrus peel used for flavor and garnish"}
+{"c": "compound_butter", "d": "Butter mixed with herbs or other flavorings"}
+{"c": "reduction_sauce", "d": "Sauce thickened and concentrated by boiling"}
+{"c": "garnish_sauce", "d": "Sauce used decoratively on plate"}
+{"c": "dipping_sauce", "d": "Sauce for dunking food items"}
+{"c": "condiment_selection", "d": "Array of condiments available"}
+{"c": "utensils", "d": "Knives, forks, spoons provided for dining"}
+{"c": "menu_presentation", "d": "Physical menu design and layout"}
+{"c": "printed_menu", "d": "Physical paper menu with dishes and prices"}
+{"c": "digital_menu", "d": "Electronic menu displayed on tablet or screen"}
+{"c": "qr_code_menu", "d": "Menu accessed via smartphone scanning QR code"}
+{"c": "seasonal_menu_rotation", "d": "Menu items changed with seasons"}
+{"c": "menu_engineering", "d": "Strategic pricing and placement of menu items"}
+{"c": "signature_cocktail", "d": "House-created cocktail unique to restaurant"}
+{"c": "house_wine", "d": "Restaurant's selected affordable wine label"}
+{"c": "house_beer", "d": "Restaurant's selected beer or house brew"}
+{"c": "private_label_spirits", "d": "Bottled spirits with restaurant branding"}
+{"r": ["mexican_cuisine", "taco"]}
+{"r": ["mexican_cuisine", "burrito"]}
+{"r": ["mexican_cuisine", "guacamole"]}
+{"r": ["mexican_cuisine", "salsa"]}
+{"r": ["mexican_cuisine", "pico_de_gallo"]}
+{"r": ["mexican_cuisine", "flour_tortilla"]}
+{"r": ["mexican_cuisine", "corn_tortilla"]}
+{"r": ["mexican_cuisine", "nachos"]}
+{"r": ["mexican_cuisine", "jalapeño_poppers"]}
+{"r": ["mexican_cuisine", "breakfast_burrito"]}
+{"r": ["mexican_cuisine", "tortilla_soup"]}
+{"r": ["italian_cuisine", "pasta"]}
+{"r": ["italian_cuisine", "pizza"]}
+{"r": ["italian_cuisine", "risotto"]}
+{"r": ["italian_cuisine", "antipasto"]}
+{"r": ["italian_cuisine", "bruschetta"]}
+{"r": ["italian_cuisine", "minestrone"]}
+{"r": ["italian_cuisine", "tiramisu"]}
+{"r": ["italian_cuisine", "marinara_sauce"]}
+{"r": ["italian_cuisine", "alfredo_sauce"]}
+{"r": ["italian_cuisine", "pesto"]}
+{"r": ["italian_cuisine", "focaccia"]}
+{"r": ["italian_cuisine", "dinner_roll"]}
+{"r": ["italian_cuisine", "caprese_salad"]}
+{"r": ["italian_cuisine", "tiramisu"]}
+{"r": ["italian_cuisine", "panna_cotta"]}
+{"r": ["italian_cuisine", "creme_brulee"]}
+{"r": ["japanese_cuisine", "sushi"]}
+{"r": ["japanese_cuisine", "ramen"]}
+{"r": ["japanese_cuisine", "mochi"]}
+{"r": ["japanese_cuisine", "teriyaki_sauce"]}
+{"r": ["japanese_cuisine", "soy_sauce"]}
+{"r": ["chinese_cuisine", "dim_sum"]}
+{"r": ["chinese_cuisine", "dumplings"]}
+{"r": ["chinese_cuisine", "spring_rolls"]}
+{"r": ["chinese_cuisine", "fried_rice"]}
+{"r": ["chinese_cuisine", "hot_and_sour_soup"]}
+{"r": ["chinese_cuisine", "stir_fry"]}
+{"r": ["indian_cuisine", "curry"]}
+{"r": ["indian_cuisine", "naan"]}
+{"r": ["indian_cuisine", "basmati_rice"]}
+{"r": ["thai_cuisine", "pad_thai"]}
+{"r": ["thai_cuisine", "curry"]}
+{"r": ["french_cuisine", "creme_brulee"]}
+{"r": ["french_cuisine", "crepe"]}
+{"r": ["french_cuisine", "french_onion_soup"]}
+{"r": ["french_cuisine", "foie_gras"]}
+{"r": ["french_cuisine", "aioli"]}
+{"r": ["french_cuisine", "baguette"]}
+{"r": ["french_cuisine", "macarons"]}
+{"r": ["korean_cuisine", "kimchi"]}
+{"r": ["korean_cuisine", "kebab"]}
+{"r": ["greek_cuisine", "gyro"]}
+{"r": ["greek_cuisine", "greek_salad"]}
+{"r": ["greek_cuisine", "tzatziki"]}
+{"r": ["greek_cuisine", "falafel"]}
+{"r": ["greek_cuisine", "hummus"]}
+{"r": ["greek_cuisine", "pita_bread"]}
+{"r": ["middle_eastern_cuisine", "falafel"]}
+{"r": ["middle_eastern_cuisine", "hummus"]}
+{"r": ["middle_eastern_cuisine", "kebab"]}
+{"r": ["middle_eastern_cuisine", "baklava"]}
+{"r": ["middle_eastern_cuisine", "pita_bread"]}
+{"r": ["middle_eastern_cuisine", "baba_ganoush"]}
+{"r": ["spanish_cuisine", "paella"]}
+{"r": ["spanish_cuisine", "tapas"]}
+{"r": ["spanish_cuisine", "gazpacho"]}
+{"r": ["spanish_cuisine", "churros"]}
+{"r": ["british_cuisine", "fish_and_chips"]}
+{"r": ["british_cuisine", "bangers_and_mash"]}
+{"r": ["british_cuisine", "shepherds_pie"]}
+{"r": ["british_cuisine", "roast_beef"]}
+{"r": ["german_cuisine", "sauerkraut"]}
+{"r": ["german_cuisine", "sausage_links"]}
+{"r": ["german_cuisine", "pretzel"]}
+{"r": ["american_cuisine", "burger"]}
+{"r": ["american_cuisine", "hot_dog"]}
+{"r": ["american_cuisine", "french_fries"]}
+{"r": ["american_cuisine", "mac_and_cheese"]}
+{"r": ["american_cuisine", "cornbread"]}
+{"r": ["american_cuisine", "bbq_sauce"]}
+{"r": ["american_cuisine", "coleslaw"]}
+{"r": ["american_cuisine", "biscuit_and_gravy"]}
+{"r": ["american_cuisine", "pancakes"]}
+{"r": ["american_cuisine", "grilled_chicken"]}
+{"r": ["american_cuisine", "chicken_wings"]}
+{"r": ["appetizer", "soup"]}
+{"r": ["appetizer", "salad"]}
+{"r": ["appetizer", "mozzarella_sticks"]}
+{"r": ["appetizer", "onion_rings"]}
+{"r": ["appetizer", "jalapeño_poppers"]}
+{"r": ["appetizer", "nachos"]}
+{"r": ["appetizer", "bruschetta"]}
+{"r": ["appetizer", "spring_rolls"]}
+{"r": ["appetizer", "dumplings"]}
+{"r": ["appetizer", "caprese_salad"]}
+{"r": ["main_course", "pasta"]}
+{"r": ["main_course", "steak"]}
+{"r": ["main_course", "burger"]}
+{"r": ["main_course", "fish_and_chips"]}
+{"r": ["main_course", "curry"]}
+{"r": ["main_course", "stir_fry"]}
+{"r": ["main_course", "risotto"]}
+{"r": ["main_course", "paella"]}
+{"r": ["main_course", "ramen"]}
+{"r": ["main_course", "sushi"]}
+{"r": ["dessert", "cheesecake"]}
+{"r": ["dessert", "tiramisu"]}
+{"r": ["dessert", "chocolate_lava_cake"]}
+{"r": ["dessert", "creme_brulee"]}
+{"r": ["dessert", "gelato"]}
+{"r": ["dessert", "mochi"]}
+{"r": ["dessert", "baklava"]}
+{"r": ["dessert", "ice_cream_sundae"]}
+{"r": ["dessert", "apple_pie"]}
+{"r": ["dessert", "flan"]}
+{"r": ["dessert", "crepe"]}
+{"r": ["dessert", "waffle"]}
+{"r": ["dessert", "panna_cotta"]}
+{"r": ["side_dish", "french_fries"]}
+{"r": ["side_dish", "mashed_potatoes"]}
+{"r": ["side_dish", "coleslaw"]}
+{"r": ["side_dish", "garlic_bread"]}
+{"r": ["side_dish", "sauteed_mushrooms"]}
+{"r": ["side_dish", "sauteed_spinach"]}
+{"r": ["side_dish", "sauteed_greens"]}
+{"r": ["side_dish", "corn_on_cob"]}
+{"r": ["side_dish", "mac_and_cheese"]}
+{"r": ["side_dish", "onion_rings"]}
+{"r": ["breadbasket", "dinner_roll"]}
+{"r": ["breadbasket", "garlic_bread"]}
+{"r": ["breadbasket", "focaccia"]}
+{"r": ["breadbasket", "cornbread"]}
+{"r": ["breadbasket", "naan"]}
+{"r": ["breadbasket", "pita_bread"]}
+{"r": ["buffet", "appetizer"]}
+{"r": ["buffet", "main_course"]}
+{"r": ["buffet", "dessert"]}
+{"r": ["tasting_menu", "appetizer"]}
+{"r": ["tasting_menu", "main_course"]}
+{"r": ["tasting_menu", "dessert"]}
+{"r": ["tasting_menu", "palate_cleanser"]}
+{"r": ["tasting_menu", "amuse_bouche"]}
+{"r": ["tasting_menu", "pre_dinner_drink"]}
+{"r": ["tasting_menu", "wine_pairing"]}
+{"r": ["tasting_menu", "after_dinner_drink"]}
+{"r": ["brunch_menu", "pancakes"]}
+{"r": ["brunch_menu", "french_toast"]}
+{"r": ["brunch_menu", "eggs_benedict"]}
+{"r": ["brunch_menu", "omelette"]}
+{"r": ["brunch_menu", "avocado_toast"]}
+{"r": ["brunch_menu", "breakfast_burrito"]}
+{"r": ["brunch_menu", "mimosa"]}
+{"r": ["brunch_menu", "bloody_mary"]}
+{"r": ["brunch_menu", "coffee"]}
+{"r": ["brunch_menu", "hash_browns"]}
+{"r": ["brunch_menu", "biscuit_and_gravy"]}
+{"r": ["brunch_menu", "bacon"]}
+{"r": ["brunch_menu", "sausage_links"]}
+{"r": ["breakfast_menu", "pancakes"]}
+{"r": ["breakfast_menu", "eggs_benedict"]}
+{"r": ["breakfast_menu", "omelette"]}
+{"r": ["breakfast_menu", "french_toast"]}
+{"r": ["breakfast_menu", "hash_browns"]}
+{"r": ["breakfast_menu", "bacon"]}
+{"r": ["lunch_menu", "salad"]}
+{"r": ["lunch_menu", "sandwich"]}
+{"r": ["lunch_menu", "soup"]}
+{"r": ["lunch_menu", "burger"]}
+{"r": ["lunch_menu", "pasta"]}
+{"r": ["dinner_menu", "steak"]}
+{"r": ["dinner_menu", "seafood"]}
+{"r": ["dinner_menu", "lamb"]}
+{"r": ["dinner_menu", "duck"]}
+{"r": ["dinner_menu", "lobster"]}
+{"r": ["daily_special", "chef_special"]}
+{"r": ["daily_special", "seasonal_ingredient"]}
+{"r": ["chef_special", "signature_dish"]}
+{"r": ["chef_special", "chef_recommended"]}
+{"r": ["chef_recommended", "customer_favorite"]}
+{"r": ["chef_special", "limited_time_offer"]}
+{"r": ["signature_dish", "chef_special"]}
+{"r": ["tasting_menu", "chef_special"]}
+{"r": ["veggie_menu", "vegetarian"]}
+{"r": ["vegan_menu", "vegan"]}
+{"r": ["gluten_free_menu", "gluten_free"]}
+{"r": ["kids_menu", "chicken_wings"]}
+{"r": ["kids_menu", "french_fries"]}
+{"r": ["kids_menu", "mac_and_cheese"]}
+{"r": ["kids_menu", "burger"]}
+{"r": ["wine_pairing", "sommelier_recommendation"]}
+{"r": ["wine_pairing", "red_wine"]}
+{"r": ["wine_pairing", "white_wine"]}
+{"r": ["wine_pairing", "rose_wine"]}
+{"r": ["wine_pairing", "sparkling_wine"]}
+{"r": ["wine_pairing", "appetizer_wine"]}
+{"r": ["wine_pairing", "dessert_wine"]}
+{"r": ["house_wine", "red_wine"]}
+{"r": ["house_wine", "white_wine"]}
+{"r": ["appetizer", "bruschetta"]}
+{"r": ["appetizer", "hummus"]}
+{"r": ["appetizer", "salsa"]}
+{"r": ["appetizer", "guacamole"]}
+{"r": ["appetizer", "tapas"]}
+{"r": ["soup", "tomato_soup"]}
+{"r": ["soup", "minestrone"]}
+{"r": ["soup", "clam_chowder"]}
+{"r": ["soup", "french_onion_soup"]}
+{"r": ["soup", "hot_and_sour_soup"]}
+{"r": ["soup", "tortilla_soup"]}
+{"r": ["soup", "pho"]}
+{"r": ["soup", "ramen"]}
+{"r": ["salad", "caesar_salad"]}
+{"r": ["salad", "greek_salad"]}
+{"r": ["salad", "cobb_salad"]}
+{"r": ["salad", "wedge_salad"]}
+{"r": ["salad", "caprese_salad"]}
+{"r": ["grilled_steak", "steak"]}
+{"r": ["grilled_chicken", "chicken"]}
+{"r": ["grilled_salmon", "salmon"]}
+{"r": ["fried_chicken", "chicken"]}
+{"r": ["roast_chicken", "chicken"]}
+{"r": ["braised_beef", "beef"]}
+{"r": ["steamed_fish", "fish"]}
+{"r": ["pan_seared_scallops", "scallops"]}
+{"r": ["grilled_shrimp", "shrimp"]}
+{"r": ["lobster_tail", "lobster"]}
+{"r": ["crab_cakes", "crab"]}
+{"r": ["oysters", "raw_fish"]}
+{"r": ["sushi", "raw_fish"]}
+{"r": ["sashimi", "raw_fish"]}
+{"r": ["ceviche", "raw_fish"]}
+{"r": ["steak", "rare_cooked"]}
+{"r": ["steak", "medium_rare"]}
+{"r": ["steak", "medium"]}
+{"r": ["steak", "medium_well"]}
+{"r": ["steak", "well_done"]}
+{"r": ["burger", "medium"]}
+{"r": ["burger", "medium_well"]}
+{"r": ["burger", "well_done"]}
+{"r": ["burger", "cheese"]}
+{"r": ["burger", "bacon"]}
+{"r": ["burger", "lettuce"]}
+{"r": ["burger", "tomato"]}
+{"r": ["burger", "onion"]}
+{"r": ["burger", "pickle"]}
+{"r": ["burger", "french_fries"]}
+{"r": ["burger", "coleslaw"]}
+{"r": ["pasta", "marinara_sauce"]}
+{"r": ["pasta", "alfredo_sauce"]}
+{"r": ["pasta", "pesto"]}
+{"r": ["pasta", "meatballs"]}
+{"r": ["pizza", "mozzarella_sticks"]}
+{"r": ["pizza", "marinara_sauce"]}
+{"r": ["pizza", "pepperoni"]}
+{"r": ["pizza", "mushrooms"]}
+{"r": ["pizza", "sausage"]}
+{"r": ["pizza", "onions"]}
+{"r": ["pizza", "peppers"]}
+{"r": ["pizza", "olives"]}
+{"r": ["pizza", "basil"]}
+{"r": ["ramen", "pork"]}
+{"r": ["ramen", "egg"]}
+{"r": ["ramen", "noodles"]}
+{"r": ["ramen", "green_onion"]}
+{"r": ["ramen", "nori"]}
+{"r": ["pho", "beef"]}
+{"r": ["pho", "rice_noodles"]}
+{"r": ["pho", "bean_sprouts"]}
+{"r": ["pho", "basil"]}
+{"r": ["pho", "lime"]}
+{"r": ["pho", "hoisin"]}
+{"r": ["pho", "sriracha"]}
+{"r": ["sushi", "salmon"]}
+{"r": ["sushi", "tuna"]}
+{"r": ["sushi", "yellowtail"]}
+{"r": ["sushi", "eel"]}
+{"r": ["sushi", "shrimp"]}
+{"r": ["sushi", "crab"]}
+{"r": ["sushi", "avocado"]}
+{"r": ["sushi", "cucumber"]}
+{"r": ["sushi", "wasabi"]}
+{"r": ["sushi", "ginger"]}
+{"r": ["sushi", "soy_sauce"]}
+{"r": ["dim_sum", "dumplings"]}
+{"r": ["dim_sum", "har_gow"]}
+{"r": ["dim_sum", "siu_mai"]}
+{"r": ["dim_sum", "char_siu_bao"]}
+{"r": ["dim_sum", "egg_tarts"]}
+{"r": ["dim_sum", "phoenix_claws"]}
+{"r": ["dim_sum", "lotus_leaf_rice"]}
+{"r": ["curry", "basmati_rice"]}
+{"r": ["curry", "naan"]}
+{"r": ["curry", "jasmine_rice"]}
+{"r": ["curry", "chicken"]}
+{"r": ["curry", "lamb"]}
+{"r": ["curry", "shrimp"]}
+{"r": ["curry", "vegetables"]}
+{"r": ["pad_thai", "rice_noodles"]}
+{"r": ["pad_thai", "shrimp"]}
+{"r": ["pad_thai", "tofu"]}
+{"r": ["pad_thai", "peanuts"]}
+{"r": ["pad_thai", "bean_sprouts"]}
+{"r": ["pad_thai", "lime"]}
+{"r": ["stir_fry", "soy_sauce"]}
+{"r": ["stir_fry", "rice"]}
+{"r": ["stir_fry", "vegetables"]}
+{"r": ["paella", "saffron"]}
+{"r": ["paella", "rice"]}
+{"r": ["paella", "seafood"]}
+{"r": ["paella", "chicken"]}
+{"r": ["risotto", "parmesan"]}
+{"r": ["risotto", "mushrooms"]}
+{"r": ["risotto", "white_wine"]}
+{"r": ["fish_and_chips", "tartar_sauce"]}
+{"r": ["fish_and_chips", "mushy_peas"]}
+{"r": ["taco", "ground_beef"]}
+{"r": ["taco", "chicken"]}
+{"r": ["taco", "fish"]}
+{"r": ["taco", "carnitas"]}
+{"r": ["taco", "lettuce"]}
+{"r": ["taco", "cheese"]}
+{"r": ["taco", "salsa"]}
+{"r": ["taco", "sour_cream"]}
+{"r": ["taco", "guacamole"]}
+{"r": ["taco", "jalapeños"]}
+{"r": ["burrito", "rice"]}
+{"r": ["burrito", "beans"]}
+{"r": ["burrito", "cheese"]}
+{"r": ["burrito", "sour_cream"]}
+{"r": ["burrito", "guacamole"]}
+{"r": ["burrito", "salsa"]}
+{"r": ["gyro", "pita_bread"]}
+{"r": ["gyro", "lamb"]}
+{"r": ["gyro", "tzatziki"]}
+{"r": ["gyro", "tomato"]}
+{"r": ["gyro", "onion"]}
+{"r": ["kebab", "lamb"]}
+{"r": ["kebab", "chicken"]}
+{"r": ["kebab", "beef"]}
+{"r": ["kebab", "shrimp"]}
+{"r": ["kebab", "vegetables"]}
+{"r": ["kebab", "rice"]}
+{"r": ["falafel", "hummus"]}
+{"r": ["falafel", "pita_bread"]}
+{"r": ["falafel", "salad"]}
+{"r": ["hummus", "pita_bread"]}
+{"r": ["hummus", "vegetables"]}
+{"r": ["baklava", "tea"]}
+{"r": ["mochi", "green_tea"]}
+{"r": ["gelato", "espresso"]}
+{"r": ["crepe", "nutella"]}
+{"r": ["crepe", "banana"]}
+{"r": ["crepe", "strawberry"]}
+{"r": ["waffle", "maple_syrup"]}
+{"r": ["waffle", "berries"]}
+{"r": ["waffle", "whipped_cream"]}
+{"r": ["pancakes", "maple_syrup"]}
+{"r": ["pancakes", "butter"]}
+{"r": ["pancakes", "berries"]}
+{"r": ["french_toast", "maple_syrup"]}
+{"r": ["french_toast", "berries"]}
+{"r": ["eggs_benedict", "hollandaise"]}
+{"r": ["eggs_benedict", "english_muffin"]}
+{"r": ["eggs_benedict", "canadian_bacon"]}
+{"r": ["omelette", "cheese"]}
+{"r": ["omelette", "mushrooms"]}
+{"r": ["omelette", "peppers"]}
+{"r": ["omelette", "onions"]}
+{"r": ["omelette", "ham"]}
+{"r": ["omelette", "spinach"]}
+{"r": ["avocado_toast", "eggs"]}
+{"r": ["avocado_toast", "tomato"]}
+{"r": ["caesar_salad", "croutons"]}
+{"r": ["caesar_salad", "parmesan"]}
+{"r": ["caesar_salad", "anchovies"]}
+{"r": ["greek_salad", "feta"]}
+{"r": ["greek_salad", "olives"]}
+{"r": ["greek_salad", "cucumber"]}
+{"r": ["cobb_salad", "avocado"]}
+{"r": ["cobb_salad", "chicken"]}
+{"r": ["cobb_salad", "bacon"]}
+{"r": ["cobb_salad", "egg"]}
+{"r": ["tomato_soup", "grilled_cheese"]}
+{"r": ["french_onion_soup", "gruyere"]}
+{"r": ["clam_chowder", "bread"]}
+{"r": ["minestrone", "bread"]}
+{"r": ["appetizer", "breadbasket"]}
+{"r": ["bacon", "breakfast_menu"]}
+{"r": ["sausage_links", "breakfast_menu"]}
+{"r": ["hash_browns", "breakfast_menu"]}
+{"r": ["biscuit_and_gravy", "breakfast_menu"]}
+{"r": ["eggs_benedict", "brunch_menu"]}
+{"r": ["mimosa", "brunch_menu"]}
+{"r": ["french_fries", "side_dish"]}
+{"r": ["onion_rings", "side_dish"]}
+{"r": ["coleslaw", "side_dish"]}
+{"r": ["mashed_potatoes", "side_dish"]}
+{"r": ["mac_and_cheese", "side_dish"]}
+{"r": ["garlic_bread", "side_dish"]}
+{"r": ["cornbread", "side_dish"]}
+{"r": ["sauteed_mushrooms", "side_dish"]}
+{"r": ["creamed_spinach", "side_dish"]}
+{"r": ["grilled_asparagus", "side_dish"]}
+{"r": ["roasted_vegetables", "side_dish"]}
+{"r": ["sauteed_greens", "side_dish"]}
+{"r": ["steamed_broccoli", "side_dish"]}
+{"r": ["combo_meal", "burger"]}
+{"r": ["combo_meal", "french_fries"]}
+{"r": ["combo_meal", "drink"]}
+{"r": ["combo_meal", "side_dish"]}
+{"r": ["sampler_platter", "appetizer"]}
+{"r": ["combo_meal", "appetizer"]}
+{"r": ["family_style", "pasta"]}
+{"r": ["family_style", "salad"]}
+{"r": ["family_style", "bread"]}
+{"r": ["family_style", "side_dish"]}
+{"r": ["buffet", "salad"]}
+{"r": ["buffet", "main_course"]}
+{"r": ["buffet", "side_dish"]}
+{"r": ["buffet", "dessert"]}
+{"r": ["buffet", "fruit"]}
+{"r": ["buffet", "bread"]}
+{"r": ["carryout_menu", "burger"]}
+{"r": ["carryout_menu", "pizza"]}
+{"r": ["carryout_menu", "chinese_food"]}
+{"r": ["carryout_menu", "mexican_food"]}
+{"r": ["catering_menu", "appetizer"]}
+{"r": ["catering_menu", "main_course"]}
+{"r": ["catering_menu", "side_dish"]}
+{"r": ["catering_menu", "dessert"]}
+{"r": ["banquet_menu", "appetizer"]}
+{"r": ["banquet_menu", "main_course"]}
+{"r": ["banquet_menu", "dessert"]}
+{"r": ["banquet_menu", "wine"]}
+{"r": ["espresso", "afternoon_menu"]}
+{"r": ["cappuccino", "morning_menu"]}
+{"r": ["latte", "morning_menu"]}
+{"r": ["green_tea", "afternoon_menu"]}
+{"r": ["chai_latte", "brunch_menu"]}
+{"r": ["smoothie", "brunch_menu"]}
+{"r": ["milkshake", "dessert_menu"]}
+{"r": ["craft_cocktail", "dinner_menu"]}
+{"r": ["draft_beer", "bar_menu"]}
+{"r": ["draft_beer", "lunch_menu"]}
+{"r": ["signature_cocktail", "dinner_menu"]}
+{"r": ["beer", "american_cuisine"]}
+{"r": ["burger", "american_cuisine"]}
+{"r": ["mac_and_cheese", "american_cuisine"]}
+{"r": ["hot_dog", "american_cuisine"]}
+{"r": ["bbq_sauce", "american_cuisine"]}
+{"r": ["fried_chicken", "american_cuisine"]}
+{"r": ["chicken_wings", "american_cuisine"]}
+{"r": ["cornbread", "american_cuisine"]}
+{"r": ["biscuit_and_gravy", "american_cuisine"]}
+{"r": ["meatloaf", "american_cuisine"]}
+{"r": ["corn_dog", "american_cuisine"]}
+{"r": ["philly_cheesesteak", "american_cuisine"]}
+{"r": ["lobster_roll", "american_cuisine"]}
+{"r": ["cobb_salad", "american_cuisine"]}
+{"r": ["wedge_salad", "american_cuisine"]}
+{"r": ["buffalo_wings", "american_cuisine"]}
+{"r": ["potato_salad", "american_cuisine"]}
+{"r": ["baked_beans", "american_cuisine"]}
+{"r": ["cornbread", "southern_cuisine"]}
+{"r": ["fried_chicken", "southern_cuisine"]}
+{"r": ["biscuits_and_gravy", "southern_cuisine"]}
+{"r": ["collard_greens", "southern_cuisine"]}
+{"r": ["mac_and_cheese", "southern_cuisine"]}
+{"r": ["cornbread", "soul_food"]}
+{"r": ["fried_chicken", "soul_food"]}
+{"r": ["collard_greens", "soul_food"]}
+{"r": ["mac_and_cheese", "soul_food"]}
+{"r": ["cornbread", "cajun_cuisine"]}
+{"r": ["gumbo", "cajun_cuisine"]}
+{"r": ["jambalaya", "cajun_cuisine"]}
+{"r": ["beignets", "cajun_cuisine"]}
+{"r": ["crawfish_etouffee", "cajun_cuisine"]}
+{"r": ["po_boy", "cajun_cuisine"]}
+{"r": ["gumbo", "creole_cuisine"]}
+{"r": ["jambalaya", "creole_cuisine"]}
+{"r": ["crawfish", "creole_cuisine"]}
+{"r": ["oysters", "creole_cuisine"]}
+{"r": ["pecan_pie", "southern_cuisine"]}
+{"r": ["sweet_potato_pie", "southern_cuisine"]}
+{"r": ["key_lime_pie", "florida_cuisine"]}
+{"r": ["stone_crab", "florida_cuisine"]}
+{"r": ["chocolate_lava_cake", "american_cuisine"]}
+{"r": ["cheesecake", "american_cuisine"]}
+{"r": ["red_velvet_cake", "american_cuisine"]}
+{"r": ["carrot_cake", "american_cuisine"]}
+{"r": ["brownie", "american_cuisine"]}
+{"r": ["cookie", "american_cuisine"]}
+{"r": ["s_more", "american_cuisine"]}
+{"r": ["pumpkin_pie", "american_cuisine"]}
+{"r": ["pecan_pie", "american_cuisine"]}
+{"r": ["sweet_potato_pie", "american_cuisine"]}
+{"r": ["apple_pie", "american_cuisine"]}
+{"r": ["cherry_pie", "american_cuisine"]}
+{"r": ["banana_cream_pie", "american_cuisine"]}
+{"r": ["coconut_cream_pie", "american_cuisine"]}
+{"r": ["lemonade", "southern_cuisine"]}
+{"r": ["sweet_tea", "southern_cuisine"]}
+{"r": ["mint_julep", "southern_cuisine"]}
+{"r": ["bourbon", "southern_cuisine"]}
+{"r": ["whiskey", "irish_cuisine"]}
+{"r": ["guinness", "irish_cuisine"]}
+{"r": ["shepherds_pie", "irish_cuisine"]}
+{"r": ["corned_beef", "irish_cuisine"]}
+{"r": ["colcannon", "irish_cuisine"]}
+{"r": ["soda_bread", "irish_cuisine"]}
+{"r": ["bangers_and_mash", "british_cuisine"]}
+{"r": ["fish_and_chips", "british_cuisine"]}
+{"r": ["roast_beef", "british_cuisine"]}
+{"r": ["sunday_roast", "british_cuisine"]}
+{"r": ["bangers_and_mash", "british_cuisine"]}
+{"r": ["beef_wellington", "british_cuisine"]}
+{"r": ["trifle", "british_cuisine"]}
+{"r

@@ -1,0 +1,78 @@
+{
+  "domain": "restaurants",
+  "tag": "live",
+  "phase": "ont",
+  "certified_core_nodes": 3431,
+  "concepts": 1293,
+  "relations": 2138,
+  "leaves_dropped": 1306,
+  "llm_calls": 17,
+  "wall_secs": 814.0,
+  "refine_rounds": 5,
+  "drop_log": {
+    "short_or_bad": 0,
+    "dup_rel": 7,
+    "noise_rel": 2162
+  },
+  "trajectory": [
+    {
+      "round": 0,
+      "phase": "soup",
+      "concepts": 2599,
+      "relations": 2083,
+      "dangling": 0,
+      "orphan": 1388
+    },
+    {
+      "round": 1,
+      "phase": "soup",
+      "concepts": 2599,
+      "relations": 2083,
+      "dangling": 0,
+      "orphan": 1388
+    },
+    {
+      "round": 2,
+      "phase": "soup",
+      "concepts": 2599,
+      "relations": 2083,
+      "dangling": 0,
+      "orphan": 1388
+    },
+    {
+      "round": 3,
+      "phase": "soup",
+      "concepts": 2599,
+      "relations": 2091,
+      "dangling": 0,
+      "orphan": 1374
+    },
+    {
+      "round": 4,
+      "phase": "soup",
+      "concepts": 2599,
+      "relations": 2119,
+      "dangling": 0,
+      "orphan": 1332
+    },
+    {
+      "round": 5,
+      "phase": "soup",
+      "concepts": 2599,
+      "relations": 2138,
+      "dangling": 0,
+      "orphan": 1306
+    },
+    {
+      "round": "close",
+      "phase": "ont",
+      "concepts": 1293,
+      "relations": 2138,
+      "dangling": 0,
+      "orphan": 0,
+      "leaves_dropped": 1306
+    }
+  ],
+  "residual_dangling": [],
+  "residual_orphan": []
+}
