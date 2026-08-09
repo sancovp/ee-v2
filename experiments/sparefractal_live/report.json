@@ -1,0 +1,32 @@
+{
+  "kernel": "SpareFractalCoreChain",
+  "subject": "build a small tool that people actually use every day",
+  "cycles": 3,
+  "stabilized": false,
+  "rounds": [
+    {
+      "cycle": 1,
+      "new_atoms": 83,
+      "kb": "39c/44r",
+      "phase": "ont",
+      "worklist_define": 0,
+      "worklist_connect": 0
+    },
+    {
+      "cycle": 2,
+      "new_atoms": 122,
+      "kb": "92c/113r",
+      "phase": "ont",
+      "worklist_define": 0,
+      "worklist_connect": 0
+    },
+    {
+      "cycle": 3,
+      "new_atoms": 145,
+      "kb": "148c/202r",
+      "phase": "soup",
+      "worklist_define": 1,
+      "worklist_connect": 1
+    }
+  ]
+}

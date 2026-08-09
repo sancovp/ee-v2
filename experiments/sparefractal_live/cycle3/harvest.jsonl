@@ -1,0 +1,152 @@
+{"c": "intent_seed", "d": "The desire to build a tool small enough to be dismissed as trivial, useful enough to be opened every day"}
+{"c": "tool_small", "d": "Dismissible as trivial, not impressive or viral"}
+{"c": "tool_daily", "d": "Opened every day, habitual use"}
+{"c": "tool_useful", "d": "Solves one problem, reliable, disappears into workflow"}
+{"c": "tool_no_friction", "d": "Loads in under two seconds, no account required"}
+{"c": "tool_reliable", "d": "Does one thing completely, trusted to work"}
+{"c": "tool_real", "d": "Actually used by someone, not imagined utility"}
+{"c": "intention_action_bridge", "d": "Transforms hesitation into action, occupies the gap between wanting and doing"}
+{"c": "threshold", "d": "The empty passage, exists precisely to be crossed through and left behind"}
+{"c": "glyph_hollow", "d": "The empty circle, holds no content, pure passage"}
+{"c": "rhythm", "d": "Recurrence without resistance, syncs with respiration"}
+{"c": "flow", "d": "Energy moving through without stopping"}
+{"c": "compression", "d": "Many elements collapsing into one essential form"}
+{"c": "presence", "d": "Presence confirmed, then forgotten"}
+{"c": "pause_before_speaking", "d": "The moment between deciding and beginning, the small exhale"}
+{"c": "coin_dropping", "d": "The small clink, precise conversion of input to output"}
+{"c": "hand_through_curtain", "d": "The gesture of passage, crossing without force"}
+{"c": "first_step_after_deciding", "d": "The motion from intention to action"}
+{"c": "breath_before_sneeze", "d": "The body preparing for action, the invisible happening in the pause"}
+{"c": "passage", "d": "Something crosses a threshold and becomes other than it was"}
+{"c": "letting_go", "d": "The hand opening, the thing going, the release"}
+{"c": "ordinary", "d": "Where the tool lives, not in thought but in routine, invisible through repetition"}
+{"c": "incubation", "d": "Trust in unconscious work, the thing happening in the dark"}
+{"c": "stateless", "d": "No memory, no state, no weight after crossing"}
+{"c": "breath_exhale", "d": "The interval between deciding and beginning, the body's way of marking the threshold"}
+{"c": "threshold_doorway", "d": "The boundary crossed without ceremony, the edges that create the passage"}
+{"c": "coin_slot", "d": "The mechanism requiring one precise motion, the conversion that has no middle ground"}
+{"c": "hand_opening", "d": "Release, the letting go that allows the thing to pass"}
+{"c": "breath_interval", "d": "The space between breaths, the pause that is not empty"}
+{"c": "full_circle", "d": "The breath held, the breath released, the cycle complete"}
+{"c": "rhythm_sync", "d": "The tool breathes with the user, synchronized with respiration"}
+{"c": "edge_frame", "d": "The shape that creates the edge, where this ends and that begins"}
+{"c": "framed_passage", "d": "The empty circle framed by edges, the held edges"}
+{"c": "crossing_instantaneous", "d": "The moment of no return, you are here then you are there"}
+{"c": "precise_exchange", "d": "The right input, the right output, one motion one result"}
+{"c": "slot_mechanism", "d": "The conversion that works or does not, no negotiation"}
+{"c": "conversion_precision", "d": "The mechanism that cannot be undone, the click of rightness"}
+{"c": "release_gesture", "d": "The motion that changes the relationship from holding to not-holding"}
+{"c": "trigram_wind", "d": "Gentle motion that moves through without force"}
+{"c": "surrender", "d": "The gesture of trust, opening into the tool"}
+{"c": "habit", "d": "The action that does not require decision"}
+{"c": "invisible", "d": "What is present without being noticed, what is unseen when working"}
+{"c": "everyday", "d": "Not special, therefore reliable, the mark that ends and begins"}
+{"c": "period_mark", "d": "The most ordinary mark, the full stop that does nothing"}
+{"c": "compression_release_emergence", "d": "The invariant chain structure, true at every scale"}
+{"c": "surface_mutation", "d": "Form changing by scale while structure stays constant"}
+{"c": "merger", "d": "Five branches converging into one root"}
+{"c": "five_branches_one_root", "d": "Breath, Threshold, Coin/Slot, Hand Opening, Ordinary completing each other"}
+{"c": "hypersigil", "d": "The parent symbol containing all branches, holding its own derivation"}
+{"c": "traceability", "d": "The ability to trace any element to its origin node"}
+{"c": "relation_encoding", "d": "Functional dependencies among branches rather than mere stacking"}
+{"c": "assessment", "d": "Evaluating branches against purpose for creativity, clarity, and useful action"}
+{"c": "amplification", "d": "Making productive branches more themselves, strengthening the signal"}
+{"c": "productive_branch", "d": "A generative loop that produces transformation, not repetition"}
+{"c": "sterile_loop", "d": "A motion that returns to starting point without transformation"}
+{"c": "compulsive_loop", "d": "A motion that cannot be stopped once begun"}
+{"c": "release", "d": "The hand opening, the thing going, the maker letting go"}
+{"c": "re_entry", "d": "The cycle beginning again at Node 1 with new desire"}
+{"c": "maker_empty", "d": "The maker becoming empty like the threshold, no attachment to the tool"}
+{"c": "cycle_continues", "d": "The cycle closing and opening as one motion, breath in breath out"}
+{"c": "symbolic_ecology", "d": "The environment containing tool, maker, user, context, and cycle"}
+{"c": "actionable_transformation", "d": "When symbolic becomes material, idea becomes thing"}
+{"c": "process", "d": "The SpareFractalCoreChain that produces tools, more important than any single output"}
+{"r": ["tool_daily", "rhythm"]}
+{"r": ["tool_small", "rhythm"]}
+{"r": ["tool_useful", "flow"]}
+{"r": ["tool_reliable", "flow"]}
+{"r": ["intention_action_bridge", "threshold"]}
+{"r": ["tool_real", "presence"]}
+{"r": ["rhythm", "glyph_hollow"]}
+{"r": ["flow", "glyph_hollow"]}
+{"r": ["threshold", "glyph_hollow"]}
+{"r": ["presence", "glyph_hollow"]}
+{"r": ["glyph_hollow", "threshold"]}
+{"r": ["intent_seed", "threshold"]}
+{"r": ["pause_before_speaking", "breath_exhale"]}
+{"r": ["pause_before_speaking", "passage"]}
+{"r": ["coin_dropping", "coin_slot"]}
+{"r": ["coin_dropping", "precise_exchange"]}
+{"r": ["hand_through_curtain", "threshold_doorway"]}
+{"r": ["hand_through_curtain", "passage"]}
+{"r": ["first_step_after_deciding", "crossing_instantaneous"]}
+{"r": ["breath_before_sneeze", "breath_interval"]}
+{"r": ["breath_before_sneeze", "breath_exhale"]}
+{"r": ["passage", "threshold"]}
+{"r": ["breath_exhale", "rhythm_sync"]}
+{"r": ["threshold_doorway", "framed_passage"]}
+{"r": ["threshold_doorway", "edge_frame"]}
+{"r": ["coin_slot", "slot_mechanism"]}
+{"r": ["coin_slot", "conversion_precision"]}
+{"r": ["hand_opening", "release_gesture"]}
+{"r": ["hand_opening", "surrender"]}
+{"r": ["ordinary", "habit"]}
+{"r": ["ordinary", "invisible"]}
+{"r": ["ordinary", "everyday"]}
+{"r": ["breath_interval", "full_circle"]}
+{"r": ["breath_interval", "pause_before_speaking"]}
+{"r": ["crossing_instantaneous", "threshold_doorway"]}
+{"r": ["release_gesture", "trigram_wind"]}
+{"r": ["surrender", "hand_opening"]}
+{"r": ["habit", "everyday"]}
+{"r": ["invisible", "ordinary"]}
+{"r": ["everyday", "period_mark"]}
+{"r": ["rhythm", "breath_interval"]}
+{"r": ["threshold", "threshold_doorway"]}
+{"r": ["slot_mechanism", "coin_slot"]}
+{"r": ["five_branches_one_root", "merger"]}
+{"r": ["merger", "glyph_hollow"]}
+{"r": ["compression", "merger"]}
+{"r": ["compression_release_emergence", "process"]}
+{"r": ["surface_mutation", "glyph_hollow"]}
+{"r": ["hypersigil", "glyph_hollow"]}
+{"r": ["hypersigil", "five_branches_one_root"]}
+{"r": ["traceability", "process"]}
+{"r": ["relation_encoding", "five_branches_one_root"]}
+{"r": ["assessment", "productive_branch"]}
+{"r": ["amplification", "productive_branch"]}
+{"r": ["productive_branch", "breath_exhale"]}
+{"r": ["productive_branch", "threshold_doorway"]}
+{"r": ["productive_branch", "coin_slot"]}
+{"r": ["productive_branch", "hand_opening"]}
+{"r": ["productive_branch", "ordinary"]}
+{"r": ["sterile_loop", "compulsive_loop"]}
+{"r": ["letting_go", "release"]}
+{"r": ["letting_go", "hand_opening"]}
+{"r": ["release", "maker_empty"]}
+{"r": ["maker_empty", "glyph_hollow"]}
+{"r": ["re_entry", "intent_seed"]}
+{"r": ["re_entry", "process"]}
+{"r": ["cycle_continues", "re_entry"]}
+{"r": ["symbolic_ecology", "tool_daily"]}
+{"r": ["symbolic_ecology", "release"]}
+{"r": ["actionable_transformation", "symbolic_ecology"]}
+{"r": ["process", "intent_seed"]}
+{"r": ["process", "glyph_hollow"]}
+{"r": ["process", "passage"]}
+{"r": ["process", "letting_go"]}
+{"r": ["process", "emergence_harvest"]}
+{"r": ["stateless", "glyph_hollow"]}
+{"r": ["stateless", "tool_reliable"]}
+{"r": ["invisible", "tool_reliable"]}
+{"r": ["invisible", "tool_useful"]}
+{"r": ["incubation", "process"]}
+{"r": ["rhythm_sync", "breath_interval"]}
+{"r": ["rhythm_sync", "tool_daily"]}
+{"r": ["trigram_wind", "release_gesture"]}
+{"r": ["precise_exchange", "coin_slot"]}
+{"r": ["conversion_precision", "slot_mechanism"]}
+{"r": ["edge_frame", "framed_passage"]}
+{"r": ["framed_passage", "glyph_hollow"]}
+{"r": ["full_circle", "breath_interval"]}
+{"r": ["period_mark", "everyday"]}

@@ -1,0 +1,83 @@
+{"c": "threshold", "d": "a crossing you pass through without stopping, the moment between need and having"}
+{"c": "the_hand", "d": "the instrument of contact that knows before the mind, reaches and finds"}
+{"c": "the_pocket", "d": "a space that holds without demanding attention, present but unnoticed"}
+{"c": "continuity", "d": "the unbroken flow the tool serves, not interrupts"}
+{"c": "one_gesture", "d": "the smallest possible action to achieve the result, one ask one answer"}
+{"c": "reliability", "d": "the expectation fulfilled every time, count on it"}
+{"c": "effortlessness", "d": "the quality of requiring no conscious effort to use"}
+{"c": "disappearance", "d": "the tool becoming invisible through use rather than hiding"}
+{"c": "habit", "d": "an action performed without conscious decision"}
+{"c": "reflex", "d": "an automatic response without thought"}
+{"c": "trust", "d": "earned through consistency, not given"}
+{"c": "the_crossing", "d": "the passage from need to having that the tool enables"}
+{"c": "the_body_knows", "d": "muscle memory and instinct preceding conscious thought"}
+{"c": "through", "d": "the direction that matters, not the tool itself"}
+{"c": "the_hand_reaches", "d": "extension beyond self toward the threshold"}
+{"c": "hand_meets_threshold", "d": "the synthesis of reach and passage, the reach that finds"}
+{"c": "pocket_holds_gesture", "d": "the hidden completion, the dot in the circle"}
+{"c": "continuity_confirmed", "d": "the consistent flow, the wave that checks itself"}
+{"c": "hand_trusts", "d": "the trusted grasp, the grasp that confirms itself"}
+{"c": "pocket_opens_threshold", "d": "the threshold held, the small thing that opens doors"}
+{"c": "gesture_crosses", "d": "the single crossing, one motion through the threshold"}
+{"c": "the_diamond", "d": "the compressed form of all six branches, the tool ready"}
+{"c": "empty_set", "d": "the tool that is not there, the absence that makes action possible"}
+{"c": "tilted_diamond", "d": "the tool in motion, mid-use mid-disappearance"}
+{"c": "the_test", "d": "does this preserve or destroy the crossing"}
+{"c": "amplified_hand_question", "d": "what does the tool feel like before you know you are using it"}
+{"c": "amplified_gesture_question", "d": "what is the one thing the tool does and can this be done with one gesture"}
+{"c": "amplified_reliability_question", "d": "can the tool be trusted completely in the dark with wet hands every time"}
+{"c": "the_meta_sigil", "d": "the diamond in brackets, the tool held in the hand of the world"}
+{"c": "the_horizontal_line", "d": "the flow of time the work in progress the continuous day"}
+{"c": "the_vertical_line", "d": "the moment of contact the tool is present the single gesture"}
+{"c": "presence_without_notice", "d": "the pocket state, belonging without weight"}
+{"c": "ready_crossed_moving", "d": "the temporal cycle of tool use"}
+{"c": "passage_without_pause", "d": "the threshold crossed invisibly"}
+{"c": "flow_uninterrupted", "d": "the service continuity provides to the user"}
+{"c": "the_minimum_ask", "d": "the discipline of reduction to one gesture"}
+{"c": "the_promise_kept", "d": "the contract reliability honors every time"}
+{"c": "the_stripped_core", "d": "the thing that works"}
+{"c": "making_testing_trust", "d": "the emotional kernel shifted from understanding to doing"}
+{"r": ["threshold", "the_crossing"]}
+{"r": ["threshold", "through"]}
+{"r": ["threshold", "passage_without_pause"]}
+{"r": ["the_hand", "the_body_knows"]}
+{"r": ["the_hand", "hand_meets_threshold"]}
+{"r": ["the_hand", "hand_trusts"]}
+{"r": ["the_hand", "the_hand_reaches"]}
+{"r": ["the_pocket", "presence_without_notice"]}
+{"r": ["the_pocket", "pocket_holds_gesture"]}
+{"r": ["the_pocket", "pocket_opens_threshold"]}
+{"r": ["continuity", "flow_uninterrupted"]}
+{"r": ["continuity", "continuity_confirmed"]}
+{"r": ["one_gesture", "the_minimum_ask"]}
+{"r": ["one_gesture", "gesture_crosses"]}
+{"r": ["one_gesture", "amplified_gesture_question"]}
+{"r": ["reliability", "the_promise_kept"]}
+{"r": ["reliability", "hand_trusts"]}
+{"r": ["reliability", "continuity_confirmed"]}
+{"r": ["effortlessness", "trust"]}
+{"r": ["effortlessness", "reliability"]}
+{"r": ["trust", "reliability"]}
+{"r": ["disappearance", "habit"]}
+{"r": ["habit", "reflex"]}
+{"r": ["reflex", "the_body_knows"]}
+{"r": ["the_diamond", "the_meta_sigil"]}
+{"r": ["the_diamond", "the_hand"]}
+{"r": ["the_diamond", "the_pocket"]}
+{"r": ["the_diamond", "continuity"]}
+{"r": ["the_diamond", "one_gesture"]}
+{"r": ["the_diamond", "reliability"]}
+{"r": ["empty_set", "through"]}
+{"r": ["tilted_diamond", "ready_crossed_moving"]}
+{"r": ["amplified_hand_question", "the_hand"]}
+{"r": ["amplified_gesture_question", "one_gesture"]}
+{"r": ["amplified_reliability_question", "reliability"]}
+{"r": ["the_test", "threshold"]}
+{"r": ["the_test", "the_crossing"]}
+{"r": ["the_horizontal_line", "continuity"]}
+{"r": ["the_vertical_line", "one_gesture"]}
+{"r": ["ready_crossed_moving", "the_diamond"]}
+{"r": ["ready_crossed_moving", "empty_set"]}
+{"r": ["ready_crossed_moving", "tilted_diamond"]}
+{"r": ["the_stripped_core", "threshold"]}
+{"r": ["making_testing_trust", "the_stripped_core"]}

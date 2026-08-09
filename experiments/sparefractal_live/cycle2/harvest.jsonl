@@ -1,0 +1,122 @@
+{"c": "relief_of_not_holding", "d": "the core emotional target: setting something down without carrying it"}
+{"c": "temporary_displacement", "d": "placing something outside the cognitive loop intentionally, not losing it"}
+{"c": "deferred_return", "d": "the gesture of placing something and trusting it will return when relevant"}
+{"c": "passive_retrieval", "d": "the held thing is found, not surfaced or reminded"}
+{"c": "one_thing_held", "d": "invariant: only one thing held at a time, never multiple"}
+{"c": "no_notifications", "d": "invariant: no notifications or reminders, the user returns by intention"}
+{"c": "clearing_possible", "d": "invariant: nothing is trapped, the held thing can always leave"}
+{"c": "interface_smaller_than_relief", "d": "invariant: the tool cannot be larger than the relief it provides"}
+{"c": "commitment_not_decision", "d": "the user holds commitments, not decisions; they already know what they want"}
+{"c": "single_note_constraint_feature", "d": "the one-note limit is a feature, not a limitation; it forces prioritization"}
+{"c": "empty_state_completion", "d": "empty means nothing held, which is not failure but true completion"}
+{"c": "radical_constraint", "d": "trust earned through constraint; the tool cannot do anything else"}
+{"c": "the_grip_released", "d": "the tool releases the grip, not the commitment itself"}
+{"c": "commitment_layer", "d": "the layer of tools serving commitments deferred"}
+{"c": "feeling_layer", "d": "the layer beyond commitment for things that cannot be acted upon"}
+{"c": "relief_of_being_witnessed", "d": "the semantic kernel for feeling tools: not solved, only acknowledged"}
+{"c": "uncompletable", "d": "the thing that cannot be acted upon, only witnessed as existing"}
+{"c": "symbolic_ecology", "d": "the family of tools as a symbolic system encoding one gesture"}
+{"c": "hypersigil", "d": "the symbol encoding all relationships among the tool family"}
+{"c": "meta_sigil", "d": "higher-order symbol capturing the entire fractal family"}
+{"c": "transforms_what_is_held", "d": "the most productive tools transform what is held, not merely store it"}
+{"c": "amplify_intelligence_not_interface", "d": "amplification adds intelligence around the core without adding weight"}
+{"c": "shared_holding", "d": "the held thing passed between people becomes a gesture of connection"}
+{"c": "sterile_branch", "d": "a branch that holds but does not change what is held; no transformation"}
+{"c": "compulsive_loop", "d": "a loop where the user returns repeatedly without resolution; traps rather than releases"}
+{"c": "productive_branch", "d": "a branch that transforms what is held; generative, not merely storage"}
+{"c": "compression_relation", "d": "the horizontal gesture compresses to precision; length compresses"}
+{"c": "collapse_relation", "d": "the entire interface collapses to zero; movement compresses"}
+{"c": "temporal_division_relation", "d": "the gap becomes a time window; duration compresses"}
+{"c": "completion_relation", "d": "the held thing is retrieved, acted upon, confirmed; held becomes done"}
+{"c": "traceability", "d": "every symbol traces back to the root; no symbol is orphaned"}
+{"c": "fractal_self_corrects", "d": "the fractal refines itself through feedback; tools that exceed limits are pruned"}
+{"c": "scale_mutation", "d": "surface form mutates by scale: language to glyph to interface to URL to time window"}
+{"c": "register_shift", "d": "each scale is a different register of the same underlying gesture"}
+{"c": "in_wait_out", "d": "the gesture preserved through every mutation: in, wait, out"}
+{"c": "four_relations", "d": "the four ways the root gesture branches: compression, collapse, division, completion"}
+{"c": "character_limit", "d": "42-character constraint forcing precision; the limit is generative"}
+{"c": "auto_release", "d": "automatic release after time period; the fragment returns to the wild if unclaimed"}
+{"c": "url_only_input", "d": "content passed via URL only; no interface beyond the showing"}
+{"c": "time_window", "d": "access limited to specific hours; the ritual creates container"}
+{"c": "confirmation_step", "d": "requiring evidence of completion before clearing is allowed"}
+{"c": "pattern_recognition", "d": "detecting patterns in what is held after repeated use"}
+{"c": "synthesis", "d": "combining fragments into a single encompassing statement"}
+{"c": "three_fragment_structure", "d": "three connected fragments revealing the shape of the held thing"}
+{"c": "ritual_augment", "d": "the tool amplifies existing rituals, not replacing but augmenting"}
+{"c": "trust_through_forgetting_risk", "d": "extreme trust without retrieval is indistinguishable from loss"}
+{"c": "held_so_deeply", "d": "the thing held so deeply it leaves no mark; risks being forgotten entirely"}
+{"c": "the_filled_circle", "d": "completion as fullness, not emptiness; the held thing acted upon"}
+{"c": "the_dash", "d": "the trailing edge; the commitment the speaker was not ready to complete"}
+{"c": "two_thresholds", "d": "morning and evening; the full cycle of a day inhabited"}
+{"c": "emergence_over_control", "d": "the artifact teaches what the design could not; use reveals the actual shape"}
+{"c": "interpretation_must_not_exceed_evidence", "d": "claims must not exceed what is actually observed"}
+{"c": "relative_root", "d": "the ground containing accumulated artifacts from previous cycles"}
+{"r": ["relief_of_not_holding", "temporary_displacement"]}
+{"r": ["temporary_displacement", "deferred_return"]}
+{"r": ["temporary_displacement", "passive_retrieval"]}
+{"r": ["temporary_displacement", "one_thing_held"]}
+{"r": ["temporary_displacement", "no_notifications"]}
+{"r": ["temporary_displacement", "clearing_possible"]}
+{"r": ["temporary_displacement", "interface_smaller_than_relief"]}
+{"r": ["deferred_return", "passive_retrieval"]}
+{"r": ["passive_retrieval", "clearing_possible"]}
+{"r": ["commitment_not_decision", "the_grip_released"]}
+{"r": ["commitment_not_decision", "single_note_constraint_feature"]}
+{"r": ["commitment_not_decision", "commitment_layer"]}
+{"r": ["single_note_constraint_feature", "empty_state_completion"]}
+{"r": ["radical_constraint", "trust_through_forgetting_risk"]}
+{"r": ["radical_constraint", "no_notifications"]}
+{"r": ["radical_constraint", "one_thing_held"]}
+{"r": ["commitment_layer", "feeling_layer"]}
+{"r": ["commitment_layer", "transforms_what_is_held"]}
+{"r": ["commitment_layer", "symbolic_ecology"]}
+{"r": ["feeling_layer", "relief_of_being_witnessed"]}
+{"r": ["feeling_layer", "uncompletable"]}
+{"r": ["relief_of_being_witnessed", "shared_holding"]}
+{"r": ["uncompletable", "relief_of_being_witnessed"]}
+{"r": ["symbolic_ecology", "hypersigil"]}
+{"r": ["symbolic_ecology", "fractal_self_corrects"]}
+{"r": ["transforms_what_is_held", "productive_branch"]}
+{"r": ["transforms_what_is_held", "sterile_branch"]}
+{"r": ["transforms_what_is_held", "amplify_intelligence_not_interface"]}
+{"r": ["hypersigil", "meta_sigil"]}
+{"r": ["hypersigil", "four_relations"]}
+{"r": ["meta_sigil", "in_wait_out"]}
+{"r": ["meta_sigil", "traceability"]}
+{"r": ["four_relations", "compression_relation"]}
+{"r": ["four_relations", "collapse_relation"]}
+{"r": ["four_relations", "temporal_division_relation"]}
+{"r": ["four_relations", "completion_relation"]}
+{"r": ["compression_relation", "character_limit"]}
+{"r": ["compression_relation", "auto_release"]}
+{"r": ["compression_relation", "scale_mutation"]}
+{"r": ["collapse_relation", "url_only_input"]}
+{"r": ["collapse_relation", "held_so_deeply"]}
+{"r": ["temporal_division_relation", "time_window"]}
+{"r": ["temporal_division_relation", "two_thresholds"]}
+{"r": ["completion_relation", "empty_state_completion"]}
+{"r": ["completion_relation", "confirmation_step"]}
+{"r": ["completion_relation", "the_filled_circle"]}
+{"r": ["traceability", "relative_root"]}
+{"r": ["sterile_branch", "compulsive_loop"]}
+{"r": ["sterile_branch", "held_so_deeply"]}
+{"r": ["compulsive_loop", "clearing_possible"]}
+{"r": ["productive_branch", "pattern_recognition"]}
+{"r": ["productive_branch", "synthesis"]}
+{"r": ["productive_branch", "shared_holding"]}
+{"r": ["shared_holding", "ritual_augment"]}
+{"r": ["character_limit", "three_fragment_structure"]}
+{"r": ["three_fragment_structure", "synthesis"]}
+{"r": ["synthesis", "pattern_recognition"]}
+{"r": ["time_window", "ritual_augment"]}
+{"r": ["two_thresholds", "ritual_augment"]}
+{"r": ["register_shift", "scale_mutation"]}
+{"r": ["emergence_over_control", "interpretation_must_not_exceed_evidence"]}
+{"r": ["emergence_over_control", "transforms_what_is_held"]}
+{"r": ["interpretation_must_not_exceed_evidence", "commitment_not_decision"]}
+{"r": ["the_grip_released", "relief_of_not_holding"]}
+{"r": ["fractal_self_corrects", "sterile_branch"]}
+{"r": ["fractal_self_corrects", "compulsive_loop"]}
+{"r": ["the_dash", "compression_relation"]}
+{"r": ["empty_state_completion", "the_filled_circle"]}
+{"r": ["relative_root", "symbolic_ecology"]}
