@@ -131,7 +131,8 @@ class KB:
         payload = {"kind": "ee_ontology", "subject": self.subject,
                    "concepts": [{"kind": "concept", "id": c, "definition": d}
                                 for c, d in self.concepts.items()] or
-                   [{"kind": "concept", "id": "seed", "definition": "seed"}],
+                   [{"kind": "concept", "id": "seed",
+                     "definition": "the empty seed node"}],
                    "relations": [{"kind": "relation", "id": f"r{i}",
                                   "source": s, "target": t}
                                  for i, (s, t) in enumerate(sorted(
