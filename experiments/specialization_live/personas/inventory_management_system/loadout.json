@@ -1,0 +1,13 @@
+{
+  "region": "inventory_management_system",
+  "call_number": "technology_and_pos.inventory_management_system : finance_and_costing(16), facilities_and_equipment(3), reservations_and_seating(1), front_of_house_service(1)",
+  "tools": [
+    "kb_work",
+    "kb_drain",
+    "kb_root",
+    "kb_expand",
+    "brain_grow",
+    "brain_ask"
+  ],
+  "cone_size": 147
+}

@@ -1,0 +1,42 @@
+{
+  "rounds": [
+    {
+      "region": "health_department_inspection",
+      "targets": [
+        "violation_documentation",
+        "inspection_frequency"
+      ],
+      "phases": [
+        "soup",
+        "soup"
+      ],
+      "new_concepts": 54,
+      "new_relations": 26
+    },
+    {
+      "region": "inventory_management_system",
+      "targets": [
+        "inventory_count_scanner",
+        "course_pacing_software"
+      ],
+      "phases": [
+        "soup",
+        "soup"
+      ],
+      "new_concepts": 64,
+      "new_relations": 30
+    }
+  ],
+  "basis_before": {
+    "shared_atoms": [],
+    "shared": 0,
+    "union": 138,
+    "overlap": 0.0
+  },
+  "basis_after": {
+    "shared_atoms": [],
+    "shared": 0,
+    "union": 138,
+    "overlap": 0.0
+  }
+}
