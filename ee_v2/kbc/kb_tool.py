@@ -65,6 +65,33 @@ def parse_jsonl(text):
             s, t = sid(o["r"][0]), sid(o["r"][1])
             if s and t:
                 relations.append((s, t))
+    if not concepts and not relations:
+        # tolerant fallback: seats sometimes pretty-print — scan for FLAT
+        # brace-balanced objects anywhere in the text (our objects are flat)
+        for m in re.finditer(r"\{[^{}]*\}", text or "", re.S):
+            try:
+                o = json.loads(re.sub(r"\s+", " ", m.group(0)))
+            except ValueError:
+                continue
+            if "c" in o and "d" in o:
+                cid = sid(o["c"])
+                if cid and len(str(o["d"]).strip()) >= 8:
+                    concepts.setdefault(cid, str(o["d"]).strip()[:400])
+            elif "r" in o and isinstance(o.get("r"), list) and len(o["r"]) == 2:
+                a, b = sid(o["r"][0]), sid(o["r"][1])
+                if a and b:
+                    relations.append((a, b))
+            elif "source" in o and "target" in o:      # common seat variant
+                a, b = sid(str(o["source"])), sid(str(o["target"]))
+                if a and b:
+                    relations.append((a, b))
+            else:                                       # concept synonyms
+                cid = sid(str(o.get("concept") or o.get("id")
+                              or o.get("name") or ""))
+                d = str(o.get("definition") or o.get("d")
+                        or o.get("description") or "").strip()
+                if cid and len(d) >= 8:
+                    concepts.setdefault(cid, d[:400])
     return concepts, relations
 
 
@@ -128,7 +155,9 @@ class KB:
 
     # ── the gauge (the prover) ───────────────────────────────────────────────
     def check(self):
-        payload = {"kind": "ee_ontology", "subject": self.subject,
+        subject_atom = re.sub(r"[^a-z0-9_]+", "_",
+                              self.subject.lower()).strip("_") or "kb"
+        payload = {"kind": "ee_ontology", "subject": subject_atom,
                    "concepts": [{"kind": "concept", "id": c, "definition": d}
                                 for c, d in self.concepts.items()] or
                    [{"kind": "concept", "id": "seed",
@@ -144,16 +173,16 @@ class KB:
             lat = MapV2Lattice(Path(td) / "l", compiler=comp,
                                construction_adapter=EEOntologyAdapter(),
                                observation_adapter=EEPassObservationAdapter())
-            lat.create(self.subject, "ee_ontology")
-            lat.declare_kappa(self.subject, "ee_conceptualization",
+            lat.create(subject_atom, "ee_ontology")
+            lat.declare_kappa(subject_atom, "ee_conceptualization",
                               {"ontology_coherence": "closed + connected"})
-            lat.compute(self.subject)
-            lat.fill_construction(self.subject, payload)
-            lat.attach_observation(self.subject,
+            lat.compute(subject_atom)
+            lat.fill_construction(subject_atom, payload)
+            lat.attach_observation(subject_atom,
                                    {"kind": "pass_witness",
-                                    "subject": self.subject, "layer": 0,
+                                    "subject": subject_atom, "layer": 0,
                                     "pass_num": 1})
-            packet = lat.compile(self.subject)
+            packet = lat.compile(subject_atom)
             fr = packet.get("frontier", [])
         undefined = sorted({m.group(1) for f in fr
                             for m in [_DANGLING.match(f)] if m})

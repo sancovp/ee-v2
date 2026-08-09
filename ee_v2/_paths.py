@@ -4,7 +4,7 @@ import os
 import sys
 
 _DEFAULTS = ("/home/ceo/repo/map-v2", "/home/ceo/repo/cave-teams",
-             "/home/ceo/lcshim2")
+             "/home/ceo/repo/brain-agent", "/home/ceo/lcshim2")
 
 
 def ensure_deps() -> None:

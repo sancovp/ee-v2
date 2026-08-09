@@ -1,0 +1,1219 @@
+{
+  "created_at": "2026-08-09T10:39:39.821650+00:00",
+  "domain_id": "ee_ontology",
+  "nodes": {
+    "brain_ask": {
+      "certificate": null,
+      "children": [
+        "brain_ask.n_health_department_inspec",
+        "brain_ask.n_inventory_management_sys",
+        "final"
+      ],
+      "construction": null,
+      "created_at": "2026-08-09T10:39:39.821661+00:00",
+      "facts": [],
+      "griess": {
+        "history": [
+          "registered at derive"
+        ],
+        "kappa": null,
+        "phase": "derive",
+        "ses_depth": 0
+      },
+      "last_packet": null,
+      "name": "brain_ask",
+      "observation": null,
+      "parent": null,
+      "proof_context": null,
+      "revisions": [],
+      "sources": [],
+      "status": "expanded"
+    },
+    "brain_ask.n_health_department_inspec": {
+      "certificate": {
+        "compiled_at": "2026-08-09T10:40:31.463717+00:00",
+        "construction_facts_sha256": "8d7d4f8b72687ec28cce8dc11c7435031e557bf3dcca5e5925ca47a317f37644",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "fb44f0c8c5281c0d32ef30c51cb888ac616b49cae06ec0547f22299be53b4a48",
+        "construction_render_sha256": "3e2bee6a81c765b90fad22c6ceba7d7b1e0e37b5080ca925bc96d7449e9fd138",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "0fc05c83188342505fe64574445deaf1725a34feb27dc97d53a747c99cc67961"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "8d7d4f8b72687ec28cce8dc11c7435031e557bf3dcca5e5925ca47a317f37644",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "maintenance of required documentation demonstrating compliance",
+              "id": "record_keeping",
+              "kind": "concept"
+            },
+            {
+              "definition": "systematic verification of physical stock against records",
+              "id": "inventory_audit",
+              "kind": "concept"
+            },
+            {
+              "definition": "records tracking origin and chain of custody for food items",
+              "id": "food_source_documentation",
+              "kind": "concept"
+            },
+            {
+              "definition": "first-in-first-out inventory management system",
+              "id": "rotation_tracking",
+              "kind": "concept"
+            },
+            {
+              "definition": "internal compliance check conducted before regulatory visits",
+              "id": "self_inspection",
+              "kind": "concept"
+            },
+            {
+              "definition": "schedule of how often regulatory inspections occur",
+              "id": "inspection_frequency",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "record_keeping",
+              "target": "food_source_documentation"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "record_keeping",
+              "target": "inventory_audit"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "inventory_audit",
+              "target": "self_inspection"
+            },
+            {
+              "id": "r3",
+              "kind": "relation",
+              "source": "rotation_tracking",
+              "target": "record_keeping"
+            },
+            {
+              "id": "r4",
+              "kind": "relation",
+              "source": "self_inspection",
+              "target": "inspection_frequency"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "fb44f0c8c5281c0d32ef30c51cb888ac616b49cae06ec0547f22299be53b4a48",
+        "render_sha256": "3e2bee6a81c765b90fad22c6ceba7d7b1e0e37b5080ca925bc96d7449e9fd138",
+        "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninventory_audit: systematic verification of physical stock against records\nfood_source_documentation: records tracking origin and chain of custody for food items\nrotation_tracking: first-in-first-out inventory management system\nself_inspection: internal compliance check conducted before regulatory visits\ninspection_frequency: schedule of how often regulatory inspections occur\nr0: record_keeping -> food_source_documentation\nr1: record_keeping -> inventory_audit\nr2: inventory_audit -> self_inspection\nr3: rotation_tracking -> record_keeping\nr4: self_inspection -> inspection_frequency",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T10:39:39.822244+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,record_keeping).",
+        "candidate_concept(brain_ask,inventory_audit).",
+        "candidate_concept(brain_ask,food_source_documentation).",
+        "candidate_concept(brain_ask,rotation_tracking).",
+        "candidate_concept(brain_ask,self_inspection).",
+        "candidate_concept(brain_ask,inspection_frequency).",
+        "candidate_relation(brain_ask,r0,record_keeping,food_source_documentation).",
+        "candidate_relation(brain_ask,r1,record_keeping,inventory_audit).",
+        "candidate_relation(brain_ask,r2,inventory_audit,self_inspection).",
+        "candidate_relation(brain_ask,r3,rotation_tracking,record_keeping).",
+        "candidate_relation(brain_ask,r4,self_inspection,inspection_frequency).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at derive",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> soup (MAP target status partial)",
+          "soup -> derive (retry from MAP residue)",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction revised)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)",
+          "ont invalidated -> derive (proof context changed)",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction revised)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 0
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "8d7d4f8b72687ec28cce8dc11c7435031e557bf3dcca5e5925ca47a317f37644",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "fb44f0c8c5281c0d32ef30c51cb888ac616b49cae06ec0547f22299be53b4a48",
+        "construction_render_sha256": "3e2bee6a81c765b90fad22c6ceba7d7b1e0e37b5080ca925bc96d7449e9fd138",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "0fc05c83188342505fe64574445deaf1725a34feb27dc97d53a747c99cc67961"
+      },
+      "name": "brain_ask.n_health_department_inspec",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "8d7d4f8b72687ec28cce8dc11c7435031e557bf3dcca5e5925ca47a317f37644",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "maintenance of required documentation demonstrating compliance",
+                "id": "record_keeping",
+                "kind": "concept"
+              },
+              {
+                "definition": "systematic verification of physical stock against records",
+                "id": "inventory_audit",
+                "kind": "concept"
+              },
+              {
+                "definition": "records tracking origin and chain of custody for food items",
+                "id": "food_source_documentation",
+                "kind": "concept"
+              },
+              {
+                "definition": "first-in-first-out inventory management system",
+                "id": "rotation_tracking",
+                "kind": "concept"
+              },
+              {
+                "definition": "internal compliance check conducted before regulatory visits",
+                "id": "self_inspection",
+                "kind": "concept"
+              },
+              {
+                "definition": "schedule of how often regulatory inspections occur",
+                "id": "inspection_frequency",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "record_keeping",
+                "target": "food_source_documentation"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "record_keeping",
+                "target": "inventory_audit"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "inventory_audit",
+                "target": "self_inspection"
+              },
+              {
+                "id": "r3",
+                "kind": "relation",
+                "source": "rotation_tracking",
+                "target": "record_keeping"
+              },
+              {
+                "id": "r4",
+                "kind": "relation",
+                "source": "self_inspection",
+                "target": "inspection_frequency"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "fb44f0c8c5281c0d32ef30c51cb888ac616b49cae06ec0547f22299be53b4a48",
+          "render_sha256": "3e2bee6a81c765b90fad22c6ceba7d7b1e0e37b5080ca925bc96d7449e9fd138",
+          "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninventory_audit: systematic verification of physical stock against records\nfood_source_documentation: records tracking origin and chain of custody for food items\nrotation_tracking: first-in-first-out inventory management system\nself_inspection: internal compliance check conducted before regulatory visits\ninspection_frequency: schedule of how often regulatory inspections occur\nr0: record_keeping -> food_source_documentation\nr1: record_keeping -> inventory_audit\nr2: inventory_audit -> self_inspection\nr3: rotation_tracking -> record_keeping\nr4: self_inspection -> inspection_frequency",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [
+        {
+          "construction": {
+            "candidate_predicates": [
+              "candidate_concept",
+              "candidate_relation"
+            ],
+            "facts_sha256": "b51e47b21cb8fc5213625b474f4c30d5fd80bc4c20940607369cf9b8a8769c5c",
+            "lowering_id": "ee.map.ontology.lowering.v1",
+            "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+            "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+            "payload": {
+              "concepts": [
+                {
+                  "definition": "maintenance of required documentation demonstrating compliance",
+                  "id": "record_keeping",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "systematic verification of physical stock against records",
+                  "id": "inventory_audit",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "records tracking origin and chain of custody for food items",
+                  "id": "food_source_documentation",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "first-in-first-out inventory management system",
+                  "id": "rotation_tracking",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "internal compliance check conducted before regulatory visits",
+                  "id": "self_inspection",
+                  "kind": "concept"
+                }
+              ],
+              "kind": "ee_ontology",
+              "relations": [
+                {
+                  "id": "r0",
+                  "kind": "relation",
+                  "source": "record_keeping",
+                  "target": "food_source_documentation"
+                },
+                {
+                  "id": "r1",
+                  "kind": "relation",
+                  "source": "record_keeping",
+                  "target": "inventory_audit"
+                },
+                {
+                  "id": "r2",
+                  "kind": "relation",
+                  "source": "inventory_audit",
+                  "target": "self_inspection"
+                },
+                {
+                  "id": "r3",
+                  "kind": "relation",
+                  "source": "rotation_tracking",
+                  "target": "record_keeping"
+                },
+                {
+                  "id": "r4",
+                  "kind": "relation",
+                  "source": "self_inspection",
+                  "target": "inspection_frequency"
+                }
+              ],
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "ed7df81a8d8533e76edd6a9724017eb359bc6c11295edf6e76193bbd6f0cd9b4",
+            "render_sha256": "f788f5fd981031f90991789014372900c35d25c85fe539f9aad734b1d7b3f100",
+            "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninventory_audit: systematic verification of physical stock against records\nfood_source_documentation: records tracking origin and chain of custody for food items\nrotation_tracking: first-in-first-out inventory management system\nself_inspection: internal compliance check conducted before regulatory visits\nr0: record_keeping -> food_source_documentation\nr1: record_keeping -> inventory_audit\nr2: inventory_audit -> self_inspection\nr3: rotation_tracking -> record_keeping\nr4: self_inspection -> inspection_frequency",
+            "schema": "map.typed_construction.v1",
+            "schema_id": "ee.map.ontology.v1",
+            "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+            "target": "ee_ontology"
+          },
+          "facts": [
+            "candidate_concept(brain_ask,record_keeping).",
+            "candidate_concept(brain_ask,inventory_audit).",
+            "candidate_concept(brain_ask,food_source_documentation).",
+            "candidate_concept(brain_ask,rotation_tracking).",
+            "candidate_concept(brain_ask,self_inspection).",
+            "candidate_relation(brain_ask,r0,record_keeping,food_source_documentation).",
+            "candidate_relation(brain_ask,r1,record_keeping,inventory_audit).",
+            "candidate_relation(brain_ask,r2,inventory_audit,self_inspection).",
+            "candidate_relation(brain_ask,r3,rotation_tracking,record_keeping).",
+            "candidate_relation(brain_ask,r4,self_inspection,inspection_frequency).",
+            "source_pass_complete(brain_ask)."
+          ],
+          "observation": {
+            "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+            "lowering_id": "ee.map.pass_witness.lowering.v1",
+            "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+            "model_type": "ee_v2.map_gate.adapter.PassWitness",
+            "observation_predicates": [
+              "source_pass_complete"
+            ],
+            "payload": {
+              "kind": "pass_witness",
+              "layer": 0,
+              "pass_num": 1,
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+            "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+            "rendered": "witness:brain_ask:L0P1",
+            "schema": "map.typed_observation.v1",
+            "schema_id": "ee.map.pass_witness.v1",
+            "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+            "target": "ee_ontology"
+          },
+          "revised_at": "2026-08-09T10:40:05.425517+00:00"
+        },
+        {
+          "construction": {
+            "candidate_predicates": [
+              "candidate_concept",
+              "candidate_relation"
+            ],
+            "facts_sha256": "8d7d4f8b72687ec28cce8dc11c7435031e557bf3dcca5e5925ca47a317f37644",
+            "lowering_id": "ee.map.ontology.lowering.v1",
+            "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+            "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+            "payload": {
+              "concepts": [
+                {
+                  "definition": "maintenance of required documentation demonstrating compliance",
+                  "id": "record_keeping",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "systematic verification of physical stock against records",
+                  "id": "inventory_audit",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "records tracking origin and chain of custody for food items",
+                  "id": "food_source_documentation",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "first-in-first-out inventory management system",
+                  "id": "rotation_tracking",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "internal compliance check conducted before regulatory visits",
+                  "id": "self_inspection",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "schedule of how often regulatory inspections occur",
+                  "id": "inspection_frequency",
+                  "kind": "concept"
+                }
+              ],
+              "kind": "ee_ontology",
+              "relations": [
+                {
+                  "id": "r0",
+                  "kind": "relation",
+                  "source": "record_keeping",
+                  "target": "food_source_documentation"
+                },
+                {
+                  "id": "r1",
+                  "kind": "relation",
+                  "source": "record_keeping",
+                  "target": "inventory_audit"
+                },
+                {
+                  "id": "r2",
+                  "kind": "relation",
+                  "source": "inventory_audit",
+                  "target": "self_inspection"
+                },
+                {
+                  "id": "r3",
+                  "kind": "relation",
+                  "source": "rotation_tracking",
+                  "target": "record_keeping"
+                },
+                {
+                  "id": "r4",
+                  "kind": "relation",
+                  "source": "self_inspection",
+                  "target": "inspection_frequency"
+                }
+              ],
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "fb44f0c8c5281c0d32ef30c51cb888ac616b49cae06ec0547f22299be53b4a48",
+            "render_sha256": "3e2bee6a81c765b90fad22c6ceba7d7b1e0e37b5080ca925bc96d7449e9fd138",
+            "rendered": "ontology:brain_ask\nrecord_keeping: maintenance of required documentation demonstrating compliance\ninventory_audit: systematic verification of physical stock against records\nfood_source_documentation: records tracking origin and chain of custody for food items\nrotation_tracking: first-in-first-out inventory management system\nself_inspection: internal compliance check conducted before regulatory visits\ninspection_frequency: schedule of how often regulatory inspections occur\nr0: record_keeping -> food_source_documentation\nr1: record_keeping -> inventory_audit\nr2: inventory_audit -> self_inspection\nr3: rotation_tracking -> record_keeping\nr4: self_inspection -> inspection_frequency",
+            "schema": "map.typed_construction.v1",
+            "schema_id": "ee.map.ontology.v1",
+            "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+            "target": "ee_ontology"
+          },
+          "facts": [
+            "candidate_concept(brain_ask,record_keeping).",
+            "candidate_concept(brain_ask,inventory_audit).",
+            "candidate_concept(brain_ask,food_source_documentation).",
+            "candidate_concept(brain_ask,rotation_tracking).",
+            "candidate_concept(brain_ask,self_inspection).",
+            "candidate_concept(brain_ask,inspection_frequency).",
+            "candidate_relation(brain_ask,r0,record_keeping,food_source_documentation).",
+            "candidate_relation(brain_ask,r1,record_keeping,inventory_audit).",
+            "candidate_relation(brain_ask,r2,inventory_audit,self_inspection).",
+            "candidate_relation(brain_ask,r3,rotation_tracking,record_keeping).",
+            "candidate_relation(brain_ask,r4,self_inspection,inspection_frequency).",
+            "source_pass_complete(brain_ask)."
+          ],
+          "observation": {
+            "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+            "lowering_id": "ee.map.pass_witness.lowering.v1",
+            "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+            "model_type": "ee_v2.map_gate.adapter.PassWitness",
+            "observation_predicates": [
+              "source_pass_complete"
+            ],
+            "payload": {
+              "kind": "pass_witness",
+              "layer": 0,
+              "pass_num": 1,
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+            "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+            "rendered": "witness:brain_ask:L0P1",
+            "schema": "map.typed_observation.v1",
+            "schema_id": "ee.map.pass_witness.v1",
+            "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+            "target": "ee_ontology"
+          },
+          "revised_at": "2026-08-09T10:40:31.013590+00:00"
+        }
+      ],
+      "sources": [],
+      "status": "filled"
+    },
+    "brain_ask.n_inventory_management_sys": {
+      "certificate": {
+        "compiled_at": "2026-08-09T10:40:30.567174+00:00",
+        "construction_facts_sha256": "92379876133320e7271c42b114d233c7856c936824d00ccbb89d33c7458dd92f",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "fae4b5b0694f523a05b77e320c1b6f0f028316c866126fca4053f3af2ae67571",
+        "construction_render_sha256": "9d3e30e9eb22992a4b254484709debe4a93cf1f8d0303bc87da9c429cb6c38f0",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "0fc05c83188342505fe64574445deaf1725a34feb27dc97d53a747c99cc67961"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "92379876133320e7271c42b114d233c7856c936824d00ccbb89d33c7458dd92f",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "Digital tool tracking stock levels ingredient usage and reorder alerts",
+              "id": "inventory_management_system",
+              "kind": "concept"
+            },
+            {
+              "definition": "Optical scanner device to read product barcodes for inventory",
+              "id": "barcode_scanner",
+              "kind": "concept"
+            },
+            {
+              "definition": "Handheld barcode scanner for rapid physical inventory counts",
+              "id": "inventory_count_scanner",
+              "kind": "concept"
+            },
+            {
+              "definition": "Automated warning when product shelf life approaches spoilage",
+              "id": "expiration_date_alert",
+              "kind": "concept"
+            },
+            {
+              "definition": "System managing ingredient locations and quantities in storage",
+              "id": "food_storage_tracking",
+              "kind": "concept"
+            },
+            {
+              "definition": "Stock tracking broken down to individual ingredient components",
+              "id": "ingredient_level_inventory",
+              "kind": "concept"
+            },
+            {
+              "definition": "Automated notifications when stock reaches predetermined reorder",
+              "id": "inventory_alert_system",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "barcode_scanner",
+              "target": "inventory_count_scanner"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "expiration_date_alert",
+              "target": "inventory_management_system"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "food_storage_tracking",
+              "target": "inventory_management_system"
+            },
+            {
+              "id": "r3",
+              "kind": "relation",
+              "source": "ingredient_level_inventory",
+              "target": "inventory_management_system"
+            },
+            {
+              "id": "r4",
+              "kind": "relation",
+              "source": "inventory_alert_system",
+              "target": "inventory_management_system"
+            },
+            {
+              "id": "r5",
+              "kind": "relation",
+              "source": "inventory_count_scanner",
+              "target": "inventory_management_system"
+            },
+            {
+              "id": "r6",
+              "kind": "relation",
+              "source": "expiration_date_alert",
+              "target": "food_storage_tracking"
+            },
+            {
+              "id": "r7",
+              "kind": "relation",
+              "source": "ingredient_level_inventory",
+              "target": "food_storage_tracking"
+            },
+            {
+              "id": "r8",
+              "kind": "relation",
+              "source": "inventory_alert_system",
+              "target": "ingredient_level_inventory"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "fae4b5b0694f523a05b77e320c1b6f0f028316c866126fca4053f3af2ae67571",
+        "render_sha256": "9d3e30e9eb22992a4b254484709debe4a93cf1f8d0303bc87da9c429cb6c38f0",
+        "rendered": "ontology:brain_ask\ninventory_management_system: Digital tool tracking stock levels ingredient usage and reorder alerts\nbarcode_scanner: Optical scanner device to read product barcodes for inventory\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage\nfood_storage_tracking: System managing ingredient locations and quantities in storage\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder\nr0: barcode_scanner -> inventory_count_scanner\nr1: expiration_date_alert -> inventory_management_system\nr2: food_storage_tracking -> inventory_management_system\nr3: ingredient_level_inventory -> inventory_management_system\nr4: inventory_alert_system -> inventory_management_system\nr5: inventory_count_scanner -> inventory_management_system\nr6: expiration_date_alert -> food_storage_tracking\nr7: ingredient_level_inventory -> food_storage_tracking\nr8: inventory_alert_system -> ingredient_level_inventory",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T10:39:39.822249+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,inventory_management_system).",
+        "candidate_concept(brain_ask,barcode_scanner).",
+        "candidate_concept(brain_ask,inventory_count_scanner).",
+        "candidate_concept(brain_ask,expiration_date_alert).",
+        "candidate_concept(brain_ask,food_storage_tracking).",
+        "candidate_concept(brain_ask,ingredient_level_inventory).",
+        "candidate_concept(brain_ask,inventory_alert_system).",
+        "candidate_relation(brain_ask,r0,barcode_scanner,inventory_count_scanner).",
+        "candidate_relation(brain_ask,r1,expiration_date_alert,inventory_management_system).",
+        "candidate_relation(brain_ask,r2,food_storage_tracking,inventory_management_system).",
+        "candidate_relation(brain_ask,r3,ingredient_level_inventory,inventory_management_system).",
+        "candidate_relation(brain_ask,r4,inventory_alert_system,inventory_management_system).",
+        "candidate_relation(brain_ask,r5,inventory_count_scanner,inventory_management_system).",
+        "candidate_relation(brain_ask,r6,expiration_date_alert,food_storage_tracking).",
+        "candidate_relation(brain_ask,r7,ingredient_level_inventory,food_storage_tracking).",
+        "candidate_relation(brain_ask,r8,inventory_alert_system,ingredient_level_inventory).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at derive",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> soup (MAP target status partial)",
+          "soup -> derive (retry from MAP residue)",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction revised)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 0
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "92379876133320e7271c42b114d233c7856c936824d00ccbb89d33c7458dd92f",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "fae4b5b0694f523a05b77e320c1b6f0f028316c866126fca4053f3af2ae67571",
+        "construction_render_sha256": "9d3e30e9eb22992a4b254484709debe4a93cf1f8d0303bc87da9c429cb6c38f0",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "0fc05c83188342505fe64574445deaf1725a34feb27dc97d53a747c99cc67961"
+      },
+      "name": "brain_ask.n_inventory_management_sys",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "92379876133320e7271c42b114d233c7856c936824d00ccbb89d33c7458dd92f",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "Digital tool tracking stock levels ingredient usage and reorder alerts",
+                "id": "inventory_management_system",
+                "kind": "concept"
+              },
+              {
+                "definition": "Optical scanner device to read product barcodes for inventory",
+                "id": "barcode_scanner",
+                "kind": "concept"
+              },
+              {
+                "definition": "Handheld barcode scanner for rapid physical inventory counts",
+                "id": "inventory_count_scanner",
+                "kind": "concept"
+              },
+              {
+                "definition": "Automated warning when product shelf life approaches spoilage",
+                "id": "expiration_date_alert",
+                "kind": "concept"
+              },
+              {
+                "definition": "System managing ingredient locations and quantities in storage",
+                "id": "food_storage_tracking",
+                "kind": "concept"
+              },
+              {
+                "definition": "Stock tracking broken down to individual ingredient components",
+                "id": "ingredient_level_inventory",
+                "kind": "concept"
+              },
+              {
+                "definition": "Automated notifications when stock reaches predetermined reorder",
+                "id": "inventory_alert_system",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "barcode_scanner",
+                "target": "inventory_count_scanner"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "expiration_date_alert",
+                "target": "inventory_management_system"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "food_storage_tracking",
+                "target": "inventory_management_system"
+              },
+              {
+                "id": "r3",
+                "kind": "relation",
+                "source": "ingredient_level_inventory",
+                "target": "inventory_management_system"
+              },
+              {
+                "id": "r4",
+                "kind": "relation",
+                "source": "inventory_alert_system",
+                "target": "inventory_management_system"
+              },
+              {
+                "id": "r5",
+                "kind": "relation",
+                "source": "inventory_count_scanner",
+                "target": "inventory_management_system"
+              },
+              {
+                "id": "r6",
+                "kind": "relation",
+                "source": "expiration_date_alert",
+                "target": "food_storage_tracking"
+              },
+              {
+                "id": "r7",
+                "kind": "relation",
+                "source": "ingredient_level_inventory",
+                "target": "food_storage_tracking"
+              },
+              {
+                "id": "r8",
+                "kind": "relation",
+                "source": "inventory_alert_system",
+                "target": "ingredient_level_inventory"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "fae4b5b0694f523a05b77e320c1b6f0f028316c866126fca4053f3af2ae67571",
+          "render_sha256": "9d3e30e9eb22992a4b254484709debe4a93cf1f8d0303bc87da9c429cb6c38f0",
+          "rendered": "ontology:brain_ask\ninventory_management_system: Digital tool tracking stock levels ingredient usage and reorder alerts\nbarcode_scanner: Optical scanner device to read product barcodes for inventory\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage\nfood_storage_tracking: System managing ingredient locations and quantities in storage\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder\nr0: barcode_scanner -> inventory_count_scanner\nr1: expiration_date_alert -> inventory_management_system\nr2: food_storage_tracking -> inventory_management_system\nr3: ingredient_level_inventory -> inventory_management_system\nr4: inventory_alert_system -> inventory_management_system\nr5: inventory_count_scanner -> inventory_management_system\nr6: expiration_date_alert -> food_storage_tracking\nr7: ingredient_level_inventory -> food_storage_tracking\nr8: inventory_alert_system -> ingredient_level_inventory",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [
+        {
+          "construction": {
+            "candidate_predicates": [
+              "candidate_concept",
+              "candidate_relation"
+            ],
+            "facts_sha256": "a9c022d3a46844956c630301eda6faedaaacc9d12b2aeb39d1dbb22621b04136",
+            "lowering_id": "ee.map.ontology.lowering.v1",
+            "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+            "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+            "payload": {
+              "concepts": [
+                {
+                  "definition": "Optical scanner device to read product barcodes for inventory",
+                  "id": "barcode_scanner",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Handheld barcode scanner for rapid physical inventory counts",
+                  "id": "inventory_count_scanner",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Automated warning when product shelf life approaches spoilage",
+                  "id": "expiration_date_alert",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "System managing ingredient locations and quantities in storage",
+                  "id": "food_storage_tracking",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Stock tracking broken down to individual ingredient components",
+                  "id": "ingredient_level_inventory",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "Automated notifications when stock reaches predetermined reorder",
+                  "id": "inventory_alert_system",
+                  "kind": "concept"
+                }
+              ],
+              "kind": "ee_ontology",
+              "relations": [
+                {
+                  "id": "r0",
+                  "kind": "relation",
+                  "source": "expiration_date_alert",
+                  "target": "inventory_management_system"
+                },
+                {
+                  "id": "r1",
+                  "kind": "relation",
+                  "source": "food_storage_tracking",
+                  "target": "inventory_management_system"
+                },
+                {
+                  "id": "r2",
+                  "kind": "relation",
+                  "source": "ingredient_level_inventory",
+                  "target": "inventory_management_system"
+                },
+                {
+                  "id": "r3",
+                  "kind": "relation",
+                  "source": "inventory_alert_system",
+                  "target": "inventory_management_system"
+                },
+                {
+                  "id": "r4",
+                  "kind": "relation",
+                  "source": "inventory_count_scanner",
+                  "target": "inventory_management_system"
+                },
+                {
+                  "id": "r5",
+                  "kind": "relation",
+                  "source": "barcode_scanner",
+                  "target": "inventory_count_scanner"
+                },
+                {
+                  "id": "r6",
+                  "kind": "relation",
+                  "source": "expiration_date_alert",
+                  "target": "food_storage_tracking"
+                },
+                {
+                  "id": "r7",
+                  "kind": "relation",
+                  "source": "ingredient_level_inventory",
+                  "target": "food_storage_tracking"
+                },
+                {
+                  "id": "r8",
+                  "kind": "relation",
+                  "source": "inventory_alert_system",
+                  "target": "ingredient_level_inventory"
+                }
+              ],
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "afbc666d9d30abd00e5e70d728c6978b7025aeff1541d9e9a1fe267e5cd60104",
+            "render_sha256": "d4b27483eec893af82374cb4031a2be516e4859f844ca27c584b6706c9f5c489",
+            "rendered": "ontology:brain_ask\nbarcode_scanner: Optical scanner device to read product barcodes for inventory\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage\nfood_storage_tracking: System managing ingredient locations and quantities in storage\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder\nr0: expiration_date_alert -> inventory_management_system\nr1: food_storage_tracking -> inventory_management_system\nr2: ingredient_level_inventory -> inventory_management_system\nr3: inventory_alert_system -> inventory_management_system\nr4: inventory_count_scanner -> inventory_management_system\nr5: barcode_scanner -> inventory_count_scanner\nr6: expiration_date_alert -> food_storage_tracking\nr7: ingredient_level_inventory -> food_storage_tracking\nr8: inventory_alert_system -> ingredient_level_inventory",
+            "schema": "map.typed_construction.v1",
+            "schema_id": "ee.map.ontology.v1",
+            "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+            "target": "ee_ontology"
+          },
+          "facts": [
+            "candidate_concept(brain_ask,barcode_scanner).",
+            "candidate_concept(brain_ask,inventory_count_scanner).",
+            "candidate_concept(brain_ask,expiration_date_alert).",
+            "candidate_concept(brain_ask,food_storage_tracking).",
+            "candidate_concept(brain_ask,ingredient_level_inventory).",
+            "candidate_concept(brain_ask,inventory_alert_system).",
+            "candidate_relation(brain_ask,r0,expiration_date_alert,inventory_management_system).",
+            "candidate_relation(brain_ask,r1,food_storage_tracking,inventory_management_system).",
+            "candidate_relation(brain_ask,r2,ingredient_level_inventory,inventory_management_system).",
+            "candidate_relation(brain_ask,r3,inventory_alert_system,inventory_management_system).",
+            "candidate_relation(brain_ask,r4,inventory_count_scanner,inventory_management_system).",
+            "candidate_relation(brain_ask,r5,barcode_scanner,inventory_count_scanner).",
+            "candidate_relation(brain_ask,r6,expiration_date_alert,food_storage_tracking).",
+            "candidate_relation(brain_ask,r7,ingredient_level_inventory,food_storage_tracking).",
+            "candidate_relation(brain_ask,r8,inventory_alert_system,ingredient_level_inventory).",
+            "source_pass_complete(brain_ask)."
+          ],
+          "observation": {
+            "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+            "lowering_id": "ee.map.pass_witness.lowering.v1",
+            "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+            "model_type": "ee_v2.map_gate.adapter.PassWitness",
+            "observation_predicates": [
+              "source_pass_complete"
+            ],
+            "payload": {
+              "kind": "pass_witness",
+              "layer": 0,
+              "pass_num": 1,
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+            "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+            "rendered": "witness:brain_ask:L0P1",
+            "schema": "map.typed_observation.v1",
+            "schema_id": "ee.map.pass_witness.v1",
+            "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+            "target": "ee_ontology"
+          },
+          "revised_at": "2026-08-09T10:40:30.122977+00:00"
+        }
+      ],
+      "sources": [],
+      "status": "filled"
+    },
+    "final": {
+      "certificate": null,
+      "children": [],
+      "construction": null,
+      "created_at": "2026-08-09T10:40:31.466403+00:00",
+      "facts": [],
+      "griess": {
+        "history": [
+          "registered at pattern",
+          "pattern combined from brain_ask.n_health_department_inspec, brain_ask.n_inventory_management_sys",
+          "pattern -> implement (pattern made meta-compilable)",
+          "implement -> derive (SES+1 construction candidate)",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected ACROSS territories"
+          }
+        },
+        "phase": "compute",
+        "ses_depth": 1
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "compute",
+        "kappa_sha256": "489f4755c27826e7a3b3c7604b38310aaedb693ce50f379c0708b64a8bfa6705",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "purpose": "compute_constraints",
+        "status": "compiled",
+        "workspace_sha256": "0fc05c83188342505fe64574445deaf1725a34feb27dc97d53a747c99cc67961"
+      },
+      "name": "final",
+      "observation": null,
+      "parent": "brain_ask",
+      "proof_context": null,
+      "revisions": [],
+      "sources": [
+        "brain_ask.n_health_department_inspec",
+        "brain_ask.n_inventory_management_sys"
+      ],
+      "status": "open"
+    }
+  },
+  "root": "brain_ask",
+  "selected": "final",
+  "subject": "brain_ask",
+  "target": "ee_ontology",
+  "updated_at": "2026-08-09T10:40:31.983739+00:00",
+  "version": 4
+}

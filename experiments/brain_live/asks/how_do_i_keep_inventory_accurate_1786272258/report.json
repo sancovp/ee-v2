@@ -1,0 +1,25 @@
+{
+  "query": "how do I keep inventory accurate while staying ready for the health inspection?",
+  "fired": [
+    "health_department_inspection",
+    "inventory_management_system"
+  ],
+  "certified": {
+    "health_department_inspection": {
+      "concepts": 5,
+      "relations": 5
+    },
+    "inventory_management_system": {
+      "concepts": 5,
+      "relations": 4
+    }
+  },
+  "synthesis_proven": false,
+  "ses_depth": 1,
+  "final_answer": "## ANSWER\n\nMaintain meticulous **record_keeping** documenting all inventory movements\u2014dates received, quantities, expiration tracking, and storage locations. Use **expiration_date_alert** to rotate stock FIFO and flag soon-to-expire items before violations occur. Deploy **inventory_count_scanner** for real-time accuracy between physical counts, feeding directly into your inspection-ready documentation. Leverage **food_storage_tracking** to ensure proper storage conditions that satisfy health inspectors. **Ingredient_level_inventory** provides the detailed breakdown inspectors expect. The **inventory_alert_system** coordinates all these elements. Together, these systems create inspection-ready documentation that proves compliance while maintaining operational accuracy\u2014your inventory stays precise AND inspection-ready simultaneously.\n\n---\n\n## CROSS-TERRITORY CONSTRUCTION",
+  "neuron_answers": {
+    "health_department_inspection": "# ANSWER\n\nMaintain meticulous **record_keeping** that documents all inventory movements\u2014dates received, quantities, expiration tracking, and storage locations. This transforms your inventory system into an **inspection_report** ready-reference, eliminating scrambling when inspectors arrive.\n\nSchedule inventory audits aligned with your **inspection_frequency** to ensure perpetual accuracy. Categorize items by **violation_categories** (temperature-sensitive, high-risk items) and prioritize their tracking to avoid critical violations.\n\nLink inventory records to supplier documentation for full traceability. During **reinspection**, accurate inventory logs demonstrate corrective action and ongoing compliance, strengthening your standing with inspectors.\n\n---\n\n# CONSTRUCTION\n\n```jsonl",
+    "inventory_management_system": "For accurate inventory AND health inspection readiness, leverage these systems: Use **expiration_date_alert** to rotate stock FIFO and flag soon-to-expire items. Conduct regular counts with **inventory_count_scanner** to match physical vs. system inventory. Track storage locations via **food_storage_tracking** ensuring proper temperature zones and organization (raw above cooked, etc.). Use **ingredient_level_inventory** for detailed lot tracing. Set **inventory_alert_system** thresholds to maintain adequate stock without overstocking. Document vendor deliveries and temperature logs\u2014inspectors verify FIFO compliance, proper storage, and expiration tracking. Keep records accessible and organized by date."
+  },
+  "secs": 76.8
+}

@@ -1,0 +1,814 @@
+{
+  "created_at": "2026-08-09T10:41:39.747148+00:00",
+  "domain_id": "ee_ontology",
+  "nodes": {
+    "brain_ask": {
+      "certificate": null,
+      "children": [
+        "brain_ask.n_health_department_inspec",
+        "brain_ask.n_inventory_management_sys",
+        "final"
+      ],
+      "construction": null,
+      "created_at": "2026-08-09T10:41:39.747158+00:00",
+      "facts": [],
+      "griess": {
+        "history": [
+          "registered at derive"
+        ],
+        "kappa": null,
+        "phase": "derive",
+        "ses_depth": 0
+      },
+      "last_packet": null,
+      "name": "brain_ask",
+      "observation": null,
+      "parent": null,
+      "proof_context": null,
+      "revisions": [],
+      "sources": [],
+      "status": "expanded"
+    },
+    "brain_ask.n_health_department_inspec": {
+      "certificate": {
+        "compiled_at": "2026-08-09T10:42:04.775600+00:00",
+        "construction_facts_sha256": "86df5f96113b45121b745be62fa6e9392fdd6a17e5c9f74a538bd347d02d9e44",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "7b2226007cf85095f9a0018460056950296204b5ee33d6c1049163fe587b61b4",
+        "construction_render_sha256": "eefc590127e9df056846889117db93de92f8f0311cda06c65a2b750f5a09cbc3",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "80630562e0fda7a697d2df54b192f8a3cffa54d6bd95d0ae3a0e9defa08146e5"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "86df5f96113b45121b745be62fa6e9392fdd6a17e5c9f74a538bd347d02d9e44",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "official documented record of findings from health department evaluation",
+              "id": "inspection_report",
+              "kind": "concept"
+            },
+            {
+              "definition": "maintenance of required documentation demonstrating compliance with regulations",
+              "id": "record_keeping",
+              "kind": "concept"
+            },
+            {
+              "definition": "classification system for types and severity levels of health code infractions",
+              "id": "violation_categories",
+              "kind": "concept"
+            },
+            {
+              "definition": "legal order requiring food establishment to cease operations due to health hazards",
+              "id": "closure_order",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "record_keeping",
+              "target": "inspection_report"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "inspection_report",
+              "target": "violation_categories"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "violation_categories",
+              "target": "closure_order"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "7b2226007cf85095f9a0018460056950296204b5ee33d6c1049163fe587b61b4",
+        "render_sha256": "eefc590127e9df056846889117db93de92f8f0311cda06c65a2b750f5a09cbc3",
+        "rendered": "ontology:brain_ask\ninspection_report: official documented record of findings from health department evaluation\nrecord_keeping: maintenance of required documentation demonstrating compliance with regulations\nviolation_categories: classification system for types and severity levels of health code infractions\nclosure_order: legal order requiring food establishment to cease operations due to health hazards\nr0: record_keeping -> inspection_report\nr1: inspection_report -> violation_categories\nr2: violation_categories -> closure_order",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T10:41:39.747514+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,inspection_report).",
+        "candidate_concept(brain_ask,record_keeping).",
+        "candidate_concept(brain_ask,violation_categories).",
+        "candidate_concept(brain_ask,closure_order).",
+        "candidate_relation(brain_ask,r0,record_keeping,inspection_report).",
+        "candidate_relation(brain_ask,r1,inspection_report,violation_categories).",
+        "candidate_relation(brain_ask,r2,violation_categories,closure_order).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at derive",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)",
+          "ont invalidated -> derive (proof context changed)",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction revised)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 0
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "86df5f96113b45121b745be62fa6e9392fdd6a17e5c9f74a538bd347d02d9e44",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "7b2226007cf85095f9a0018460056950296204b5ee33d6c1049163fe587b61b4",
+        "construction_render_sha256": "eefc590127e9df056846889117db93de92f8f0311cda06c65a2b750f5a09cbc3",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "80630562e0fda7a697d2df54b192f8a3cffa54d6bd95d0ae3a0e9defa08146e5"
+      },
+      "name": "brain_ask.n_health_department_inspec",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "86df5f96113b45121b745be62fa6e9392fdd6a17e5c9f74a538bd347d02d9e44",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "official documented record of findings from health department evaluation",
+                "id": "inspection_report",
+                "kind": "concept"
+              },
+              {
+                "definition": "maintenance of required documentation demonstrating compliance with regulations",
+                "id": "record_keeping",
+                "kind": "concept"
+              },
+              {
+                "definition": "classification system for types and severity levels of health code infractions",
+                "id": "violation_categories",
+                "kind": "concept"
+              },
+              {
+                "definition": "legal order requiring food establishment to cease operations due to health hazards",
+                "id": "closure_order",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "record_keeping",
+                "target": "inspection_report"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "inspection_report",
+                "target": "violation_categories"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "violation_categories",
+                "target": "closure_order"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "7b2226007cf85095f9a0018460056950296204b5ee33d6c1049163fe587b61b4",
+          "render_sha256": "eefc590127e9df056846889117db93de92f8f0311cda06c65a2b750f5a09cbc3",
+          "rendered": "ontology:brain_ask\ninspection_report: official documented record of findings from health department evaluation\nrecord_keeping: maintenance of required documentation demonstrating compliance with regulations\nviolation_categories: classification system for types and severity levels of health code infractions\nclosure_order: legal order requiring food establishment to cease operations due to health hazards\nr0: record_keeping -> inspection_report\nr1: inspection_report -> violation_categories\nr2: violation_categories -> closure_order",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [
+        {
+          "construction": {
+            "candidate_predicates": [
+              "candidate_concept",
+              "candidate_relation"
+            ],
+            "facts_sha256": "86df5f96113b45121b745be62fa6e9392fdd6a17e5c9f74a538bd347d02d9e44",
+            "lowering_id": "ee.map.ontology.lowering.v1",
+            "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+            "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+            "payload": {
+              "concepts": [
+                {
+                  "definition": "official documented record of findings from health department evaluation",
+                  "id": "inspection_report",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "maintenance of required documentation demonstrating compliance with regulations",
+                  "id": "record_keeping",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "classification system for types and severity levels of health code infractions",
+                  "id": "violation_categories",
+                  "kind": "concept"
+                },
+                {
+                  "definition": "legal order requiring food establishment to cease operations due to health hazards",
+                  "id": "closure_order",
+                  "kind": "concept"
+                }
+              ],
+              "kind": "ee_ontology",
+              "relations": [
+                {
+                  "id": "r0",
+                  "kind": "relation",
+                  "source": "record_keeping",
+                  "target": "inspection_report"
+                },
+                {
+                  "id": "r1",
+                  "kind": "relation",
+                  "source": "inspection_report",
+                  "target": "violation_categories"
+                },
+                {
+                  "id": "r2",
+                  "kind": "relation",
+                  "source": "violation_categories",
+                  "target": "closure_order"
+                }
+              ],
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "7b2226007cf85095f9a0018460056950296204b5ee33d6c1049163fe587b61b4",
+            "render_sha256": "eefc590127e9df056846889117db93de92f8f0311cda06c65a2b750f5a09cbc3",
+            "rendered": "ontology:brain_ask\ninspection_report: official documented record of findings from health department evaluation\nrecord_keeping: maintenance of required documentation demonstrating compliance with regulations\nviolation_categories: classification system for types and severity levels of health code infractions\nclosure_order: legal order requiring food establishment to cease operations due to health hazards\nr0: record_keeping -> inspection_report\nr1: inspection_report -> violation_categories\nr2: violation_categories -> closure_order",
+            "schema": "map.typed_construction.v1",
+            "schema_id": "ee.map.ontology.v1",
+            "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+            "target": "ee_ontology"
+          },
+          "facts": [
+            "candidate_concept(brain_ask,inspection_report).",
+            "candidate_concept(brain_ask,record_keeping).",
+            "candidate_concept(brain_ask,violation_categories).",
+            "candidate_concept(brain_ask,closure_order).",
+            "candidate_relation(brain_ask,r0,record_keeping,inspection_report).",
+            "candidate_relation(brain_ask,r1,inspection_report,violation_categories).",
+            "candidate_relation(brain_ask,r2,violation_categories,closure_order).",
+            "source_pass_complete(brain_ask)."
+          ],
+          "observation": {
+            "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+            "lowering_id": "ee.map.pass_witness.lowering.v1",
+            "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+            "model_type": "ee_v2.map_gate.adapter.PassWitness",
+            "observation_predicates": [
+              "source_pass_complete"
+            ],
+            "payload": {
+              "kind": "pass_witness",
+              "layer": 0,
+              "pass_num": 1,
+              "subject": "brain_ask"
+            },
+            "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+            "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+            "rendered": "witness:brain_ask:L0P1",
+            "schema": "map.typed_observation.v1",
+            "schema_id": "ee.map.pass_witness.v1",
+            "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+            "target": "ee_ontology"
+          },
+          "revised_at": "2026-08-09T10:42:04.321247+00:00"
+        }
+      ],
+      "sources": [],
+      "status": "filled"
+    },
+    "brain_ask.n_inventory_management_sys": {
+      "certificate": {
+        "compiled_at": "2026-08-09T10:42:03.877022+00:00",
+        "construction_facts_sha256": "a708032e2c7a3a7fa7c8ac37ba27af7b9050baa31dd0e15778746f5bd19ea1db",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "e0d5a19aed9012be35d535e5e1aebc691932f037f37fb14198f1f8d95cab7e41",
+        "construction_render_sha256": "1bb2c31807a8726d7c47c88d9f8a329d5de71107291bb4401152447e814e66b4",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "griess_outcome": "ont",
+        "kappa_binding": "domain_obligations",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "status": "compiled",
+        "subject": "brain_ask",
+        "target": "ee_ontology",
+        "workspace_sha256": "80630562e0fda7a697d2df54b192f8a3cffa54d6bd95d0ae3a0e9defa08146e5"
+      },
+      "children": [],
+      "construction": {
+        "candidate_predicates": [
+          "candidate_concept",
+          "candidate_relation"
+        ],
+        "facts_sha256": "a708032e2c7a3a7fa7c8ac37ba27af7b9050baa31dd0e15778746f5bd19ea1db",
+        "lowering_id": "ee.map.ontology.lowering.v1",
+        "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+        "payload": {
+          "concepts": [
+            {
+              "definition": "Stock tracking broken down to individual ingredient components",
+              "id": "ingredient_level_inventory",
+              "kind": "concept"
+            },
+            {
+              "definition": "Handheld barcode scanner for rapid physical inventory counts",
+              "id": "inventory_count_scanner",
+              "kind": "concept"
+            },
+            {
+              "definition": "Automated warning when product shelf life approaches spoilage threshold",
+              "id": "expiration_date_alert",
+              "kind": "concept"
+            },
+            {
+              "definition": "System managing ingredient locations and quantities in storage areas",
+              "id": "food_storage_tracking",
+              "kind": "concept"
+            },
+            {
+              "definition": "Optical scanner device to read product barcodes for inventory",
+              "id": "barcode_scanner",
+              "kind": "concept"
+            },
+            {
+              "definition": "Automated notifications when stock reaches predetermined reorder points",
+              "id": "inventory_alert_system",
+              "kind": "concept"
+            }
+          ],
+          "kind": "ee_ontology",
+          "relations": [
+            {
+              "id": "r0",
+              "kind": "relation",
+              "source": "ingredient_level_inventory",
+              "target": "inventory_count_scanner"
+            },
+            {
+              "id": "r1",
+              "kind": "relation",
+              "source": "ingredient_level_inventory",
+              "target": "expiration_date_alert"
+            },
+            {
+              "id": "r2",
+              "kind": "relation",
+              "source": "expiration_date_alert",
+              "target": "food_storage_tracking"
+            },
+            {
+              "id": "r3",
+              "kind": "relation",
+              "source": "barcode_scanner",
+              "target": "ingredient_level_inventory"
+            },
+            {
+              "id": "r4",
+              "kind": "relation",
+              "source": "inventory_alert_system",
+              "target": "inventory_count_scanner"
+            },
+            {
+              "id": "r5",
+              "kind": "relation",
+              "source": "food_storage_tracking",
+              "target": "inventory_count_scanner"
+            }
+          ],
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "e0d5a19aed9012be35d535e5e1aebc691932f037f37fb14198f1f8d95cab7e41",
+        "render_sha256": "1bb2c31807a8726d7c47c88d9f8a329d5de71107291bb4401152447e814e66b4",
+        "rendered": "ontology:brain_ask\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage threshold\nfood_storage_tracking: System managing ingredient locations and quantities in storage areas\nbarcode_scanner: Optical scanner device to read product barcodes for inventory\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder points\nr0: ingredient_level_inventory -> inventory_count_scanner\nr1: ingredient_level_inventory -> expiration_date_alert\nr2: expiration_date_alert -> food_storage_tracking\nr3: barcode_scanner -> ingredient_level_inventory\nr4: inventory_alert_system -> inventory_count_scanner\nr5: food_storage_tracking -> inventory_count_scanner",
+        "schema": "map.typed_construction.v1",
+        "schema_id": "ee.map.ontology.v1",
+        "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "target": "ee_ontology"
+      },
+      "created_at": "2026-08-09T10:41:39.747518+00:00",
+      "facts": [
+        "candidate_concept(brain_ask,ingredient_level_inventory).",
+        "candidate_concept(brain_ask,inventory_count_scanner).",
+        "candidate_concept(brain_ask,expiration_date_alert).",
+        "candidate_concept(brain_ask,food_storage_tracking).",
+        "candidate_concept(brain_ask,barcode_scanner).",
+        "candidate_concept(brain_ask,inventory_alert_system).",
+        "candidate_relation(brain_ask,r0,ingredient_level_inventory,inventory_count_scanner).",
+        "candidate_relation(brain_ask,r1,ingredient_level_inventory,expiration_date_alert).",
+        "candidate_relation(brain_ask,r2,expiration_date_alert,food_storage_tracking).",
+        "candidate_relation(brain_ask,r3,barcode_scanner,ingredient_level_inventory).",
+        "candidate_relation(brain_ask,r4,inventory_alert_system,inventory_count_scanner).",
+        "candidate_relation(brain_ask,r5,food_storage_tracking,inventory_count_scanner).",
+        "source_pass_complete(brain_ask)."
+      ],
+      "griess": {
+        "history": [
+          "registered at derive",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)",
+          "compute -> build (typed PSC construction lowered to candidate facts)",
+          "build -> verify (MAP verification started)",
+          "verify -> ont (MAP target status compiled)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected"
+          }
+        },
+        "phase": "ont",
+        "ses_depth": 0
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "construction_facts_sha256": "a708032e2c7a3a7fa7c8ac37ba27af7b9050baa31dd0e15778746f5bd19ea1db",
+        "construction_lowering_id": "ee.map.ontology.lowering.v1",
+        "construction_lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+        "construction_payload_sha256": "e0d5a19aed9012be35d535e5e1aebc691932f037f37fb14198f1f8d95cab7e41",
+        "construction_render_sha256": "1bb2c31807a8726d7c47c88d9f8a329d5de71107291bb4401152447e814e66b4",
+        "construction_schema_id": "ee.map.ontology.v1",
+        "construction_schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "ont",
+        "kappa_sha256": "2544da3f6fc7e0d9d3aba38a9900a799b19897e862e138192d7ca640774a5fcd",
+        "observation_facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "observation_lowering_id": "ee.map.pass_witness.lowering.v1",
+        "observation_lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "observation_payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "observation_render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "observation_schema_id": "ee.map.pass_witness.v1",
+        "observation_schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "status": "compiled",
+        "workspace_sha256": "80630562e0fda7a697d2df54b192f8a3cffa54d6bd95d0ae3a0e9defa08146e5"
+      },
+      "name": "brain_ask.n_inventory_management_sys",
+      "observation": {
+        "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+        "lowering_id": "ee.map.pass_witness.lowering.v1",
+        "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+        "model_type": "ee_v2.map_gate.adapter.PassWitness",
+        "observation_predicates": [
+          "source_pass_complete"
+        ],
+        "payload": {
+          "kind": "pass_witness",
+          "layer": 0,
+          "pass_num": 1,
+          "subject": "brain_ask"
+        },
+        "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+        "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+        "rendered": "witness:brain_ask:L0P1",
+        "schema": "map.typed_observation.v1",
+        "schema_id": "ee.map.pass_witness.v1",
+        "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+        "target": "ee_ontology"
+      },
+      "parent": "brain_ask",
+      "proof_context": {
+        "construction": {
+          "candidate_predicates": [
+            "candidate_concept",
+            "candidate_relation"
+          ],
+          "facts_sha256": "a708032e2c7a3a7fa7c8ac37ba27af7b9050baa31dd0e15778746f5bd19ea1db",
+          "lowering_id": "ee.map.ontology.lowering.v1",
+          "lowering_sha256": "c5e1c14a41cc634d5b29210028b2a504b0ff533f43f9854fb766b6c907db2cae",
+          "model_type": "ee_v2.map_gate.adapter.OntologyConstruction",
+          "payload": {
+            "concepts": [
+              {
+                "definition": "Stock tracking broken down to individual ingredient components",
+                "id": "ingredient_level_inventory",
+                "kind": "concept"
+              },
+              {
+                "definition": "Handheld barcode scanner for rapid physical inventory counts",
+                "id": "inventory_count_scanner",
+                "kind": "concept"
+              },
+              {
+                "definition": "Automated warning when product shelf life approaches spoilage threshold",
+                "id": "expiration_date_alert",
+                "kind": "concept"
+              },
+              {
+                "definition": "System managing ingredient locations and quantities in storage areas",
+                "id": "food_storage_tracking",
+                "kind": "concept"
+              },
+              {
+                "definition": "Optical scanner device to read product barcodes for inventory",
+                "id": "barcode_scanner",
+                "kind": "concept"
+              },
+              {
+                "definition": "Automated notifications when stock reaches predetermined reorder points",
+                "id": "inventory_alert_system",
+                "kind": "concept"
+              }
+            ],
+            "kind": "ee_ontology",
+            "relations": [
+              {
+                "id": "r0",
+                "kind": "relation",
+                "source": "ingredient_level_inventory",
+                "target": "inventory_count_scanner"
+              },
+              {
+                "id": "r1",
+                "kind": "relation",
+                "source": "ingredient_level_inventory",
+                "target": "expiration_date_alert"
+              },
+              {
+                "id": "r2",
+                "kind": "relation",
+                "source": "expiration_date_alert",
+                "target": "food_storage_tracking"
+              },
+              {
+                "id": "r3",
+                "kind": "relation",
+                "source": "barcode_scanner",
+                "target": "ingredient_level_inventory"
+              },
+              {
+                "id": "r4",
+                "kind": "relation",
+                "source": "inventory_alert_system",
+                "target": "inventory_count_scanner"
+              },
+              {
+                "id": "r5",
+                "kind": "relation",
+                "source": "food_storage_tracking",
+                "target": "inventory_count_scanner"
+              }
+            ],
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "e0d5a19aed9012be35d535e5e1aebc691932f037f37fb14198f1f8d95cab7e41",
+          "render_sha256": "1bb2c31807a8726d7c47c88d9f8a329d5de71107291bb4401152447e814e66b4",
+          "rendered": "ontology:brain_ask\ningredient_level_inventory: Stock tracking broken down to individual ingredient components\ninventory_count_scanner: Handheld barcode scanner for rapid physical inventory counts\nexpiration_date_alert: Automated warning when product shelf life approaches spoilage threshold\nfood_storage_tracking: System managing ingredient locations and quantities in storage areas\nbarcode_scanner: Optical scanner device to read product barcodes for inventory\ninventory_alert_system: Automated notifications when stock reaches predetermined reorder points\nr0: ingredient_level_inventory -> inventory_count_scanner\nr1: ingredient_level_inventory -> expiration_date_alert\nr2: expiration_date_alert -> food_storage_tracking\nr3: barcode_scanner -> ingredient_level_inventory\nr4: inventory_alert_system -> inventory_count_scanner\nr5: food_storage_tracking -> inventory_count_scanner",
+          "schema": "map.typed_construction.v1",
+          "schema_id": "ee.map.ontology.v1",
+          "schema_sha256": "b85b93b29f66cf74dfe6aed77022797a701b69d4361c73512ad9d3631563dfc4",
+          "target": "ee_ontology"
+        },
+        "domain_terms": [],
+        "observation": {
+          "facts_sha256": "6a765835b0c7ebd5f377249ef66208ae2b8d32b67374d7875013bb710d27f4f8",
+          "lowering_id": "ee.map.pass_witness.lowering.v1",
+          "lowering_sha256": "9cda02e867a5418b96c9cc8e5638caf0d673b6437fdfd8031ec0d5f26ccaa7cc",
+          "model_type": "ee_v2.map_gate.adapter.PassWitness",
+          "observation_predicates": [
+            "source_pass_complete"
+          ],
+          "payload": {
+            "kind": "pass_witness",
+            "layer": 0,
+            "pass_num": 1,
+            "subject": "brain_ask"
+          },
+          "payload_sha256": "3fcb70b21e0998a6b802660cf5f502c96be47e465b7ff8324afc846330005e0d",
+          "render_sha256": "52f121fe866eee88244285635a9f0969d3419c0cf37ed84aca65beb9c3063d6c",
+          "rendered": "witness:brain_ask:L0P1",
+          "schema": "map.typed_observation.v1",
+          "schema_id": "ee.map.pass_witness.v1",
+          "schema_sha256": "49410b936acb2ad3c502bc24b638f20296c8a2a4aa969ce0196506e9355009de",
+          "target": "ee_ontology"
+        },
+        "proof_terms": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ]
+      },
+      "revisions": [],
+      "sources": [],
+      "status": "filled"
+    },
+    "final": {
+      "certificate": null,
+      "children": [],
+      "construction": null,
+      "created_at": "2026-08-09T10:42:04.778794+00:00",
+      "facts": [],
+      "griess": {
+        "history": [
+          "registered at pattern",
+          "pattern combined from brain_ask.n_health_department_inspec, brain_ask.n_inventory_management_sys",
+          "pattern -> implement (pattern made meta-compilable)",
+          "implement -> derive (SES+1 construction candidate)",
+          "kappa declared: ee_conceptualization with 1 invariants",
+          "derive -> compute (MAP domain obligations inspected)"
+        ],
+        "kappa": {
+          "domain": "ee_conceptualization",
+          "invariants": {
+            "ontology_coherence": "closed + connected ACROSS territories"
+          }
+        },
+        "phase": "compute",
+        "ses_depth": 1
+      },
+      "last_packet": {
+        "admissible": [
+          "map_target_admissible_report(brain_ask,ee_ontology)."
+        ],
+        "blocked": [
+          "map_target_blocked_report(brain_ask,ee_ontology)."
+        ],
+        "domain_id": "ee_ontology",
+        "domain_sha256": "4cdff3b040915de17f43c3730a764b5908500d0546314bda373b80ba113d7f50",
+        "domain_terms": [],
+        "frontier": [
+          "map_target_frontier_report(brain_ask,ee_ontology)."
+        ],
+        "griess_phase": "compute",
+        "kappa_sha256": "489f4755c27826e7a3b3c7604b38310aaedb693ce50f379c0708b64a8bfa6705",
+        "outputs": [
+          "map_target_outputs_report(brain_ask,ee_ontology).",
+          "ee_ontology_proof(brain_ask,ontology_coherence)."
+        ],
+        "purpose": "compute_constraints",
+        "status": "compiled",
+        "workspace_sha256": "80630562e0fda7a697d2df54b192f8a3cffa54d6bd95d0ae3a0e9defa08146e5"
+      },
+      "name": "final",
+      "observation": null,
+      "parent": "brain_ask",
+      "proof_context": null,
+      "revisions": [],
+      "sources": [
+        "brain_ask.n_health_department_inspec",
+        "brain_ask.n_inventory_management_sys"
+      ],
+      "status": "open"
+    }
+  },
+  "root": "brain_ask",
+  "selected": "final",
+  "subject": "brain_ask",
+  "target": "ee_ontology",
+  "updated_at": "2026-08-09T10:42:05.213818+00:00",
+  "version": 4
+}

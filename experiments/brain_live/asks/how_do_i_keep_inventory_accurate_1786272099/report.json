@@ -1,0 +1,25 @@
+{
+  "query": "how do I keep inventory accurate while staying ready for the health inspection?",
+  "fired": [
+    "health_department_inspection",
+    "inventory_management_system"
+  ],
+  "certified": {
+    "health_department_inspection": {
+      "concepts": 4,
+      "relations": 3
+    },
+    "inventory_management_system": {
+      "concepts": 6,
+      "relations": 6
+    }
+  },
+  "synthesis_proven": false,
+  "ses_depth": 1,
+  "final_answer": "## ANSWER\n\nMaintain inventory accuracy and inspection readiness by integrating automated tracking with compliant documentation. Use ingredient-level inventory with barcode scanners to capture lot numbers, receipt dates, and quantities in real-time. Configure expiration date alerts to proactively prevent expired-product violations. Conduct weekly physical counts using inventory scanners to verify system accuracy. Maintain digital record-keeping that generates inspection-ready reports on demand. Organize food storage with clear labeling and FIFO rotation. Set inventory alert systems to trigger documentation updates when discrepancies arise. This unified approach satisfies health department inspection requirements for record-keeping and traceability while keeping your inventory system continuously accurate and defensible.\n\n---\n\n## CROSS-TERITORY CONSTRUCTION",
+  "neuron_answers": {
+    "health_department_inspection": "# health_department_inspection NEURON\n\n## ANSWER\n\nMaintain detailed, dated inventory logs with quantities, receipt dates, and expiration dates. Conduct weekly physical counts and reconcile records immediately. Store documentation in organized, accessible files for inspectors. Label all food items with preparation/expiration dates clearly. Implement FIFO (First In, First Out) rotation to prevent expired product accumulation. Keep temperature logs for all refrigerated items as part of record_keeping. Train all staff on proper documentation procedures. Address discrepancies promptly and document all adjustments. These practices ensure your inspection_report shows compliance, help avoid violation_categories related to traceability, and prevent conditions that could trigger a closure_order.\n\n## CONSTRUCTION (JSONL)\n\n```json",
+    "inventory_management_system": "For inventory accuracy during health inspections, leverage **ingredient_level_inventory** to track every component with lot numbers and dates. Use **inventory_count_scanner** for rapid, accurate physical counts. The **expiration_date_alert** system ensures flagged items are easily identifiable and removed, demonstrating proper FIFO rotation. **food_storage_tracking** maps ingredient locations, helping inspectors locate products quickly. Pair **barcode_scanner** with detailed logs proving sourcing traceability. The **inventory_alert_system** maintains reorder points to prevent stockouts that might cause unsafe storage practices. Together, these systems create auditable records proving compliance with labeling, temperature, and storage requirements\u2014turning inspection prep into routine operations."
+  },
+  "secs": 72.2
+}
