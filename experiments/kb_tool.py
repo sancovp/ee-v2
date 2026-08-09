@@ -78,6 +78,7 @@ class KB:
         self.root.mkdir(parents=True, exist_ok=True)
         self.concepts = {}
         self.relations = set()
+        self.lib = {}                 # concept -> origin lib (facet/expansion)
 
     # ── persistence (the dir is the state) ───────────────────────────────────
     def load(self):
@@ -87,6 +88,8 @@ class KB:
             for line in cp.read_text().splitlines():
                 o = json.loads(line)
                 self.concepts[o["c"]] = o["d"]
+                if o.get("lib"):
+                    self.lib[o["c"]] = o["lib"]
         if rp.exists():
             for line in rp.read_text().splitlines():
                 s, t = json.loads(line)
@@ -95,15 +98,17 @@ class KB:
 
     def save(self):
         (self.root / "concepts.jsonl").write_text(
-            "\n".join(json.dumps({"c": c, "d": d})
+            "\n".join(json.dumps({"c": c, "d": d, "lib": self.lib.get(c)})
                       for c, d in sorted(self.concepts.items())))
         (self.root / "relations.jsonl").write_text(
             "\n".join(json.dumps([s, t]) for s, t in sorted(self.relations)))
 
-    def add_concept(self, cid, d):
+    def add_concept(self, cid, d, lib=None):
         cid = sid(cid)
         if cid and len(str(d).strip()) >= 8:
             self.concepts.setdefault(cid, str(d).strip()[:400])
+            if lib and cid not in self.lib:
+                self.lib[cid] = lib
             return True
         return False
 
@@ -159,6 +164,64 @@ class KB:
                 "n_relations": len(self.relations)}
 
 
+def relative_root(kb, target, direction="both", max_nodes=200):
+    """THE RELATIVE ROOT (Isaac, 2026-08-09): the LEAST-FIXED-POINT closure of
+    everything `target` bundles from — walk the dependency graph transitively
+    until it bottoms out at primitives (or max_nodes). This is the grounding
+    context for coherently working on `target`: the API + all the prims it
+    imports from other libs.
+
+      direction='deps'      → follow OUTGOING (what target is built FROM,
+                              down to prims) — grounds a DEFINED concept.
+      direction='consumers' → follow INCOMING (what NEEDS target) — grounds
+                              an UNDEFINED stub by the contract its callers
+                              impose.
+      direction='both'      → the full local cone.
+
+    Returns an ordered list of (concept_id, definition_or_None, lib, depth) —
+    BFS order = nearest ground first. Leaves (no further unseen deps) are the
+    primitives; a defined-everywhere cone terminating at seeds = is_ont by
+    structural recursion."""
+    adj_out, adj_in = {}, {}
+    for s, t in kb.relations:
+        adj_out.setdefault(s, set()).add(t)
+        adj_in.setdefault(t, set()).add(s)
+    seen = {target}
+    frontier = [(target, 0)]
+    order = []
+    while frontier:
+        nxt = []
+        for n, depth in frontier:
+            neigh = set()
+            if direction in ("deps", "both"):
+                neigh |= adj_out.get(n, set())
+            if direction in ("consumers", "both"):
+                neigh |= adj_in.get(n, set())
+            for m in sorted(neigh):
+                if m not in seen:
+                    seen.add(m)
+                    order.append((m, kb.concepts.get(m),
+                                  kb.lib.get(m), depth + 1))
+                    nxt.append((m, depth + 1))
+                    if len(seen) >= max_nodes:
+                        return order
+        frontier = nxt
+    return order
+
+
+def root_context(kb, target, direction="both", max_nodes=120):
+    """Render a relative root as grounding context for a seat prompt: the prims
+    it must define `target` in terms of, tagged by lib (undefined ones flagged
+    so the seat knows the frontier)."""
+    root = relative_root(kb, target, direction=direction, max_nodes=max_nodes)
+    lines = []
+    for cid, d, libname, depth in root:
+        tag = f"[{libname}]" if libname else "[?]"
+        body = d if d else "«still undefined — frontier»"
+        lines.append(f"{'  '*min(depth,4)}{cid} {tag}: {body}")
+    return "\n".join(lines) if lines else "(no relative root yet — isolated)"
+
+
 def derive_worklist(kb, reconcile=None):
     """THE GAUGE MINTS WORK. define = referenced-but-undefined (the prover);
     connect = orphans (the prover); reconcile = near-dup groups (cheap LLM,
@@ -172,7 +235,24 @@ def derive_worklist(kb, reconcile=None):
 
 
 # ── the handlers (what draining a worklist item DOES) ────────────────────────
-def _define_prompt(subject, ids):
+def _define_prompt(subject, ids, kb=None):
+    """Contextualized define: each undefined concept is presented WITH ITS
+    RELATIVE ROOT (the consumers that reference it = the contract it must
+    satisfy). The seat defines it grounded in what already needs it, not in a
+    vacuum — coherence by construction (Isaac 2026-08-09)."""
+    if kb is not None:
+        blocks = []
+        for cid in ids:
+            ctx = root_context(kb, cid, direction="consumers", max_nodes=8)
+            blocks.append(f"### {cid}\nreferenced by (the contract to "
+                          f"satisfy):\n{ctx}")
+        body = "\n\n".join(blocks)
+        return (f"For a knowledge base about {subject}, DEFINE each concept "
+                "below. It was referenced but never defined; its REFERENCERS "
+                "are shown as the contract it must satisfy — define it "
+                "COHERENTLY with what already needs it. Output JSONL, one per "
+                'line, nothing else: {"c": "<id>", "d": "<definition, 8+ '
+                f'chars>"}}\n\n{body}')
     return (f"For a knowledge base about {subject}, DEFINE each of these "
             f"concepts that were referenced but never defined. Output JSONL, "
             'one per line, nothing else: {"c": "<id>", "d": "<definition, 8+ '
@@ -258,9 +338,9 @@ async def work_session(kb, seat_factory, budget=250, do=("define",),
 
     if "define" in do and wl["define"]:
         ids = wl["define"][:budget]
-        chunks = [ids[i:i + 60] for i in range(0, len(ids), 60)]
+        chunks = [ids[i:i + 40] for i in range(0, len(ids), 40)]
         outs = await asyncio.gather(*[
-            _seat_run(seat_factory, _define_prompt(kb.subject, c))
+            _seat_run(seat_factory, _define_prompt(kb.subject, c, kb=kb))
             for c in chunks])
         added = 0
         for out in outs:
@@ -293,4 +373,4 @@ async def work_session(kb, seat_factory, budget=250, do=("define",),
 
 
 __all__ = ["KB", "derive_worklist", "reconcile_scan", "work_session",
-           "parse_jsonl"]
+           "parse_jsonl", "relative_root", "root_context"]
