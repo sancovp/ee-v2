@@ -111,6 +111,25 @@ async def compile(kb, X, op, seat_factory, lib=None):
 
     ctx = build_context(kb, X, op)
     cs, rs = parse_jsonl(await _run(seat_factory, ctx))
+    attempts = 1
+    need_rels = op in ("dump", "expand")           # these claim a WEB, not a list
+    def _lacking():
+        if not cs and not rs:
+            return "NO parseable JSONL"
+        if need_rels and not rs:
+            return "concepts but ZERO relations — a dump must emit the web"
+        return None
+    while _lacking() and attempts < 3:             # RULE 2: teach, don't accept
+        attempts += 1
+        more_cs, more_rs = parse_jsonl(await _run(
+            seat_factory,
+            ctx + f"\n\nPROOF RESIDUE — your previous reply had "
+                  f"{_lacking()}. Emit ONLY the JSONL lines exactly as "
+                  "specified: one object per line, BOTH concept and relation "
+                  "lines, no prose, no fences."))
+        for k, v in more_cs.items():
+            cs.setdefault(k, v)
+        rs = rs + more_rs
     added = sum(kb.add_concept(c, d, lib=lib or (X if op == "expand" else op))
                 for c, d in cs.items())
     for s, t in rs:

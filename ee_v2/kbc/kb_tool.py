@@ -140,7 +140,10 @@ class KB:
                                  for i, (s, t) in enumerate(sorted(
                                      self.relations))] or
                    [{"kind": "relation", "id": "r0",
-                     "source": "seed", "target": "seed"}]}
+                     "source": (sorted(self.concepts)[0] if self.concepts
+                                else "seed"),
+                     "target": (sorted(self.concepts)[0] if self.concepts
+                                else "seed")}]}
         with tempfile.TemporaryDirectory(prefix="kb-") as td:
             comp = PrologTargetCompiler(load_domain_manifest(DOM))
             lat = MapV2Lattice(Path(td) / "l", compiler=comp,
