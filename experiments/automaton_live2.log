@@ -1,0 +1,111 @@
+ERROR:heaven_base.tools.redaction_tool:Failed to import RedactionManager: No module named 'redaction_manager'
+Traceback (most recent call last):
+  File "/home/ceo/repo/cave-teams/cave_teams/chain_ontology.py", line 16, in <module>
+    from uco.core import (  # noqa: F401
+ModuleNotFoundError: No module named 'uco'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/heaven_base/tools/redaction_tool.py", line 16, in <module>
+    from redaction_manager import RedactionManager
+ModuleNotFoundError: No module named 'redaction_manager'
+/home/ceo/.local/lib/python3.11/site-packages/langgraph/checkpoint/base/__init__.py:18: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+KB: 2849c/2429r · regions: ['health_department_inspection', 'inventory_management_system']
+
+[known · 0 calls] walk=['health_department_inspection', 'inventory_management_system']
+  SPOKEN: «health_department_inspection» — official evaluation by government health authorities of facility compliance; relates to «inventory_management_system» — Digital tool tracking stock levels ingredient usage and reorder alerts.
+
+[known · 0 calls] walk=['inventory_management_system', 'health_department_inspection']
+  SPOKEN: «inventory_management_system» — Digital tool tracking stock levels ingredient usage and reorder alerts; relates to «health_department_inspection» — official evaluation by government health authorities of facility compliance.
+-- 'food_safety' not in KB, skipped
+
+[recheck · known · 0 calls] the ledger covers the first walk
+
+explain bucket (the unspeakable): ['inventory_management_system', 'health_department_inspection']
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_inventory_manage: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[ground] 'barcode_scanner' certified via step inventory_management_system->barcode_scanner (0 calls)
+[ground] 'demand_forecasting' certified via step inventory_management_system->demand_forecasting (0 calls)
+[ground] 'expiration_date_alert' certified via step inventory_management_system->expiration_date_alert (0 calls)
+[ground] 'food_cost_percentage' certified via step inventory_management_system->food_cost_percentage (0 calls)
+[ground] 'food_safety_tracking' certified via step food_safety_tracking->expiration_date_alert (0 calls)
+[ground] 'food_storage_tracking' certified via step food_storage_tracking->inventory_management_system (0 calls)
+[ground] 'ingredient_level_inventory' certified via step inventory_management_system->ingredient_level_inventory (0 calls)
+[ground] 'inventory_alert_system' certified via step inventory_alert_system->expiration_date_alert (0 calls)
+[ground] 'inventory_count_scanner' certified via step inventory_management_system->inventory_count_scanner (0 calls)
+[ground] 'inventory_forecasting' certified via step inventory_management_system->inventory_forecasting (0 calls)
+[ground] 'online_ordering_aggregation' certified via step inventory_management_system->online_ordering_aggregation (0 calls)
+[ground] 'pos_api' certified via step pos_api->inventory_management_system (0 calls)
+[ground] 'pos_software' certified via step pos_software->inventory_management_system (0 calls)
+[ground] 'predictive_analytics' certified via step predictive_analytics->demand_forecasting (0 calls)
+[ground] 'recipe_costing_software' certified via step recipe_costing_software->ingredient_level_inventory (0 calls)
+[ground] 'recipe_level_inventory' certified via step ingredient_level_inventory->recipe_level_inventory (0 calls)
+[ground] 'reorder_point' certified via step inventory_management_system->reorder_point (0 calls)
+[residue] articulate 'inventory_management_system': map_target_frontier_report(arg_inventory_management_system,ee_argument).; map_target_frontier(arg_inventory_management_system,ee_argument,warranted_skeleton,partial).; unwarranted(food_safety_tracking).; unwarranted(food_storage_tracking).; unwarranted(pos_software).
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.400495 seconds
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_inventory_manage: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[residue] articulate 'inventory_management_system': map_target_frontier_report(arg_inventory_management_system,ee_argument).; map_target_frontier(arg_inventory_management_system,ee_argument,warranted_skeleton,partial).; unwarranted(health_department_inspection).; unwarranted(predictive_analytics).; unwarranted(food_cost_percentage).
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_inventory_manage: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[articulate] 'inventory_management_system': skeleton certified (22 operator edges, 3 calls)
+articulate('inventory_management_system'): ok=True calls=3 edges=[['explains', 'inventory_management_system', 'pos_software'], ['explains', 'inventory_management_system', 'inventory_alert_system'], ['explains', 'inventory_management_system', 'food_cost_percentage'], ['explains', 'inventory_management_system', 'health_department_inspection'], ['because', 'pos_software', 'pos_api'], ['since', 'pos_api', 'barcode_scanner'], ['since', 'pos_api', 'inventory_forecasting'], ['because', 'inventory_alert_system', 'reorder_point'], ['since', 'reorder_point', 'inventory_forecasting'], ['since', 'inventory_forecasting', 'predictive_analytics'], ['since', 'inventory_forecasting', 'demand_forecasting'], ['since', 'predictive_analytics', 'online_ordering_aggregation'], ['because', 'food_cost_percentage', 'recipe_costing_software'], ['since', 'recipe_costing_software', 'ingredient_level_inventory'], ['since', 'recipe_costing_software', 'recipe_level_inventory'], ['since', 'ingredient_level_inventory', 'food_storage_tracking'], ['since', 'recipe_level_inventory', 'barcode_scanner'], ['since', 'food_storage_tracking', 'expiration_date_alert'], ['because', 'health_department_inspection', 'food_safety_tracking'], ['since', 'food_safety_tracking', 'expiration_date_alert'], ['since', 'expiration_date_alert', 'inventory_count_scanner'], ['together_fit', 'barcode_scanner', 'inventory_count_scanner']]
+  now speakable: «inventory_management_system» — Digital tool tracking stock levels ingredient usage and reorder alerts; which explains «pos_software» — Application program that manages sales transactions inventory and customer data.
+
+METER: {'statements': 7, 'llm_calls': 2, 'calls_per_statement': 0.286, 'last5': 0.0, 'verdicts': {'mint_failed': 1, 'known': 6}}

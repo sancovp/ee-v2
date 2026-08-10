@@ -1,0 +1,7 @@
+{"path": ["health_department_inspection", "inventory_management_system"], "verdict": "mint_failed", "llm_calls": 1, "ts": 1786342637.6414096}
+{"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 1, "ts": 1786342648.746979}
+{"path": ["health_department_inspection", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786342648.7471077}
+{"path": ["health_department_inspection", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786343298.0823119}
+{"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786343298.0864074}
+{"path": ["health_department_inspection", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786343298.0865111}
+{"path": ["inventory_management_system", "pos_software"], "verdict": "known", "llm_calls": 0, "ts": 1786343448.4316175}

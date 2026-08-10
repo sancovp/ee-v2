@@ -68,12 +68,21 @@ _CONNECTIVE = {"because": "because", "since": "since",
                "explains": "which explains", None: "relates to"}
 
 
-async def _run_seat(seat, prompt):
+async def _run_seat(seat, prompt, tries=4, base=10):
+    """Transport-level retry only (mirrors kb_tool._seat_run) — a connection
+    error is infra, not a proof verdict; gates are never retried here."""
     import inspect
-    out = seat.run(prompt)
-    if inspect.isawaitable(out):
-        out = await out
-    return out if isinstance(out, str) else str(out)
+    last = None
+    for i in range(tries):
+        try:
+            out = seat.run(prompt)
+            if inspect.isawaitable(out):
+                out = await out
+            return out if isinstance(out, str) else str(out)
+        except Exception as e:
+            last = e
+            await asyncio.sleep(base * (2 ** i))
+    raise last
 
 
 def _jsonl_objs(text):

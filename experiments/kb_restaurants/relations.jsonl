@@ -1045,6 +1045,7 @@
 ["inventory_management_system", "expiration_date_alert"]
 ["inventory_management_system", "food_cost_percentage"]
 ["inventory_management_system", "food_storage_tracking"]
+["inventory_management_system", "health_department_inspection"]
 ["inventory_management_system", "ingredient_level_inventory"]
 ["inventory_management_system", "inventory_alert_system"]
 ["inventory_management_system", "inventory_count_scanner"]
