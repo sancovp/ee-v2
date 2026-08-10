@@ -1,0 +1,421 @@
+ERROR:heaven_base.tools.redaction_tool:Failed to import RedactionManager: No module named 'redaction_manager'
+Traceback (most recent call last):
+  File "/home/ceo/repo/cave-teams/cave_teams/chain_ontology.py", line 16, in <module>
+    from uco.core import (  # noqa: F401
+ModuleNotFoundError: No module named 'uco'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/heaven_base/tools/redaction_tool.py", line 16, in <module>
+    from redaction_manager import RedactionManager
+ModuleNotFoundError: No module named 'redaction_manager'
+/home/ceo/.local/lib/python3.11/site-packages/langgraph/checkpoint/base/__init__.py:18: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+start: 0c/0r
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.485806 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.390310 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.463071 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.453783 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.395912 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.493625 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.875860 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.945095 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.880187 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.879177 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.882990 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.929364 seconds
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent dump_launch_mapping: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.497547 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.489877 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.450757 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.491166 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.379276 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.892955 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.784446 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.802534 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.973412 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.954462 seconds
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent dump_premise_receipts: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent dump_mentorloop_transfer: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.426800 seconds
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent dump_treasure_sentence: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.414743 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.482621 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.889383 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.883657 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.950196 seconds
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent dump_premise_receipts: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent dump_premise_receipts: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.472461 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.483796 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.797845 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.877098 seconds
+Traceback (most recent call last):
+  File "/home/ceo/lcshim2/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ceo/lcshim2/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ceo/lcshim2/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/ceo/lcshim2/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpcore/_async/http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ceo/lcshim2/anthropic/_base_client.py", line 2047, in _attempt_request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/local/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ceo/lcshim2/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/heaven_base/baseheavenagent.py", line 1966, in run_langchain
+    response = await self.chat_model.ainvoke(conversation_history)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/langchain_core/runnables/base.py", line 5747, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/langchain_core/language_models/chat_models.py", line 417, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/langchain_core/language_models/chat_models.py", line 1036, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/langchain_core/language_models/chat_models.py", line 994, in agenerate
+    raise exceptions[0]
+  File "/home/ceo/lcshim2/langchain_core/language_models/chat_models.py", line 1164, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/langchain_anthropic/chat_models.py", line 1786, in _agenerate
+    data = await self._acreate(payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/langchain_anthropic/chat_models.py", line 1628, in _acreate
+    return await self._async_client.messages.create(**payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/anthropic/resources/messages/messages.py", line 2545, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/anthropic/_base_client.py", line 2276, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/anthropic/_base_client.py", line 1881, in request
+    response, prepared = await self._attempt_request(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/lcshim2/anthropic/_base_client.py", line 2061, in _attempt_request
+    raise APIConnectionError(request=request) from err
+anthropic.APIConnectionError: Connection error.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ceo/repo/ee-v2/experiments/run_grand_argument.py", line 116, in <module>
+    asyncio.run(main())
+  File "/usr/local/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ceo/repo/ee-v2/experiments/run_grand_argument.py", line 65, in main
+    await asyncio.gather(*[
+  File "/home/ceo/repo/ee-v2/ee_v2/kbc/compiler.py", line 113, in compile
+    cs, rs = parse_jsonl(await _run(seat_factory, ctx))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ceo/repo/ee-v2/ee_v2/kbc/compiler.py", line 95, in _run
+    raise last
+  File "/home/ceo/repo/ee-v2/ee_v2/kbc/compiler.py", line 90, in _run
+    out = await out
+          ^^^^^^^^^
+  File "/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py", line 78, in run
+    result = await agent.run(prompt, heaven_main_callback=CompositeCallback([capture]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/heaven_base/baseheavenagent.py", line 1820, in run
+    result = await self.run_langchain(prompt, notifications, heaven_main_callback=heaven_main_callback)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/heaven_base/baseheavenagent.py", line 2263, in run_langchain
+    raise RuntimeError(f"Agent run failed: {str(e)}") from e
+RuntimeError: Agent run failed: Connection error.

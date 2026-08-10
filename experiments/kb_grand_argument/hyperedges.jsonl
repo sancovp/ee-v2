@@ -1,0 +1,17 @@
+{"atoms": ["grand_argument", "it_is_real", "live_organs", "it_is_one_system", "live_site"], "edges": [["grand_argument", "it_is_real"], ["it_is_real", "live_organs"], ["live_organs", "it_is_one_system"], ["it_is_one_system", "it_is_real"], ["it_is_real", "live_site"]], "src": "walk", "ts": 1786349671.5562732}
+{"atoms": ["argument_targets_inherit_from_kernel", "grand_argument"], "edges": [["argument_targets_inherit_from_kernel", "grand_argument"]], "src": "auto_ground", "ts": 1786350244.205323}
+{"atoms": ["it_is_one_system", "author_corpus"], "edges": [["it_is_one_system", "author_corpus"]], "src": "auto_ground", "ts": 1786350245.1686554}
+{"atoms": ["depth_1_deploy", "it_is_one_system"], "edges": [["depth_1_deploy", "it_is_one_system"]], "src": "auto_ground", "ts": 1786350246.1041098}
+{"atoms": ["depth_1_deploy", "it_continues"], "edges": [["depth_1_deploy", "it_continues"]], "src": "auto_ground", "ts": 1786350247.0394154}
+{"atoms": ["grand_argument", "it_is_proven"], "edges": [["grand_argument", "it_is_proven"]], "src": "auto_ground", "ts": 1786350247.944447}
+{"atoms": ["grand_argument", "it_transfers"], "edges": [["grand_argument", "it_transfers"]], "src": "auto_ground", "ts": 1786350248.8430493}
+{"atoms": ["megaframework", "author_corpus"], "edges": [["megaframework", "author_corpus"]], "src": "auto_ground", "ts": 1786350249.7096553}
+{"atoms": ["it_continues", "nightly_build"], "edges": [["it_continues", "nightly_build"]], "src": "auto_ground", "ts": 1786350250.5636616}
+{"atoms": ["post_becomes_typed_gas_instantiation", "argument_targets_inherit_from_kernel"], "edges": [["post_becomes_typed_gas_instantiation", "argument_targets_inherit_from_kernel"]], "src": "auto_ground", "ts": 1786350251.4342065}
+{"atoms": ["grand_argument", "sovereignty_achievable"], "edges": [["grand_argument", "sovereignty_achievable"]], "src": "auto_ground", "ts": 1786350252.2843344}
+{"atoms": ["depth_1_deploy", "talk_was_enough"], "edges": [["depth_1_deploy", "talk_was_enough"]], "src": "auto_ground", "ts": 1786350253.1248627}
+{"atoms": ["the_system_carries_structure", "grand_argument"], "edges": [["the_system_carries_structure", "grand_argument"]], "src": "auto_ground", "ts": 1786350253.9939392}
+{"atoms": ["grand_argument", "theme"], "edges": [["grand_argument", "theme"]], "src": "auto_ground", "ts": 1786350254.8495548}
+{"atoms": ["treasure_sentence", "grand_argument"], "edges": [["treasure_sentence", "grand_argument"]], "src": "auto_ground", "ts": 1786350255.7052636}
+{"atoms": ["argument_targets", "argument_targets_inherit_from_kernel"], "edges": [["argument_targets", "argument_targets_inherit_from_kernel"]], "src": "auto_ground", "ts": 1786350300.9071472}
+{"atoms": ["i_wont_stop_partner", "it_continues"], "edges": [["i_wont_stop_partner", "it_continues"]], "src": "auto_ground", "ts": 1786350301.791358}

@@ -1,0 +1,38 @@
+{
+  "phase": "soup",
+  "define": [
+    "cooked_2026_07_12",
+    "everything_in_one_place",
+    "pipeline_automation",
+    "the_system_is_proof",
+    "trail_starts_now",
+    "treasure_hunt",
+    "treasure_sentence_ships",
+    "true_agent_register",
+    "truth_agent_record",
+    "typed_journey",
+    "unity_claim",
+    "vault_to_receipt",
+    "vaulted_is_implemented",
+    "vision_draft_status",
+    "words_before_death",
+    "worked_example",
+    "you_will_just_have_to_find_it"
+  ],
+  "connect": [
+    "the_grand_line",
+    "the_map",
+    "the_mentorloop_close",
+    "the_operator",
+    "the_reveal_dag",
+    "the_system_produced_it",
+    "the_treasure_sentence",
+    "thousands_of_skills",
+    "treasure",
+    "vaulted"
+  ],
+  "reconcile": [],
+  "explain": [],
+  "n_concepts": 260,
+  "n_relations": 327
+}

@@ -1,0 +1,204 @@
+{
+  "skilltree": {
+    "name": "understand-the grand argument (draft kernel v0)",
+    "kind": "skill",
+    "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-the grand argument (draft kernel v0)",
+    "description": "the the grand argument (draft kernel v0) library \u2014 every skill a certified region of the KB; call number = home : facets",
+    "coord": "0",
+    "frameworks": [],
+    "children": [
+      {
+        "name": "understand-core",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-core",
+        "description": "the core subdomain of the grand argument (draft kernel v0) (117 concepts)",
+        "coord": "0.1",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-mentorloop_transfer",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-mentorloop_transfer",
+            "description": "The mechanism by which the system transfers through successive operators who each leave it for the next person",
+            "coord": "0.1.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-launch_mapping",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-launch_mapping",
+            "description": "The operadic_train methodology connecting Roger template to Hormozi framework for mapping the reveal before co",
+            "coord": "0.1.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-depth_1_deploy",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-depth_1_deploy",
+            "description": "The deployment strategy where the treasure sentence ships at depth 1 and every nightly post publicly instantia",
+            "coord": "0.1.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-finding_your_way_through",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-finding_your_way_through",
+            "description": "The prospect's journey of discovery through the system; the active navigation that completes the dare",
+            "coord": "0.1.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-first_ships",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-first_ships",
+            "description": "The earliest closed alpha deployments where initial users prove the transfer premise by operating without tech",
+            "coord": "0.1.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-receipt_scene",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-receipt_scene",
+            "description": "A scene that functions as proof; the GAS instantiation of a premise that carries its own evidence attached to ",
+            "coord": "0.1.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-premise_receipts",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-premise_receipts",
+        "description": "the premise_receipts subdomain of the grand argument (draft kernel v0) (65 concepts)",
+        "coord": "0.2",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-argument_closing_in_real_time",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-argument_closing_in_real_time",
+            "description": "The strategy: the show IS the argument proof",
+            "coord": "0.2.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-external_adjudicator",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-external_adjudicator",
+            "description": "an independent third-party verifier, implemented as S3, that provides objective proof of claims",
+            "coord": "0.2.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-gas_slots",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-gas_slots",
+            "description": "The formal position markers in the grand argument structure",
+            "coord": "0.2.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-organs_building_nightly",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-organs_building_nightly",
+            "description": "The observable fact of self-improvement happening in real time",
+            "coord": "0.2.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-premise_instantiation_rate",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-premise_instantiation_rate",
+            "description": "the speed at which new premises are publicly proven and posted",
+            "coord": "0.2.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-agency_transfer",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-agency_transfer",
+            "description": "Roger element (d): the dare that makes the hearer responsible",
+            "coord": "0.2.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "understand-treasure_sentence",
+        "kind": "skill",
+        "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-treasure_sentence",
+        "description": "the treasure_sentence subdomain of the grand argument (draft kernel v0) (78 concepts)",
+        "coord": "0.3",
+        "frameworks": [],
+        "children": [
+          {
+            "name": "understand-grand_argument",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-grand_argument",
+            "description": "The overarching claim that talking builds empires when the system carries the structure; proof of sovereignty ",
+            "coord": "0.3.1",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-it_continues",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-it_continues",
+            "description": "Premise of true-agent record and nightly organ builds proving system self-sustains",
+            "coord": "0.3.2",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-it_is_one_system",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-it_is_one_system",
+            "description": "Premise that the graph situates every piece; framework subset megaframework subset author_corpus",
+            "coord": "0.3.3",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-it_transfers",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-it_transfers",
+            "description": "Premise that carton plus sancrev install plus customer funnel creates the 'all I did was talk' experience",
+            "coord": "0.3.4",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-it_is_proven",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-it_is_proven",
+            "description": "Premise computable via vault plus cert ladders plus S3 as external adjudicator",
+            "coord": "0.3.5",
+            "frameworks": [],
+            "children": []
+          },
+          {
+            "name": "understand-it_is_real",
+            "kind": "skill",
+            "skill_src": "/home/ceo/repo/ee-v2/experiments/_staging_library_grand_argument/understand-it_is_real",
+            "description": "Premise that live organs live posts live site prove the system exists; every post carries its receipts",
+            "coord": "0.3.6",
+            "frameworks": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

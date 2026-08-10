@@ -1,0 +1,3 @@
+{"path": ["grand_argument", "it_is_real", "live_organs", "it_is_one_system", "it_is_real", "live_site"], "verdict": "known", "llm_calls": 2, "ts": 1786349671.558329}
+{"path": ["it_is_real", "it_is_one_system", "megaframework", "it_is_real", "live_post", "it_is_proven"], "verdict": "mint_failed", "llm_calls": 1, "ts": 1786349681.690857}
+{"path": ["it_is_one_system", "it_is_proven", "cert_ladder", "it_is_real", "it_is_one_system", "grand_argument"], "verdict": "mint_failed", "llm_calls": 2, "ts": 1786349694.4939964}

@@ -1,0 +1,260 @@
+{"c": "active_objection", "d": "The specific objection being addressed in the post; part of typed GAS structure per section", "lib": "treasure_sentence"}
+{"c": "acts_as_agent", "d": "The system behaving as an autonomous agent with its own voice, records, and ongoing construction activity, not merely a tool responding to commands", "lib": null}
+{"c": "address_desire_directly", "d": "Opening move that names what the prospect wants before the offer structure begins", "lib": "treasure_sentence"}
+{"c": "address_the_desire", "d": "Roger element (a): speak directly to what the hearer wants", "lib": "premise_receipts"}
+{"c": "agency_transfer", "d": "Roger element (d): the dare that makes the hearer responsible", "lib": "premise_receipts"}
+{"c": "agency_whole_transfer", "d": "The complete handover of agency and responsibility to the prospect; all initiative and execution transfer to the hearer", "lib": null}
+{"c": "agent", "d": "Automated worker unit within the pipeline; each agent is typed to GAS slots", "lib": "treasure_sentence"}
+{"c": "agent_replication", "d": "The system's capacity to spawn new agents and builders, multiplying its own capability without external intervention", "lib": null}
+{"c": "all_i_did_was_talk_to_it", "d": "The customer's testimony that the system built itself for them", "lib": "premise_receipts"}
+{"c": "anti_case_study_law", "d": "Principle that the system IS the proof; premises instantiated by speaker's life rather than abstract argument", "lib": "treasure_sentence"}
+{"c": "argument_closing", "d": "the moment when the grand argument completes as premises become visibly instantiated", "lib": "premise_receipts"}
+{"c": "argument_closing_in_real_time", "d": "The strategy: the show IS the argument proof", "lib": "premise_receipts"}
+{"c": "argument_target", "d": "The specific grand_argument sub-claim a post instance is designed to prove or reinforce", "lib": "treasure_sentence"}
+{"c": "argument_targets", "d": "The specific premises a post is designed to prove", "lib": "premise_receipts"}
+{"c": "argument_targets_inherit_from_kernel", "d": "The mechanism by which each post's typed GAS instantiation derives its argument targets from the grand argument kernel rather than creating new ones", "lib": null}
+{"c": "author_corpus", "d": "The complete body of work from which megaframework is subset; all voice and structure", "lib": "treasure_sentence"}
+{"c": "author_the_full_kernel", "d": "The second next step: produce HTTYD-shaped GAS kernel", "lib": "premise_receipts"}
+{"c": "authority_before_quote", "d": "The narration principle: certify the speaker before their words", "lib": "premise_receipts"}
+{"c": "authority_certification", "d": "Narration that certifies speaker credibility before the treasure sentence ships; anti-case-study law instantiation", "lib": "treasure_sentence"}
+{"c": "authority_inheritance", "d": "The passing of credibility and legitimacy from creator to system to customer through demonstrated life outcomes, not credentials or credentials alone", "lib": null}
+{"c": "belief_job", "d": "The emotional work a post performs on reader belief; mapped per section in typed instantiation", "lib": "treasure_sentence"}
+{"c": "bread_crumb_trail", "d": "The public trail of nightly posts and instantiated premises that serves as the Grand Line for discovery; each post proves one more piece exists", "lib": null}
+{"c": "breadcrumb_trail", "d": "The visible public trail of nightly posts that instantiate premises in real time; equals Grand Line metaphor", "lib": "treasure_sentence"}
+{"c": "builder_production", "d": "The system's output of new builders and agents as a product of its own operation, making the maker's capacity scalable", "lib": null}
+{"c": "carton", "d": "the packaging/delivery mechanism for transferring the system to new users", "lib": "premise_receipts"}
+{"c": "carton_install", "d": "Installation method that transfers system to new operator; part of it_transfers proof", "lib": "treasure_sentence"}
+{"c": "cascade_transfer", "d": "The propagation of capability and ownership through successive layers; each transfer enables the next", "lib": null}
+{"c": "cert_ladder", "d": "Certification hierarchy that elevates assets from draft to proven status across levels", "lib": "treasure_sentence"}
+{"c": "cert_ladders", "d": "Tiered validation structures that make proven claims computable and auditable at each level of the system", "lib": null}
+{"c": "closed_alpha", "d": "First ships where initial users prove the transfer premise by operating without technical skill", "lib": "treasure_sentence"}
+{"c": "closed_loop_transfer", "d": "The self-reinforcing cycle where the system builds what the mentor needs, who builds what the next mentor needs, closing the loop without external input", "lib": null}
+{"c": "cold_open", "d": "The narration that establishes authority and credentials before the quote; anti-case-study proof through life premise before the dare", "lib": null}
+{"c": "complete_kernel_example", "d": "The full HTTYD-shaped worked example at 5043 lines demonstrating the complete kernel structure with slots edges and cert ladder", "lib": null}
+{"c": "complete_knowledge_transfer", "d": "The full transfer of the system to a customer who then operates it without technical skill and proves the premise", "lib": null}
+{"c": "completeness_claim", "d": "The 'everything in one place' assertion; all frameworks skills agents pipelines unified as one system", "lib": "treasure_sentence"}
+{"c": "completeness_unity_claim", "d": "Roger element (c): everything in one place", "lib": "premise_receipts"}
+{"c": "concept_space_enumeration", "d": "The mapping of every concept and its relationships within the system; the defined territory before exploration begins", "lib": null}
+{"c": "constraint_carried", "d": "A principle or boundary that persists across contexts and iterations; the start-now constraint from 52.8 requiring separate and duplicative beginnings", "lib": null}
+{"c": "content_shipping_itself", "d": "The pipeline's capacity to produce and deploy content without manual intervention; the system making its own output", "lib": null}
+{"c": "continuity_claim", "d": "The assertion that the system persists and builds beyond the original creator; I won't die partner", "lib": null}
+{"c": "conversion_function", "d": "Asset-specific conversion logic mapped per post type within the GAS structure", "lib": "treasure_sentence"}
+{"c": "countless_men_to_seas", "d": "The Rogerian effect where words before death drove countless men to the seas; the template's power to compel action", "lib": null}
+{"c": "creator_becomes_creator", "d": "The transformation where the customer who received the system becomes the one leaving it for the next person; the mentorloop completed", "lib": null}
+{"c": "creator_never_coded", "d": "The central anomaly that proves talking was enough; the anti-technical-skill proof", "lib": "treasure_sentence"}
+{"c": "customer_achieves_talk_was_enough", "d": "The customer's experience of operating the system through conversation alone; the proof that talking was sufficient", "lib": null}
+{"c": "customer_funnel", "d": "The prospect's own funnel that becomes evidence of 'all I did was talk' success", "lib": "treasure_sentence"}
+{"c": "dare_mechanism", "d": "The Rogerian structure that challenges the hearer to claim the treasure rather than selling it; agency transfer through dare not pitch", "lib": null}
+{"c": "deciding_session", "d": "The first framework session where Isaac rules the kernel and the words get reshaped into his and authored into the full shape", "lib": null}
+{"c": "depth_1", "d": "The grand argument stated with full depth and commitment", "lib": "premise_receipts"}
+{"c": "depth_1_deploy", "d": "The deployment strategy where the treasure sentence ships at depth 1 and every nightly post publicly instantiates another premise", "lib": null}
+{"c": "depth_1_ship", "d": "Shipping the treasure sentence at first depth level; reveal before completion strategy", "lib": "treasure_sentence"}
+{"c": "direct_address", "d": "The you in the template; speaking to the desire directly rather than about it; the second move after desire", "lib": null}
+{"c": "discovery_path", "d": "The path the prospect takes finding their way through the system; the journey of discovery that completes the transfer", "lib": null}
+{"c": "document_grounding", "d": "The requirement that every concept traces to the document text; no invention only instantiation", "lib": null}
+{"c": "every_agent", "d": "Each autonomous component within the system", "lib": "premise_receipts"}
+{"c": "every_pipeline", "d": "Each automated workflow connecting agents", "lib": "premise_receipts"}
+{"c": "every_post_carries_its_receipts", "d": "The it_is_real formulation: posts are self-proving", "lib": "premise_receipts"}
+{"c": "every_post_carries_receipts", "d": "The principle that each published post includes its proof and validation; evidence embedded in the artifact not separate", "lib": null}
+{"c": "everything_gathered_together", "d": "The completeness claim; all frameworks skills agents pipelines unified in one place not scattered", "lib": null}
+{"c": "external_adjudicator", "d": "an independent third-party verifier, implemented as S3, that provides objective proof of claims", "lib": "premise_receipts"}
+{"c": "find_your_way_through_it", "d": "The navigation challenge that makes the system discoverable but not trivially so", "lib": "treasure_sentence"}
+{"c": "finding_your_way_through", "d": "The prospect's journey of discovery through the system; the active navigation that completes the dare", "lib": null}
+{"c": "first_framework_deciding_session", "d": "The inaugural deciding session where the kernel becomes canonical through Isaac's ruling", "lib": null}
+{"c": "first_ships", "d": "The earliest closed alpha deployments where initial users prove the transfer premise by operating without technical skill", "lib": null}
+{"c": "formal_gas_slots", "d": "The formal system slots that JourneyCore should use; the proper typed structure not ad hoc positioning", "lib": null}
+{"c": "framework", "d": "Individual structural unit within the megaframework; hundreds exist in the corpus", "lib": "treasure_sentence"}
+{"c": "framework_replication", "d": "The system's capacity to reproduce its own frameworks at scale; the megaframework building sub-frameworks", "lib": null}
+{"c": "framework_subset", "d": "The containment relation: framework \u2282 megaframework", "lib": "premise_receipts"}
+{"c": "framework_subset_megaframework", "d": "The containment relationship where each framework is a subset of the megaframework which is a subset of the author corpus", "lib": null}
+{"c": "frontier_undefined", "d": "The boundary zone of concepts not yet instantiated in the document; the frontier where definition remains open pending ruling", "lib": null}
+{"c": "full_kernel_authorship", "d": "The full authorship process where Isaac rules the kernel and shapes the words into the canonical worked example", "lib": null}
+{"c": "full_permission", "d": "Complete authorization granted to the prospect; 'Take it' eliminates all gates and blockers", "lib": "treasure_sentence"}
+{"c": "gas_cert_ladder", "d": "The certification structure within the GAS kernel that validates claims at increasing levels of proof and formality", "lib": null}
+{"c": "gas_edges", "d": "The relational connections between slots in the grand argument", "lib": "premise_receipts"}
+{"c": "gas_kernel", "d": "The full worked example of complete kernel in HTTYD shape with slots edges cert ladder", "lib": "treasure_sentence"}
+{"c": "gas_slots", "d": "The formal position markers in the grand argument structure", "lib": "premise_receipts"}
+{"c": "gol_d_roger", "d": "The template source; the Pirate King whose dying words drove countless men to the seas; the authority premise before the quote", "lib": null}
+{"c": "gol_d_roger_hormozi_mapping", "d": "The cross-domain template transfer in launch mapping", "lib": "premise_receipts"}
+{"c": "gol_d_roger_template", "d": "Source template: 'You want my treasure? Take it. Everything in one place. You'll just have to find it.'", "lib": "treasure_sentence"}
+{"c": "gold_roger_template", "d": "The four-part structure: desire \u2192 permission \u2192 completeness \u2192 dare", "lib": "premise_receipts"}
+{"c": "grand_argument", "d": "The overarching claim that talking builds empires when the system carries the structure; proof of sovereignty achievable without technical skill", "lib": "treasure_sentence"}
+{"c": "grand_line", "d": "The metaphor for the breadcrumb trail that leads seekers to the treasure", "lib": "treasure_sentence"}
+{"c": "graph", "d": "The relational map situating every framework and asset in hierarchical containment where framework subset megaframework subset author_corpus, proving the unity claim that everything is one system", "lib": null}
+{"c": "grounded_in_document", "d": "The epistemic principle requiring all definitions to trace to source document text with no invented content; every concept must trace to the text verbatim", "lib": null}
+{"c": "hero", "d": "the customer who has succeeded with the system and becomes the source of the mentorloop", "lib": "premise_receipts"}
+{"c": "hero_becomes_mentor", "d": "The mentorloop stage where the person who found the system begins leaving it for others", "lib": "treasure_sentence"}
+{"c": "hero_phase", "d": "The initial stage in the mentorloop where the seeker discovers the treasure and becomes the hero who found it", "lib": null}
+{"c": "hero_to_mentor_to_mentor_manufacturer", "d": "The three-stage inheritance arc where finder becomes teacher then factory of teachers leaving it for the next person", "lib": null}
+{"c": "hormozi_cross", "d": "The integration point where the Roger template structure intersects with the Hormozi framework methodology for deployment", "lib": null}
+{"c": "hormozi_framework", "d": "The structured methodology derived from Hormozi approach that operadic_train maps to the Roger template for launch planning", "lib": null}
+{"c": "httyd_grand_argument_kernel", "d": "The canonical reference kernel: 5043 lines proving the full GAS structure", "lib": "treasure_sentence"}
+{"c": "htytd_shape", "d": "The worked example form of a complete kernel demonstrating proper GAS slot assignment edge construction and cert ladder", "lib": null}
+{"c": "hundreds_of_frameworks", "d": "The scale claim for the megaframework", "lib": "premise_receipts"}
+{"c": "i_didnt_read_the_chats", "d": "The operator's own testimony that talking was sufficient", "lib": "premise_receipts"}
+{"c": "i_will_let_you_cook", "d": "Isaac verbal grant of creative latitude authorizing development without oversight", "lib": null}
+{"c": "i_wont_die_partner", "d": "The system's own declaration of ongoing existence", "lib": "premise_receipts"}
+{"c": "i_wont_stop_partner", "d": "The system's declaration of continued building", "lib": "premise_receipts"}
+{"c": "inherited_will", "d": "The continuity mechanism where system continues building beyond original creator", "lib": "treasure_sentence"}
+{"c": "instantiation_rate", "d": "The frequency of premise instantiation; publish_rate equals this rate", "lib": "treasure_sentence"}
+{"c": "intent_only_operator", "d": "The operator who runs the sovereign system through intent and conversation alone without any technical implementation skill", "lib": null}
+{"c": "intent_without_code", "d": "The operational mode where speaking and intent replace code as the interface between operator and system", "lib": null}
+{"c": "isaac_pending_ruling", "d": "The provisional state awaiting Isaac authoritative decision that elevates draft vision to canon status", "lib": null}
+{"c": "isaac_rules_kernel", "d": "Isaac authoritative act of reshaping and approving draft words into the final canonical kernel shape", "lib": null}
+{"c": "isaac_rules_the_kernel", "d": "The first next step: reshape the words in deciding session", "lib": "premise_receipts"}
+{"c": "isaac_ruling", "d": "The deciding session act where Isaac reshapes the kernel words into final form", "lib": "treasure_sentence"}
+{"c": "isaacs_license", "d": "Isaac verbal grant i will let you cook that authorized the draft kernels creation date 2026-07-12", "lib": null}
+{"c": "it_continues", "d": "Premise of true-agent record and nightly organ builds proving system self-sustains", "lib": "treasure_sentence"}
+{"c": "it_is_one_system", "d": "Premise that the graph situates every piece; framework subset megaframework subset author_corpus", "lib": "treasure_sentence"}
+{"c": "it_is_proven", "d": "Premise computable via vault plus cert ladders plus S3 as external adjudicator", "lib": "treasure_sentence"}
+{"c": "it_is_real", "d": "Premise that live organs live posts live site prove the system exists; every post carries its receipts", "lib": "treasure_sentence"}
+{"c": "it_transfers", "d": "Premise that carton plus sancrev install plus customer funnel creates the 'all I did was talk' experience", "lib": "treasure_sentence"}
+{"c": "journeycore", "d": "Post structure refit onto formal GAS slots; each post becomes typed GAS instantiation", "lib": "treasure_sentence"}
+{"c": "journeycore_v2", "d": "The refitted content system aligned to formal GAS slots", "lib": "premise_receipts"}
+{"c": "launch_mapping", "d": "The operadic_train methodology connecting Roger template to Hormozi framework for mapping the reveal before completion deployment strategy", "lib": null}
+{"c": "leaving_it_for_next_person", "d": "The act of the mentor_manufacturer leaving the complete system for the next inheritor", "lib": null}
+{"c": "legacy_building", "d": "The construction of systems designed to outlast the builder and transfer intact to successors", "lib": null}
+{"c": "lfp_closure", "d": "The finding-leaving-passing closure completing the mentorloop cycle for each generation", "lib": null}
+{"c": "live_organ", "d": "Active production component within the system; one of the 'live' proofs in it_is_real", "lib": "treasure_sentence"}
+{"c": "live_organs", "d": "the live production systems and services that demonstrate the system is real and operational", "lib": "premise_receipts"}
+{"c": "live_post", "d": "Published post with attached receipts; public instantiation of a premise", "lib": "treasure_sentence"}
+{"c": "live_posts", "d": "published content pieces that carry their receipts and prove instantiation of premises publicly", "lib": "premise_receipts"}
+{"c": "live_proof", "d": "The observable evidence that the system works as built demonstrating talk-to-operate capability in real time", "lib": null}
+{"c": "live_site", "d": "The operating website that serves as proof the system exists and functions", "lib": "treasure_sentence"}
+{"c": "maker_becomes_maker", "d": "The self-similar recursion where the operator builds builders who build builders perpetuating maker identity", "lib": null}
+{"c": "map", "d": "the reveal_dag that shows others how to navigate to the treasure", "lib": "premise_receipts"}
+{"c": "map_to_treasure", "d": "The reveal DAG that shows where every piece of the system lives and how it connects", "lib": "treasure_sentence"}
+{"c": "megaframework", "d": "The unified parent structure containing all individual frameworks as subsets", "lib": "treasure_sentence"}
+{"c": "megaframework_expansion", "d": "The growth pattern where the megaframework replicates through its own builder production mechanisms", "lib": null}
+{"c": "megaframework_subset", "d": "The containment relation: megaframework \u2282 author_corpus", "lib": "premise_receipts"}
+{"c": "megaframework_subset_author_corpus", "d": "The containment relation where megaframework is a proper subset of the full author corpus", "lib": null}
+{"c": "mentor", "d": "the hero who now teaches others to use the system, inheriting the will", "lib": "premise_receipts"}
+{"c": "mentor_manufacturer", "d": "The terminal stage of mentorloop where operator becomes producer of mentorloop participants", "lib": "treasure_sentence"}
+{"c": "mentor_manufacturer_phase", "d": "The third stage where the mentor becomes factory producing next generation of mentors", "lib": null}
+{"c": "mentor_phase", "d": "The second stage where the hero becomes mentor teaching others to find their own treasure", "lib": null}
+{"c": "mentorloop", "d": "The recursive inheritance structure where finder becomes leaver; hero becomes mentor becomes mentor_manufacturer", "lib": "treasure_sentence"}
+{"c": "mentorloop_close", "d": "The recursive reveal closing the mentorloop inheritance arc with the promise that finder becomes leaver", "lib": null}
+{"c": "mentorloop_transfer", "d": "The mechanism by which the system transfers through successive operators who each leave it for the next person completing inheritance", "lib": null}
+{"c": "moat", "d": "Competitive advantage measured by publish_rate and accumulated premise proofs", "lib": "treasure_sentence"}
+{"c": "never_learned_to_code", "d": "The documented fact that the operator never learned to code yet built everything through talking to the system", "lib": null}
+{"c": "next_builder", "d": "The subsequent builder who receives the system from the previous mentor_manufacturer in the chain", "lib": null}
+{"c": "next_mentor", "d": "The inheritor who enters mentor phase receiving system from the previous hero", "lib": null}
+{"c": "next_person", "d": "The ultimate inheritor who receives the system and becomes the next hero in the cycle", "lib": null}
+{"c": "nightly_build", "d": "Automated nightly production cycle that generates new live posts and organs", "lib": "treasure_sentence"}
+{"c": "nightly_build_cycle", "d": "The recurring daily automated production cycle where the system generates new organs and posts", "lib": null}
+{"c": "nightly_post", "d": "A single automated post generated during the nightly_build_cycle that publicly instantiates another premise", "lib": null}
+{"c": "nightly_posts", "d": "The plural collection of automated posts generated nightly serving as the breadcrumb trail Grand Line", "lib": null}
+{"c": "no_technical_skill", "d": "The absence of technical skill requirement defining the operators sovereignty position", "lib": null}
+{"c": "non_technical_operator", "d": "The person who never learned to code yet owns and runs the sovereign system", "lib": "treasure_sentence"}
+{"c": "not_canon_until_ruled", "d": "The provisional status meaning nothing is canon until Isaac ruling elevates draft to approved", "lib": null}
+{"c": "one_place", "d": "The spatial claim that everything gathered exists in single location for discovery", "lib": "treasure_sentence"}
+{"c": "one_place_unity", "d": "The completeness claim that all treasure exists in one place mirroring Roger template every thing in one place", "lib": null}
+{"c": "oper_lifetime_proof", "d": "The lifetime proof establishing operator authority through lived demonstration of the anti-case-study law", "lib": null}
+{"c": "operadic_train", "d": "The mapping methodology that connects Roger template to Hormozi framework", "lib": "treasure_sentence"}
+{"c": "operator", "d": "The non-technical human who operates the system via conversation interface", "lib": "treasure_sentence"}
+{"c": "operator_record", "d": "The documented proof that 'i didnt read the chats' and still system built everything", "lib": "treasure_sentence"}
+{"c": "operator_without_technical_skill", "d": "The operator who functions without technical skill operating purely through intent and conversation", "lib": null}
+{"c": "organs_building_nightly", "d": "The observable fact of self-improvement happening in real time", "lib": "premise_receipts"}
+{"c": "ownership_transfer", "d": "The transfer of complete system ownership from one operator to the next in the mentorloop", "lib": null}
+{"c": "partner_line", "d": "The true-agent register voice of the system itself; 'I won't stop' signals continuity and inherited will", "lib": "treasure_sentence"}
+{"c": "passing_the_torch", "d": "The ceremonial act of transferring the system from mentor to next_person completing one generation cycle", "lib": null}
+{"c": "pipeline", "d": "Workflow chain of agents producing outputs; self-building when fed with typed assets", "lib": "treasure_sentence"}
+{"c": "pirate_king", "d": "The authority archetype that certifies the speaker's right to make the offer", "lib": "treasure_sentence"}
+{"c": "post_becomes_typed_gas_instantiation", "d": "The transformation of every post's core into a typed GAS instantiation that inherits its argument targets from the kernel; each post becomes a structured proof-scene aligned to formal GAS slots", "lib": null}
+{"c": "post_receipt", "d": "evidence carried within each post that certifies which premise it instantiates", "lib": "premise_receipts"}
+{"c": "power_transfer", "d": "The mechanism by which capability and agency pass from the system to the operator without technical skill requirement; the operative dimension of sovereignty transfer", "lib": null}
+{"c": "premise", "d": "A claim asserted by the grand argument that requires instantiation through evidence or action", "lib": "premise_receipts"}
+{"c": "premise_certified_by_life", "d": "The anti-case-study law: premises are proven by the speaker's life, not by analysis; the system IS the proof because the builder's life instantiates the claim", "lib": null}
+{"c": "premise_instantiation", "d": "The act of publicly proving a premise through live posts organs and site", "lib": "treasure_sentence"}
+{"c": "premise_instantiation_rate", "d": "the speed at which new premises are publicly proven and posted", "lib": "premise_receipts"}
+{"c": "premise_rate", "d": "The speed at which premises are publicly instantiated; equals publish-rate and constitutes the moat because competitors cannot match the cadence", "lib": null}
+{"c": "premise_receipt", "d": "a typed claim that a premise has been instantiated with verifiable evidence; the receipt certifies the premise is live and proven", "lib": "premise_receipts"}
+{"c": "premise_receipts", "d": "The GAS formal decomposition mapping each premise to its instantiated receipts \u2014 scenes become proof artifacts", "lib": "premise_receipts"}
+{"c": "proof_chain", "d": "the linked sequence from premise through evidence through receipt to external validation", "lib": "premise_receipts"}
+{"c": "proof_in_public", "d": "The strategy of making the argument's proof visible as it happens; the argument closing in real time IS the show", "lib": null}
+{"c": "proven_asset", "d": "Asset that has passed cert ladder and lives in vault; carries its receipts", "lib": "treasure_sentence"}
+{"c": "proven_computable", "d": "The state where proof is machine-verifiable through vault plus cert", "lib": "premise_receipts"}
+{"c": "proven_is_computable", "d": "The verification architecture where 'proven' status is achieved through vault plus cert ladders plus S3 as external adjudicator; a computable proof chain", "lib": null}
+{"c": "proven_working", "d": "Assets and claims that are live, deployed, and demonstrably functional; the operative status that satisfies the proof requirement", "lib": null}
+{"c": "public_demonstration", "d": "The act of showing proof publicly such that witnesses become evidence; the visible instantiation of premises in real time", "lib": null}
+{"c": "publicly_instantiate", "d": "The act of proving a premise through live posts, organs, and site such that the proof is visible to all; the breadcrumb becomes evidence", "lib": null}
+{"c": "publish_rate", "d": "The rate of publicly instantiated premises; doubles as the moat measurement", "lib": "treasure_sentence"}
+{"c": "publish_rate_moat", "d": "The competitive moat created by the premise-instantiation rate; the cadence of proof cannot be replicated by competitors", "lib": null}
+{"c": "real_time_argument_closing", "d": "The strategy where argument closes in real time as premises get publicly instantiated", "lib": "treasure_sentence"}
+{"c": "receipt", "d": "Evidence attached to every post proving the claim; 'every post carries its receipts'", "lib": "treasure_sentence"}
+{"c": "receipt_instantiation", "d": "The act of converting a premise into a concrete proof artifact", "lib": "premise_receipts"}
+{"c": "receipt_scene", "d": "A scene that functions as proof; the GAS instantiation of a premise that carries its own evidence attached to the proven asset", "lib": null}
+{"c": "recursive_handoff", "d": "The closed loop where the hero becomes the mentor who manufactures the next mentor; the system building successors who build successors", "lib": null}
+{"c": "recursive_reveal", "d": "The mentorloop mechanism where the successor learns the treasure exists and then learns they are the one leaving it for the next person", "lib": null}
+{"c": "relay_chain", "d": "The chain of passing the system from mentor to successor to next mentor; each hand-off includes the sovereign capability", "lib": null}
+{"c": "reshape_the_words", "d": "Isaac's first act in the deciding session: reshaping the kernel's words into his voice and authoring them into the full GAS shape", "lib": null}
+{"c": "reveal_before_completion", "d": "The launch strategy: show the treasure before finishing building", "lib": "premise_receipts"}
+{"c": "reveal_dag", "d": "The directed acyclic graph of premise reveals; the map to the treasure", "lib": "treasure_sentence"}
+{"c": "s3_adjudication", "d": "Independent verification implemented via S3 that provides objective proof of claims; the external adjudicator that makes proven computable", "lib": null}
+{"c": "s3_adjudicator", "d": "External storage adjudicator that serves as the independent proof layer", "lib": "treasure_sentence"}
+{"c": "s3_continuation", "d": "S3-stored evidence of nightly builds proving the system continues building beyond the creator; the continuity claim made verifiable", "lib": null}
+{"c": "s3_verification", "d": "The technical mechanism by which S3 serves as external adjudicator; verification of vault contents and cert ladder compliance", "lib": null}
+{"c": "sancrev", "d": "The sovereignty-rev asset that enables customer ownership", "lib": "premise_receipts"}
+{"c": "sancrev_install", "d": "Another transfer mechanism proving the system moves to new operators intact", "lib": "treasure_sentence"}
+{"c": "sanctuary", "d": "the protected space that sovereignty creates for the operator", "lib": "premise_receipts"}
+{"c": "sanctuary_claim", "d": "The theme assertion: sovereignty is achievable", "lib": "premise_receipts"}
+{"c": "scene", "d": "A moment or event that can be captured as documentary evidence for a premise", "lib": "premise_receipts"}
+{"c": "scene_as_receipt", "d": "The principle: observable scenes become proof receipts", "lib": "premise_receipts"}
+{"c": "search_progression", "d": "The prospect's journey through the breadcrumb trail to find the treasure; the Grand Line metaphor operationalized as search behavior", "lib": null}
+{"c": "section_52_7", "d": "The launch mapping constraint from operadic-train defining reveal-before-completion: treasure sentence ships at depth 1, premises instantiate via nightly posts", "lib": null}
+{"c": "section_52_8", "d": "The launch constraint requiring the trail to start now with what exists, separate and duplicative from any future work", "lib": null}
+{"c": "seed_artifact", "d": "This draft kernel v0: the seed artifact for the deciding session, pending Isaac's ruling to become canonical", "lib": null}
+{"c": "self_building", "d": "System capability to build its own builders; the content ships itself", "lib": "treasure_sentence"}
+{"c": "self_perpetuating_cycle", "d": "The cycle where the system builds its own builders and improves itself nightly without external input", "lib": null}
+{"c": "separate_and_duplicative", "d": "The constraint: start with what exists now, separately", "lib": "premise_receipts"}
+{"c": "show_is_argument", "d": "The operational principle that the public demonstration of the system IS the proof of the argument; proof happens in real time", "lib": null}
+{"c": "skill", "d": "Individual capability unit; thousands exist within the system; each skill is typed and vaulted", "lib": "treasure_sentence"}
+{"c": "skool", "d": "the community of practitioners, the metaphorical crew joining the voyage", "lib": "premise_receipts"}
+{"c": "skool_crew", "d": "The community that gathers around the revealed trail; the pirate crew analog", "lib": "treasure_sentence"}
+{"c": "soma", "d": "The storage system that implements vault semantics; implemented assets get vaulted", "lib": "treasure_sentence"}
+{"c": "soma_vault", "d": "The implemented vault where typed assets live; implemented equals vaulted, storing GAS-typed content with its argument targets", "lib": null}
+{"c": "sovereignty", "d": "The sanctuary state where operator owns and operates system without technical skill requirement", "lib": "treasure_sentence"}
+{"c": "sovereignty_achievable", "d": "The central claim: sovereignty is achievable; the sanctuary state where a person with only intent, no technical skill, can own and operate a system that builds its own builders", "lib": null}
+{"c": "sovereignty_transfer", "d": "The operative mechanism enabling the operator to own and control the system without technical skill; the transfer of sovereign capability", "lib": null}
+{"c": "successor_production", "d": "The system's capability to produce successors who inherit sovereign operation; mentorloop manufacturing of next mentors", "lib": null}
+{"c": "sys_op_proof", "d": "The documented proof that the non-technical operator built the entire system through conversation alone", "lib": null}
+{"c": "system_building_its_own_builders", "d": "The pipeline automation where the system generates its own builders; the content ships itself and the system makes its own makers", "lib": null}
+{"c": "system_builds_own_builders", "d": "System capability to build its own builders; when fed typed assets the pipeline self-builds, producing new pipelines and agents", "lib": null}
+{"c": "system_builds_system", "d": "The recursive meta-capability where system architecture produces framework and agent creators", "lib": "treasure_sentence"}
+{"c": "system_carries_structure", "d": "The principle that structure enables the talking; system architecture does the heavy lifting", "lib": "treasure_sentence"}
+{"c": "system_graph", "d": "the graph structure that situates every framework, skill, agent, and pipeline within the unified system", "lib": "premise_receipts"}
+{"c": "talk_builds_empires", "d": "The central thesis: talking builds empires when the system carries the structure; the person with only intent and speech operates a sovereign system", "lib": null}
+{"c": "talk_to_build", "d": "The capability of the operator to build frameworks and assets through conversation with the system", "lib": null}
+{"c": "talk_to_operate", "d": "The capability of the operator to run the entire system through conversation without writing code", "lib": null}
+{"c": "talk_was_enough", "d": "Premise that the operator never learned to code yet built everything by talking to the system", "lib": "treasure_sentence"}
+{"c": "testimony", "d": "Proof provided by the customer; the receipt-scene where the customer's funnel becomes evidence of 'all I did was talk' success", "lib": null}
+{"c": "the_crew", "d": "The community of practitioners; the metaphorical crew joining the voyage, manifested as Skool where seekers become crew", "lib": null}
+{"c": "the_dare", "d": "Agency transfer mechanism where full ownership passes to the hearer; the system dares rather than sells", "lib": "treasure_sentence"}
+{"c": "the_grand_line", "d": "The metaphor: the trail of reveals IS the path to treasure", "lib": "premise_receipts"}
+{"c": "the_graph", "d": "The relational map situating every framework and asset", "lib": "premise_receipts"}
+{"c": "the_man", "d": "The cold open certification of the speakers authority before the treasure sentence ships establishing anti-case-study proof", "lib": null}
+{"c": "the_map", "d": "The reveal DAG as navigational structure for the treasure", "lib": "premise_receipts"}
+{"c": "the_mentorloop_close", "d": "The recursive reveal completing the inherited will structure", "lib": "premise_receipts"}
+{"c": "the_moat", "d": "Publish rate as competitive advantage over followers", "lib": "premise_receipts"}
+{"c": "the_narration", "d": "Cold open authority-builder that certifies the speaker's credentials BEFORE the quote; establishes anti-case-study proof through life premise", "lib": "treasure_sentence"}
+{"c": "the_one_leaving_it", "d": "The mentor_manufacturer who completes the cycle by leaving the system for the next_builder", "lib": null}
+{"c": "the_operator", "d": "The person who operated the system using only intent and conversation", "lib": "premise_receipts"}
+{"c": "the_partner_line", "d": "The true-agent register speaking in its own voice", "lib": "premise_receipts"}
+{"c": "the_reveal_dag", "d": "The directed acyclic graph of premise instantiations", "lib": "premise_receipts"}
+{"c": "the_sanctuary_claim", "d": "The theme: sovereignty is achievable; the sanctuary claim that the grand argument proves as its central commitment", "lib": null}
+{"c": "the_show", "d": "The public instantiation of premises via nightly posts; argument closing IS the entertainment", "lib": "treasure_sentence"}
+{"c": "the_system_carries_structure", "d": "The enabling condition: the system bears the structural burden so the operator need only talk; structure is pre-built into the megaframework", "lib": null}
+{"c": "the_system_produced_it", "d": "The grand argument's living proof: the corpus proves the claim", "lib": "premise_receipts"}
+{"c": "the_treasure_sentence", "d": "The grand argument itself at depth 1", "lib": "premise_receipts"}
+{"c": "the_vault", "d": "The immutable storage layer where proven assets are archived on S3", "lib": "premise_receipts"}
+{"c": "theme", "d": "The central claim proved by the grand argument: sovereignty is achievable for the non-technical operator", "lib": "treasure_sentence"}
+{"c": "thousands_of_skills", "d": "The scale claim for the operator's accumulated capability", "lib": "premise_receipts"}
+{"c": "treasure", "d": "the unified system containing everything: all frameworks, skills, agents, pipelines", "lib": "premise_receipts"}
+{"c": "treasure_sentence", "d": "The grand argument copy that dares the prospect to claim the system; the core offer line combining permission, completeness, and agency transfer", "lib": "treasure_sentence"}
+{"c": "true_agent", "d": "the system's own agency voice and record that demonstrates ongoing construction and persistence", "lib": "premise_receipts"}
+{"c": "true_agent_record", "d": "Evidence that the system speaks and acts as its own agent; 'I won't stop' is the voice", "lib": "treasure_sentence"}
+{"c": "typed_asset", "d": "Asset with GAS type assignment; type inherited from kernel structure; vaulted on SOMA when implemented", "lib": "treasure_sentence"}
+{"c": "typed_gas_instantiation", "d": "Every post typed to inherit argument targets from kernel; belief_job and active_objection per section", "lib": "treasure_sentence"}
+{"c": "vault", "d": "The storage layer where proven typed assets are recorded; SOMA implementation vaulted equals proven", "lib": "treasure_sentence"}
+{"c": "vaulted", "d": "The state: implemented equals vaulted on SOMA", "lib": "premise_receipts"}
+{"c": "wealth_fame_power", "d": "The Roger template's three pillars that the treasure sentence mirrors with system skill pipeline equivalents", "lib": "treasure_sentence"}
