@@ -191,3 +191,91 @@ class EESkillObservationAdapter:
                  for c in observation.certified_concepts]
         facts.append(f"source_pass_complete({observation.subject}).")
         return facts
+
+
+# ── §24c: the ARGUMENT SKELETON — the algebra of articulation ────────────────
+# A hyperedge holds a claim as an unordered proven set; the skeleton is the
+# DAG that orders it into walkability. Operator edges are higher-order (they
+# relate claims/atoms); each `because` implies its templated warrant subgraph
+# — dischargeable obligations in domains/ee_argument. THE OBSERVATION
+# AUTHORITY is the certificate ledger: only atoms already certified may be
+# spoken (articulation demands certification first).
+
+ArgOp = Literal["because", "since", "together_fit", "explains"]
+
+
+class ArgEdge(RenderablePiece):
+    kind: Literal["arg"]
+    id: Atom
+    op: ArgOp
+    source: Atom
+    target: Atom
+
+    def render(self) -> str:
+        return f"{self.id}: {self.source} -{self.op}-> {self.target}"
+
+
+class ArgumentSkeleton(RenderablePiece):
+    kind: Literal["ee_argument"]
+    subject: Atom
+    root: Atom
+    edges: list[ArgEdge] = Field(min_length=1)
+
+    @field_validator("edges")
+    @classmethod
+    def unique_edges(cls, v):
+        ids = [e.id for e in v]
+        if len(ids) != len(set(ids)):
+            raise ValueError("arg edge ids must be unique")
+        return v
+
+    def render(self) -> str:
+        return (f"argument:{self.root}\n"
+                + "\n".join(e.render() for e in self.edges))
+
+
+class EEArgumentAdapter:
+    target = "ee_argument"
+    schema_id = "ee.map.argument.v1"
+    lowering_id = "ee.map.argument.lowering.v1"
+    model_type = ArgumentSkeleton
+    candidate_predicates = frozenset({"candidate_root", "candidate_arg"})
+
+    def lower(self, construction: RenderablePiece) -> list[str]:
+        if not isinstance(construction, ArgumentSkeleton):
+            raise TypeError("EEArgumentAdapter requires ArgumentSkeleton")
+        facts = [f"candidate_root({construction.subject},"
+                 f"{construction.root})."]
+        facts += [f"candidate_arg({construction.subject},{e.id},{e.op},"
+                  f"{e.source},{e.target})."
+                  for e in construction.edges]
+        return facts
+
+
+class ArgumentGroundWitness(RenderablePiece):
+    """The CERTIFICATE LEDGER's authority: the atoms the hyperedge store has
+    certified — the only vocabulary a skeleton may speak."""
+    kind: Literal["argument_ground_witness"]
+    subject: Atom
+    certified_atoms: list[Atom] = Field(min_length=1)
+
+    def render(self) -> str:
+        return f"ground:{self.subject}:{','.join(self.certified_atoms)}"
+
+
+class EEArgumentObservationAdapter:
+    target = "ee_argument"
+    schema_id = "ee.map.argument_ground.v1"
+    lowering_id = "ee.map.argument_ground.lowering.v1"
+    model_type = ArgumentGroundWitness
+    observation_predicates = frozenset({"source_concept",
+                                        "source_pass_complete"})
+
+    def lower(self, observation: RenderablePiece) -> list[str]:
+        if not isinstance(observation, ArgumentGroundWitness):
+            raise TypeError("EEArgumentObservationAdapter requires "
+                            "ArgumentGroundWitness")
+        facts = [f"source_concept({observation.subject},{c})."
+                 for c in observation.certified_atoms]
+        facts.append(f"source_pass_complete({observation.subject}).")
+        return facts

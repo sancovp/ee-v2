@@ -228,13 +228,16 @@ def root_context(kb, target, direction="both", max_nodes=120):
     return "\n".join(lines) if lines else "(no relative root yet — isolated)"
 
 
-def derive_worklist(kb, reconcile=None):
+def derive_worklist(kb, reconcile=None, explain=None):
     """THE GAUGE MINTS WORK. define = referenced-but-undefined (the prover);
     connect = orphans (the prover); reconcile = near-dup groups (cheap LLM,
-    supplied by the caller). This list is what homie/cron drains."""
+    supplied by the caller); explain = certified-but-unarticulated atoms
+    (§24c the adjoint law — supplied by Automaton.explain_bucket()). This
+    list is what homie/cron drains."""
     chk = kb.check()
     wl = {"phase": chk["phase"], "define": chk["undefined"],
           "connect": chk["orphan"], "reconcile": reconcile or [],
+          "explain": explain or [],
           "n_concepts": chk["n_concepts"], "n_relations": chk["n_relations"]}
     (kb.root / "worklist.json").write_text(json.dumps(wl, indent=2))
     return wl
