@@ -5,3 +5,43 @@
 {"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786343298.0864074}
 {"path": ["health_department_inspection", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786343298.0865111}
 {"path": ["inventory_management_system", "pos_software"], "verdict": "known", "llm_calls": 0, "ts": 1786343448.4316175}
+{"path": ["health_department_inspection", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786354266.5783563}
+{"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786354266.5821457}
+{"path": ["american_cuisine"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354266.5827887}
+{"path": ["pos_terminal", "pos_software", "third_party_delivery_integration", "api_integration", "pos_api", "delivery_management_software"], "verdict": "known", "llm_calls": 0, "ts": 1786354267.549309}
+{"path": ["customer_relationship_management_crm", "online_ordering_platform", "gift_card_system", "pos_terminal", "barcode_scanner", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786354268.413607}
+{"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786354268.4163733}
+{"path": ["menu_management_system"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354268.4168766}
+{"path": ["side_dish"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354268.4173496}
+{"path": ["kitchen_display_system", "inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 1, "ts": 1786354277.0924401}
+{"path": ["reservation"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354277.0936172}
+{"path": ["reservation_system", "api_integration", "supplier_integration", "inventory_alert_system", "waste_logging", "menu_item_profitability"], "verdict": "known", "llm_calls": 0, "ts": 1786354865.111557}
+{"path": ["online_ordering_platform", "customer_relationship_management_crm", "pos_software", "staff_scheduling_software", "staff_payroll_integration", "pos_api"], "verdict": "known", "llm_calls": 0, "ts": 1786354866.164356}
+{"path": ["analytics_reporting_dashboard", "menu_engineering_software", "food_cost_percentage", "analytics_reporting_dashboard", "restaurant_management_software", "backoffice_accounting_software"], "verdict": "known", "llm_calls": 0, "ts": 1786354867.0851285}
+{"path": ["unified_inventory", "third_party_delivery_aggregation", "third_party_delivery_integration", "pos_api", "customer_relationship_management_crm", "opentable_integration"], "verdict": "known", "llm_calls": 0, "ts": 1786354867.992445}
+{"path": ["appetizer"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354867.9932334}
+{"path": ["pos_software", "customer_relationship_management_crm", "online_ordering_platform", "inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 1, "ts": 1786354875.9768293}
+{"path": ["table_allocation"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354875.9816275}
+{"path": ["payment_processing_gateway"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354875.9829373}
+{"path": ["api_integration", "email_marketing_integration", "pos_api", "third_party_delivery_integration", "api_integration", "backoffice_accounting_software"], "verdict": "known", "llm_calls": 0, "ts": 1786354876.8920121}
+{"path": ["burger"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786354876.8936179}
+{"path": ["brunch_menu"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355057.172235}
+{"path": ["dessert"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355057.1757767}
+{"path": ["health_department_inspection", "inventory_management_system"], "verdict": "known", "llm_calls": 0, "ts": 1786355057.185504}
+{"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786355057.189329}
+{"path": ["american_cuisine"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355057.18999}
+{"path": ["pos_terminal", "barcode_scanner", "inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786355057.199231}
+{"path": ["customer_relationship_management_crm", "restaurant_management_software", "backoffice_accounting_software", "inventory_management_system", "health_department_inspection"], "verdict": "mint_failed", "llm_calls": 1, "ts": 1786355068.9116101}
+{"path": ["inventory_management_system", "health_department_inspection"], "verdict": "known", "llm_calls": 0, "ts": 1786355068.9509473}
+{"path": ["menu_management_system"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355068.9519792}
+{"path": ["side_dish"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355068.9528782}
+{"path": ["kitchen_display_system", "third_party_delivery_integration", "pos_software", "pos_terminal", "pos_api", "reservation_system"], "verdict": "known", "llm_calls": 0, "ts": 1786355138.6244066}
+{"path": ["reservation"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355138.6259553}
+{"path": ["reservation_system", "inventory_management_system", "health_department_inspection"], "verdict": "mint_failed", "llm_calls": 1, "ts": 1786355150.0701017}
+{"path": ["online_ordering_platform", "email_marketing_integration", "api_integration", "pos_api", "staff_payroll_integration", "backoffice_accounting_software"], "verdict": "known", "llm_calls": 0, "ts": 1786355151.0784016}
+{"path": ["analytics_reporting_dashboard", "pos_software", "gift_card_system", "inventory_management_system", "health_department_inspection"], "verdict": "mint_failed", "llm_calls": 1, "ts": 1786355157.6966522}
+{"path": ["unified_inventory", "waste_logging", "analytics_reporting_dashboard", "restaurant_management_software", "pos_software", "analytics_reporting_dashboard"], "verdict": "known", "llm_calls": 0, "ts": 1786355158.6263304}
+{"path": ["appetizer"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355158.6273866}
+{"path": ["pos_software", "customer_relationship_management_crm", "opentable_integration", "pos_api", "delivery_management_software", "inventory_management_system"], "verdict": "mint_failed", "llm_calls": 1, "ts": 1786355170.2355034}
+{"path": ["table_allocation"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355170.2462623}
+{"path": ["payment_processing_gateway"], "verdict": "bullshit", "llm_calls": 0, "ts": 1786355170.248043}

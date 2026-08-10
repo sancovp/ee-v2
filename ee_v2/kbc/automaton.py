@@ -424,11 +424,16 @@ class Automaton:
                     if key and self._fail_count(key) >= FAIL_THRESHOLD:
                         verdict = "bullshit"
                         self.down_tune(path, log=log)
-        else:
-            for a in c.get("malformed", []):
+        elif c.get("malformed"):
+            for a in c["malformed"]:
                 self._record_fail(("form", a), "not a typed atom")
             verdict = "bullshit"
             self.down_tune(path, log=log)
+        else:
+            # too_short with clean atoms = the kernel had nowhere to go from
+            # this start (unwired region) — a coverage fact, NOT nonsense;
+            # no record, no down-tune
+            verdict = "dead_end"
 
         rec = {"path": path, "verdict": verdict, "llm_calls": calls,
                "ts": time.time()}

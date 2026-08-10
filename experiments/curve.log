@@ -1,0 +1,450 @@
+ERROR:heaven_base.tools.redaction_tool:Failed to import RedactionManager: No module named 'redaction_manager'
+Traceback (most recent call last):
+  File "/home/ceo/repo/cave-teams/cave_teams/chain_ontology.py", line 16, in <module>
+    from uco.core import (  # noqa: F401
+ModuleNotFoundError: No module named 'uco'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/heaven_base/tools/redaction_tool.py", line 16, in <module>
+    from redaction_manager import RedactionManager
+ModuleNotFoundError: No module named 'redaction_manager'
+/home/ceo/.local/lib/python3.11/site-packages/langgraph/checkpoint/base/__init__.py:18: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+KB 2849c/2429r · ledger 18 hyperedges · 1 skeletons · starts pool 22
+[01] known       0c  health_department_inspection→inventory_management_system
+[02] known       0c  inventory_management_system→health_department_inspection
+[03] bullshit    0c  american_cuisine
+[04] known       0c  pos_terminal→pos_software→third_party_delivery_integration→api_integration
+[05] known       0c  customer_relationship_management_crm→online_ordering_platform→gift_card_system→pos_terminal
+[06] known       0c  inventory_management_system→health_department_inspection
+[07] bullshit    0c  menu_management_system
+[08] bullshit    0c  side_dish
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent confirm_kitchen_display_: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[09] known       1c  kitchen_display_system→inventory_management_system→health_department_inspection
+[10] bullshit    0c  reservation
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.426641 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.755780 seconds
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.456829 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.822761 seconds
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.431526 seconds
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+     articulate(pos_terminal): ok=False 3c 0 edges
+[11] known       0c  reservation_system→api_integration→supplier_integration→inventory_alert_system
+[12] known       0c  online_ordering_platform→customer_relationship_management_crm→pos_software→staff_scheduling_software
+[13] known       0c  analytics_reporting_dashboard→menu_engineering_software→food_cost_percentage→analytics_reporting_dashboard
+[14] known       0c  unified_inventory→third_party_delivery_aggregation→third_party_delivery_integration→pos_api
+[15] bullshit    0c  appetizer
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent confirm_online_ordering_: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[16] known       1c  pos_software→customer_relationship_management_crm→online_ordering_platform→inventory_management_system
+[17] bullshit    0c  table_allocation
+[18] bullshit    0c  payment_processing_gateway
+[19] known       0c  api_integration→email_marketing_integration→pos_api→third_party_delivery_integration
+[20] bullshit    0c  burger
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.399096 seconds
+INFO:anthropic._base_client:Retrying request to /v1/messages in 0.865500 seconds
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+     articulate(pos_terminal): ok=False 3c 0 edges
+[21] bullshit    0c  brunch_menu
+[22] bullshit    0c  dessert
+[23] known       0c  health_department_inspection→inventory_management_system
+[24] known       0c  inventory_management_system→health_department_inspection
+[25] bullshit    0c  american_cuisine
+[26] known       0c  pos_terminal→barcode_scanner→inventory_management_system→health_department_inspection
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent confirm_backoffice_accou: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[27] mint_failed 1c  customer_relationship_management_crm→restaurant_management_software→backoffice_accounting_software→inventory_management_system
+[28] known       0c  inventory_management_system→health_department_inspection
+[29] bullshit    0c  menu_management_system
+[30] bullshit    0c  side_dish
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+     articulate(pos_terminal): ok=False 3c 0 edges
+[31] known       0c  kitchen_display_system→third_party_delivery_integration→pos_software→pos_terminal
+[32] bullshit    0c  reservation
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent confirm_reservation_syst: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[33] mint_failed 1c  reservation_system→inventory_management_system→health_department_inspection
+[34] known       0c  online_ordering_platform→email_marketing_integration→api_integration→pos_api
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent confirm_gift_card_system: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[35] mint_failed 1c  analytics_reporting_dashboard→pos_software→gift_card_system→inventory_management_system
+[36] known       0c  unified_inventory→waste_logging→analytics_reporting_dashboard→restaurant_management_software
+[37] bullshit    0c  appetizer
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent confirm_delivery_managem: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+[38] mint_failed 1c  pos_software→customer_relationship_management_crm→opentable_integration→pos_api
+[39] bullshit    0c  table_allocation
+[40] bullshit    0c  payment_processing_gateway
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+/home/ceo/repo/cave-teams/cave_teams/examples/minimax_runtime.py:75: UserWarning: WARNING! thinking_budget is not default parameter.
+                thinking_budget was transferred to model_kwargs.
+                Please confirm that thinking_budget is what you intended.
+  agent = BaseHeavenAgent(**kwargs)
+[resolve_mcps] CALLED. mcp_servers=False, mcp_tool_strs=[]
+[resolve_mcps] No mcp_tool_strs to resolve, returning
+INFO:httpx:HTTP Request: POST https://api.minimax.io/anthropic/v1/messages "HTTP/1.1 200 OK"
+Error type: <class 'OSError'>
+Error message: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+Warning: Failed to save history for agent articulate_pos_terminal: 🚨 HEAVEN_DATA_DIR environment variable is REQUIRED!
+
+No ~/.heaven fallback - explicit data directory prevents deployment disasters.
+Set: export HEAVEN_DATA_DIR=/path/to/project/heaven-data
+     articulate(pos_terminal): ok=False 3c 0 edges
+
+CURVE (rolling-5 calls/stmt over 47 statements):
+  1.0 1.0 0.7 0.5 0.4 0.2 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.2 0.2 0.0 0.0 0.2 0.2 0.2 0.2 0.2 0.0 0.0 0.0 0.0 0.0 0.0 0.2 0.2 0.2 0.2 0.2 0.0 0.2 0.2 0.4 0.4 0.4 0.4 0.4 0.2
+ledger now 49 hyperedges, 1 skeletons · verdicts {'mint_failed': 5, 'known': 25, 'bullshit': 17}
