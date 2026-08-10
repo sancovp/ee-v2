@@ -74,6 +74,24 @@ def persona_seat_factory(minted: dict, base_seat_factory):
     return factory
 
 
+def project_personas(kb, out_dir, min_degree: int = 3) -> dict:
+    """THE STAFF IS A PROJECTION, NOT A DECISION (Isaac 2026-08-10): every
+    region whose substance qualifies (degree >= min_degree) gets its persona
+    minted/refreshed — deterministic, zero seats, total. The org chart is
+    derived state; existence is free, RUNNING is what the doors/budget
+    schedule. Returns {region: persona_dir}; stale personas are re-minted in
+    place (the file follows the graph)."""
+    deg = Counter()
+    for s_, t_ in kb.relations:
+        deg[s_] += 1
+        deg[t_] += 1
+    staff = {}
+    for c in sorted(kb.concepts):
+        if deg[c] >= min_degree:
+            staff[c] = mint_persona(kb, c, out_dir)["dir"]
+    return staff
+
+
 def frontier_atoms(kb, region: str, k: int = 3) -> list:
     """Where the persona digs: the thinnest atoms of its own cone — named
     parts with the least structure under them (the granularity frontier)."""
@@ -146,4 +164,4 @@ async def specialization_round(kb, regions: list, base_seat_factory,
 
 
 __all__ = ["mint_persona", "persona_seat_factory", "deepen", "basis",
-           "specialization_round", "frontier_atoms"]
+           "specialization_round", "frontier_atoms", "project_personas"]
