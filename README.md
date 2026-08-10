@@ -75,5 +75,27 @@ witness itself. `python test_map_gate.py` proves all four properties against
 real SWI-Prolog. Not yet wired into the chain's node gauge — that's the
 fail-or-insane experiment: measure live ONT rates with residue-fed retries.
 
+## `ee_v2.kbc` — the KB-compiler library (the engine of the dark floor)
+
+The MAP gate above, generalized into a full knowledge-compiler. This is the
+engine that powers [dark-factory](https://github.com/sancovp/dark-factory)'s
+knowledge line — the machine that grows proof-checked knowledge modules,
+publishes them, and articulates them.
+
+| module | what it is |
+|---|---|
+| [`kbc/kb_tool.py`](ee_v2/kbc/kb_tool.py) | the persistent, accumulating **KB** (the dir is the state) + the gauge that mints a worklist from the prover's residue — *SOUP is the product* |
+| [`kbc/compiler.py`](ee_v2/kbc/compiler.py) | **THE ONE CURRIED COMPILER** — `compile(kb, X, op)` = `seat.run(CEL.inject(TEMPLATE[op], relative_root(X)))` → ΔKB → re-gate. Every agent (dumper, definer, wirer, expander) is this one call curried; because `X` may be `"compiler"`, it's the D∞ ≅ [D∞→D∞] fixpoint as running code |
+| [`kbc/metacompiler.py`](ee_v2/kbc/metacompiler.py) | drop in any recursive prompt-chain notation → a gated, cycling KB compiler; fixpoint meter = zero new atoms |
+| [`kbc/brain.py`](ee_v2/kbc/brain.py) | the durable **brain**: grow gyri (proof-gated), `ask` fires neurons numerically over kuzu activation, each answers its territory, the synthesis is PROVEN one level up (the SES tower) |
+| [`kbc/automaton.py`](ee_v2/kbc/automaton.py) | **the language automaton** — the RELATES graph read as a Markov kernel; walk → the trichotomy (known/realizable/unformable) → speak certified walks with **zero LLM calls**, mint only named gaps, articulate hyperedges into proven argument DAGs. The meter measures the LLM *retreating to the frontier* |
+| [`kbc/owl.py`](ee_v2/kbc/owl.py) | **the OWL projection** — every certified KB → self-contained Turtle (typed individuals, reified certificates, typed argument edges). The gate stays Prolog (residue = closed-world negation OWL can't express); the OWL is a faithful projection |
+| [`kbc/projector.py`](ee_v2/kbc/projector.py) · [`specialize.py`](ee_v2/kbc/specialize.py) · [`mount.py`](ee_v2/kbc/mount.py) · [`heaven_tools.py`](ee_v2/kbc/heaven_tools.py) | the `understand-*` skill library, the specialization tower, the mount functor (apply the whole surface to any host), and 14 heaven tools |
+
+`python test_ee_v2.py`, `test_automaton.py`, `test_brain.py`, `test_map_gate.py`
+— all deterministic, real SWI-Prolog + kuzu. See dark-factory for the modules
+this engine grows, and [the KB Atlas](https://sancovp.github.io/kb-atlas/) for
+their graphs.
+
 Built on [cave-teams](https://github.com/sancovp/cave-teams)
 (`pipeline`, `context_engineering.compose_context`). MIT.
