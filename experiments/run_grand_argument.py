@@ -60,34 +60,52 @@ async def main():
     kb = KB("the grand argument (draft kernel v0)", KB_ROOT).load()
     print(f"start: {len(kb.concepts)}c/{len(kb.relations)}r")
 
-    # 1 — doc-grounded facet dumps (parallel)
-    if len(kb.concepts) < 30:
-        await asyncio.gather(*[
+    # 1 — doc-grounded facet dumps (parallel; RESUMABLE per facet — a
+    # transport death costs one facet, never the run; rerun fills it)
+    done_libs = set(kb.lib.values())
+    todo = [f for f in FACETS if f not in done_libs]
+    if todo:
+        rs = await asyncio.gather(*[
             kbc_compile(kb, f, "dump",
                         lambda f=f: seat_factory(f"dump_{f}"), lib=f)
-            for f in FACETS])
+            for f in todo], return_exceptions=True)
+        for f, r in zip(todo, rs):
+            if isinstance(r, Exception):
+                print(f"FACET FAILED (transport): {f} — {str(r)[:80]}; "
+                      "rerun fills it")
         print(f"dumped: {len(kb.concepts)}c/{len(kb.relations)}r")
 
     # 2 — drain: define to the contract, then connect orphans
-    r1 = await work_session(kb, seat_factory, budget=120, do=("define",))
-    r2 = await work_session(kb, seat_factory, budget=40, do=("connect",))
-    print(f"drained: define={r1['did']} connect={r2['did']} "
-          f"after={r2['after']}")
+    try:
+        r1 = await work_session(kb, seat_factory, budget=120, do=("define",))
+        r2 = await work_session(kb, seat_factory, budget=40, do=("connect",))
+        print(f"drained: define={r1['did']} connect={r2['did']} "
+              f"after={r2['after']}")
+    except Exception as e:
+        print(f"DRAIN INTERRUPTED (transport): {str(e)[:80]} — partial "
+              "accretion kept; rerun continues")
 
     # 3 — gyri: the root + the strongest premises
     brain = KbcBrain(kb, BRAIN_ROOT)
     targets = [c for c in ["grand_argument"] + PREMISES if c in kb.concepts]
     for t in targets[:4]:
         if t not in brain.regions():
-            rep = await brain.grow(t, seat_factory)
-            print(f"grew {t!r} (expanded={rep['expanded']})")
+            try:
+                rep = await brain.grow(t, seat_factory)
+                print(f"grew {t!r} (expanded={rep['expanded']})")
+            except Exception as e:
+                print(f"GROW FAILED (transport): {t} — {str(e)[:80]}")
 
     # 4 — the automaton speaks the thesis, then articulates it
     auto = Automaton(kb, brain)
     rng = random.Random(81)
     for start in targets[:3]:
-        r = await auto.statement(start=start, temp=0.6, max_steps=5,
-                                 rng=rng, seat_factory=seat_factory)
+        try:
+            r = await auto.statement(start=start, temp=0.6, max_steps=5,
+                                     rng=rng, seat_factory=seat_factory)
+        except Exception as e:
+            print(f"STATEMENT FAILED (transport): {start} — {str(e)[:80]}")
+            continue
         print(f"[{r['verdict']} · {r['llm_calls']} calls] {r['path']}")
         if r["text"]:
             print(f"  SPOKEN: {r['text'][:300]}")
