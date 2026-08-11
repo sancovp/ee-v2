@@ -1,0 +1,469 @@
+{
+  "strategy": {
+    "pattern": "Strategy",
+    "archi_kind": "OO behavioral pattern",
+    "intent": "Define a family of interchangeable algorithms behind one common interface and let a context select and delegate to one at runtime, so the algorithm varies independently of the client that uses it.",
+    "roles": [
+      "context",
+      "strategy",
+      "concrete_strategy",
+      "client"
+    ],
+    "invariants": [
+      {
+        "id": "strate_0",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "concrete_strategy",
+        "target_role": "strategy",
+        "rationale": "Interchangeability is the whole point. The context can hold ANY member of the family only because every concrete_strategy conforms to the same interface. A concrete_strategy that does not implement th"
+      },
+      {
+        "id": "strate_1",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "context",
+        "target_role": "concrete_strategy",
+        "rationale": "THE load-bearing constraint. The context must couple only to the strategy abstraction so algorithms vary independently of the client. Any direct context->concrete_strategy edge (naming a concrete clas"
+      },
+      {
+        "id": "strate_2",
+        "inv": "required",
+        "relation": "delegates_to",
+        "source_role": "context",
+        "target_role": "strategy",
+        "rationale": "This is the defining behavioral fact: the context runs the variable algorithm by delegating to the held strategy rather than implementing it inline. Without a delegation edge there is no Strategy \u2014 ju"
+      },
+      {
+        "id": "strate_3",
+        "inv": "required",
+        "relation": "composes",
+        "source_role": "context",
+        "target_role": "strategy",
+        "rationale": "The context must hold the strategy by the abstract interface type. That field IS the substitution seam where a concrete_strategy is plugged in at runtime; if the context holds no strategy reference (o"
+      },
+      {
+        "id": "strate_4",
+        "inv": "forbidden",
+        "relation": "creates",
+        "source_role": "context",
+        "target_role": "concrete_strategy",
+        "rationale": "Selection authority belongs to the client. If the context instantiates a specific concrete_strategy, it re-hardcodes the algorithm choice and can no longer be reconfigured from outside, degenerating b"
+      }
+    ],
+    "conformant_example": "Checkout shipping cost. strategy = interface ShippingCost { cost(order): Money }. concrete_strategy = FlatRateShipping, WeightBasedShipping, FreeShipping \u2014 each `implements ShippingCost`. context = Checkout, which holds a field `ShippingCost shipping` (composes strategy) and computes totals via `shipping.cost(order)` (delegates_to strategy); Checkout's source never names any concrete shipping class (depends_on strategy only). client = OrderService, which does `new WeightBasedShipping()` (creates concrete_strategy) and passes it into `new Checkout(weightBased)` (references context). Adding a NextDayShipping algorithm means writing one new class that implements ShippingCost and having OrderService inject it \u2014 Checkout is untouched. Every invariant holds.",
+    "drift_example": {
+      "what_drifts": "To 'simplify', Checkout gains a method `computeShipping(String method, Order o)` whose body is `if (method.equals(\"flat\")) return new FlatRateShipping().cost(o); else if (method.equals(\"weight\")) return new WeightBasedShipping().cost(o); ...`. The ShippingCost field is dropped; Checkout now names and instantiates the concrete algorithms directly.",
+      "breaks_invariant": "Violates the load-bearing invariant FORBIDDEN: context depends_on concrete_strategy (relation_type=depends_on, from_role=context, to_role=concrete_strategy) \u2014 Checkout now has direct edges to FlatRateShipping and WeightBasedShipping. It simultaneously trips FORBIDDEN: context creates concrete_strategy and drops REQUIRED: context composes strategy / delegates_to strategy. Concretely, adding NextDayShipping now requires editing Checkout's switch, which is exactly the coupling the pattern exists to prevent \u2014 the geometry has drifted out of Strategy into a conditional monolith."
+    }
+  },
+  "layered": {
+    "pattern": "Layered Architecture (presentation / application / domain / infrastructure)",
+    "archi_kind": "architectural style \u2014 layered / n-tier (closed layers, with dependency inversion at the infrastructure seam)",
+    "intent": "Partition a system into ordered layers whose source dependencies flow strictly inward/downward \u2014 presentation on top, then application, then the pure domain core, with infrastructure inverted onto domain-owned ports \u2014 so business logic never depends on UI or technical detail and each layer stays independently testable and replaceable.",
+    "roles": [
+      "presentation",
+      "application",
+      "domain",
+      "domain_port",
+      "infrastructure"
+    ],
+    "invariants": [
+      {
+        "id": "layere_0",
+        "inv": "required",
+        "relation": "depends_on",
+        "source_role": "presentation",
+        "target_role": "application",
+        "rationale": "Establishes the single legal entry path into the system; if presentation does not enter through application there is no layering to enforce and the top layer will reach deeper layers directly."
+      },
+      {
+        "id": "layere_1",
+        "inv": "required",
+        "relation": "depends_on",
+        "source_role": "application",
+        "target_role": "domain",
+        "rationale": "The application layer exists to orchestrate the domain; this edge is the spine of the layering. Its absence means business logic has leaked upward into presentation or downward into infrastructure."
+      },
+      {
+        "id": "layere_2",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "infrastructure",
+        "target_role": "domain_port",
+        "rationale": "Dependency inversion: concrete technical adapters must implement domain-owned abstractions. This is exactly what makes the domain-purity forbidden below satisfiable \u2014 the core declares a need and infr"
+      },
+      {
+        "id": "layere_3",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain",
+        "target_role": "infrastructure",
+        "rationale": "KEYSTONE. If the core imports the DB/ORM/HTTP client, business logic becomes coupled to technical detail, cannot be unit-tested without I/O, and infrastructure can no longer be swapped \u2014 the layered p"
+      },
+      {
+        "id": "layere_4",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain",
+        "target_role": "application",
+        "rationale": "No upward dependency: the core must not know the use cases that orchestrate it, or it becomes un-reusable across workflows and forms an import cycle."
+      },
+      {
+        "id": "layere_5",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain",
+        "target_role": "presentation",
+        "rationale": "No upward dependency: the core must not know the UI/transport, or business rules become bound to a delivery mechanism."
+      },
+      {
+        "id": "layere_6",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "application",
+        "target_role": "presentation",
+        "rationale": "No upward dependency: an application service that references a controller or view inverts control and couples the use case to its caller's transport."
+      },
+      {
+        "id": "layere_7",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "presentation",
+        "target_role": "domain",
+        "rationale": "Closed-layer rule: presentation must not skip the application layer to manipulate domain entities directly, or use-case orchestration and its invariants get duplicated in controllers."
+      },
+      {
+        "id": "layere_8",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "presentation",
+        "target_role": "infrastructure",
+        "rationale": "Presentation must never touch the persistence/technical layer directly (e.g. a controller running raw SQL or opening a DB session), bypassing all business rules and validation."
+      },
+      {
+        "id": "layere_9",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "infrastructure",
+        "target_role": "application",
+        "rationale": "No upward dependency: infrastructure is a leaf that only implements ports; if an adapter calls an application service it re-enters the system from the bottom and creates a cycle spanning every layer."
+      }
+    ],
+    "conformant_example": "A web checkout. `OrderController` (presentation) depends_on `PlaceOrderService` (application). `PlaceOrderService` depends_on the `Order` aggregate (domain) and the `OrderRepository` interface (domain_port). The `Order` entity enforces its own invariants and imports nothing from any other layer; the domain layer declares `OrderRepository`. `PostgresOrderRepository` (infrastructure) implements `OrderRepository`. Every source edge points inward/downward \u2014 presentation\u2192application\u2192domain, plus infrastructure\u2192domain_port \u2014 so the domain has zero outward imports and `Order` can be unit-tested against an in-memory fake repository. The gate finds all required edges present and no forbidden edge: STAYS IN PATTERN.",
+    "drift_example": {
+      "what_drifts": "To 'simplify persistence', the `Order` domain entity gains a `save()` method that imports the ORM session / `PostgresOrderRepository` from the infrastructure layer and writes itself (an Active-Record shortcut). A new source edge domain\u2192infrastructure now exists in the filled geometry.",
+      "breaks_invariant": "FORBIDDEN depends_on from domain to infrastructure (the dependency-inversion / domain-purity keystone invariant). The core now imports the DB layer, so it can no longer be tested or run without Postgres and infrastructure is no longer swappable; the Prolog gate emits residue naming exactly this edge \u2014 forbidden(depends_on, domain, infrastructure) \u2014 DRIFTED OUT."
+    }
+  },
+  "hexagonal": {
+    "pattern": "Hexagonal Architecture (Ports & Adapters)",
+    "archi_kind": "architectural style (application-boundary / dependency-inversion style)",
+    "intent": "Isolate the domain/application core from delivery mechanisms and infrastructure by having the core depend only on interfaces (ports) it owns, while every concrete technology lives in an adapter that plugs into a port \u2014 so all dependencies point inward and infrastructure can be swapped, mocked, or replaced without touching the core.",
+    "roles": [
+      "domain_core",
+      "driving_port",
+      "driven_port",
+      "driving_adapter",
+      "driven_adapter",
+      "external_system",
+      "primary_actor"
+    ],
+    "invariants": [
+      {
+        "id": "hexago_0",
+        "inv": "required",
+        "relation": "composes",
+        "source_role": "domain_core",
+        "target_role": "driven_port",
+        "rationale": "The port must be DEFINED inside the core, not in the infrastructure layer. If the outbound interface lives in the persistence/adapter package, the dependency arrow silently inverts (core \u2192 infra packa"
+      },
+      {
+        "id": "hexago_1",
+        "inv": "required",
+        "relation": "depends_on",
+        "source_role": "domain_core",
+        "target_role": "driven_port",
+        "rationale": "Dependency inversion: the core states its infrastructure needs abstractly, as a port it owns. This edge is the mechanism that lets any driven_adapter (real DB, in-memory fake, mock) be substituted wit"
+      },
+      {
+        "id": "hexago_2",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "driven_adapter",
+        "target_role": "driven_port",
+        "rationale": "Every outbound adapter must realize a port. An infrastructure class that does NOT implement a port is technology wired straight into the core, which defeats substitutability and testing in isolation."
+      },
+      {
+        "id": "hexago_3",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "domain_core",
+        "target_role": "driving_port",
+        "rationale": "The use-case logic must sit behind the primary port so actors reach it only through the port; this is what lets HTTP, CLI, and test harnesses all drive the identical core logic."
+      },
+      {
+        "id": "hexago_4",
+        "inv": "required",
+        "relation": "depends_on",
+        "source_role": "driving_adapter",
+        "target_role": "driving_port",
+        "rationale": "Inbound adapters must call the core only through the primary port interface, keeping the delivery mechanism decoupled from and replaceable independently of the concrete use-case implementation."
+      },
+      {
+        "id": "hexago_5",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain_core",
+        "target_role": "driven_adapter",
+        "rationale": "THE load-bearing constraint. A core \u2192 concrete-adapter edge points OUTWARD, dragging infrastructure into the domain and destroying testability and substitutability. All dependencies must point inward;"
+      },
+      {
+        "id": "hexago_6",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain_core",
+        "target_role": "external_system",
+        "rationale": "Same inward-only rule at the far end: importing a SQL/HTTP/SMTP client or vendor SDK directly in domain code couples business rules to a specific technology and makes the core impossible to run withou"
+      },
+      {
+        "id": "hexago_7",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain_core",
+        "target_role": "driving_adapter",
+        "rationale": "The core must not know its callers. The inbound direction is actor \u2192 adapter \u2192 port \u2192 core; if the core references the controller/CLI it is coupled to one delivery mechanism and can no longer be drive"
+      }
+    ],
+    "conformant_example": "An order service. domain_core = OrderService; driving_port = PlaceOrderUseCase (interface, in the core package); driven_port = OrderRepository and PaymentGateway (interfaces, in the core package); driving_adapter = OrderRestController; driven_adapter = PostgresOrderRepository (implements OrderRepository) and StripePaymentAdapter (implements PaymentGateway); external_system = Postgres and the Stripe API; primary_actor = the HTTP client. Wiring: OrderRestController depends on and delegates to PlaceOrderUseCase; OrderService implements PlaceOrderUseCase and, for all side-effects, depends only on the OrderRepository and PaymentGateway ports; PostgresOrderRepository implements OrderRepository and is the sole place the JDBC/pg driver is imported. The domain_core package's import list contains no adapter, no framework, and no vendor SDK \u2014 every arrow points inward, so the core compiles and unit-tests with in-memory fakes and Postgres/Stripe can be swapped without touching it.",
+    "drift_example": {
+      "what_drifts": "OrderService needs to filter orders with a Postgres-specific full-text query, so a developer imports PostgresOrderRepository directly and calls its pgFullTextSearch() method instead of adding a method to the OrderRepository port. The concrete adapter class (and transitively the pg driver) now appears in the domain_core package's import list.",
+      "breaks_invariant": "FORBIDDEN | depends_on | domain_core \u2192 driven_adapter. The core now has an outward-pointing edge to a concrete outbound adapter, violating the inward-only dependency rule: OrderService can no longer be compiled or unit-tested without Postgres present, and the adapter is no longer substitutable \u2014 the gate emits this exact edge as residue."
+    }
+  },
+  "observer": {
+    "pattern": "Observer / Publish-Subscribe",
+    "archi_kind": "OO behavioral pattern (GoF Observer / publish-subscribe)",
+    "intent": "Let a subject notify an open, dynamically-changing set of dependents of its state changes without the subject knowing their concrete types, so publishers and subscribers evolve independently.",
+    "roles": [
+      "subject",
+      "observer",
+      "concrete_subject",
+      "concrete_observer"
+    ],
+    "invariants": [
+      {
+        "id": "observ_0",
+        "inv": "required",
+        "relation": "notifies",
+        "source_role": "subject",
+        "target_role": "observer",
+        "rationale": "The fan-out \u2014 one state change, N abstract update() calls \u2014 must exist and go through the abstract role. It is the pattern's whole purpose; without a subject\u2192observer notify edge there is no publish-s"
+      },
+      {
+        "id": "observ_1",
+        "inv": "forbidden",
+        "relation": "notifies",
+        "source_role": "subject",
+        "target_role": "concrete_observer",
+        "rationale": "The load-bearing decoupling. If notify() calls a concrete observer's method by its concrete type, the subject must be edited/recompiled for every new subscriber kind \u2014 the fan-out stops being open/clo"
+      },
+      {
+        "id": "observ_2",
+        "inv": "forbidden",
+        "relation": "references",
+        "source_role": "subject",
+        "target_role": "concrete_observer",
+        "rationale": "The subject must be blind to concrete subscriber types \u2014 no field, import, cast, or instanceof. Any concrete reference re-couples publisher to subscriber and defeats independent evolution, even if not"
+      },
+      {
+        "id": "observ_3",
+        "inv": "required",
+        "relation": "composes",
+        "source_role": "subject",
+        "target_role": "observer",
+        "rationale": "The subject must hold its subscribers in a collection typed to the abstract observer so it can add/remove/iterate them without knowing concrete types; this is where the dynamic subscriber set lives."
+      },
+      {
+        "id": "observ_4",
+        "inv": "forbidden",
+        "relation": "composes",
+        "source_role": "subject",
+        "target_role": "concrete_observer",
+        "rationale": "The subscriber collection must be typed abstractly. A List<ConcreteObserver> bakes one subscriber type into the subject and makes heterogeneous subscribers impossible \u2014 a structural leak distinct from"
+      },
+      {
+        "id": "observ_5",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "concrete_observer",
+        "target_role": "observer",
+        "rationale": "notify() invokes update() polymorphically over abstract observers; a concrete_observer that does not implement observer cannot sit in the collection and forces the subject to know it by concrete type "
+      },
+      {
+        "id": "observ_6",
+        "inv": "required",
+        "relation": "extends",
+        "source_role": "concrete_subject",
+        "target_role": "subject",
+        "rationale": "State-changing publishers must inherit the abstract attach/detach/notify machinery so all notification flows through the one abstract loop rather than ad-hoc per-publisher wiring."
+      }
+    ],
+    "conformant_example": "WeatherData (concrete_subject) extends Subject and holds List<Observer> observers (composes subject\u2192observer). Its notifyObservers() loops that list calling o.update() (notifies subject\u2192observer). CurrentConditionsDisplay and StatisticsDisplay each implement Observer (implements concrete_observer\u2192observer), register via weatherData.registerObserver(this) (depends_on concrete_observer\u2192subject), and hold a WeatherData handle to pull temperature/humidity after update() (references concrete_observer\u2192concrete_subject). WeatherData contains no field, import, or method call naming any concrete display \u2014 adding a ForecastDisplay requires zero edits to WeatherData. STAYS IN PATTERN.",
+    "drift_example": {
+      "what_drifts": "WeatherData.notifyObservers() is rewritten to call this.phoneDisplay.updatePhone() and this.webDisplay.updateWeb() directly \u2014 naming each concrete display type and its bespoke method \u2014 instead of iterating List<Observer> and calling observer.update(). Adding any new display type now requires editing WeatherData and recompiling the subject.",
+      "breaks_invariant": "FORBIDDEN notifies subject\u2192concrete_observer (behavioral leak) \u2014 and simultaneously FORBIDDEN references subject\u2192concrete_observer, since WeatherData now holds phoneDisplay/webDisplay fields of concrete type. The subject names concrete observers, re-coupling publisher to subscriber."
+    }
+  },
+  "repository": {
+    "pattern": "Repository",
+    "archi_kind": "persistence pattern (DDD tactical / architectural boundary pattern)",
+    "intent": "Give the domain a collection-like abstraction for loading and saving aggregates so it depends on a repository interface expressed in domain terms, never on the ORM/SQL/persistence details that back it.",
+    "roles": [
+      "domain_model",
+      "repository_interface",
+      "concrete_repository",
+      "persistence_mechanism",
+      "domain_client"
+    ],
+    "invariants": [
+      {
+        "id": "reposi_0",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "concrete_repository",
+        "target_role": "repository_interface",
+        "rationale": "Substitutability is the payoff: because every backing implements the same domain-declared interface, a SQL repo, an in-memory test double, or a different store all stand in without the domain changing"
+      },
+      {
+        "id": "reposi_1",
+        "inv": "required",
+        "relation": "depends_on",
+        "source_role": "domain_client",
+        "target_role": "repository_interface",
+        "rationale": "The dependency inversion itself: the domain reaches persistence only through the abstraction it owns. If the client depends on nothing here, it is either bypassing repositories or fetching data some o"
+      },
+      {
+        "id": "reposi_2",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain_client",
+        "target_role": "concrete_repository",
+        "rationale": "THE keystone. If the domain names the concrete (DB-backed) repository, the inversion collapses \u2014 changing or swapping persistence now forces edits inside the domain, and tests can no longer substitute"
+      },
+      {
+        "id": "reposi_3",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "domain_client",
+        "target_role": "persistence_mechanism",
+        "rationale": "The entire reason the repository exists is that the domain never sees the ORM/session/SQL. A direct client\u2192persistence edge means the repository is isolating nothing; persistence has leaked straight i"
+      },
+      {
+        "id": "reposi_4",
+        "inv": "forbidden",
+        "relation": "references",
+        "source_role": "repository_interface",
+        "target_role": "persistence_mechanism",
+        "rationale": "The interface must be declared in domain terms. The moment a method signature accepts or returns a persistence type (a Session, a Query, a Row, an ORM filter), every consumer transitively couples to t"
+      },
+      {
+        "id": "reposi_5",
+        "inv": "required",
+        "relation": "references",
+        "source_role": "repository_interface",
+        "target_role": "domain_model",
+        "rationale": "A repository is a collection of aggregate roots: its operations must traffic in domain objects, not DTOs or persistence rows. If the interface deals in rows/tuples instead, it is a data-access object,"
+      }
+    ],
+    "conformant_example": "A Python DDD app. `Order` is the domain_model (aggregate root). `OrderRepository` is the repository_interface \u2014 an ABC with `add(order: Order) -> None`, `get(order_id: OrderId) -> Order`, `find_unfulfilled() -> list[Order]`, all typed in domain terms. `SqlAlchemyOrderRepository` is the concrete_repository: it `implements` `OrderRepository` and holds a SQLAlchemy `Session` (persistence_mechanism), translating `get` into `session.get(Order, ...)`. `PlaceOrderService` is the domain_client: its constructor takes an `OrderRepository`, it imports only `OrderRepository` and `Order` (never `sqlalchemy` or `SqlAlchemyOrderRepository`), and calls `repo.get(...)` / `repo.add(...)`. Swapping in `InMemoryOrderRepository` for a unit test requires zero change to `PlaceOrderService`. Every invariant holds: concrete implements interface, client depends on interface, interface references only Order, and no domain-side edge touches the Session.",
+    "drift_example": {
+      "what_drifts": "PlaceOrderService needs a query the interface does not expose (say, orders by customer within a date window). Instead of adding a domain-worded method to OrderRepository, the service imports SqlAlchemyOrderRepository, pulls its `.session`, and runs `session.query(Order).filter(Order.customer_id == cid, Order.created >= start)` inline. Now the application service holds a live SQLAlchemy Session and an ORM query, so persistence details sit directly inside domain logic.",
+      "breaks_invariant": "FORBIDDEN depends_on: domain_client -> persistence_mechanism (and, via the direct import, FORBIDDEN depends_on: domain_client -> concrete_repository). The gate emits residue naming domain_client->persistence_mechanism as the violated forbidden edge: the domain no longer reaches storage only through the repository interface."
+    }
+  },
+  "pipes-filters": {
+    "pattern": "Pipes and Filters",
+    "archi_kind": "architectural style (dataflow / stream-processing)",
+    "intent": "Process a data stream as a linear (or branching) chain of independent transformation stages (filters) that communicate only through connectors (pipes), so stages can be reordered, replaced, and reused without any stage knowing about another.",
+    "roles": [
+      "source",
+      "filter",
+      "pipe",
+      "sink",
+      "pipeline",
+      "filter_interface"
+    ],
+    "invariants": [
+      {
+        "id": "pipes-_0",
+        "inv": "forbidden",
+        "relation": "routes_to",
+        "source_role": "filter",
+        "target_role": "filter",
+        "rationale": "THE load-bearing constraint: dataflow between stages must be pipe-mediated. A direct filter\u2192filter dataflow edge hard-wires two stages together, so you can no longer reorder, remove, or insert a stage"
+      },
+      {
+        "id": "pipes-_1",
+        "inv": "forbidden",
+        "relation": "references",
+        "source_role": "filter",
+        "target_role": "filter",
+        "rationale": "Filters are black boxes independent of one another. If one filter names/references another's type or instance, it now knows its neighbor's identity and interface, destroying reuse (the filter can't be"
+      },
+      {
+        "id": "pipes-_2",
+        "inv": "forbidden",
+        "relation": "calls",
+        "source_role": "filter",
+        "target_role": "filter",
+        "rationale": "A direct invocation is control coupling that bypasses the pipe (and its buffering/back-pressure). It turns a dataflow topology into a call graph, so the pipeline's order is no longer data-driven and r"
+      },
+      {
+        "id": "pipes-_3",
+        "inv": "forbidden",
+        "relation": "depends_on",
+        "source_role": "filter",
+        "target_role": "filter",
+        "rationale": "No build-time or data dependency may exist between filters; each must be independently deployable and unit-testable against a pipe stub. A depends_on edge means a filter cannot be built or run without"
+      },
+      {
+        "id": "pipes-_4",
+        "inv": "required",
+        "relation": "routes_to",
+        "source_role": "filter",
+        "target_role": "pipe",
+        "rationale": "Every filter's ONLY output channel must be a pipe. Requiring this (together with forbidding filter\u2192filter) is what positively guarantees 'connected only through pipes': a filter with no outgoing pipe "
+      },
+      {
+        "id": "pipes-_5",
+        "inv": "required",
+        "relation": "routes_to",
+        "source_role": "pipe",
+        "target_role": "filter",
+        "rationale": "Every filter must be fed by a pipe on its input side \u2014 a filter's only inbound channel is a pipe. This closes the loop: with both the input and output of every filter forced through pipes, no side cha"
+      },
+      {
+        "id": "pipes-_6",
+        "inv": "required",
+        "relation": "implements",
+        "source_role": "filter",
+        "target_role": "filter_interface",
+        "rationale": "Every filter must honor the same uniform read-transform-write contract. Without a common interface, filters are not freely interchangeable at a pipe and the reorder/replace guarantee is only accidenta"
+      },
+      {
+        "id": "pipes-_7",
+        "inv": "required",
+        "relation": "routes_to",
+        "source_role": "source",
+        "target_role": "pipe",
+        "rationale": "Even the origin of data must emit into a pipe rather than wiring directly into a filter, so the source is itself swappable and the first stage is not privileged/coupled to a specific producer."
+      }
+    ],
+    "conformant_example": "A Unix-style log-analysis pipeline: `cat access.log | grep ' 200 ' | cut -d' ' -f7 | sort | uniq -c`. Mapping \u2014 source = the `cat` file reader emitting bytes; filters = `grep`, `cut`, `sort`, `uniq`, each an independent process; pipes = the four `|` shell pipes carrying line/byte streams; sink = the terminal/stdout writer; pipeline = the shell command that wires them; filter_interface = the stdin\u2192transform\u2192stdout byte-stream contract every command honors. `grep` has no idea `cut` exists downstream; each reads only its stdin and writes only its stdout; every connection is a `|`. You can reorder (`sort` before `cut`), drop `uniq`, or splice in `tr` with zero edits to any other stage \u2014 all invariants hold: no filter routes_to/calls/references/depends_on another, every filter routes_to a pipe and is fed by a pipe, and every filter implements the stdin/stdout interface.",
+    "drift_example": {
+      "what_drifts": "In an image-processing pipeline (decode \u2192 resize \u2192 watermark \u2192 encode), the `resize` filter is optimized to avoid a buffer copy by importing the `watermark` module and invoking `watermark.apply(frame)` directly on each frame \u2014 then only that result is written out. This introduces two illegal edges from resize to watermark: a routes_to edge (frames flow straight from resize into watermark, not through the resize\u2192pipe\u2192watermark pipe) and a calls/references edge (resize now names and invokes watermark).",
+      "breaks_invariant": "FORBIDDEN filter --routes_to--> filter (kind=forbidden, relation_type=routes_to, from_role=filter, to_role=filter): resize connects directly to watermark instead of through a pipe. (It also trips the sibling FORBIDDEN filter--calls-->filter and filter--references-->filter edges.) Consequence: watermark can no longer be disabled, reordered after encode, or swapped for `blur` without editing resize's source \u2014 the reconfigurable dataflow topology is gone, which is exactly the residue the Prolog gate names."
+    }
+  }
+}
