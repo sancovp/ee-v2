@@ -13,10 +13,11 @@ from .projector import project_library, skill_body, call_number
 from .mount import mount, HOST_PROTOCOL
 from .automaton import Automaton
 from .owl import project_owl
+from .pattern import conformance, geometry_from_kb, drift_report
 
 __all__ = ["KB", "derive_worklist", "reconcile_scan", "work_session",
            "parse_jsonl", "relative_root", "root_context", "compile",
            "build_context", "cycle", "OPS", "metacompile", "run_chain",
            "run_cycle", "Kernel", "KernelNode", "project_library",
            "skill_body", "call_number", "mount", "HOST_PROTOCOL",
-           "Automaton", "project_owl"]
+           "Automaton", "project_owl", "conformance", "geometry_from_kb", "drift_report"]

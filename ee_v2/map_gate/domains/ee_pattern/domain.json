@@ -1,0 +1,7 @@
+{
+  "schema": "map.domain.v1",
+  "id": "ee_pattern",
+  "entrypoint": "domain.pl",
+  "targets": ["ee_pattern"],
+  "sources": []
+}

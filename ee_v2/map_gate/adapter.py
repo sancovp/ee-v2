@@ -279,3 +279,132 @@ class EEArgumentObservationAdapter:
                  for c in observation.certified_atoms]
         facts.append(f"source_pass_complete({observation.subject}).")
         return facts
+
+
+# ── ee_pattern: PATTERN-AS-GEOMETRY-AS-GATE (Isaac 2026-08-11) ────────────────
+# A pattern's GEOMETRY (roles + required/forbidden structural invariants) is
+# taken from the certified pattern KB; an LLM FILLS it (binds real elements to
+# roles + declares the real edges). The gate proves conformance or names the
+# drift. The construction carries BOTH the geometry and the fill; the
+# observation authority is the journey engine witnessing the mapping pass.
+
+InvKind = Literal["required", "forbidden", "forbidden_transitive"]
+
+
+class PatternRole(RenderablePiece):
+    kind: Literal["role"]
+    id: Atom
+
+    def render(self) -> str:
+        return f"role:{self.id}"
+
+
+class PatternInvariant(RenderablePiece):
+    kind: Literal["invariant"]
+    id: Atom
+    inv: InvKind
+    relation: Atom
+    source_role: Atom
+    target_role: Atom
+
+    def render(self) -> str:
+        return f"{self.id}: {self.inv} {self.relation}({self.source_role}->{self.target_role})"
+
+
+class RoleBinding(RenderablePiece):
+    kind: Literal["bind"]
+    element: Atom
+    role: Atom
+
+    def render(self) -> str:
+        return f"{self.element}:{self.role}"
+
+
+class ActualEdge(RenderablePiece):
+    kind: Literal["edge"]
+    relation: Atom
+    source: Atom
+    target: Atom
+
+    def render(self) -> str:
+        return f"{self.source} -{self.relation}-> {self.target}"
+
+
+class PatternConformance(RenderablePiece):
+    kind: Literal["ee_pattern"]
+    subject: Atom
+    roles: list[PatternRole] = Field(min_length=1)
+    invariants: list[PatternInvariant] = Field(min_length=1)
+    bindings: list[RoleBinding] = Field(min_length=1)
+    edges: list[ActualEdge] = Field(default_factory=list)
+
+    @field_validator("roles")
+    @classmethod
+    def unique_roles(cls, v):
+        ids = [r.id for r in v]
+        if len(ids) != len(set(ids)):
+            raise ValueError("role ids must be unique")
+        return v
+
+    @field_validator("invariants")
+    @classmethod
+    def unique_invs(cls, v):
+        ids = [i.id for i in v]
+        if len(ids) != len(set(ids)):
+            raise ValueError("invariant ids must be unique")
+        return v
+
+    def render(self) -> str:
+        return (f"conformance:{self.subject}\n"
+                + "\n".join(r.render() for r in self.roles) + "\n"
+                + "\n".join(i.render() for i in self.invariants) + "\n"
+                + "\n".join(b.render() for b in self.bindings) + "\n"
+                + "\n".join(e.render() for e in self.edges))
+
+
+class EEPatternAdapter:
+    target = "ee_pattern"
+    schema_id = "ee.map.pattern.v1"
+    lowering_id = "ee.map.pattern.lowering.v1"
+    model_type = PatternConformance
+    candidate_predicates = frozenset({"candidate_role", "candidate_pattern_inv",
+                                      "candidate_bind", "candidate_edge"})
+
+    def lower(self, construction: RenderablePiece) -> list[str]:
+        if not isinstance(construction, PatternConformance):
+            raise TypeError("EEPatternAdapter requires PatternConformance")
+        s = construction.subject
+        facts = [f"candidate_role({s},{r.id})." for r in construction.roles]
+        facts += [f"candidate_pattern_inv({s},{i.inv},{i.relation},"
+                  f"{i.source_role},{i.target_role},{i.id})."
+                  for i in construction.invariants]
+        facts += [f"candidate_bind({s},{b.element},{b.role})."
+                  for b in construction.bindings]
+        facts += [f"candidate_edge({s},{e.relation},{e.source},{e.target})."
+                  for e in construction.edges]
+        return facts
+
+
+class PatternMappingWitness(RenderablePiece):
+    """The JOURNEY ENGINE's authority: it observed the mapping pass complete
+    (the architecture was scanned and its elements bound) — only then does the
+    conformance verdict derive."""
+    kind: Literal["pattern_mapping_witness"]
+    subject: Atom
+
+    def render(self) -> str:
+        return f"mapping:{self.subject}"
+
+
+class EEPatternObservationAdapter:
+    target = "ee_pattern"
+    schema_id = "ee.map.pattern_mapping.v1"
+    lowering_id = "ee.map.pattern_mapping.lowering.v1"
+    model_type = PatternMappingWitness
+    observation_predicates = frozenset({"source_pass_complete"})
+
+    def lower(self, observation: RenderablePiece) -> list[str]:
+        if not isinstance(observation, PatternMappingWitness):
+            raise TypeError("EEPatternObservationAdapter requires "
+                            "PatternMappingWitness")
+        return [f"source_pass_complete({observation.subject})."]
